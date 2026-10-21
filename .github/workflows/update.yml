@@ -2,7 +2,7 @@ name: Auto Update All Playlists
 
 on:
   schedule:
-    - cron: '0 */1 * * *' # Berjalan otomatis setiap 1 jam sekali
+    - cron: '0 */2 * * *' # Berjalan otomatis setiap 1 jam sekali
   workflow_dispatch: # Agar bisa dijalankan manual kapan saja via tombol
 
 jobs:
