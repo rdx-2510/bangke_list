@@ -1,4 +1,36 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Philadelphia 76ers vs Cleveland Cavaliers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Philadelphia%2076ers%20vs%20Cleveland%20Cavaliers.html
+http://193.47.62.59/hls/DEDEDEAAA.m3u8
+#EXTINF:-1, FawaNews - Memphis vs East Carolina
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Memphis%20vs%20East%20Carolina.html
+http://193.47.62.50/hls/DEDEDEAA.m3u8
+#EXTINF:-1, FawaNews - Kennesaw State vss Liberty Flames
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kennesaw%20State%20vss%20Liberty%20Flames.html
+http://193.47.62.50/hls/DEDEDEA.m3u8
+#EXTINF:-1, FawaNews - Appalachian State vs James Madison
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Appalachian%20State%20vs%20James%20Madison.html
+http://193.47.62.50/hls/DEDEDE.m3u8
+#EXTINF:-1, FawaNews - Darts European Championship
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Darts%20European%20Championship.html
+http://193.47.62.44/hls/F555AA.m3u8
+#EXTINF:-1, FawaNews - Golf PGA Butterfield Bermuda Championship
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20PGA%20Butterfield%20Bermuda%20Championship.html
+http://193.47.62.44/hls/F555A.m3u8
+#EXTINF:-1, FawaNews - Snooker Northern Ireland Open --- Table 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%201.html
+http://193.47.62.44/hls/PTTTA.m3u8
+#EXTINF:-1, FawaNews - Snooker Northern Ireland Open --- Table 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%202.html
+http://193.47.62.44/hls/PTTTAA.m3u8
 #EXTINF:-1, FawaNews - UEFA Europa-Conference League Simulcast
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/UEFA%20Europa-Conference%20League%20Simulcast.html
@@ -207,19 +239,3 @@ https://www.rtmpcdn.com/live/d730f1ad-fa8e-4476-897c-53821e4af4d1.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Montauban%20vs%20US%20Oyonnax.html
 http://193.47.62.44/hls/F555AAAAQ.m3u8
-#EXTINF:-1, FawaNews - Darts European Championship
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Darts%20European%20Championship.html
-http://193.47.62.44/hls/F555AA.m3u8
-#EXTINF:-1, FawaNews - Golf PGA Butterfield Bermuda Championship
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20PGA%20Butterfield%20Bermuda%20Championship.html
-http://193.47.62.44/hls/F555A.m3u8
-#EXTINF:-1, FawaNews - Snooker Northern Ireland Open --- Table 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%201.html
-http://193.47.62.44/hls/PTTTA.m3u8
-#EXTINF:-1, FawaNews - Snooker Northern Ireland Open --- Table 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%202.html
-http://193.47.62.44/hls/PTTTAA.m3u8
