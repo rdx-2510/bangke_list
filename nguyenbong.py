@@ -5,57 +5,73 @@ BASE_URL = "https://tructiepbongda24h.com/"
 def run():
     found_urls = []
 
-    # Fungsi penyadap lalu lintas jaringan
-    def handle_request(request):
-        url = request.url
+    # Sadap response jaringan
+    def handle_response(response):
+        url = response.url
         if "pull.niur.live" in url and ".m3u8" in url:
             if url not in found_urls:
                 found_urls.append(url)
-                print(f"[+] Tembus! Ditemukan M3U8 Stream: {url}")
+                print(f"[+] Ditemukan Stream URL: {url}")
 
     with sync_playwright() as p:
-        # Jalankan browser Chromium tanpa antarmuka grafis
-        browser = p.chromium.launch(headless=True)
+        # Menambahkan argumen stealth agar tidak terdeteksi sebagai bot di GitHub Actions
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                '--disable-blink-features=AutomationControlled',
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-infobars',
+                '--window-position=0,0',
+                '--ignore-certificate-errors',
+            ]
+        )
         context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            viewport={'width': 1280, 'height': 720}
         )
         page = context.new_page()
-        
-        # Pasang pendengar request jaringan
-        page.on("request", handle_request)
+        page.on("response", handle_response)
 
         print("[*] Membuka halaman utama...")
         try:
-            page.goto(BASE_URL, timeout=30000)
+            page.goto(BASE_URL, timeout=30000, wait_until="domcontentloaded")
             page.wait_for_timeout(3000)
 
-            # Ekstrak semua link pertandingan live
-            links = page.locator('a[href*="/truc-tiep/"]').all()
+            # Cari link pertandingan live
+            match_links = page.locator('a[href*="/truc-tiep/"]').all()
             match_urls = []
-            for link in links:
+            for link in match_links:
                 href = link.get_attribute("href")
                 if href and href not in match_urls:
                     match_urls.append(href)
             
-            match_urls = match_urls[:5] # Ambil 5 pertandingan teratas
+            match_urls = match_urls[:5]
             print(f"[+] Ditemukan {len(match_urls)} laga live.")
 
-            # Buka tiap halaman pertandingan dan tunggu player memuat stream
             for index, match_url in enumerate(match_urls, start=1):
                 print(f"[*] Mengakses Laga {index}: {match_url}")
                 try:
-                    page.goto(match_url, timeout=30000)
-                    # Beri jeda 8 detik agar JS player selesai memanggil m3u8
-                    page.wait_for_timeout(8000) 
+                    page.goto(match_url, timeout=30000, wait_until="domcontentloaded")
+                    page.wait_for_timeout(4000)
+
+                    # Simulasi klik koordinat tengah pemutar video untuk pemicu pemanggilan stream
+                    try:
+                        page.mouse.click(640, 360)
+                    except:
+                        pass
+
+                    # Beri waktu JS memuat link niur.live
+                    page.wait_for_timeout(6000)
                 except Exception as e:
-                    print(f"    [X] Gagal memuat halaman: {e}")
+                    print(f"    [X] Gagal memuat: {e}")
 
         except Exception as e:
             print(f"[X] Error utama: {e}")
 
         browser.close()
 
-    # Menyusun isi file nguyenbong.m3u
+    # Menyusun file m3u
     m3u_content = "#EXTM3U\n"
     for idx, stream_url in enumerate(found_urls, start=1):
         m3u_content += f'#EXTINF:-1 tvg-id="Match_{idx}" group-title="NguyenBong Live", Live Match {idx}\n'
