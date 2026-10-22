@@ -1,5 +1,13 @@
 from playwright.sync_api import sync_playwright
-from playwright_stealth import stealth_sync
+
+# Penanganan impor stealth agar tidak error di berbagai versi paket
+try:
+    from playwright_stealth.stealth import stealth_sync
+except ImportError:
+    try:
+        from playwright_stealth import stealth_sync
+    except ImportError:
+        stealth_sync = None
 
 BASE_URL = "https://tructiepbongda24h.com/"
 
@@ -30,8 +38,16 @@ def run():
         )
         page = context.new_page()
         
-        # Aktifkan penyamaran stealth
-        stealth_sync(page)
+        # Sembunyikan tanda otomatisasi navigator
+        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+        # Jalankan stealth jika modul berhasil dimuat
+        if stealth_sync:
+            try:
+                stealth_sync(page)
+            except Exception:
+                pass
+
         page.on("response", handle_response)
 
         print("[*] Membuka halaman utama...")
