@@ -2,14 +2,15 @@ name: update.yml
 
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *' # Berjalan otomatis setiap 1 jam sekali
+  workflow_dispatch: # Tombol manual trigger di GitHub Actions
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -19,7 +20,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Cache pip packages
+      # Caching pip untuk mempercepat install modul Python
       - name: Cache Pip Packages
         uses: actions/cache@v4
         with:
@@ -28,7 +29,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      # Cache Playwright Chromium Browser
+      # Caching file biner Chromium Playwright
       - name: Cache Playwright Browsers
         uses: actions/cache@v4
         with:
@@ -37,7 +38,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 cloudscraper playwright
+          pip install requests beautifulsoup4 cloudscraper playwright playwright-stealth
           playwright install chromium
 
       - name: Run FawaNews Scraper
