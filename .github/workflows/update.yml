@@ -1,16 +1,15 @@
-name: update.yml
+name: Auto Update All Playlists
 
 on:
   schedule:
     - cron: '0 * * * *' # Berjalan otomatis setiap 1 jam sekali
-  workflow_dispatch: # Tombol manual trigger di GitHub Actions
+  workflow_dispatch: # Agar bisa dijalankan manual kapan saja via tombol
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,35 +19,15 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Caching pip untuk mempercepat install modul Python
-      - name: Cache Pip Packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      # Caching file biner Chromium Playwright
-      - name: Cache Playwright Browsers
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright
-
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 cloudscraper playwright playwright-stealth
-          playwright install chromium
+          pip install requests beautifulsoup4
 
       - name: Run FawaNews Scraper
         run: python fw.py
 
       - name: Run RoxieStreams Soccer Scraper
         run: python rx_soccer.py
-
-      - name: Run NguyenBong Scraper
-        run: python nguyenbong.py
 
       - name: Commit & Push Changes
         run: |
