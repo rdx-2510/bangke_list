@@ -2,8 +2,8 @@ name: update.yml
 
 on:
   schedule:
-    - cron: '0 * * * *' # Berjalan otomatis setiap 1 jam sekali
-  workflow_dispatch: # Agar bisa dijalankan manual kapan saja via tombol
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-playlist:
@@ -21,7 +21,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 cloudscraper
+          pip install requests beautifulsoup4 cloudscraper playwright
+          playwright install chromium --with-deps
 
       - name: Run FawaNews Scraper
         run: python fw.py
