@@ -5,25 +5,20 @@ BASE_URL = "https://tructiepbongda24h.com/"
 def run():
     found_urls = []
 
-    # Sadap response jaringan
     def handle_response(response):
         url = response.url
         if "pull.niur.live" in url and ".m3u8" in url:
             if url not in found_urls:
                 found_urls.append(url)
-                print(f"[+] Ditemukan Stream URL: {url}")
+                print(f"[+] TEMBUS! Stream URL: {url}")
 
     with sync_playwright() as p:
-        # Menambahkan argumen stealth agar tidak terdeteksi sebagai bot di GitHub Actions
         browser = p.chromium.launch(
             headless=True,
             args=[
                 '--disable-blink-features=AutomationControlled',
                 '--no-sandbox',
                 '--disable-setuid-sandbox',
-                '--disable-infobars',
-                '--window-position=0,0',
-                '--ignore-certificate-errors',
             ]
         )
         context = browser.new_context(
@@ -38,6 +33,9 @@ def run():
             page.goto(BASE_URL, timeout=30000, wait_until="domcontentloaded")
             page.wait_for_timeout(3000)
 
+            # Cek apakah kena Cloudflare
+            print(f"[*] Judul Halaman Utama: {page.title()}")
+
             # Cari link pertandingan live
             match_links = page.locator('a[href*="/truc-tiep/"]').all()
             match_urls = []
@@ -46,32 +44,34 @@ def run():
                 if href and href not in match_urls:
                     match_urls.append(href)
             
-            match_urls = match_urls[:5]
+            match_urls = match_urls[:3] # Tes 3 laga dulu
             print(f"[+] Ditemukan {len(match_urls)} laga live.")
 
             for index, match_url in enumerate(match_urls, start=1):
-                print(f"[*] Mengakses Laga {index}: {match_url}")
+                print(f"\n[*] Mengakses Laga {index}: {match_url}")
                 try:
                     page.goto(match_url, timeout=30000, wait_until="domcontentloaded")
                     page.wait_for_timeout(4000)
+                    print(f"    -> Judul Laga: {page.title()}")
 
-                    # Simulasi klik koordinat tengah pemutar video untuk pemicu pemanggilan stream
-                    try:
-                        page.mouse.click(640, 360)
-                    except:
-                        pass
+                    # Geledah semua iframe di halaman untuk mencari player
+                    for frame in page.frames:
+                        try:
+                            # Interaksi di dalam frame player jika ada
+                            frame.click('video', timeout=2000)
+                        except:
+                            pass
 
-                    # Beri waktu JS memuat link niur.live
-                    page.wait_for_timeout(6000)
+                    page.wait_for_timeout(5000)
                 except Exception as e:
-                    print(f"    [X] Gagal memuat: {e}")
+                    print(f"    [X] Gagal memuat laga: {e}")
 
         except Exception as e:
             print(f"[X] Error utama: {e}")
 
         browser.close()
 
-    # Menyusun file m3u
+    # Simpan file M3U
     m3u_content = "#EXTM3U\n"
     for idx, stream_url in enumerate(found_urls, start=1):
         m3u_content += f'#EXTINF:-1 tvg-id="Match_{idx}" group-title="NguyenBong Live", Live Match {idx}\n'
@@ -82,7 +82,7 @@ def run():
     with open("nguyenbong.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
-    print(f"[+] Pembaruan nguyenbong.m3u selesai! Total {len(found_urls)} stream didapat.")
+    print(f"\n[+] Selesai! Total {len(found_urls)} stream didapat.")
 
 if __name__ == "__main__":
     run()
