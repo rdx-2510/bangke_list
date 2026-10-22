@@ -1,4 +1,5 @@
 from playwright.sync_api import sync_playwright
+from playwright_stealth import stealth_sync
 
 BASE_URL = "https://tructiepbongda24h.com/"
 
@@ -16,16 +17,21 @@ def run():
         browser = p.chromium.launch(
             headless=True,
             args=[
-                '--disable-blink-features=AutomationControlled',
                 '--no-sandbox',
                 '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-blink-features=AutomationControlled'
             ]
         )
         context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            viewport={'width': 1280, 'height': 720}
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+            viewport={'width': 1920, 'height': 1080},
+            locale="en-US"
         )
         page = context.new_page()
+        
+        # Aktifkan penyamaran stealth
+        stealth_sync(page)
         page.on("response", handle_response)
 
         print("[*] Membuka halaman utama...")
@@ -33,10 +39,6 @@ def run():
             page.goto(BASE_URL, timeout=30000, wait_until="domcontentloaded")
             page.wait_for_timeout(3000)
 
-            # Cek apakah kena Cloudflare
-            print(f"[*] Judul Halaman Utama: {page.title()}")
-
-            # Cari link pertandingan live
             match_links = page.locator('a[href*="/truc-tiep/"]').all()
             match_urls = []
             for link in match_links:
@@ -44,25 +46,19 @@ def run():
                 if href and href not in match_urls:
                     match_urls.append(href)
             
-            match_urls = match_urls[:3] # Tes 3 laga dulu
+            match_urls = match_urls[:3]
             print(f"[+] Ditemukan {len(match_urls)} laga live.")
 
             for index, match_url in enumerate(match_urls, start=1):
                 print(f"\n[*] Mengakses Laga {index}: {match_url}")
                 try:
                     page.goto(match_url, timeout=30000, wait_until="domcontentloaded")
-                    page.wait_for_timeout(4000)
+                    page.wait_for_timeout(5000)
                     print(f"    -> Judul Laga: {page.title()}")
 
-                    # Geledah semua iframe di halaman untuk mencari player
-                    for frame in page.frames:
-                        try:
-                            # Interaksi di dalam frame player jika ada
-                            frame.click('video', timeout=2000)
-                        except:
-                            pass
-
-                    page.wait_for_timeout(5000)
+                    if "Just a moment" not in page.title():
+                        page.mouse.click(640, 360)
+                        page.wait_for_timeout(5000)
                 except Exception as e:
                     print(f"    [X] Gagal memuat laga: {e}")
 
@@ -71,7 +67,6 @@ def run():
 
         browser.close()
 
-    # Simpan file M3U
     m3u_content = "#EXTM3U\n"
     for idx, stream_url in enumerate(found_urls, start=1):
         m3u_content += f'#EXTINF:-1 tvg-id="Match_{idx}" group-title="NguyenBong Live", Live Match {idx}\n'
