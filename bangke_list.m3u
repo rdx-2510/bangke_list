@@ -1,12 +1,4 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Formula 1 GP USA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Formula%201%20GP%20USA.html
-http://193.47.62.41/hls/ATTT.m3u8
-#EXTINF:-1, FawaNews - Formula 1 GP USA --- CH 22
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Formula%201%20GP%20USA%20---%20CH%2022.html
-https://admin2.formaturamaxi.com.br/f1alt.m3u8
 #EXTINF:-1, FawaNews - Milwaukee Bucks vs Chicago Bulls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Milwaukee%20Bucks%20vs%20Chicago%20Bulls.html
@@ -19,6 +11,62 @@ https://www.rtmpcdn.com/live/03e07a3f-592a-4aa1-ac56-b095d7730b3a.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Milwaukee%20Bucks%20vs%20Chicago%20Bulls%20---%20CH%203.html
 https://admin.formaturamaxi.com.br/nba.m3u8
+#EXTINF:-1, FawaNews - Washington Wizards vs Toronto Raptors
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Wizards%20vs%20Toronto%20Raptors.html
+http://193.47.62.44/hls/KIIIAAAA.m3u8
+#EXTINF:-1, FawaNews - Orlando Magic vs Minnesota Timberwolves
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Orlando%20Magic%20vs%20Minnesota%20Timberwolves.html
+http://193.47.62.44/hls/KIIIAAA.m3u8
+#EXTINF:-1, FawaNews - Indiana Pacers vs Dallas Mavericks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Indiana%20Pacers%20vs%20Dallas%20Mavericks.html
+http://193.47.62.44/hls/KIIIAA.m3u8
+#EXTINF:-1, FawaNews - Charlotte Hornets vs Atlanta Hawks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Charlotte%20Hornets%20vs%20Atlanta%20Hawks.html
+http://193.47.62.44/hls/KIIIA.m3u8
+#EXTINF:-1, FawaNews - Boston Celtics vs New York Knicks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boston%20Celtics%20vs%20New%20York%20Knicks.html
+http://193.47.62.44/hls/KIII.m3u8
+#EXTINF:-1, FawaNews - Virginia vs Duke
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Virginia%20vs%20Duke.html
+http://193.47.62.41/hls/JUUUQQQAAA.m3u8
+#EXTINF:-1, FawaNews - Connecticut vs Massachusetts
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Connecticut%20vs%20Massachusetts.html
+http://193.47.62.41/hls/JUUUQQQAA.m3u8
+#EXTINF:-1, FawaNews - Toronto Argonauts vs Montreal Alouettes
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Toronto%20Argonauts%20vs%20Montreal%20Alouettes.html
+http://193.47.62.41/hls/JUUUQQQA.m3u8
+#EXTINF:-1, FawaNews - Juventud vs Penarol
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Juventud%20vs%20Penarol.html
+http://193.47.62.41/hls/JUUUQQQ.m3u8
+#EXTINF:-1, FawaNews - Cruzeiro vs Remo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cruzeiro%20vs%20Remo.html
+http://193.47.62.41/hls/JUUUQQ.m3u8
+#EXTINF:-1, FawaNews - A Italiano vs Huachipato
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/A%20Italiano%20vs%20Huachipato.html
+http://193.47.62.41/hls/JUUUQ.m3u8
+#EXTINF:-1, FawaNews - Chico vs Bucaramanga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Chico%20vs%20Bucaramanga.html
+http://193.47.62.41/hls/JUUU.m3u8
+#EXTINF:-1, FawaNews - Formula 1 GP USA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Formula%201%20GP%20USA.html
+http://193.47.62.41/hls/ATTT.m3u8
+#EXTINF:-1, FawaNews - Formula 1 GP USA --- CH 22
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Formula%201%20GP%20USA%20---%20CH%2022.html
+https://admin2.formaturamaxi.com.br/f1.m3u8
 #EXTINF:-1, FawaNews - Raja Casablanca vs El Kanemi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Raja%20Casablanca%20vs%20El%20Kanemi.html
