@@ -1,8 +1,20 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Boxing_Smith vs Puello
+#EXTINF:-1, FawaNews - Charlotte Hornets vs Miami Heat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boxing_Smith%20vs%20Puello.html
-http://193.47.62.41/hls/RRRRR.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Charlotte%20Hornets%20vs%20Miami%20Heat.html
+http://193.47.62.44/hls/KNNNAAQQQQQ.m3u8
+#EXTINF:-1, FawaNews - Charlotte Hornets vs Miami Heat --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Charlotte%20Hornets%20vs%20Miami%20Heat%20---%20CH%202.html
+https://www.rtmpcdn.com/live/31954113-bf4b-4a8f-8446-a8374ffa01bc.m3u8
+#EXTINF:-1, FawaNews - New York Red Bulls vs Inter Miami
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Red%20Bulls%20vs%20Inter%20Miami.html
+http://193.47.62.44/hls/KNNNAAQQQQ.m3u8
+#EXTINF:-1, FawaNews - New York Red Bulls vs Inter Miami --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Red%20Bulls%20vs%20Inter%20Miami%20---%20CH%202.html
+https://www.rtmpcdn.com/live/53d87021-8a6b-4acf-8c2f-df210c056263.m3u8
 #EXTINF:-1, FawaNews - Formula 1 GP USA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Formula%201%20GP%20USA.html
@@ -35,18 +47,10 @@ http://193.47.62.44/hls/VVVVV.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Lorenzo%20vs%20Newells%20Old%20Boys.html
 http://193.47.62.44/hls/KNNNAAQQQQQA.m3u8
-#EXTINF:-1, FawaNews - Charlotte Hornets vs Miami Heat
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Charlotte%20Hornets%20vs%20Miami%20Heat.html
-http://193.47.62.44/hls/KNNNAAQQQQQ.m3u8
 #EXTINF:-1, FawaNews - Washington State vs Boise State
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20State%20vs%20Boise%20State.html
 http://193.47.62.44/hls/VVVVVQQQAAAA.m3u8
-#EXTINF:-1, FawaNews - New York Red Bulls vs Inter Miami
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Red%20Bulls%20vs%20Inter%20Miami.html
-http://193.47.62.44/hls/KNNNAAQQQQ.m3u8
 #EXTINF:-1, FawaNews - Vasco vs Corinthians
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vasco%20vs%20Corinthians.html
@@ -235,6 +239,10 @@ http://193.47.62.55/hls/hhhfQQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Orense%20vs%20Delfin.html
 http://193.47.62.55/hls/hhhfQ.m3u8
+#EXTINF:-1, FawaNews - Snooker Northern Ireland Open --- Table 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%201.html
+http://193.47.62.44/hls/PTTTA.m3u8
 #EXTINF:-1, FawaNews - Darts European Championship
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Darts%20European%20Championship.html
