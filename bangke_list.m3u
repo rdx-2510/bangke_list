@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Australia vs Fiji
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Australia%20vs%20Fiji.html
+http://193.47.62.41/hls/FFFFF.m3u8
+#EXTINF:-1, FawaNews - Pakistan vs England
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Pakistan%20vs%20England.html
+http://193.47.62.50/hls/ZZZZ.m3u8
 #EXTINF:-1, FawaNews - Kawasaki Frontale vs Okayama
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kawasaki%20Frontale%20vs%20Okayama.html
@@ -27,10 +35,6 @@ http://193.47.62.50/hls/TOOOAAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Nagoya%20Grampus%20vs%20Yokohama%20F%20Marinos.html
 http://193.47.62.50/hls/TOOOAA.m3u8
-#EXTINF:-1, FawaNews - New Zealand vs Cook Islands
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20Zealand%20vs%20Cook%20Islands.html
-http://193.47.62.41/hls/FFFFF.m3u8
 #EXTINF:-1, FawaNews - Tennis WTA Ningbo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20WTA%20Ningbo.html
