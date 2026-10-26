@@ -1,4 +1,24 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Orebro vs Falkenberg
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Orebro%20vs%20Falkenberg.html
+http://193.47.62.44/hls/aaaaa.m3u8
+#EXTINF:-1, FawaNews - FC Copenhagen vs Odense
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/FC%20Copenhagen%20vs%20Odense.html
+http://193.47.62.44/hls/aaaa.m3u8
+#EXTINF:-1, FawaNews - Sepsi Sf Gheorghe vs Univ Craiova
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sepsi%20Sf%20Gheorghe%20vs%20Univ%20Craiova.html
+http://193.47.62.44/hls/EJJJAAAAAQQQ.m3u8
+#EXTINF:-1, FawaNews - CSKA Sofia vs Ludogorets
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/CSKA%20Sofia%20vs%20Ludogorets.html
+http://193.47.62.44/hls/EJJJAAAAAQQ.m3u8
+#EXTINF:-1, FawaNews - Maccabi Haifa vs H Beer Sheva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Maccabi%20Haifa%20vs%20H%20Beer%20Sheva.html
+http://193.47.62.44/hls/DADADAAAAAAQ.m3u8
 #EXTINF:-1, FawaNews - AEK Larnaca vs Omonia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/AEK%20Larnaca%20vs%20Omonia.html
@@ -27,10 +47,6 @@ https://www.rtmpcdn.com/live/231f695c-d91a-4c51-8532-9bf6d3fcf719.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Istra%201961%20vs%20Hajduk%20Split.html
 http://193.47.62.44/hls/DADADAAAAAAQQ.m3u8
-#EXTINF:-1, FawaNews - Maccabi Haifa vs H Beer Sheva
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Maccabi%20Haifa%20vs%20H%20Beer%20Sheva.html
-http://193.47.62.44/hls/DADADAAAAAAQ.m3u8
 #EXTINF:-1, FawaNews - Warta Poznan vs LKS Lodz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Warta%20Poznan%20vs%20LKS%20Lodz.html
