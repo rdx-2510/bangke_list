@@ -1,4 +1,20 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - CAF Champions League Draw
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/CAF%20Champions%20League%20Draw.html
+http://193.47.62.50/hls/abbbaaaA.m3u8
+#EXTINF:-1, FawaNews - Siarka Tarnobrzeg vs Lech Poznan
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Siarka%20Tarnobrzeg%20vs%20Lech%20Poznan.html
+http://193.47.62.41/hls/YUUUAA.m3u8
+#EXTINF:-1, FawaNews - Kleczew vs Podhale Nowy Targ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kleczew%20vs%20Podhale%20Nowy%20Targ.html
+http://193.47.62.41/hls/YUUUA.m3u8
+#EXTINF:-1, FawaNews - Bicskei vs Ferencvaros
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Bicskei%20vs%20Ferencvaros.html
+http://193.47.62.41/hls/YUUU.m3u8
 #EXTINF:-1, FawaNews - Kakamega Homeboyz vs Gor Mahia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kakamega%20Homeboyz%20vs%20Gor%20Mahia.html
@@ -11,14 +27,10 @@ http://193.47.62.55/hls/abbbaa.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/LNZ%20Cherkasy%20vs%20Metalist%20Kharkiv.html
 http://193.47.62.55/hls/abbba.m3u8
-#EXTINF:-1, FawaNews - Belshina vs Dinamo Minsk
+#EXTINF:-1, FawaNews - Perth vs Sydney
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Belshina%20vs%20Dinamo%20Minsk.html
-http://193.47.62.55/hls/abbb.m3u8
-#EXTINF:-1, FawaNews - CAF Champions League Draw
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/CAF%20Champions%20League%20Draw.html
-http://193.47.62.50/hls/abbbaaaA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Perth%20vs%20Sydney.html
+http://193.47.62.50/hls/abbbaaaAA.m3u8
 #EXTINF:-1, FawaNews - Kashima Antlers vs Pohang
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kashima%20Antlers%20vs%20Pohang.html
