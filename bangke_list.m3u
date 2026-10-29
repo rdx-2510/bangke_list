@@ -1,4 +1,40 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Sporting Braga vs Famalicao
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sporting%20Braga%20vs%20Famalicao.html
+http://193.47.62.41/hls/QAAAAAQ.m3u8
+#EXTINF:-1, FawaNews - Baltika vs Zenit
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Baltika%20vs%20Zenit.html
+http://193.47.62.41/hls/QAAAAA.m3u8
+#EXTINF:-1, FawaNews - Maccabi Tel Aviv vs Hapoel Tel Aviv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Maccabi%20Tel%20Aviv%20vs%20Hapoel%20Tel%20Aviv.html
+http://193.47.62.41/hls/QAAAA.m3u8
+#EXTINF:-1, FawaNews - Midtjylland vs Odense
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Midtjylland%20vs%20Odense.html
+http://193.47.62.41/hls/QAAA.m3u8
+#EXTINF:-1, FawaNews - Djurgarden vs HV 71
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Djurgarden%20vs%20HV%2071.html
+http://193.47.62.59/hls/HH444AAAAQQQ.m3u8
+#EXTINF:-1, FawaNews - Al Nassr vs Al Kholood
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Nassr%20vs%20Al%20Kholood.html
+http://193.47.62.50/hls/GTTTTAA.m3u8
+#EXTINF:-1, FawaNews - Al Nassr vs Al Kholood --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Nassr%20vs%20Al%20Kholood%20---%20CH%202.html
+https://www.rtmpcdn.com/live/20659274-de60-451e-82af-69c0ce9a82a8.m3u8
+#EXTINF:-1, FawaNews - Al Riyadh vs Al Qadsiah
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Riyadh%20vs%20Al%20Qadsiah.html
+http://193.47.62.50/hls/GTTTTAAA.m3u8
+#EXTINF:-1, FawaNews - Al Riyadh vs Al Qadsiah --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Riyadh%20vs%20Al%20Qadsiah%20---%20CH%202.html
+https://www.rtmpcdn.com/live/cb93f5f1-18d3-4afd-b2d2-597b862b4f57.m3u8
 #EXTINF:-1, FawaNews - Hammarby vs Sirius
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Hammarby%20vs%20Sirius.html
@@ -11,18 +47,18 @@ https://www.rtmpcdn.com/live/25c55277-2824-48b7-8e1d-c473007899ae.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Orgryte%20vs%20Mjallby.html
 http://193.47.62.55/hls/GTTTTA.m3u8
+#EXTINF:-1, FawaNews - Orgryte vs Mjallby --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Orgryte%20vs%20Mjallby%20---%20CH%202.html
+https://www.rtmpcdn.com/live/8ee818c6-2f4f-4efc-b6f3-6e3803793256.m3u8
 #EXTINF:-1, FawaNews - Kalmar vs GAIS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kalmar%20vs%20GAIS.html
 http://193.47.62.55/hls/GTTTT.m3u8
-#EXTINF:-1, FawaNews - Al Riyadh vs Al Qadsiah
+#EXTINF:-1, FawaNews - Kalmar vs GAIS --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Riyadh%20vs%20Al%20Qadsiah.html
-http://193.47.62.50/hls/GTTTTAAA.m3u8
-#EXTINF:-1, FawaNews - Al Nassr vs Al Kholood
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Nassr%20vs%20Al%20Kholood.html
-http://193.47.62.50/hls/GTTTTAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kalmar%20vs%20GAIS%20---%20CH%202.html
+https://www.rtmpcdn.com/live/d4cb7d4e-528c-4829-9211-42c2e82eee35.m3u8
 #EXTINF:-1, FawaNews - Los Chankas vs Cusco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Chankas%20vs%20Cusco.html
@@ -31,14 +67,14 @@ http://193.47.62.59/hls/HH444AAAAQQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Szeged%20vs%20Ujpest.html
 http://193.47.62.59/hls/HH444AAAAQ.m3u8
-#EXTINF:-1, FawaNews - Lebrijana vs Getafe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Lebrijana%20vs%20Getafe.html
-http://193.47.62.59/hls/HH444AAAA.m3u8
 #EXTINF:-1, FawaNews - Atletico Calatayud vs Osasuna
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atletico%20Calatayud%20vs%20Osasuna.html
 http://193.47.62.59/hls/HH444AAA.m3u8
+#EXTINF:-1, FawaNews - Atletico Calatayud vs Osasuna --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atletico%20Calatayud%20vs%20Osasuna%20---%20CH%202.html
+https://www.rtmpcdn.com/live/7daae50c-7b11-494d-a4d0-fce34cb5bafe.m3u8
 #EXTINF:-1, FawaNews - Spain U17 W vs USA U17 W
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Spain%20U17%20W%20vs%20USA%20U17%20W.html
@@ -119,10 +155,10 @@ http://193.47.62.44/hls/FIIIQQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sparta%20Prague%20W%20vs%20Torreense%20W.html
 http://193.47.62.44/hls/FIIIQ.m3u8
-#EXTINF:-1, FawaNews - Atlanta Dream W vs Golden State Valkyries W
+#EXTINF:-1, FawaNews - Atlanta Dream W vs Golden State Valkyries W1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atlanta%20Dream%20W%20vs%20Golden%20State%20Valkyries%20W.html
-http://193.47.62.41/hls/jmmm.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atlanta%20Dream%20W%20vs%20Golden%20State%20Valkyries%20W1.html
+http://193.47.62.50/hls/GGGGA.m3u8
 #EXTINF:-1, FawaNews - Atlanta Dream W vs Golden State Valkyries W --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atlanta%20Dream%20W%20vs%20Golden%20State%20Valkyries%20W%20---%20CH%202.html
