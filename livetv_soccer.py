@@ -7,6 +7,13 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
+# Daftar kata kunci yang dipastikan bukan sepak bola
+NON_SOCCER_KEYWORDS = [
+    'grand_prix', 'formula', 'atp', 'wta', 'nhl', 'nba', 
+    'euroleague', 'khl', 'vtb', 'handball', 'volleyball', 
+    'table_tennis', 'billiards', 'darts', 'rugby'
+]
+
 def main():
     print("[*] Scraping LiveTV.sx (Murni Sepak Bola)...")
     try:
@@ -18,34 +25,30 @@ def main():
         count = 0
 
         for m in matches:
-            if count >= 15: # Batasi maksimal 15 stream teratas
+            if count >= 15:
                 break
                 
             title = m.text.strip()
             if not title:
                 continue
             
-            # --- FILTER MURNI SEPAK BOLA BERDASARKAN IKON ---
-            parent_tr = m.find_parent('tr')
-            is_soccer = False
-            
-            if parent_tr:
-                imgs = parent_tr.find_all('img')
-                for img in imgs:
-                    src = img.get('src', '')
-                    # Cek apakah ikonnya adalah event 1 (Soccer)
-                    if re.search(r'ev1[_\.]', src): 
-                        is_soccer = True
-                        break
-                        
-            # Jika bukan bola (misal Basket ev3, F1 ev7), lewati!
-            if not is_soccer:
-                continue
-            # ------------------------------------------------
-            
             link = m['href']
             if not link.startswith('http'):
                 link = "https://livetv.sx" + link
+                
+            # Filter berdasarkan URL link (mengabaikan balapan, basket, tenis, dll)
+            is_valid_soccer = True
+            for kw in NON_SOCCER_KEYWORDS:
+                if kw in link.lower() or kw in title.lower():
+                    is_valid_soccer = False
+                    break
+            
+            # Jika terdeteksi Simulcast, lewati juga
+            if "simulcast" in title.lower():
+                is_valid_soccer = False
+
+            if not is_valid_soccer:
+                continue
                 
             try:
                 detail_res = requests.get(link, headers=HEADERS, timeout=10)
