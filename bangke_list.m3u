@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Australia vs Cook Islands
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Australia%20vs%20Cook%20Islands.html
+http://193.47.62.50/hls/bbbbAA.m3u8
+#EXTINF:-1, FawaNews - Popesti Leordeni vs Metalul Buzau
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Popesti%20Leordeni%20vs%20Metalul%20Buzau.html
+http://193.47.62.44/hls/RRRRR.m3u8
+#EXTINF:-1, FawaNews - Macarthur FC vs WS Wanderers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Macarthur%20FC%20vs%20WS%20Wanderers.html
+http://193.47.62.44/hls/bbbbA.m3u8
 #EXTINF:-1, FawaNews - South Africa vs Australia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/South%20Africa%20vs%20Australia.html
@@ -7,47 +19,7 @@ http://193.47.62.44/hls/XAXAXAAX.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Gwangju%20FC%20vs%20Gimcheon%20Sangmu.html
 http://193.47.62.44/hls/bbbbAAA.m3u8
-#EXTINF:-1, FawaNews - Kashiwa Reysol vs Urawa Reds
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kashiwa%20Reysol%20vs%20Urawa%20Reds.html
-http://193.47.62.44/hls/VVVVAA.m3u8
-#EXTINF:-1, FawaNews - Japan W vs Wales W
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Japan%20W%20vs%20Wales%20W.html
-http://193.47.62.44/hls/VVVVAaaA.m3u8
-#EXTINF:-1, FawaNews - New Zealand W vs Papua New Guinea W
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20Zealand%20W%20vs%20Papua%20New%20Guinea%20W.html
-http://193.47.62.50/hls/bbbbAA.m3u8
-#EXTINF:-1, FawaNews - New Zealand W vs France W
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20Zealand%20W%20vs%20France%20W.html
-http://193.47.62.44/hls/VVVVAaA.m3u8
-#EXTINF:-1, FawaNews - Vissel Kobe vs Nagoya Grampus
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vissel%20Kobe%20vs%20Nagoya%20Grampus.html
-http://193.47.62.44/hls/VVVVA.m3u8
-#EXTINF:-1, FawaNews - Kashima Antlers vs Cerezo Osaka
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kashima%20Antlers%20vs%20Cerezo%20Osaka.html
-http://193.47.62.44/hls/VVVV.m3u8
-#EXTINF:-1, FawaNews - Melbourne City vs Sydney FC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Melbourne%20City%20vs%20Sydney%20FC.html
-http://193.47.62.44/hls/bbbbA.m3u8
-#EXTINF:-1, FawaNews - Central Coast Mariners W vs Adelaide W
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Central%20Coast%20Mariners%20W%20vs%20Adelaide%20W.html
-http://193.47.62.44/hls/bbbb.m3u8
 #EXTINF:-1, FawaNews - Tennis WTA Tokyo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20WTA%20Tokyo.html
 http://193.47.62.50/hls/BUUU.m3u8
-#EXTINF:-1, FawaNews - Golf LPGA Maybank Championship
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20LPGA%20Maybank%20Championship.html
-http://193.47.62.59/hls/TTTTQ.m3u8
-#EXTINF:-1, FawaNews - MotoGP Grand Prix of Malaysia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Malaysia.html
-http://193.47.62.59/hls/TTTT.m3u8
