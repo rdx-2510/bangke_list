@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Golden State Warriors vs Los Angeles Lakers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golden%20State%20Warriors%20vs%20Los%20Angeles%20Lakers.html
+http://193.47.62.59/hls/8IIIAAA.m3u8
+#EXTINF:-1, FawaNews - Phoenix Suns vs Denver Nuggets
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Phoenix%20Suns%20vs%20Denver%20Nuggets.html
+http://193.47.62.55/hls/8IIIAAAA.m3u8
 #EXTINF:-1, FawaNews - Minnesota Timberwolves vs Los Angeles Clippers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Minnesota%20Timberwolves%20vs%20Los%20Angeles%20Clippers.html
@@ -63,14 +71,6 @@ http://193.47.62.55/hls/2HHH.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Wizards%20vs%20Charlotte%20Hornets%20---%20CH%202.html
 https://www.rtmpcdn.com/live/fe1fe5bf-2ded-4157-9f0d-9c04a6b690fa.m3u8
-#EXTINF:-1, FawaNews - Phoenix Suns vs Denver Nuggets
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Phoenix%20Suns%20vs%20Denver%20Nuggets.html
-http://193.47.62.55/hls/8IIIAAAA.m3u8
-#EXTINF:-1, FawaNews - Golden State Warriors vs Los Angeles Lakers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golden%20State%20Warriors%20vs%20Los%20Angeles%20Lakers.html
-http://193.47.62.59/hls/8IIIAAA.m3u8
 #EXTINF:-1, FawaNews - Puebla vs UNAM Pumas
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Puebla%20vs%20UNAM%20Pumas.html
