@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Perth Glory vs Adelaide United
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Perth%20Glory%20vs%20Adelaide%20United.html
+http://193.47.62.41/hls/U888A.m3u8
 #EXTINF:-1, FawaNews - Seoul vs Incheon
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Seoul%20vs%20Incheon.html
@@ -23,10 +27,6 @@ http://193.47.62.41/hls/J777AAAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Fremantle%20Dockers%20W%20vs%20Sydney%20Swans%20W.html
 http://193.47.62.41/hls/J777AAAAA.m3u8
-#EXTINF:-1, FawaNews - Perth Glory vs Adelaide United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Perth%20Glory%20vs%20Adelaide%20United.html
-http://193.47.62.41/hls/U888A.m3u8
 #EXTINF:-1, FawaNews - Ulsan HD vs Gangwon
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Ulsan%20HD%20vs%20Gangwon.html
@@ -43,10 +43,6 @@ http://193.47.62.41/hls/U888AAAAQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Chiba%20vs%20Avispa%20Fukuoka.html
 http://193.47.62.41/hls/U888AAAA.m3u8
-#EXTINF:-1, FawaNews - Yokohama F Marinos vs Kawasaki Frontale
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Yokohama%20F%20Marinos%20vs%20Kawasaki%20Frontale.html
-http://193.47.62.41/hls/U888AAA.m3u8
 #EXTINF:-1, FawaNews - Australia W vs Wales W
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Australia%20W%20vs%20Wales%20W.html
@@ -55,6 +51,10 @@ http://193.47.62.41/hls/J777AAAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Adelaide%20Crows%20W%20vs%20Melbourne%20Demons%20W.html
 http://193.47.62.41/hls/J777AAAAA.m3u8
+#EXTINF:-1, FawaNews - Yokohama F Marinos vs Kawasaki Frontale
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Yokohama%20F%20Marinos%20vs%20Kawasaki%20Frontale.html
+http://193.47.62.41/hls/U888AAA.m3u8
 #EXTINF:-1, FawaNews - Melbourne Victory vs Central Coast Mariners
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Melbourne%20Victory%20vs%20Central%20Coast%20Mariners.html
@@ -95,99 +95,3 @@ http://193.47.62.59/hls/TTTTQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Colorado%20Avalanche%20vs%20Calgary%20Flames.html
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/81c23f42-30d9-4db1-82f1-e31d0a4e38d4/master.m3u8
-#EXTINF:-1, FawaNews - Colorado Rapids vs Chicago Fire
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Colorado%20Rapids%20vs%20Chicago%20Fire.html
-http://193.47.62.55/hls/JJJJAAAAA.m3u8
-#EXTINF:-1, FawaNews - Guadalajara Chivas vs Atlante
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guadalajara%20Chivas%20vs%20Atlante.html
-http://193.47.62.55/hls/JJJJAAAA.m3u8
-#EXTINF:-1, FawaNews - Monterrey vs Club Tijuana
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Monterrey%20vs%20Club%20Tijuana.html
-http://193.47.62.55/hls/JJJJAAA.m3u8
-#EXTINF:-1, FawaNews - Estudiantes LP vs Instituto
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Estudiantes%20LP%20vs%20Instituto.html
-http://193.47.62.55/hls/JJJJAA.m3u8
-#EXTINF:-1, FawaNews - Dallas Stars vs Columbus Blue Jackets
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Dallas%20Stars%20vs%20Columbus%20Blue%20Jackets.html
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/88c6e09f-bd95-4caf-9a07-e6c22de02cfc/master.m3u8
-#EXTINF:-1, FawaNews - Nebraska vs Washington Huskies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Nebraska%20vs%20Washington%20Huskies.html
-http://193.47.62.41/hls/MIMIMIAAAAAQQQQ.m3u8
-#EXTINF:-1, FawaNews - Memphis vs Army
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Memphis%20vs%20Army.html
-http://193.47.62.41/hls/MIMIMIAAAAAQQQ.m3u8
-#EXTINF:-1, FawaNews - Arkansas vs Missouri
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Arkansas%20vs%20Missouri.html
-http://193.47.62.41/hls/MIMIMIAAAAAQQ.m3u8
-#EXTINF:-1, FawaNews - USC vs Ohio State
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/USC%20vs%20Ohio%20State.html
-http://193.47.62.41/hls/MIMIMIAAAAAQ.m3u8
-#EXTINF:-1, FawaNews - Texas vs Mississippi St
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Texas%20vs%20Mississippi%20St.html
-http://193.47.62.41/hls/MIMIMIAAAAA.m3u8
-#EXTINF:-1, FawaNews - Pittsburgh vs Georgia Tech
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Pittsburgh%20vs%20Georgia%20Tech.html
-http://193.47.62.41/hls/MIMIMIAAAA.m3u8
-#EXTINF:-1, FawaNews - North Carolina vs Miami FL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/North%20Carolina%20vs%20Miami%20FL.html
-http://193.47.62.41/hls/MIMIMIAAA.m3u8
-#EXTINF:-1, FawaNews - San Diego State vs Washington State
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Diego%20State%20vs%20Washington%20State.html
-http://193.47.62.41/hls/MIMIMIAA.m3u8
-#EXTINF:-1, FawaNews - Iowa State vs Oklahoma State
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Iowa%20State%20vs%20Oklahoma%20State.html
-http://193.47.62.41/hls/MIMIMIA.m3u8
-#EXTINF:-1, FawaNews - Florida State vs Clemson
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Florida%20State%20vs%20Clemson.html
-http://193.47.62.41/hls/MIMIMI.m3u8
-#EXTINF:-1, FawaNews - Llaneros vs Junior
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Llaneros%20vs%20Junior.html
-http://193.47.62.55/hls/JJJJA.m3u8
-#EXTINF:-1, FawaNews - Pachuca vs Tigres UANL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Pachuca%20vs%20Tigres%20UANL.html
-http://193.47.62.55/hls/JJJJ.m3u8
-#EXTINF:-1, FawaNews - Vancouver Canucks vs Toronto Maple Leafs
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vancouver%20Canucks%20vs%20Toronto%20Maple%20Leafs.html
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/679d2fc3-490a-4162-849f-0c2fc50fef06/master.m3u8
-#EXTINF:-1, FawaNews - Montreal Canadiens vs Pittsburgh Penguins
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Montreal%20Canadiens%20vs%20Pittsburgh%20Penguins.html
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/f368a4f2-4915-40e9-bdad-e356778b170a/master.m3u8
-#EXTINF:-1, FawaNews - Georgia Southern vs Appalachian State
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Georgia%20Southern%20vs%20Appalachian%20State.html
-http://193.47.62.59/hls/A666AAAAQ.m3u8
-#EXTINF:-1, FawaNews - Nautico vs Avai
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Nautico%20vs%20Avai.html
-http://193.47.62.59/hls/A666AAAA.m3u8
-#EXTINF:-1, FawaNews - Sp Luqueno vs Nacional Asuncion
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sp%20Luqueno%20vs%20Nacional%20Asuncion.html
-http://193.47.62.59/hls/A666AAA.m3u8
-#EXTINF:-1, FawaNews - San Lorenzo vs Libertad Asuncion
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Lorenzo%20vs%20Libertad%20Asuncion.html
-http://193.47.62.59/hls/A666AA.m3u8
-#EXTINF:-1, FawaNews - Golf PGA VidantaWorld Mexico Open
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20PGA%20VidantaWorld%20Mexico%20Open.html
-http://193.47.62.59/hls/6HHHAAQQQAAQQQQQ.m3u8
