@@ -1,8 +1,12 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Formula 1 GP Mexico_race_hd
+#EXTINF:-1, FawaNews - New England Revolution vs Inter Miami
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Formula%201%20GP%20Mexico_race_hd.html
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/a26232a0-42be-46b7-8b8e-12473fd156a4/master.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20England%20Revolution%20vs%20Inter%20Miami.html
+http://193.47.62.41/hls/ROOOA.m3u8
+#EXTINF:-1, FawaNews - New England Revolution vs Inter Miami --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20England%20Revolution%20vs%20Inter%20Miami%20---%20CH%202.html
+https://www.rtmpcdn.com/live/97097ee6-d144-4ea2-b904-4f79069e3d57.m3u8
 #EXTINF:-1, FawaNews - Indiana Pacers vs Brooklyn Nets
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Indiana%20Pacers%20vs%20Brooklyn%20Nets.html
@@ -39,10 +43,6 @@ http://193.47.62.41/hls/kikikikia.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Anaheim%20Ducks%20vs%20Ottawa%20Senators.html
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d2fe599d-59fc-48f8-bf03-e99b0efad61f/master.m3u8
-#EXTINF:-1, FawaNews - New England Revolution vs Inter Miami
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20England%20Revolution%20vs%20Inter%20Miami.html
-http://193.47.62.41/hls/ROOOA.m3u8
 #EXTINF:-1, FawaNews - Vancouver Rise W vs Montreal Roses W
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vancouver%20Rise%20W%20vs%20Montreal%20Roses%20W.html
@@ -75,111 +75,7 @@ http://193.47.62.41/hls/kikikiki.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Gotham%20W%20vs%20Utah%20Royals%20W.html
 http://193.47.62.41/hls/ADADAD.m3u8
-#EXTINF:-1, FawaNews - Nashville SC vs New York Red Bulls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Nashville%20SC%20vs%20New%20York%20Red%20Bulls.html
-http://193.47.62.41/hls/EIIIA.m3u8
-#EXTINF:-1, FawaNews - Atlanta Utd vs Toronto FC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atlanta%20Utd%20vs%20Toronto%20FC.html
-http://193.47.62.41/hls/EIII.m3u8
-#EXTINF:-1, FawaNews - Supra du Quebec vs Cavalry
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Supra%20du%20Quebec%20vs%20Cavalry.html
-http://193.47.62.41/hls/DEDEDE.m3u8
-#EXTINF:-1, FawaNews - Newells Old Boys vs Union de Santa Fe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Newells%20Old%20Boys%20vs%20Union%20de%20Santa%20Fe.html
-http://193.47.62.41/hls/sasasaAAAAQQQQQ.m3u8
-#EXTINF:-1, FawaNews - Belgrano vs Barracas Central
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Belgrano%20vs%20Barracas%20Central.html
-http://193.47.62.41/hls/sasasaAAAAQQQQ.m3u8
-#EXTINF:-1, FawaNews - Gremio vs Atletico-MG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Gremio%20vs%20Atletico-MG.html
-http://193.47.62.41/hls/DEDEDEA.m3u8
-#EXTINF:-1, FawaNews - Novorizontino vs Operario-PR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Novorizontino%20vs%20Operario-PR.html
-http://193.47.62.41/hls/sasasaAAAAQQQ.m3u8
-#EXTINF:-1, FawaNews - Cuiaba vs Sao Bernardo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cuiaba%20vs%20Sao%20Bernardo.html
-http://193.47.62.41/hls/sasasaAAAAQQ.m3u8
-#EXTINF:-1, FawaNews - Guabira vs Bolivar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guabira%20vs%20Bolivar.html
-http://193.47.62.41/hls/sasasaAAAAQ.m3u8
-#EXTINF:-1, FawaNews - Dep Cali vs Chico
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Dep%20Cali%20vs%20Chico.html
-http://193.47.62.41/hls/sasasaAAAA.m3u8
-#EXTINF:-1, FawaNews - Guayaquil City vs Libertad
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guayaquil%20City%20vs%20Libertad.html
-http://193.47.62.41/hls/sasasaAAA.m3u8
 #EXTINF:-1, FawaNews - Philadelphia Flyers vs Utah Mammoth
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Philadelphia%20Flyers%20vs%20Utah%20Mammoth.html
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/913449a7-1177-4c02-8a53-c56cd086a753/master.m3u8
-#EXTINF:-1, FawaNews - Washington Capitals vs Minnesota Wild
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Capitals%20vs%20Minnesota%20Wild.html
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/f6a5eaa4-df0d-4675-8cc1-7975d1c711cf/master.m3u8
-#EXTINF:-1, FawaNews - Sporting Braga vs Famalicao
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sporting%20Braga%20vs%20Famalicao.html
-http://193.47.62.41/hls/sasasa.m3u8
-#EXTINF:-1, FawaNews - Grau vs U de Deportes
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Grau%20vs%20U%20de%20Deportes.html
-http://193.47.62.41/hls/sasasaAA.m3u8
-#EXTINF:-1, FawaNews - Vancouver Whitecaps vs Seattle Sounders
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vancouver%20Whitecaps%20vs%20Seattle%20Sounders.html
-http://193.47.62.41/hls/sasasaA.m3u8
-#EXTINF:-1, FawaNews - Section Paloise vs Stade Toulousain
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Section%20Paloise%20vs%20Stade%20Toulousain.html
-http://193.47.62.41/hls/DNNNAA.m3u8
-#EXTINF:-1, FawaNews - Tenerife vs Andorra
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tenerife%20vs%20Andorra.html
-http://193.47.62.41/hls/DNNNA.m3u8
-#EXTINF:-1, FawaNews - Berkane vs Raja Casablanca
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Berkane%20vs%20Raja%20Casablanca.html
-http://193.47.62.41/hls/DEDEDEAAAAAQQ.m3u8
-#EXTINF:-1, FawaNews - Golf PGA VidantaWorld Mexico Open
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20PGA%20VidantaWorld%20Mexico%20Open.html
-http://193.47.62.59/hls/6HHHAAQQQAAQQQQQ.m3u8
-#EXTINF:-1, FawaNews - Cerro Porteno vs Olimpia Asuncion
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cerro%20Porteno%20vs%20Olimpia%20Asuncion.html
-http://193.47.62.41/hls/DNNN.m3u8
-#EXTINF:-1, FawaNews - Danubio vs Nacional
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Danubio%20vs%20Nacional.html
-http://193.47.62.41/hls/DEDEDEAAAA.m3u8
-#EXTINF:-1, FawaNews - Palmeiras vs Vasco
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Palmeiras%20vs%20Vasco.html
-http://193.47.62.41/hls/DEDEDEA.m3u8
-#EXTINF:-1, FawaNews - The Strongest vs GV San Jose
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/The%20Strongest%20vs%20GV%20San%20Jose.html
-http://193.47.62.41/hls/DEDEDEAAA.m3u8
-#EXTINF:-1, FawaNews - Londrina vs America MG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Londrina%20vs%20America%20MG.html
-http://193.47.62.41/hls/DEDEDEAA.m3u8
-#EXTINF:-1, FawaNews - Atl Ottawa vs Forge
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atl%20Ottawa%20vs%20Forge.html
-http://193.47.62.41/hls/DEDEDE.m3u8
-#EXTINF:-1, FawaNews - Nascar Cup Series Xfinity 500
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Nascar%20Cup%20Series%20Xfinity%20500.html
-http://193.47.62.41/hls/DDD3.m3u8
