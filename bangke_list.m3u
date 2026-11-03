@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Cleveland Cavaliers vs Oklahoma City Thunder
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cleveland%20Cavaliers%20vs%20Oklahoma%20City%20Thunder.html
+http://193.47.62.44/hls/G666.m3u8
+#EXTINF:-1, FawaNews - Cleveland Cavaliers vs Oklahoma City Thunder --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cleveland%20Cavaliers%20vs%20Oklahoma%20City%20Thunder%20---%20CH%202.html
+https://www.rtmpcdn.com/live/bb1cfdb6-0a1d-4d61-9004-4232c8d57841.m3u8
 #EXTINF:-1, FawaNews - Los Angeles Clippers vs Toronto Raptors
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Clippers%20vs%20Toronto%20Raptors.html
@@ -55,10 +63,6 @@ http://193.47.62.44/hls/G666A.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Charlotte%20Hornets%20vs%20Detroit%20Pistons.html
 http://193.47.62.59/hls/Z333.m3u8
-#EXTINF:-1, FawaNews - Cleveland Cavaliers vs Oklahoma City Thunder
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cleveland%20Cavaliers%20vs%20Oklahoma%20City%20Thunder.html
-http://193.47.62.44/hls/G666.m3u8
 #EXTINF:-1, FawaNews - San Jose Sharks vs Calgary Flames
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Jose%20Sharks%20vs%20Calgary%20Flames.html
