@@ -1,12 +1,28 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Newcastle Jets vs Shanghai Port
+#EXTINF:-1, FawaNews - Vissel Kobe vs Ratchaburi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Newcastle%20Jets%20vs%20Shanghai%20Port.html
-http://193.47.62.41/hls/CACACA.m3u8
-#EXTINF:-1, FawaNews - Newcastle Jets vs Shanghai Port --- CH 2
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vissel%20Kobe%20vs%20Ratchaburi.html
+http://193.47.62.41/hls/EAEAEAQQ.m3u8
+#EXTINF:-1, FawaNews - Kashiwa Reysol vs Daejeon
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Newcastle%20Jets%20vs%20Shanghai%20Port%20---%20CH%202.html
-https://www.rtmpcdn.com/live/97f72f19-df76-4cac-b162-f71b7f3bd04b.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kashiwa%20Reysol%20vs%20Daejeon.html
+http://193.47.62.41/hls/EAEAEAQ.m3u8
+#EXTINF:-1, FawaNews - Jeonbuk vs Johor DT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Jeonbuk%20vs%20Johor%20DT.html
+http://193.47.62.41/hls/EAEAEA.m3u8
+#EXTINF:-1, FawaNews - Tennis Masters Paris --- CH 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20Masters%20Paris%20---%20CH%201.html
+http://193.47.62.44/hls/T777AA.m3u8
+#EXTINF:-1, FawaNews - Tennis Masters Paris --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20Masters%20Paris%20---%20CH%202.html
+http://193.47.62.44/hls/T777A.m3u8
+#EXTINF:-1, FawaNews - Tennis Masters Paris --- CH 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20Masters%20Paris%20---%20CH%203.html
+http://193.47.62.44/hls/T777.m3u8
 #EXTINF:-1, FawaNews - Snooker International Championship --- Table 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20International%20Championship%20---%20Table%201.html
