@@ -71,29 +71,40 @@ def main():
 
     for idx, (url, title) in enumerate(matches, 1):
         print(f"[{idx}/{len(matches)}] Memproses: {title}")
+
+        # Pemisahan Tim A dan Tim B secara otomatis
+        team_a = title
+        team_b = ""
+        if " vs " in title.lower():
+            parts = re.split(r'\s+vs\s+', title, flags=re.IGNORECASE)
+            if len(parts) >= 2:
+                team_a = parts[0].strip()
+                team_b = parts[1].strip()
+
         stream_url = extract_stream(url, domains)
         if stream_url:
             print(f"    └─ [OK] {stream_url}")
             
-            # 1. Format M3U
+            # Format M3U
             m3u_content += f"#EXTINF:-1, RoxieSoccer - {title}\n"
             m3u_content += f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}\n"
             m3u_content += f"#EXTVLCOPT:http-referrer={BASE_URL}/\n"
             m3u_content += f"{stream_url}\n"
 
-            # 2. Format JSON disamakan dengan struktur Monirul
+            # Format JSON Standar Monirul
             json_matches.append({
                 "status": "LIVE",
                 "Category": "Football",
                 "event_name": title,
                 "timestamp": int(time.time()),
                 "eventInfo": {
-                    "teamA": title,
-                    "teamB": "",
-                    "eventName": "RoxieStreams Live",
-                    "startTime": time.strftime("%d/%m/%Y %I:%M:%S %p"),
+                    "teamA": team_a,
+                    "teamB": team_b,
                     "teamAFlag": "",
-                    "teamBFlag": ""
+                    "teamBFlag": "",
+                    "eventName": "RoxieStreams Live",
+                    "event_logo": "",
+                    "startTime": time.strftime("%d/%m/%Y %I:%M:%S %p")
                 },
                 "streams": [
                     {
@@ -113,17 +124,22 @@ def main():
     with open(output_m3u, "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
+    # Menyamakan struktur root persis seperti Monirul
     json_output = {
-        "generated_at": int(time.time()),
-        "match_count": success_count,
+        "name": "RoxieStreams Sports Data",
+        "owner": "Piyan BangkeTV",
+        "telegram_channel": "https://t.me/bangketv",
+        "last_update_time": time.strftime("%I:%M:%S %p %d-%m-%Y"),
+        "total_matches": len(matches),
+        "live_match": success_count,
         "matches": json_matches
     }
     
     output_json = "roxi_soccer.json"
     with open(output_json, "w", encoding="utf-8") as f:
-        json.dump(json_output, f, ensure_ascii=False, indent=4)
+        json.dump(json_output, f, ensure_ascii=False, indent+4 if False else 4)
 
-    print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran.")
+    print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran ke format M3U & JSON Monirul style.")
 
 if __name__ == "__main__":
     main()
