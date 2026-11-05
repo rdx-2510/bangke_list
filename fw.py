@@ -67,10 +67,20 @@ def main():
             m3u_content += f"#EXTVLCOPT:http-referrer={url}\n"
             m3u_content += f"{raw_m3u8}\n"
 
-            # 2. Tambahkan ke format struktur JSON
+            # 2. Format JSON disamakan dengan struktur Monirul
             json_matches.append({
-                "title": match_title,
-                "url": url,
+                "status": "LIVE",
+                "Category": "Football",
+                "event_name": match_title,
+                "timestamp": int(time.time()),
+                "eventInfo": {
+                    "teamA": match_title,
+                    "teamB": "",
+                    "eventName": "FawaNews Live",
+                    "startTime": time.strftime("%d/%m/%Y %I:%M:%S %p"),
+                    "teamAFlag": "",
+                    "teamBFlag": ""
+                },
                 "streams": [
                     {
                         "channel_name": "FawaNews",
@@ -89,7 +99,7 @@ def main():
     with open("bangke_list.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
-    # Simpan file JSON terstruktur
+    # Simpan file JSON format Monirul
     json_output = {
         "generated_at": int(time.time()),
         "match_count": success_count,
@@ -100,7 +110,6 @@ def main():
         json.dump(json_output, f, ensure_ascii=False, indent=4)
 
     print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran.")
-    print(f"[+] Output berhasil disimpan ke 'bangke_list.m3u' dan 'fawanews.json'.")
 
 if __name__ == "__main__":
     main()
