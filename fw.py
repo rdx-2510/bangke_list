@@ -57,7 +57,6 @@ def main():
         raw_title = url.split('/')[-1].replace('.html', '').replace('%20', ' ')
         print(f"[{idx}/{len(match_links)}] Memproses: {raw_title}")
 
-        # Pemisahan Tim A dan Tim B secara otomatis jika ada kata 'vs'
         team_a = raw_title
         team_b = ""
         if " vs " in raw_title.lower():
@@ -70,13 +69,11 @@ def main():
         if raw_m3u8:
             print(f"    └─ [OK] {raw_m3u8}")
             
-            # Format M3U
             m3u_content += f"#EXTINF:-1, FawaNews - {raw_title}\n"
             m3u_content += f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}\n"
             m3u_content += f"#EXTVLCOPT:http-referrer={url}\n"
             m3u_content += f"{raw_m3u8}\n"
 
-            # Format JSON Standar Monirul
             json_matches.append({
                 "status": "LIVE",
                 "Category": "Football",
@@ -108,9 +105,8 @@ def main():
     with open("bangke_list.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
-    # Menyamakan struktur root persis seperti Monirul
     json_output = {
-        "name": "FawaNews Live Sports Data",
+        "name": "FawaNews Live and Upcoming Sports Data",
         "owner": "Piyan BangkeTV",
         "telegram_channel": "https://t.me/bangketv",
         "last_update_time": time.strftime("%I:%M:%S %p %d-%m-%Y"),
@@ -122,7 +118,7 @@ def main():
     with open("fawanews.json", "w", encoding="utf-8") as f:
         json.dump(json_output, f, ensure_ascii=False, indent=4)
 
-    print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran ke format M3U & JSON Monirul style.")
+    print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran.")
 
 if __name__ == "__main__":
     main()
