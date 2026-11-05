@@ -12,7 +12,6 @@ HEADERS = {
 }
 
 def get_active_domains():
-    """Sedot daftar domain aktif dari domainsz77.txt, fallback jika gagal"""
     try:
         res = requests.get(f"{BASE_URL}/domainsz77.txt", headers=HEADERS, timeout=5)
         if res.status_code == 200 and res.text.strip():
@@ -24,7 +23,6 @@ def get_active_domains():
     return ["shadow-ran.online"]
 
 def get_soccer_matches():
-    """Sedot semua link pertandingan soccer dari halaman /soccer"""
     try:
         res = requests.get(SOCCER_URL, headers=HEADERS, timeout=10)
         if res.status_code != 200:
@@ -43,19 +41,15 @@ def get_soccer_matches():
         return []
 
 def extract_stream(match_url, domains):
-    """Ekstrak parameter getRandomStream dan rakit URL m3u8"""
     try:
         res = requests.get(match_url, headers=HEADERS, timeout=10)
         if res.status_code != 200:
             return None
         html = res.text
-
-        # Ekstrak parameter dari getRandomStream('file.m3u8', 'subdomain')
-        match = re.search(r"getRandomStream\(\s*['\"](.*?)['\"]s*(?:,\s*['\"](.*?)['\"])?\)", html)
+        match = re.search(r"getRandomStream\(\s*['\"](.*?)['\"]\s*(?:,\s*['\"](.*?)['\"])?\)", html)
         if match:
             stream_path = match.group(1)
             subdomain = match.group(2) if match.group(2) else "admin2"
-
             selected_domain = random.choice(domains)
             return f"https://{subdomain}.{selected_domain}/{stream_path}"
     except Exception:
@@ -81,16 +75,26 @@ def main():
         if stream_url:
             print(f"    └─ [OK] {stream_url}")
             
-            # 1. Tambahkan ke format M3U
+            # 1. Format M3U
             m3u_content += f"#EXTINF:-1, RoxieSoccer - {title}\n"
             m3u_content += f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}\n"
             m3u_content += f"#EXTVLCOPT:http-referrer={BASE_URL}/\n"
             m3u_content += f"{stream_url}\n"
 
-            # 2. Tambahkan ke format struktur JSON
+            # 2. Format JSON disamakan dengan struktur Monirul
             json_matches.append({
-                "title": title,
-                "url": url,
+                "status": "LIVE",
+                "Category": "Football",
+                "event_name": title,
+                "timestamp": int(time.time()),
+                "eventInfo": {
+                    "teamA": title,
+                    "teamB": "",
+                    "eventName": "RoxieStreams Live",
+                    "startTime": time.strftime("%d/%m/%Y %I:%M:%S %p"),
+                    "teamAFlag": "",
+                    "teamBFlag": ""
+                },
                 "streams": [
                     {
                         "channel_name": "RoxieSoccer",
@@ -105,12 +109,10 @@ def main():
         else:
             print("    └─ [SKIP]")
 
-    # Simpan file M3U
     output_m3u = "roxi_soccer.m3u"
     with open(output_m3u, "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
-    # Simpan file JSON terstruktur
     json_output = {
         "generated_at": int(time.time()),
         "match_count": success_count,
@@ -122,7 +124,6 @@ def main():
         json.dump(json_output, f, ensure_ascii=False, indent=4)
 
     print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran.")
-    print(f"[+] Output berhasil disimpan ke '{output_m3u}' dan '{output_json}'.")
 
 if __name__ == "__main__":
     main()
