@@ -1,12 +1,44 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Washington Wizards vs Atlanta Hawks
+#EXTINF:-1, FawaNews - New York Knicks vs Chicago Bulls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Wizards%20vs%20Atlanta%20Hawks.html
-http://193.47.62.44/hls/EEEE.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Knicks%20vs%20Chicago%20Bulls.html
+http://193.47.62.41/hls/JJJJA.m3u8
+#EXTINF:-1, FawaNews - New York Knicks vs Chicago Bulls --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Knicks%20vs%20Chicago%20Bulls%20---%20CH%202.html
+https://www.rtmpcdn.com/live/cfc42626-b136-44dd-a08a-cd6be48ea299.m3u8
+#EXTINF:-1, FawaNews - Brooklyn Nets vs Charlotte Hornets
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Brooklyn%20Nets%20vs%20Charlotte%20Hornets.html
+http://193.47.62.55/hls/QQQQ.m3u8
+#EXTINF:-1, FawaNews - Brooklyn Nets vs Charlotte Hornets --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Brooklyn%20Nets%20vs%20Charlotte%20Hornets%20---%20CH%202.html
+https://www.rtmpcdn.com/live/ab21706c-5a50-43d9-a19b-32fbcd13e1db.m3u8
+#EXTINF:-1, FawaNews - Boston Celtics vs Milwaukee Bucks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boston%20Celtics%20vs%20Milwaukee%20Bucks.html
+http://193.47.62.59/hls/IIII.m3u8
+#EXTINF:-1, FawaNews - Boston Celtics vs Milwaukee Bucks --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boston%20Celtics%20vs%20Milwaukee%20Bucks%20---%20CH%202.html
+https://www.rtmpcdn.com/live/cac70308-e117-42f1-9148-88cd4f6de8f6.m3u8
 #EXTINF:-1, FawaNews - Detroit Pistons vs Philadelphia 76ers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Detroit%20Pistons%20vs%20Philadelphia%2076ers.html
 http://193.47.62.41/hls/JJJJ.m3u8
+#EXTINF:-1, FawaNews - Detroit Pistons vs Philadelphia 76ers --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Detroit%20Pistons%20vs%20Philadelphia%2076ers%20---%20CH%202.html
+https://www.rtmpcdn.com/live/316b21e9-91cf-4703-a090-f3769916672e.m3u8
+#EXTINF:-1, FawaNews - Washington Wizards vs Atlanta Hawks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Wizards%20vs%20Atlanta%20Hawks.html
+http://193.47.62.44/hls/EEEE.m3u8
+#EXTINF:-1, FawaNews - Washington Wizards vs Atlanta Hawks --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Wizards%20vs%20Atlanta%20Hawks%20---%20CH%202.html
+https://www.rtmpcdn.com/live/a1755186-2fc4-4e03-8927-0d5349c19346.m3u8
 #EXTINF:-1, FawaNews - Los Angeles Clippers vs Miami Heat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Clippers%20vs%20Miami%20Heat.html
@@ -43,18 +75,6 @@ http://193.47.62.59/hls/IIIIS.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Memphis%20Grizzlies%20vs%20Indiana%20Pacers.html
 http://193.47.62.44/hls/EEEEA.m3u8
-#EXTINF:-1, FawaNews - New York Knicks vs Chicago Bulls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Knicks%20vs%20Chicago%20Bulls.html
-http://193.47.62.41/hls/JJJJA.m3u8
-#EXTINF:-1, FawaNews - Brooklyn Nets vs Charlotte Hornets
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Brooklyn%20Nets%20vs%20Charlotte%20Hornets.html
-http://193.47.62.55/hls/QQQQ.m3u8
-#EXTINF:-1, FawaNews - Boston Celtics vs Milwaukee Bucks
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boston%20Celtics%20vs%20Milwaukee%20Bucks.html
-http://193.47.62.59/hls/IIII.m3u8
 #EXTINF:-1, FawaNews - Seattle Kraken vs Calgary Flames
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Seattle%20Kraken%20vs%20Calgary%20Flames.html
@@ -71,6 +91,14 @@ http://193.47.62.50/hls/ROOOAAQQQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Millonarios%20vs%20America%20De%20Cali.html
 http://193.47.62.50/hls/GUUU.m3u8
+#EXTINF:-1, FawaNews - AEW Dynamite
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/AEW%20Dynamite.html
+http://193.47.62.55/hls/QQQQFFA.m3u8
+#EXTINF:-1, FawaNews - WWE NXT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/WWE%20NXT.html
+http://193.47.62.50/hls/QQQQFFAA.m3u8
 #EXTINF:-1, FawaNews - Florida Panthers vs Chicago Blackhawks
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Florida%20Panthers%20vs%20Chicago%20Blackhawks.html
