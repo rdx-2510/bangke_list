@@ -2,15 +2,15 @@
     "name": "RoxieStreams Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "09:34:55 PM 05-11-2026",
+    "last_update_time": "10:38:02 PM 05-11-2026",
     "total_matches": 14,
-    "live_match": 6,
+    "live_match": 7,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Crystal Palace vs Hoffenheim",
-            "timestamp": 1793914490,
+            "timestamp": 1793918275,
             "eventInfo": {
                 "teamA": "Crystal Palace",
                 "teamB": "Hoffenheim",
@@ -18,7 +18,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "05/11/2026 09:34:50 PM"
+                "startTime": "05/11/2026 10:37:55 PM"
             },
             "streams": [
                 {
@@ -33,7 +33,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Real Sociedad vs Lyon",
-            "timestamp": 1793914491,
+            "timestamp": 1793918276,
             "eventInfo": {
                 "teamA": "Real Sociedad",
                 "teamB": "Lyon",
@@ -41,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "05/11/2026 09:34:51 PM"
+                "startTime": "05/11/2026 10:37:56 PM"
             },
             "streams": [
                 {
@@ -56,7 +56,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Thun vs Hearts",
-            "timestamp": 1793914491,
+            "timestamp": 1793918277,
             "eventInfo": {
                 "teamA": "Thun",
                 "teamB": "Hearts",
@@ -64,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "05/11/2026 09:34:51 PM"
+                "startTime": "05/11/2026 10:37:57 PM"
             },
             "streams": [
                 {
@@ -79,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Bayer Leverkusen vs Marseille",
-            "timestamp": 1793914492,
+            "timestamp": 1793918279,
             "eventInfo": {
                 "teamA": "Bayer Leverkusen",
                 "teamB": "Marseille",
@@ -87,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "05/11/2026 09:34:52 PM"
+                "startTime": "05/11/2026 10:37:59 PM"
             },
             "streams": [
                 {
@@ -102,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Celtic vs BeÅiktaÅ",
-            "timestamp": 1793914493,
+            "timestamp": 1793918280,
             "eventInfo": {
                 "teamA": "Celtic",
                 "teamB": "BeÅiktaÅ",
@@ -110,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "05/11/2026 09:34:53 PM"
+                "startTime": "05/11/2026 10:38:00 PM"
             },
             "streams": [
                 {
@@ -125,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sunderland vs Dinamo Zagreb",
-            "timestamp": 1793914494,
+            "timestamp": 1793918281,
             "eventInfo": {
                 "teamA": "Sunderland",
                 "teamB": "Dinamo Zagreb",
@@ -133,12 +133,35 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "05/11/2026 09:34:54 PM"
+                "startTime": "05/11/2026 10:38:01 PM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
                     "stream_url": "https://tedesco.formaturamaxi.com.br/tnt.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Palmeiras vs Remo",
+            "timestamp": 1793918282,
+            "eventInfo": {
+                "teamA": "Palmeiras",
+                "teamB": "Remo",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "05/11/2026 10:38:02 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://temp.formaturamaxi.com.br/fana.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
