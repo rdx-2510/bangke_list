@@ -72,7 +72,6 @@ def main():
     for idx, (url, title) in enumerate(matches, 1):
         print(f"[{idx}/{len(matches)}] Memproses: {title}")
 
-        # Pemisahan Tim A dan Tim B secara otomatis
         team_a = title
         team_b = ""
         if " vs " in title.lower():
@@ -85,13 +84,11 @@ def main():
         if stream_url:
             print(f"    └─ [OK] {stream_url}")
             
-            # Format M3U
             m3u_content += f"#EXTINF:-1, RoxieSoccer - {title}\n"
             m3u_content += f"#EXTVLCOPT:http-user-agent={HEADERS['User-Agent']}\n"
             m3u_content += f"#EXTVLCOPT:http-referrer={BASE_URL}/\n"
             m3u_content += f"{stream_url}\n"
 
-            # Format JSON Standar Monirul
             json_matches.append({
                 "status": "LIVE",
                 "Category": "Football",
@@ -124,7 +121,6 @@ def main():
     with open(output_m3u, "w", encoding="utf-8") as f:
         f.write(m3u_content)
 
-    # Menyamakan struktur root persis seperti Monirul
     json_output = {
         "name": "RoxieStreams Sports Data",
         "owner": "Piyan BangkeTV",
@@ -137,9 +133,9 @@ def main():
     
     output_json = "roxi_soccer.json"
     with open(output_json, "w", encoding="utf-8") as f:
-        json.dump(json_output, f, ensure_ascii=False, indent+4 if False else 4)
+        json.dump(json_output, f, ensure_ascii=False, indent=4)
 
-    print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran ke format M3U & JSON Monirul style.")
+    print(f"\n[+] Selesai! Berhasil mengekstrak {success_count} siaran.")
 
 if __name__ == "__main__":
     main()
