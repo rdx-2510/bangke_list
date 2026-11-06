@@ -2,15 +2,15 @@
     "name": "RoxieStreams Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "07:43:05 PM 06-11-2026",
+    "last_update_time": "08:37:12 PM 06-11-2026",
     "total_matches": 11,
-    "live_match": 7,
+    "live_match": 9,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Hamburger SV vs Borussia M'gladbach",
-            "timestamp": 1793994179,
+            "timestamp": 1793997427,
             "eventInfo": {
                 "teamA": "Hamburger SV",
                 "teamB": "Borussia M'gladbach",
@@ -18,7 +18,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "06/11/2026 07:42:59 PM"
+                "startTime": "06/11/2026 08:37:07 PM"
             },
             "streams": [
                 {
@@ -33,7 +33,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Toulouse vs Strasbourg",
-            "timestamp": 1793994180,
+            "timestamp": 1793997428,
             "eventInfo": {
                 "teamA": "Toulouse",
                 "teamB": "Strasbourg",
@@ -41,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "06/11/2026 07:43:00 PM"
+                "startTime": "06/11/2026 08:37:08 PM"
             },
             "streams": [
                 {
@@ -56,7 +56,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Oxford City vs Leicester City",
-            "timestamp": 1793994180,
+            "timestamp": 1793997428,
             "eventInfo": {
                 "teamA": "Oxford City",
                 "teamB": "Leicester City",
@@ -64,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "06/11/2026 07:43:00 PM"
+                "startTime": "06/11/2026 08:37:08 PM"
             },
             "streams": [
                 {
@@ -79,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Venezia vs Udinese",
-            "timestamp": 1793994181,
+            "timestamp": 1793997429,
             "eventInfo": {
                 "teamA": "Venezia",
                 "teamB": "Udinese",
@@ -87,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "06/11/2026 07:43:01 PM"
+                "startTime": "06/11/2026 08:37:09 PM"
             },
             "streams": [
                 {
@@ -102,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Derby County vs Bolton Wanderers",
-            "timestamp": 1793994182,
+            "timestamp": 1793997429,
             "eventInfo": {
                 "teamA": "Derby County",
                 "teamB": "Bolton Wanderers",
@@ -110,12 +110,58 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "06/11/2026 07:43:02 PM"
+                "startTime": "06/11/2026 08:37:09 PM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
-                    "stream_url": "https://tedesco.formaturamaxi.com.br/tnt3.m3u8",
+                    "stream_url": "https://tedesco.formaturamaxi.com.br/golazo.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Everton vs Coventry City",
+            "timestamp": 1793997430,
+            "eventInfo": {
+                "teamA": "Everton",
+                "teamB": "Coventry City",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "06/11/2026 08:37:10 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/main.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Sevilla vs Deportivo AlavÃ©s",
+            "timestamp": 1793997430,
+            "eventInfo": {
+                "teamA": "Sevilla",
+                "teamB": "Deportivo AlavÃ©s",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "06/11/2026 08:37:10 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/dep.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
@@ -125,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Necaxa vs Tijuana",
-            "timestamp": 1793994184,
+            "timestamp": 1793997431,
             "eventInfo": {
                 "teamA": "Necaxa",
                 "teamB": "Tijuana",
@@ -133,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "06/11/2026 07:43:04 PM"
+                "startTime": "06/11/2026 08:37:11 PM"
             },
             "streams": [
                 {
@@ -148,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Atlante vs Santos Laguna",
-            "timestamp": 1793994185,
+            "timestamp": 1793997432,
             "eventInfo": {
                 "teamA": "Atlante",
                 "teamB": "Santos Laguna",
@@ -156,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "06/11/2026 07:43:05 PM"
+                "startTime": "06/11/2026 08:37:12 PM"
             },
             "streams": [
                 {
