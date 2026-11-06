@@ -1,4 +1,44 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Formula 1 GP Brazil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Formula%201%20GP%20Brazil.html
+http://193.47.62.44/hls/EAEAEAAAAAA.m3u8
+#EXTINF:-1, FawaNews - Formula 1 GP Brazil --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Formula%201%20GP%20Brazil%20---%20CH%202.html
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/01d9a0cb-902a-4045-bc6c-7672230a7cfd/master.m3u8
+#EXTINF:-1, FawaNews - UTA Arad vs Petrolul
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/UTA%20Arad%20vs%20Petrolul.html
+http://193.47.62.41/hls/EAEAEAAAAA.m3u8
+#EXTINF:-1, FawaNews - Septemvri Sofia vs Lokomotiv Sofia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Septemvri%20Sofia%20vs%20Lokomotiv%20Sofia.html
+http://193.47.62.41/hls/EAEAEAAAA.m3u8
+#EXTINF:-1, FawaNews - BKMA vs Alashkert
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/BKMA%20vs%20Alashkert.html
+http://193.47.62.41/hls/EAEAEAAA.m3u8
+#EXTINF:-1, FawaNews - Enppi vs Proxy
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Enppi%20vs%20Proxy.html
+http://193.47.62.41/hls/EAEAEAA.m3u8
+#EXTINF:-1, FawaNews - FC Gomel vs Arsenal Dzerzhinsk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/FC%20Gomel%20vs%20Arsenal%20Dzerzhinsk.html
+http://193.47.62.41/hls/EAEAEA.m3u8
+#EXTINF:-1, FawaNews - Al Arabi vs Al Ahli Doha
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Arabi%20vs%20Al%20Ahli%20Doha.html
+http://193.47.62.59/hls/ZGGGAA.m3u8
+#EXTINF:-1, FawaNews - Qarabag vs Turan Tovuz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Qarabag%20vs%20Turan%20Tovuz.html
+http://193.47.62.59/hls/ZGGGA.m3u8
+#EXTINF:-1, FawaNews - Goa vs Bengaluru FC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Goa%20vs%20Bengaluru%20FC.html
+http://193.47.62.59/hls/ZGGG.m3u8
 #EXTINF:-1, FawaNews - Sogdiana vs Dinamo Samarkand
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sogdiana%20vs%20Dinamo%20Samarkand.html
@@ -11,54 +51,10 @@ http://193.47.62.59/hls/K777AAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20Masters%20Paris%20---%20CH%201.html
 http://193.47.62.44/hls/T777AA.m3u8
-#EXTINF:-1, FawaNews - Smouha vs El Minya
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Smouha%20vs%20El%20Minya.html
-http://193.47.62.59/hls/K777AA.m3u8
-#EXTINF:-1, FawaNews - Lamphun Warrior vs Sukhothai
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Lamphun%20Warrior%20vs%20Sukhothai.html
-http://193.47.62.59/hls/K777A.m3u8
-#EXTINF:-1, FawaNews - Maccabi Tel Aviv vs Maccabi Petah Tikva
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Maccabi%20Tel%20Aviv%20vs%20Maccabi%20Petah%20Tikva.html
-http://193.47.62.59/hls/K777.m3u8
-#EXTINF:-1, FawaNews - Snooker International Championship --- Table 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20International%20Championship%20---%20Table%201.html
-http://193.47.62.44/hls/B111.m3u8
-#EXTINF:-1, FawaNews - Truong Tuoi Dong Nai vs Da Nang
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Truong%20Tuoi%20Dong%20Nai%20vs%20Da%20Nang.html
-http://193.47.62.59/hls/IPPPAAAA.m3u8
-#EXTINF:-1, FawaNews - Hong Linh Ha Tinh vs Nam Dinh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Hong%20Linh%20Ha%20Tinh%20vs%20Nam%20Dinh.html
-http://193.47.62.59/hls/IPPPAAA.m3u8
-#EXTINF:-1, FawaNews - Polissya Zhytomyr vs Veres-Rivne
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Polissya%20Zhytomyr%20vs%20Veres-Rivne.html
-http://193.47.62.59/hls/IPPPAA.m3u8
-#EXTINF:-1, FawaNews - Obolon vs Livyi Bereg
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Obolon%20vs%20Livyi%20Bereg.html
-http://193.47.62.59/hls/IPPPA.m3u8
-#EXTINF:-1, FawaNews - Van vs Pyunik Yerevan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Van%20vs%20Pyunik%20Yerevan.html
-http://193.47.62.59/hls/IPPP.m3u8
-#EXTINF:-1, FawaNews - Boxing_Gallen vs Nelson1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boxing_Gallen%20vs%20Nelson1.html
-https://admin2.formaturamaxi.com.br/ppv2.m3u8
 #EXTINF:-1, FawaNews - MotoGP Grand Prix of Qatar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Qatar.html
 http://193.47.62.44/hls/ziii.m3u8
-#EXTINF:-1, FawaNews - Afghanistan vs Zimbabwe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Afghanistan%20vs%20Zimbabwe.html
-http://193.47.62.41/hls/TTTTAAaa.m3u8
 #EXTINF:-1, FawaNews - Golf Abu Dhabi Championship_2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20Abu%20Dhabi%20Championship_2.html
