@@ -2,15 +2,153 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "09:35:45 AM 07-11-2026",
-    "total_matches": 35,
-    "live_match": 15,
+    "last_update_time": "10:30:18 AM 07-11-2026",
+    "total_matches": 33,
+    "live_match": 13,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Perth Glory vs Newcastle Jets",
+            "timestamp": 1794047409,
+            "eventInfo": {
+                "teamA": "Perth Glory",
+                "teamB": "Newcastle Jets",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "07/11/2026 10:30:09 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/QAQAQAAAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Perth%20Glory%20vs%20Newcastle%20Jets.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "FC Bihor vs CSM Slatina",
+            "timestamp": 1794047410,
+            "eventInfo": {
+                "teamA": "FC Bihor",
+                "teamB": "CSM Slatina",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "07/11/2026 10:30:10 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/QAQAQAAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/FC%20Bihor%20vs%20CSM%20Slatina.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Eyupspor vs Kocaelispor",
+            "timestamp": 1794047410,
+            "eventInfo": {
+                "teamA": "Eyupspor",
+                "teamB": "Kocaelispor",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "07/11/2026 10:30:10 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/QAQAQAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Eyupspor%20vs%20Kocaelispor.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Vanspor FK vs Sivasspor",
+            "timestamp": 1794047410,
+            "eventInfo": {
+                "teamA": "Vanspor FK",
+                "teamB": "Sivasspor",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "07/11/2026 10:30:10 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/QAQAQAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Vanspor%20FK%20vs%20Sivasspor.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Keciorengucu vs Manisa FK",
+            "timestamp": 1794047410,
+            "eventInfo": {
+                "teamA": "Keciorengucu",
+                "teamB": "Manisa FK",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "07/11/2026 10:30:10 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/QAQAQAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Keciorengucu%20vs%20Manisa%20FK.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Gia Lai vs Hanoi FC",
+            "timestamp": 1794047411,
+            "eventInfo": {
+                "teamA": "Gia Lai",
+                "teamB": "Hanoi FC",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "07/11/2026 10:30:11 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/QAQAQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Gia%20Lai%20vs%20Hanoi%20FC.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "MotoGP Grand Prix of Qatar",
-            "timestamp": 1794044134,
+            "timestamp": 1794047411,
             "eventInfo": {
                 "teamA": "MotoGP Grand Prix of Qatar",
                 "teamB": "",
@@ -18,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 09:35:34 AM"
+                "startTime": "07/11/2026 10:30:11 AM"
             },
             "streams": [
                 {
@@ -33,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "New Zealand vs Tonga",
-            "timestamp": 1794044134,
+            "timestamp": 1794047411,
             "eventInfo": {
                 "teamA": "New Zealand",
                 "teamB": "Tonga",
@@ -41,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 09:35:34 AM"
+                "startTime": "07/11/2026 10:30:11 AM"
             },
             "streams": [
                 {
@@ -56,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Melbourne City vs WS Wanderers",
-            "timestamp": 1794044135,
+            "timestamp": 1794047412,
             "eventInfo": {
                 "teamA": "Melbourne City",
                 "teamB": "WS Wanderers",
@@ -64,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 09:35:35 AM"
+                "startTime": "07/11/2026 10:30:12 AM"
             },
             "streams": [
                 {
@@ -79,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Perth W vs Canberra W",
-            "timestamp": 1794044135,
+            "timestamp": 1794047412,
             "eventInfo": {
                 "teamA": "Perth W",
                 "teamB": "Canberra W",
@@ -87,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 09:35:35 AM"
+                "startTime": "07/11/2026 10:30:12 AM"
             },
             "streams": [
                 {
@@ -101,54 +239,8 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Gimcheon Sangmu vs Anyang",
-            "timestamp": 1794044135,
-            "eventInfo": {
-                "teamA": "Gimcheon Sangmu",
-                "teamB": "Anyang",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "07/11/2026 09:35:35 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.59/hls/HHHHAAAAQQQQQA.m3u8",
-                    "referer": "http://www.fawanews.sc/Gimcheon%20Sangmu%20vs%20Anyang.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Kashiwa Reysol vs Kawasaki Frontale",
-            "timestamp": 1794044136,
-            "eventInfo": {
-                "teamA": "Kashiwa Reysol",
-                "teamB": "Kawasaki Frontale",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "07/11/2026 09:35:36 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.59/hls/HHHHAAAAQQQQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Kashiwa%20Reysol%20vs%20Kawasaki%20Frontale.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "Golf Abu Dhabi Championship_3",
-            "timestamp": 1794044136,
+            "timestamp": 1794047412,
             "eventInfo": {
                 "teamA": "Golf Abu Dhabi Championship_3",
                 "teamB": "",
@@ -156,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 09:35:36 AM"
+                "startTime": "07/11/2026 10:30:12 AM"
             },
             "streams": [
                 {
@@ -170,146 +262,8 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "New Zealand W vs Papua New Guinea W",
-            "timestamp": 1794044137,
-            "eventInfo": {
-                "teamA": "New Zealand W",
-                "teamB": "Papua New Guinea W",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "07/11/2026 09:35:37 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.59/hls/HHHHAAAAQQQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/New%20Zealand%20W%20vs%20Papua%20New%20Guinea%20W.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Snooker International Championship --- Table 1",
-            "timestamp": 1794044137,
-            "eventInfo": {
-                "teamA": "Snooker International Championship --- Table 1",
-                "teamB": "",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "07/11/2026 09:35:37 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.44/hls/B111.m3u8",
-                    "referer": "http://www.fawanews.sc/Snooker%20International%20Championship%20---%20Table%201.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "FC Tokyo vs Kashima Antlers",
-            "timestamp": 1794044137,
-            "eventInfo": {
-                "teamA": "FC Tokyo",
-                "teamB": "Kashima Antlers",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "07/11/2026 09:35:37 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.59/hls/HHHHAAAAQQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/FC%20Tokyo%20vs%20Kashima%20Antlers.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Avispa Fukuoka vs V-Varen Nagasaki",
-            "timestamp": 1794044138,
-            "eventInfo": {
-                "teamA": "Avispa Fukuoka",
-                "teamB": "V-Varen Nagasaki",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "07/11/2026 09:35:38 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.59/hls/HHHHAAAAQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Avispa%20Fukuoka%20vs%20V-Varen%20Nagasaki.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Brisbane Roar W vs Melbourne Victory W",
-            "timestamp": 1794044138,
-            "eventInfo": {
-                "teamA": "Brisbane Roar W",
-                "teamB": "Melbourne Victory W",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "07/11/2026 09:35:38 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.59/hls/LSSSAAAAAA.m3u8",
-                    "referer": "http://www.fawanews.sc/Brisbane%20Roar%20W%20vs%20Melbourne%20Victory%20W.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Tennis WTA Hong Kong",
-            "timestamp": 1794044138,
-            "eventInfo": {
-                "teamA": "Tennis WTA Hong Kong",
-                "teamB": "",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "07/11/2026 09:35:38 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.50/hls/BUUU.m3u8",
-                    "referer": "http://www.fawanews.sc/Tennis%20WTA%20Hong%20Kong.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "India vs New Zealand",
-            "timestamp": 1794044138,
+            "timestamp": 1794047413,
             "eventInfo": {
                 "teamA": "India",
                 "teamB": "New Zealand",
@@ -317,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 09:35:38 AM"
+                "startTime": "07/11/2026 10:30:13 AM"
             },
             "streams": [
                 {
@@ -331,22 +285,22 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Supercars Championship Gold Coast 500",
-            "timestamp": 1794044139,
+            "event_name": "Tennis WTA Hong Kong",
+            "timestamp": 1794047413,
             "eventInfo": {
-                "teamA": "Supercars Championship Gold Coast 500",
+                "teamA": "Tennis WTA Hong Kong",
                 "teamB": "",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 09:35:39 AM"
+                "startTime": "07/11/2026 10:30:13 AM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.50/hls/JJJJ.m3u8",
-                    "referer": "http://www.fawanews.sc/Supercars%20Championship%20Gold%20Coast%20500.html",
+                    "stream_url": "http://193.47.62.50/hls/BUUU.m3u8",
+                    "referer": "http://www.fawanews.sc/Tennis%20WTA%20Hong%20Kong.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
