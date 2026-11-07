@@ -1,4 +1,24 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Atl Nacional vs Pereira
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atl%20Nacional%20vs%20Pereira.html
+http://193.47.62.55/hls/T555AAA.m3u8
+#EXTINF:-1, FawaNews - Atlas vs Pachuca
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atlas%20vs%20Pachuca.html
+http://193.47.62.44/hls/TFFFAA.m3u8
+#EXTINF:-1, FawaNews - FBC Melgar vs Juan Pablo II
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/FBC%20Melgar%20vs%20Juan%20Pablo%20II.html
+http://193.47.62.55/hls/hsssAAAAA.m3u8
+#EXTINF:-1, FawaNews - Vila Nova FC vs Criciuma
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vila%20Nova%20FC%20vs%20Criciuma.html
+http://193.47.62.44/hls/TFFFA.m3u8
+#EXTINF:-1, FawaNews - Cuiaba vs Juventude
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cuiaba%20vs%20Juventude.html
+http://193.47.62.44/hls/TFFF.m3u8
 #EXTINF:-1, FawaNews - Inter Miami vs Charlotte
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Inter%20Miami%20vs%20Charlotte.html
@@ -11,10 +31,10 @@ https://www.rtmpcdn.com/live/99994e1d-5e85-4d48-9600-1831891db4e3.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/UFC_Cortes-Acosta%20vs%20Walker.html
 http://193.47.62.59/hls/Z999AAA.m3u8
-#EXTINF:-1, FawaNews - UFC_Cortes-Acosta vs Walker --- CH 2
+#EXTINF:-1, FawaNews - UFC_Cortes-Acosta vs Walker --- CH 22
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/UFC_Cortes-Acosta%20vs%20Walker%20---%20CH%202.html
-https://admin2.formaturamaxi.com.br/abbiecadabrii.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/UFC_Cortes-Acosta%20vs%20Walker%20---%20CH%2022.html
+https://temp.formaturamaxi.com.br/ufc.m3u8
 #EXTINF:-1, FawaNews - Boxing_Joshua Buatsi vs Willy Hutchinson
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boxing_Joshua%20Buatsi%20vs%20Willy%20Hutchinson.html
@@ -27,18 +47,18 @@ https://admin2.formaturamaxi.com.br/ppv2.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/BKFC%2096%20Cohoon%20vs%20Weir.html
 http://193.47.62.41/hls/loooo.m3u8
-#EXTINF:-1, FawaNews - MMA Cage Warriors 212
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/MMA%20Cage%20Warriors%20212.html
-http://193.47.62.50/hls/ACCC.m3u8
 #EXTINF:-1, FawaNews - Boxing_Zuffa Boxing 12
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boxing_Zuffa%20Boxing%2012.html
 http://193.47.62.55/hls/A111AAAAAQQQA.m3u8
-#EXTINF:-1, FawaNews - MMA Oktagon 97
+#EXTINF:-1, FawaNews - Tennessee vs Kentucky
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/MMA%20Oktagon%2097.html
-http://193.47.62.50/hls/ACCCA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennessee%20vs%20Kentucky.html
+http://193.47.62.44/hls/KTTTA.m3u8
+#EXTINF:-1, FawaNews - Colorado State Rams vs Boise State
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Colorado%20State%20Rams%20vs%20Boise%20State.html
+http://193.47.62.44/hls/KTTT.m3u8
 #EXTINF:-1, FawaNews - Libertad Asuncion vs Nacional Asuncion
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Libertad%20Asuncion%20vs%20Nacional%20Asuncion.html
@@ -50,7 +70,7 @@ http://193.47.62.50/hls/Z999.m3u8
 #EXTINF:-1, FawaNews - Indiana Pacers vs Denver Nuggets --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Indiana%20Pacers%20vs%20Denver%20Nuggets%20---%20CH%202.html
-https://www.rtmpcdn.com/live//046efcc4-4a4a-4635-9c91-e34fa2358bbc.m3u8
+https://www.rtmpcdn.com/live/046efcc4-4a4a-4635-9c91-e34fa2358bbc.m3u8
 #EXTINF:-1, FawaNews - Louisiana-Lafayette vs South Alabama
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Louisiana-Lafayette%20vs%20South%20Alabama.html
