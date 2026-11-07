@@ -2,15 +2,38 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "08:39:37 AM 07-11-2026",
-    "total_matches": 34,
-    "live_match": 14,
+    "last_update_time": "09:35:45 AM 07-11-2026",
+    "total_matches": 35,
+    "live_match": 15,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "MotoGP Grand Prix of Qatar",
+            "timestamp": 1794044134,
+            "eventInfo": {
+                "teamA": "MotoGP Grand Prix of Qatar",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "07/11/2026 09:35:34 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/ziii.m3u8",
+                    "referer": "http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Qatar.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "New Zealand vs Tonga",
-            "timestamp": 1794040768,
+            "timestamp": 1794044134,
             "eventInfo": {
                 "teamA": "New Zealand",
                 "teamB": "Tonga",
@@ -18,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:28 AM"
+                "startTime": "07/11/2026 09:35:34 AM"
             },
             "streams": [
                 {
@@ -33,7 +56,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Melbourne City vs WS Wanderers",
-            "timestamp": 1794040768,
+            "timestamp": 1794044135,
             "eventInfo": {
                 "teamA": "Melbourne City",
                 "teamB": "WS Wanderers",
@@ -41,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:28 AM"
+                "startTime": "07/11/2026 09:35:35 AM"
             },
             "streams": [
                 {
@@ -56,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Perth W vs Canberra W",
-            "timestamp": 1794040768,
+            "timestamp": 1794044135,
             "eventInfo": {
                 "teamA": "Perth W",
                 "teamB": "Canberra W",
@@ -64,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:28 AM"
+                "startTime": "07/11/2026 09:35:35 AM"
             },
             "streams": [
                 {
@@ -79,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Gimcheon Sangmu vs Anyang",
-            "timestamp": 1794040769,
+            "timestamp": 1794044135,
             "eventInfo": {
                 "teamA": "Gimcheon Sangmu",
                 "teamB": "Anyang",
@@ -87,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:29 AM"
+                "startTime": "07/11/2026 09:35:35 AM"
             },
             "streams": [
                 {
@@ -102,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kashiwa Reysol vs Kawasaki Frontale",
-            "timestamp": 1794040769,
+            "timestamp": 1794044136,
             "eventInfo": {
                 "teamA": "Kashiwa Reysol",
                 "teamB": "Kawasaki Frontale",
@@ -110,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:29 AM"
+                "startTime": "07/11/2026 09:35:36 AM"
             },
             "streams": [
                 {
@@ -125,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Golf Abu Dhabi Championship_3",
-            "timestamp": 1794040769,
+            "timestamp": 1794044136,
             "eventInfo": {
                 "teamA": "Golf Abu Dhabi Championship_3",
                 "teamB": "",
@@ -133,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:29 AM"
+                "startTime": "07/11/2026 09:35:36 AM"
             },
             "streams": [
                 {
@@ -148,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "New Zealand W vs Papua New Guinea W",
-            "timestamp": 1794040769,
+            "timestamp": 1794044137,
             "eventInfo": {
                 "teamA": "New Zealand W",
                 "teamB": "Papua New Guinea W",
@@ -156,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:29 AM"
+                "startTime": "07/11/2026 09:35:37 AM"
             },
             "streams": [
                 {
@@ -171,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker International Championship --- Table 1",
-            "timestamp": 1794040770,
+            "timestamp": 1794044137,
             "eventInfo": {
                 "teamA": "Snooker International Championship --- Table 1",
                 "teamB": "",
@@ -179,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:30 AM"
+                "startTime": "07/11/2026 09:35:37 AM"
             },
             "streams": [
                 {
@@ -194,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "FC Tokyo vs Kashima Antlers",
-            "timestamp": 1794040770,
+            "timestamp": 1794044137,
             "eventInfo": {
                 "teamA": "FC Tokyo",
                 "teamB": "Kashima Antlers",
@@ -202,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:30 AM"
+                "startTime": "07/11/2026 09:35:37 AM"
             },
             "streams": [
                 {
@@ -217,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Avispa Fukuoka vs V-Varen Nagasaki",
-            "timestamp": 1794040770,
+            "timestamp": 1794044138,
             "eventInfo": {
                 "teamA": "Avispa Fukuoka",
                 "teamB": "V-Varen Nagasaki",
@@ -225,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:30 AM"
+                "startTime": "07/11/2026 09:35:38 AM"
             },
             "streams": [
                 {
@@ -240,7 +263,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Brisbane Roar W vs Melbourne Victory W",
-            "timestamp": 1794040770,
+            "timestamp": 1794044138,
             "eventInfo": {
                 "teamA": "Brisbane Roar W",
                 "teamB": "Melbourne Victory W",
@@ -248,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:30 AM"
+                "startTime": "07/11/2026 09:35:38 AM"
             },
             "streams": [
                 {
@@ -263,7 +286,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis WTA Hong Kong",
-            "timestamp": 1794040771,
+            "timestamp": 1794044138,
             "eventInfo": {
                 "teamA": "Tennis WTA Hong Kong",
                 "teamB": "",
@@ -271,7 +294,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:31 AM"
+                "startTime": "07/11/2026 09:35:38 AM"
             },
             "streams": [
                 {
@@ -286,7 +309,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "India vs New Zealand",
-            "timestamp": 1794040771,
+            "timestamp": 1794044138,
             "eventInfo": {
                 "teamA": "India",
                 "teamB": "New Zealand",
@@ -294,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:31 AM"
+                "startTime": "07/11/2026 09:35:38 AM"
             },
             "streams": [
                 {
@@ -309,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Supercars Championship Gold Coast 500",
-            "timestamp": 1794040771,
+            "timestamp": 1794044139,
             "eventInfo": {
                 "teamA": "Supercars Championship Gold Coast 500",
                 "teamB": "",
@@ -317,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "07/11/2026 08:39:31 AM"
+                "startTime": "07/11/2026 09:35:39 AM"
             },
             "streams": [
                 {
