@@ -1,4 +1,20 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Sacramento Kings vs San Antonio Spurs
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sacramento%20Kings%20vs%20San%20Antonio%20Spurs.html
+http://193.47.62.44/hls/EYYYAA.m3u8
+#EXTINF:-1, FawaNews - Sacramento Kings vs San Antonio Spurs --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sacramento%20Kings%20vs%20San%20Antonio%20Spurs%20---%20CH%202.html
+https://www.rtmpcdn.com/live/27a0b4b3-60a0-47b2-898d-bae511b66d5c.m3u8
+#EXTINF:-1, FawaNews - Los Angeles Lakers vs Portland Trail Blazers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Lakers%20vs%20Portland%20Trail%20Blazers.html
+http://193.47.62.55/hls/FTTTAAA.m3u8
+#EXTINF:-1, FawaNews - Los Angeles Lakers vs Portland Trail Blazers --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Lakers%20vs%20Portland%20Trail%20Blazers%20---%20CH%202.html
+https://www.rtmpcdn.com/live/33c3d367-c18f-4863-a1a1-8908548a5eb8.m3u8
 #EXTINF:-1, FawaNews - New Orleans Pelicans vs Minnesota Timberwolves
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20Orleans%20Pelicans%20vs%20Minnesota%20Timberwolves.html
@@ -31,34 +47,14 @@ http://193.47.62.55/hls/FTTTAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Dallas%20Mavericks%20vs%20Utah%20Jazz%20---%20CH%202.html
 https://www.rtmpcdn.com/live/81a418aa-72ac-4a09-90e9-fc2b7fe4ce3d.m3u8
-#EXTINF:-1, FawaNews - Cleveland Cavaliers vs Philadelphia 76ers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cleveland%20Cavaliers%20vs%20Philadelphia%2076ers.html
-http://193.47.62.50/hls/FTTT.m3u8
-#EXTINF:-1, FawaNews - Cleveland Cavaliers vs Philadelphia 76ers --- CH 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cleveland%20Cavaliers%20vs%20Philadelphia%2076ers%20---%20CH%202.html
-https://www.rtmpcdn.com/live/9655839c-1c68-4c39-af39-0a41480d0014.m3u8
-#EXTINF:-1, FawaNews - Charlotte Hornets vs Boston Celtics
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Charlotte%20Hornets%20vs%20Boston%20Celtics.html
-http://193.47.62.59/hls/EYYYAAA.m3u8
-#EXTINF:-1, FawaNews - Atlanta Hawks vs Washington Wizards
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atlanta%20Hawks%20vs%20Washington%20Wizards.html
-http://193.47.62.44/hls/EYYY.m3u8
-#EXTINF:-1, FawaNews - Sacramento Kings vs San Antonio Spurs
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sacramento%20Kings%20vs%20San%20Antonio%20Spurs.html
-http://193.47.62.44/hls/EYYYAA.m3u8
-#EXTINF:-1, FawaNews - Los Angeles Lakers vs Portland Trail Blazers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Lakers%20vs%20Portland%20Trail%20Blazers.html
-http://193.47.62.55/hls/FTTTAAA.m3u8
 #EXTINF:-1, FawaNews - Arizona vs TCU
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Arizona%20vs%20TCU.html
 http://193.47.62.41/hls/JJJJAAAQQQQQ.m3u8
+#EXTINF:-1, FawaNews - India vs New Zealand
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/India%20vs%20New%20Zealand.html
+http://193.47.62.50/hls/JJJJA.m3u8
 #EXTINF:-1, FawaNews - San Diego Wave W vs Utah Royals W
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Diego%20Wave%20W%20vs%20Utah%20Royals%20W.html
@@ -67,6 +63,10 @@ http://193.47.62.41/hls/JJJJAAAQQQQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Atlante%20vs%20Santos%20Laguna.html
 http://193.47.62.41/hls/JJJJAAAQ.m3u8
+#EXTINF:-1, FawaNews - Golf LPGA Toto Japan Classic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20LPGA%20Toto%20Japan%20Classic.html
+http://193.47.62.59/hls/UUUU.m3u8
 #EXTINF:-1, FawaNews - Nevada vs New Mexico
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Nevada%20vs%20New%20Mexico.html
