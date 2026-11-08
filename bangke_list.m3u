@@ -1,60 +1,40 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Australia vs Samoa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Australia%20vs%20Samoa.html
-http://193.47.62.59/hls/WAWAWAWA.m3u8
-#EXTINF:-1, FawaNews - MotoGP Grand Prix of Qatar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Qatar.html
-http://193.47.62.44/hls/ziii.m3u8
 #EXTINF:-1, FawaNews - Napoli vs Lazio
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Napoli%20vs%20Lazio.html
 http://193.47.62.44/hls/BKKKAAAAAAA.m3u8
-#EXTINF:-1, FawaNews - Prachuap vs Sisaket United
+#EXTINF:-1, FawaNews - Napoli vs Lazio --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Prachuap%20vs%20Sisaket%20United.html
-http://193.47.62.44/hls/BKKKAAAAAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Napoli%20vs%20Lazio%20---%20CH%202.html
+https://www.rtmpcdn.com/live/495935cb-0963-4a0f-b68c-2a320420dd1b.m3u8
 #EXTINF:-1, FawaNews - Heerenveen vs Feyenoord
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Heerenveen%20vs%20Feyenoord.html
 http://193.47.62.44/hls/BKKKAAAAA.m3u8
-#EXTINF:-1, FawaNews - Vitesse vs De Graafschap
+#EXTINF:-1, FawaNews - Heerenveen vs Feyenoord --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vitesse%20vs%20De%20Graafschap.html
-http://193.47.62.44/hls/BKKKAAAA.m3u8
-#EXTINF:-1, FawaNews - Polonia Bytom vs Lechia Gdansk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Polonia%20Bytom%20vs%20Lechia%20Gdansk.html
-http://193.47.62.44/hls/BKKKAAA.m3u8
-#EXTINF:-1, FawaNews - Syunik vs FC Gandzasar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Syunik%20vs%20FC%20Gandzasar.html
-http://193.47.62.44/hls/BKKKAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Heerenveen%20vs%20Feyenoord%20---%20CH%202.html
+https://www.rtmpcdn.com/live/972872e4-b4ca-4468-b26f-9cc6dc4ba209.m3u8
 #EXTINF:-1, FawaNews - FC Copenhagen vs Brondby
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/FC%20Copenhagen%20vs%20Brondby.html
 http://193.47.62.44/hls/BKKKA.m3u8
+#EXTINF:-1, FawaNews - MotoGP Grand Prix of Qatar
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Qatar.html
+http://193.47.62.44/hls/ziii.m3u8
+#EXTINF:-1, FawaNews - Prachuap vs Sisaket United
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Prachuap%20vs%20Sisaket%20United.html
+http://193.47.62.44/hls/BKKKAAAAAA.m3u8
+#EXTINF:-1, FawaNews - Vitesse vs De Graafschap
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vitesse%20vs%20De%20Graafschap.html
+http://193.47.62.44/hls/BKKKAAAA.m3u8
 #EXTINF:-1, FawaNews - Bandari vs Tusker
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Bandari%20vs%20Tusker.html
 http://193.47.62.44/hls/BKKK.m3u8
-#EXTINF:-1, FawaNews - Logrono W vs Sevilla FC W
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Logrono%20W%20vs%20Sevilla%20FC%20W.html
-http://193.47.62.41/hls/GTGTGTAAA.m3u8
-#EXTINF:-1, FawaNews - Rasisalai Utd vs Bangkok Utd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Rasisalai%20Utd%20vs%20Bangkok%20Utd.html
-http://193.47.62.41/hls/GTGTGTAA.m3u8
-#EXTINF:-1, FawaNews - Pathum United vs Rayong FC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Pathum%20United%20vs%20Rayong%20FC.html
-http://193.47.62.41/hls/GTGTGTA.m3u8
-#EXTINF:-1, FawaNews - Shakhtar Donetsk vs Dynamo Kyiv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Shakhtar%20Donetsk%20vs%20Dynamo%20Kyiv.html
-http://193.47.62.41/hls/GTGTGT.m3u8
 #EXTINF:-1, FawaNews - FK Zorya Luhansk vs LNZ Cherkasy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/FK%20Zorya%20Luhansk%20vs%20LNZ%20Cherkasy.html
@@ -67,6 +47,22 @@ http://193.47.62.41/hls/RIII.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/AEK%20Athens%20vs%20Panathinaikos.html
 http://193.47.62.41/hls/DIIIAAAQQQQQAAAA.m3u8
+#EXTINF:-1, FawaNews - Logrono W vs Sevilla FC W
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Logrono%20W%20vs%20Sevilla%20FC%20W.html
+http://193.47.62.41/hls/GTGTGTAAA.m3u8
+#EXTINF:-1, FawaNews - Syunik vs FC Gandzasar
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Syunik%20vs%20FC%20Gandzasar.html
+http://193.47.62.44/hls/BKKKAA.m3u8
+#EXTINF:-1, FawaNews - Rasisalai Utd vs Bangkok Utd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Rasisalai%20Utd%20vs%20Bangkok%20Utd.html
+http://193.47.62.41/hls/GTGTGTAA.m3u8
+#EXTINF:-1, FawaNews - Pathum United vs Rayong FC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Pathum%20United%20vs%20Rayong%20FC.html
+http://193.47.62.41/hls/GTGTGTA.m3u8
 #EXTINF:-1, FawaNews - Neftchi Fargona vs OKMK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Neftchi%20Fargona%20vs%20OKMK.html
