@@ -2,15 +2,38 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "07:49:36 AM 08-11-2026",
-    "total_matches": 42,
-    "live_match": 22,
+    "last_update_time": "08:39:40 AM 08-11-2026",
+    "total_matches": 53,
+    "live_match": 33,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Australia vs Samoa",
+            "timestamp": 1794127166,
+            "eventInfo": {
+                "teamA": "Australia",
+                "teamB": "Samoa",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:26 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/WAWAWAWA.m3u8",
+                    "referer": "http://www.fawanews.sc/Australia%20vs%20Samoa.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Australia W vs Fiji W",
-            "timestamp": 1794124168,
+            "timestamp": 1794127166,
             "eventInfo": {
                 "teamA": "Australia W",
                 "teamB": "Fiji W",
@@ -18,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:28 AM"
+                "startTime": "08/11/2026 08:39:26 AM"
             },
             "streams": [
                 {
@@ -32,8 +55,284 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Tennis WTA Hong Kong",
+            "timestamp": 1794127166,
+            "eventInfo": {
+                "teamA": "Tennis WTA Hong Kong",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:26 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/BUUU.m3u8",
+                    "referer": "http://www.fawanews.sc/Tennis%20WTA%20Hong%20Kong.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Zhejiang Professional vs Henan Songshan Longmen",
+            "timestamp": 1794127167,
+            "eventInfo": {
+                "teamA": "Zhejiang Professional",
+                "teamB": "Henan Songshan Longmen",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:27 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUAAQQQQQQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Zhejiang%20Professional%20vs%20Henan%20Songshan%20Longmen.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Yunnan Yukun vs Wuhan Three Towns",
+            "timestamp": 1794127167,
+            "eventInfo": {
+                "teamA": "Yunnan Yukun",
+                "teamB": "Wuhan Three Towns",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:27 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUAAQQQQQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Yunnan%20Yukun%20vs%20Wuhan%20Three%20Towns.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Shanghai Shenhua vs Qingdao West Coast",
+            "timestamp": 1794127167,
+            "eventInfo": {
+                "teamA": "Shanghai Shenhua",
+                "teamB": "Qingdao West Coast",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:27 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUAAQQQQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Shanghai%20Shenhua%20vs%20Qingdao%20West%20Coast.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Shanghai Port vs Liaoning Tieren",
+            "timestamp": 1794127168,
+            "eventInfo": {
+                "teamA": "Shanghai Port",
+                "teamB": "Liaoning Tieren",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:28 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUAAQQQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Shanghai%20Port%20vs%20Liaoning%20Tieren.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Shandong Taishan vs Chengdu Rongcheng",
+            "timestamp": 1794127168,
+            "eventInfo": {
+                "teamA": "Shandong Taishan",
+                "teamB": "Chengdu Rongcheng",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:28 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUAAQQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Shandong%20Taishan%20vs%20Chengdu%20Rongcheng.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Qingdao Hainiu vs Shenzhen Xinpengcheng",
+            "timestamp": 1794127168,
+            "eventInfo": {
+                "teamA": "Qingdao Hainiu",
+                "teamB": "Shenzhen Xinpengcheng",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:28 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUAAQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Qingdao%20Hainiu%20vs%20Shenzhen%20Xinpengcheng.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Dalian Yingbo vs Tianjin Jinmen Tiger",
+            "timestamp": 1794127168,
+            "eventInfo": {
+                "teamA": "Dalian Yingbo",
+                "teamB": "Tianjin Jinmen Tiger",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:28 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Dalian%20Yingbo%20vs%20Tianjin%20Jinmen%20Tiger.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Beijing Guoan vs Chongqing Tonglianglong",
+            "timestamp": 1794127168,
+            "eventInfo": {
+                "teamA": "Beijing Guoan",
+                "teamB": "Chongqing Tonglianglong",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:28 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Beijing%20Guoan%20vs%20Chongqing%20Tonglianglong.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Gangwon vs Jeonbuk",
+            "timestamp": 1794127169,
+            "eventInfo": {
+                "teamA": "Gangwon",
+                "teamB": "Jeonbuk",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:29 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJUA.m3u8",
+                    "referer": "http://www.fawanews.sc/Gangwon%20vs%20Jeonbuk.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Bucheon FC 1995 vs Pohang",
+            "timestamp": 1794127169,
+            "eventInfo": {
+                "teamA": "Bucheon FC 1995",
+                "teamB": "Pohang",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:29 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JUJUJU.m3u8",
+                    "referer": "http://www.fawanews.sc/Bucheon%20FC%201995%20vs%20Pohang.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Daejeon vs Incheon",
+            "timestamp": 1794127169,
+            "eventInfo": {
+                "teamA": "Daejeon",
+                "teamB": "Incheon",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 08:39:29 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.55/hls/FVVVAQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Daejeon%20vs%20Incheon.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Golf Abu Dhabi Championship_3",
-            "timestamp": 1794124168,
+            "timestamp": 1794127170,
             "eventInfo": {
                 "teamA": "Golf Abu Dhabi Championship_3",
                 "teamB": "",
@@ -41,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:28 AM"
+                "startTime": "08/11/2026 08:39:30 AM"
             },
             "streams": [
                 {
@@ -56,7 +355,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Perth vs Cairns Taipans",
-            "timestamp": 1794124168,
+            "timestamp": 1794127170,
             "eventInfo": {
                 "teamA": "Perth",
                 "teamB": "Cairns Taipans",
@@ -64,7 +363,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:28 AM"
+                "startTime": "08/11/2026 08:39:30 AM"
             },
             "streams": [
                 {
@@ -79,7 +378,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Adelaide United vs Melbourne Victory",
-            "timestamp": 1794124169,
+            "timestamp": 1794127170,
             "eventInfo": {
                 "teamA": "Adelaide United",
                 "teamB": "Melbourne Victory",
@@ -87,7 +386,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:29 AM"
+                "startTime": "08/11/2026 08:39:30 AM"
             },
             "streams": [
                 {
@@ -102,7 +401,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Gamba Osaka vs Cerezo Osaka",
-            "timestamp": 1794124169,
+            "timestamp": 1794127170,
             "eventInfo": {
                 "teamA": "Gamba Osaka",
                 "teamB": "Cerezo Osaka",
@@ -110,7 +409,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:29 AM"
+                "startTime": "08/11/2026 08:39:30 AM"
             },
             "streams": [
                 {
@@ -125,7 +424,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vissel Kobe vs Urawa Reds",
-            "timestamp": 1794124169,
+            "timestamp": 1794127171,
             "eventInfo": {
                 "teamA": "Vissel Kobe",
                 "teamB": "Urawa Reds",
@@ -133,7 +432,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:29 AM"
+                "startTime": "08/11/2026 08:39:31 AM"
             },
             "streams": [
                 {
@@ -148,7 +447,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Machida vs Sanfrecce Hiroshima",
-            "timestamp": 1794124169,
+            "timestamp": 1794127171,
             "eventInfo": {
                 "teamA": "Machida",
                 "teamB": "Sanfrecce Hiroshima",
@@ -156,7 +455,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:29 AM"
+                "startTime": "08/11/2026 08:39:31 AM"
             },
             "streams": [
                 {
@@ -170,54 +469,8 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Seoul vs Ulsan HD",
-            "timestamp": 1794124169,
-            "eventInfo": {
-                "teamA": "Seoul",
-                "teamB": "Ulsan HD",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "08/11/2026 07:49:29 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.55/hls/FVVVAQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Seoul%20vs%20Ulsan%20HD.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Daejeon vs Incheon",
-            "timestamp": 1794124170,
-            "eventInfo": {
-                "teamA": "Daejeon",
-                "teamB": "Incheon",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "08/11/2026 07:49:30 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.55/hls/FVVVAQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Daejeon%20vs%20Incheon.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "Macarthur FC vs Brisbane Roar",
-            "timestamp": 1794124170,
+            "timestamp": 1794127171,
             "eventInfo": {
                 "teamA": "Macarthur FC",
                 "teamB": "Brisbane Roar",
@@ -225,7 +478,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:30 AM"
+                "startTime": "08/11/2026 08:39:31 AM"
             },
             "streams": [
                 {
@@ -240,7 +493,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sydney vs South East Melbourne",
-            "timestamp": 1794124170,
+            "timestamp": 1794127171,
             "eventInfo": {
                 "teamA": "Sydney",
                 "teamB": "South East Melbourne",
@@ -248,7 +501,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:30 AM"
+                "startTime": "08/11/2026 08:39:31 AM"
             },
             "streams": [
                 {
@@ -263,7 +516,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "UNLV Rebels vs Wyoming",
-            "timestamp": 1794124170,
+            "timestamp": 1794127172,
             "eventInfo": {
                 "teamA": "UNLV Rebels",
                 "teamB": "Wyoming",
@@ -271,7 +524,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:30 AM"
+                "startTime": "08/11/2026 08:39:32 AM"
             },
             "streams": [
                 {
@@ -286,7 +539,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Oregon State vs Texas State Bobcats",
-            "timestamp": 1794124170,
+            "timestamp": 1794127172,
             "eventInfo": {
                 "teamA": "Oregon State",
                 "teamB": "Texas State Bobcats",
@@ -294,7 +547,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:30 AM"
+                "startTime": "08/11/2026 08:39:32 AM"
             },
             "streams": [
                 {
@@ -309,7 +562,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "UNAM Pumas vs Club America",
-            "timestamp": 1794124171,
+            "timestamp": 1794127172,
             "eventInfo": {
                 "teamA": "UNAM Pumas",
                 "teamB": "Club America",
@@ -317,7 +570,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:31 AM"
+                "startTime": "08/11/2026 08:39:32 AM"
             },
             "streams": [
                 {
@@ -332,7 +585,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Edmonton Oilers vs Vancouver Canucks",
-            "timestamp": 1794124171,
+            "timestamp": 1794127173,
             "eventInfo": {
                 "teamA": "Edmonton Oilers",
                 "teamB": "Vancouver Canucks",
@@ -340,7 +593,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:31 AM"
+                "startTime": "08/11/2026 08:39:33 AM"
             },
             "streams": [
                 {
@@ -355,7 +608,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "UTEP vs Hawaii",
-            "timestamp": 1794124171,
+            "timestamp": 1794127173,
             "eventInfo": {
                 "teamA": "UTEP",
                 "teamB": "Hawaii",
@@ -363,7 +616,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:31 AM"
+                "startTime": "08/11/2026 08:39:33 AM"
             },
             "streams": [
                 {
@@ -378,7 +631,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Utah State vs Fresno State",
-            "timestamp": 1794124171,
+            "timestamp": 1794127173,
             "eventInfo": {
                 "teamA": "Utah State",
                 "teamB": "Fresno State",
@@ -386,7 +639,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:31 AM"
+                "startTime": "08/11/2026 08:39:33 AM"
             },
             "streams": [
                 {
@@ -401,7 +654,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Texas Tech vs West Virginia",
-            "timestamp": 1794124171,
+            "timestamp": 1794127173,
             "eventInfo": {
                 "teamA": "Texas Tech",
                 "teamB": "West Virginia",
@@ -409,7 +662,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:31 AM"
+                "startTime": "08/11/2026 08:39:33 AM"
             },
             "streams": [
                 {
@@ -424,7 +677,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Los Angeles Kings vs Pittsburgh Penguins",
-            "timestamp": 1794124172,
+            "timestamp": 1794127174,
             "eventInfo": {
                 "teamA": "Los Angeles Kings",
                 "teamB": "Pittsburgh Penguins",
@@ -432,7 +685,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:32 AM"
+                "startTime": "08/11/2026 08:39:34 AM"
             },
             "streams": [
                 {
@@ -447,7 +700,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Colorado Avalanche vs Detroit Red Wings",
-            "timestamp": 1794124172,
+            "timestamp": 1794127174,
             "eventInfo": {
                 "teamA": "Colorado Avalanche",
                 "teamB": "Detroit Red Wings",
@@ -455,7 +708,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:32 AM"
+                "startTime": "08/11/2026 08:39:34 AM"
             },
             "streams": [
                 {
@@ -470,7 +723,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Supercars Championship Gold Coast 500",
-            "timestamp": 1794124172,
+            "timestamp": 1794127174,
             "eventInfo": {
                 "teamA": "Supercars Championship Gold Coast 500",
                 "teamB": "",
@@ -478,7 +731,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:32 AM"
+                "startTime": "08/11/2026 08:39:34 AM"
             },
             "streams": [
                 {
@@ -493,7 +746,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Golf LPGA Toto Japan Classic",
-            "timestamp": 1794124172,
+            "timestamp": 1794127174,
             "eventInfo": {
                 "teamA": "Golf LPGA Toto Japan Classic",
                 "teamB": "",
@@ -501,7 +754,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 07:49:32 AM"
+                "startTime": "08/11/2026 08:39:34 AM"
             },
             "streams": [
                 {
