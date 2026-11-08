@@ -2,15 +2,84 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "10:25:39 PM 08-11-2026",
-    "total_matches": 56,
-    "live_match": 31,
+    "last_update_time": "11:25:40 PM 08-11-2026",
+    "total_matches": 63,
+    "live_match": 38,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Boxing_Turhan vs Baumgardner",
+            "timestamp": 1794180324,
+            "eventInfo": {
+                "teamA": "Boxing_Turhan",
+                "teamB": "Baumgardner",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 11:25:24 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/zyyy.m3u8",
+                    "referer": "http://www.fawanews.sc/Boxing_Turhan%20vs%20Baumgardner.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Detroit Pistons vs Los Angeles Lakers",
+            "timestamp": 1794180326,
+            "eventInfo": {
+                "teamA": "Detroit Pistons",
+                "teamB": "Los Angeles Lakers",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 11:25:26 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/yooo.m3u8",
+                    "referer": "http://www.fawanews.sc/Detroit%20Pistons%20vs%20Los%20Angeles%20Lakers.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Detroit Pistons vs Los Angeles Lakers --- CH 2",
+            "timestamp": 1794180326,
+            "eventInfo": {
+                "teamA": "Detroit Pistons",
+                "teamB": "Los Angeles Lakers --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 11:25:26 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/532a5970-ae56-4429-a351-30c7b3b55404.m3u8",
+                    "referer": "http://www.fawanews.sc/Detroit%20Pistons%20vs%20Los%20Angeles%20Lakers%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Chicago Bulls vs Philadelphia 76ers",
-            "timestamp": 1794176723,
+            "timestamp": 1794180327,
             "eventInfo": {
                 "teamA": "Chicago Bulls",
                 "teamB": "Philadelphia 76ers",
@@ -18,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:23 PM"
+                "startTime": "08/11/2026 11:25:27 PM"
             },
             "streams": [
                 {
@@ -33,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Chicago Bulls vs Philadelphia 76ers --- CH 2",
-            "timestamp": 1794176723,
+            "timestamp": 1794180327,
             "eventInfo": {
                 "teamA": "Chicago Bulls",
                 "teamB": "Philadelphia 76ers --- CH 2",
@@ -41,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:23 PM"
+                "startTime": "08/11/2026 11:25:27 PM"
             },
             "streams": [
                 {
@@ -55,8 +124,100 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Deportes Tolima vs Millonarios",
+            "timestamp": 1794180327,
+            "eventInfo": {
+                "teamA": "Deportes Tolima",
+                "teamB": "Millonarios",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 11:25:27 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/C555AA.m3u8",
+                    "referer": "http://www.fawanews.sc/Deportes%20Tolima%20vs%20Millonarios.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Winnipeg Jets vs Tampa Bay Lightning",
+            "timestamp": 1794180328,
+            "eventInfo": {
+                "teamA": "Winnipeg Jets",
+                "teamB": "Tampa Bay Lightning",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 11:25:28 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/ac174eca-ff1b-4a42-8daa-593b59489fa9/master.m3u8",
+                    "referer": "http://www.fawanews.sc/Winnipeg%20Jets%20vs%20Tampa%20Bay%20Lightning.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "U De Concepcion vs OHiggins",
+            "timestamp": 1794180328,
+            "eventInfo": {
+                "teamA": "U De Concepcion",
+                "teamB": "OHiggins",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 11:25:28 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/FYYYQQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/U%20De%20Concepcion%20vs%20OHiggins.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Deportivo Garcilaso vs Comerciantes Unidos",
+            "timestamp": 1794180328,
+            "eventInfo": {
+                "teamA": "Deportivo Garcilaso",
+                "teamB": "Comerciantes Unidos",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "08/11/2026 11:25:28 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/FYYYQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Deportivo%20Garcilaso%20vs%20Comerciantes%20Unidos.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Central Cordoba vs Lanus",
-            "timestamp": 1794176724,
+            "timestamp": 1794180328,
             "eventInfo": {
                 "teamA": "Central Cordoba",
                 "teamB": "Lanus",
@@ -64,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:24 PM"
+                "startTime": "08/11/2026 11:25:28 PM"
             },
             "streams": [
                 {
@@ -79,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sportivo Trinidense vs Ameliano",
-            "timestamp": 1794176724,
+            "timestamp": 1794180329,
             "eventInfo": {
                 "teamA": "Sportivo Trinidense",
                 "teamB": "Ameliano",
@@ -87,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:24 PM"
+                "startTime": "08/11/2026 11:25:29 PM"
             },
             "streams": [
                 {
@@ -102,7 +263,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Goias vs Ponte Preta",
-            "timestamp": 1794176725,
+            "timestamp": 1794180329,
             "eventInfo": {
                 "teamA": "Goias",
                 "teamB": "Ponte Preta",
@@ -110,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:25 PM"
+                "startTime": "08/11/2026 11:25:29 PM"
             },
             "streams": [
                 {
@@ -125,7 +286,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Ceara vs America MG",
-            "timestamp": 1794176725,
+            "timestamp": 1794180329,
             "eventInfo": {
                 "teamA": "Ceara",
                 "teamB": "America MG",
@@ -133,7 +294,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:25 PM"
+                "startTime": "08/11/2026 11:25:29 PM"
             },
             "streams": [
                 {
@@ -148,7 +309,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Bolivar vs The Strongest",
-            "timestamp": 1794176725,
+            "timestamp": 1794180329,
             "eventInfo": {
                 "teamA": "Bolivar",
                 "teamB": "The Strongest",
@@ -156,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:25 PM"
+                "startTime": "08/11/2026 11:25:29 PM"
             },
             "streams": [
                 {
@@ -171,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Jaguares de Cordoba vs Bucaramanga",
-            "timestamp": 1794176726,
+            "timestamp": 1794180330,
             "eventInfo": {
                 "teamA": "Jaguares de Cordoba",
                 "teamB": "Bucaramanga",
@@ -179,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:26 PM"
+                "startTime": "08/11/2026 11:25:30 PM"
             },
             "streams": [
                 {
@@ -194,7 +355,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Montreal Roses W vs Vancouver Rise W",
-            "timestamp": 1794176726,
+            "timestamp": 1794180330,
             "eventInfo": {
                 "teamA": "Montreal Roses W",
                 "teamB": "Vancouver Rise W",
@@ -202,7 +363,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:26 PM"
+                "startTime": "08/11/2026 11:25:30 PM"
             },
             "streams": [
                 {
@@ -217,7 +378,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Estrela vs Benfica",
-            "timestamp": 1794176726,
+            "timestamp": 1794180330,
             "eventInfo": {
                 "teamA": "Estrela",
                 "teamB": "Benfica",
@@ -225,7 +386,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:26 PM"
+                "startTime": "08/11/2026 11:25:30 PM"
             },
             "streams": [
                 {
@@ -240,7 +401,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Estrela vs Benfica --- CH 2",
-            "timestamp": 1794176726,
+            "timestamp": 1794180330,
             "eventInfo": {
                 "teamA": "Estrela",
                 "teamB": "Benfica --- CH 2",
@@ -248,7 +409,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:26 PM"
+                "startTime": "08/11/2026 11:25:30 PM"
             },
             "streams": [
                 {
@@ -263,7 +424,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Rio Ave vs Sporting Braga",
-            "timestamp": 1794176727,
+            "timestamp": 1794180331,
             "eventInfo": {
                 "teamA": "Rio Ave",
                 "teamB": "Sporting Braga",
@@ -271,7 +432,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:27 PM"
+                "startTime": "08/11/2026 11:25:31 PM"
             },
             "streams": [
                 {
@@ -286,7 +447,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Rio Ave vs Sporting Braga --- CH 2",
-            "timestamp": 1794176727,
+            "timestamp": 1794180331,
             "eventInfo": {
                 "teamA": "Rio Ave",
                 "teamB": "Sporting Braga --- CH 2",
@@ -294,7 +455,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:27 PM"
+                "startTime": "08/11/2026 11:25:31 PM"
             },
             "streams": [
                 {
@@ -309,7 +470,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Buffalo Sabres vs Vegas Golden Knights",
-            "timestamp": 1794176728,
+            "timestamp": 1794180331,
             "eventInfo": {
                 "teamA": "Buffalo Sabres",
                 "teamB": "Vegas Golden Knights",
@@ -317,7 +478,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:28 PM"
+                "startTime": "08/11/2026 11:25:31 PM"
             },
             "streams": [
                 {
@@ -332,7 +493,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Union La Calera vs Huachipato",
-            "timestamp": 1794176728,
+            "timestamp": 1794180331,
             "eventInfo": {
                 "teamA": "Union La Calera",
                 "teamB": "Huachipato",
@@ -340,7 +501,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:28 PM"
+                "startTime": "08/11/2026 11:25:31 PM"
             },
             "streams": [
                 {
@@ -355,7 +516,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sport Boys vs Cajamarca",
-            "timestamp": 1794176728,
+            "timestamp": 1794180332,
             "eventInfo": {
                 "teamA": "Sport Boys",
                 "teamB": "Cajamarca",
@@ -363,7 +524,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:28 PM"
+                "startTime": "08/11/2026 11:25:32 PM"
             },
             "streams": [
                 {
@@ -378,7 +539,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Stade Rochelais vs Aviron Bayonnais",
-            "timestamp": 1794176728,
+            "timestamp": 1794180332,
             "eventInfo": {
                 "teamA": "Stade Rochelais",
                 "teamB": "Aviron Bayonnais",
@@ -386,7 +547,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:28 PM"
+                "startTime": "08/11/2026 11:25:32 PM"
             },
             "streams": [
                 {
@@ -401,7 +562,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis WTA Finals Indian Wells",
-            "timestamp": 1794176729,
+            "timestamp": 1794180332,
             "eventInfo": {
                 "teamA": "Tennis WTA Finals Indian Wells",
                 "teamB": "",
@@ -409,7 +570,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:29 PM"
+                "startTime": "08/11/2026 11:25:32 PM"
             },
             "streams": [
                 {
@@ -424,7 +585,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "NASCAR Cup Series Championship Race",
-            "timestamp": 1794176729,
+            "timestamp": 1794180332,
             "eventInfo": {
                 "teamA": "NASCAR Cup Series Championship Race",
                 "teamB": "",
@@ -432,7 +593,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:29 PM"
+                "startTime": "08/11/2026 11:25:32 PM"
             },
             "streams": [
                 {
@@ -447,7 +608,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vasco vs Palmeiras",
-            "timestamp": 1794176729,
+            "timestamp": 1794180333,
             "eventInfo": {
                 "teamA": "Vasco",
                 "teamB": "Palmeiras",
@@ -455,7 +616,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:29 PM"
+                "startTime": "08/11/2026 11:25:33 PM"
             },
             "streams": [
                 {
@@ -470,7 +631,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Raja Casablanca vs IR Tanger",
-            "timestamp": 1794176730,
+            "timestamp": 1794180333,
             "eventInfo": {
                 "teamA": "Raja Casablanca",
                 "teamB": "IR Tanger",
@@ -478,7 +639,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:30 PM"
+                "startTime": "08/11/2026 11:25:33 PM"
             },
             "streams": [
                 {
@@ -493,7 +654,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Washington Spirit W vs Portland Thorns W",
-            "timestamp": 1794176730,
+            "timestamp": 1794180333,
             "eventInfo": {
                 "teamA": "Washington Spirit W",
                 "teamB": "Portland Thorns W",
@@ -501,7 +662,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:30 PM"
+                "startTime": "08/11/2026 11:25:33 PM"
             },
             "streams": [
                 {
@@ -516,7 +677,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Cerro Porteno vs Recoleta",
-            "timestamp": 1794176730,
+            "timestamp": 1794180333,
             "eventInfo": {
                 "teamA": "Cerro Porteno",
                 "teamB": "Recoleta",
@@ -524,7 +685,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:30 PM"
+                "startTime": "08/11/2026 11:25:33 PM"
             },
             "streams": [
                 {
@@ -539,7 +700,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Fiorentina vs Juventus",
-            "timestamp": 1794176731,
+            "timestamp": 1794180334,
             "eventInfo": {
                 "teamA": "Fiorentina",
                 "teamB": "Juventus",
@@ -547,7 +708,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:31 PM"
+                "startTime": "08/11/2026 11:25:34 PM"
             },
             "streams": [
                 {
@@ -562,7 +723,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Fiorentina vs Juventus --- CH 2",
-            "timestamp": 1794176731,
+            "timestamp": 1794180334,
             "eventInfo": {
                 "teamA": "Fiorentina",
                 "teamB": "Juventus --- CH 2",
@@ -570,7 +731,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:31 PM"
+                "startTime": "08/11/2026 11:25:34 PM"
             },
             "streams": [
                 {
@@ -585,7 +746,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Lens vs Marseille",
-            "timestamp": 1794176731,
+            "timestamp": 1794180334,
             "eventInfo": {
                 "teamA": "Lens",
                 "teamB": "Marseille",
@@ -593,7 +754,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:31 PM"
+                "startTime": "08/11/2026 11:25:34 PM"
             },
             "streams": [
                 {
@@ -608,7 +769,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Lens vs Marseille --- CH 2",
-            "timestamp": 1794176731,
+            "timestamp": 1794180334,
             "eventInfo": {
                 "teamA": "Lens",
                 "teamB": "Marseille --- CH 2",
@@ -616,7 +777,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:31 PM"
+                "startTime": "08/11/2026 11:25:34 PM"
             },
             "streams": [
                 {
@@ -631,7 +792,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Lech Poznan vs Zaglebie",
-            "timestamp": 1794176732,
+            "timestamp": 1794180335,
             "eventInfo": {
                 "teamA": "Lech Poznan",
                 "teamB": "Zaglebie",
@@ -639,7 +800,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:32 PM"
+                "startTime": "08/11/2026 11:25:35 PM"
             },
             "streams": [
                 {
@@ -654,7 +815,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Stal Mielec vs Ruch Chorzow",
-            "timestamp": 1794176732,
+            "timestamp": 1794180335,
             "eventInfo": {
                 "teamA": "Stal Mielec",
                 "teamB": "Ruch Chorzow",
@@ -662,7 +823,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:32 PM"
+                "startTime": "08/11/2026 11:25:35 PM"
             },
             "streams": [
                 {
@@ -677,7 +838,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Golf World Wide Technology Championship",
-            "timestamp": 1794176732,
+            "timestamp": 1794180335,
             "eventInfo": {
                 "teamA": "Golf World Wide Technology Championship",
                 "teamB": "",
@@ -685,7 +846,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:32 PM"
+                "startTime": "08/11/2026 11:25:35 PM"
             },
             "streams": [
                 {
@@ -700,7 +861,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Boston Bruins vs Florida Panthers",
-            "timestamp": 1794176733,
+            "timestamp": 1794180335,
             "eventInfo": {
                 "teamA": "Boston Bruins",
                 "teamB": "Florida Panthers",
@@ -708,7 +869,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "08/11/2026 10:25:33 PM"
+                "startTime": "08/11/2026 11:25:35 PM"
             },
             "streams": [
                 {
