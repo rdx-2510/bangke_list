@@ -39,7 +39,6 @@ def process_single_movie(movie_url):
           else 'Unknown Title'
       )
 
-    # Ambil tahun dari judul (misal: "Heart of the Beast (2026)")
     year_match = re.search(r'\((\d{4})\)', raw_title)
     year = year_match.group(1) if year_match else ''
 
@@ -50,10 +49,10 @@ def process_single_movie(movie_url):
     ).strip()
     title = html.unescape(title)
 
-    # 2. Rating Dinamis Asli
-    rating_match = re.search(r'★\s*([\d\.]+)', res.text)
+    # 2. Rating Dinamis Akurat (Mencegah salah tangkap usia 17+ atau titik gantung)
+    rating_match = re.search(r'★\s*([0-9]+(?:\.[0-9]+)?)', res.text)
     if not rating_match:
-        rating_match = re.search(r'(?:Rating|rating)[^\d]*([\d\.]+)', res.text)
+        rating_match = re.search(r'(?:Rating|rating)[^\d]*([0-9]+(?:\.[0-9]+)?)', res.text, re.IGNORECASE)
     rating = rating_match.group(1) if rating_match else '0.0'
 
     # 3. Poster
@@ -62,7 +61,7 @@ def process_single_movie(movie_url):
     )
     poster = poster_match.group(1) if poster_match else ''
 
-    # 4. Ekstrak Genre Bersih
+    # 4. Genre Bersih
     genre_slugs = re.findall(
         r'href=[\'"](?:https?://[^\'"]+)?/genre/([a-zA-Z0-9-]+)/?[\'"]', 
         res.text
@@ -72,46 +71,33 @@ def process_single_movie(movie_url):
     else:
       genres = ['Movie']
 
-    # 5. Ekstrak Sinopsis, Negara, Pemeran, dan Durasi
-    synopsis_paragraphs = []
-    country = ''
-    cast = ''
-    duration = ''
-    director = ''
+    # 5. Sinopsis (Murni dari Meta Description agar bebas sampah HTML)
+    syn_match = re.search(r'<meta (?:property="og:description"|name="description") content="([^"]+)"', res.text, re.IGNORECASE)
+    raw_synopsis = syn_match.group(1) if syn_match else ""
+    synopsis = re.sub(r'(?i)Nonton\s+.*?(?:PUSATFILM21|subtitle Indonesia).*?(?:\.|$)', '', raw_synopsis).strip()
+    synopsis = html.unescape(synopsis)
 
-    # Mengambil semua teks di dalam tag paragraf <p>
-    paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', res.text, re.DOTALL | re.IGNORECASE)
-    for p in paragraphs:
-        # Bersihkan tag HTML di dalam paragraf
-        clean_text = re.sub(r'<[^>]+>', '', p).strip()
-        clean_text = html.unescape(clean_text)
-        if not clean_text: 
-            continue
-            
-        # Deteksi apakah ini paragraf informasi SEO (biasanya diawali "Nonton...")
-        if clean_text.lower().startswith('nonton ') and 'disutradarai' in clean_text.lower():
-            # Tangkap Negara
-            c_match = re.search(r'dari\s+([A-Z][a-zA-Z\s]+?)\s+ini\s+disutradarai', clean_text)
-            if c_match: country = c_match.group(1).strip()
-            
-            # Tangkap Sutradara
-            dir_match = re.search(r'disutradarai\s+(.+?)\s+dan\s+dibintangi', clean_text)
-            if dir_match: director = dir_match.group(1).strip()
-            
-            # Tangkap Pemeran (Cast)
-            cast_match = re.search(r'dibintangi\s+(.+?)\.\s*Durasi', clean_text)
-            if cast_match: cast = cast_match.group(1).strip()
-            
-            # Tangkap Durasi
-            dur_match = re.search(r'Durasi\s+([^,]+)', clean_text)
-            if dur_match: duration = dur_match.group(1).strip()
-        else:
-            # Jika bukan paragraf data, berarti ini adalah Sinopsis cerita
-            synopsis_paragraphs.append(clean_text)
+    # 6. Metadata Spesifik (Negara, Sutradara, Pemeran, Durasi)
+    country, cast, duration, director = '', '', '', ''
+    
+    seo_match = re.search(r'(Film\s+[^<]+?dari\s+[^<]+?disutradarai[^<]+)', res.text, re.IGNORECASE)
+    if seo_match:
+        seo_text = seo_match.group(1)
+        c_match = re.search(r'dari\s+([A-Z][a-zA-Z\s]+?)\s+ini', seo_text)
+        if c_match: country = c_match.group(1).strip()
+        
+        dir_match = re.search(r'disutradarai\s+(.+?)\s+dan\s+dibintangi', seo_text)
+        if dir_match: director = dir_match.group(1).strip()
+        
+        cast_match = re.search(r'dibintangi\s+(.+?)\.', seo_text)
+        if cast_match: cast = cast_match.group(1).strip()
 
-    synopsis = '\n\n'.join(synopsis_paragraphs)
+    dur_match = re.search(r'Durasi\s+(\d+\s*jam\s*\d*\s*menit|\d+\s*menit)', res.text, re.IGNORECASE)
+    if not dur_match:
+        dur_match = re.search(r'>\s*(\d+j\s*\d+m|\d+m)\s*<', res.text)
+    if dur_match: duration = dur_match.group(1).strip()
 
-    # 6. Embed KotakAjaib
+    # 7. Embed KotakAjaib
     embed_match = re.search(
         r'https?://kotakajaib\.me/embed/[^\'"]+', res.text
     )
@@ -124,7 +110,7 @@ def process_single_movie(movie_url):
       embed_url = embed_match.group(0)
 
     if embed_url:
-      print(f'[OK] Sukses: {title} | Rating: {rating} | Negara: {country} | Durasi: {duration}')
+      print(f'[OK] Sukses: {title} | Rating: {rating} | Durasi: {duration}')
       return {
           'title': title,
           'year': year,
@@ -144,7 +130,7 @@ def process_single_movie(movie_url):
   return None
 
 
-def scrape_pusatfilm(start_page=1, max_pages=10):
+def scrape_pusatfilm():
   movies_data = []
 
   if os.path.exists('movies.json'):
@@ -156,57 +142,58 @@ def scrape_pusatfilm(start_page=1, max_pages=10):
 
   processed_urls = {item.get('url') for item in movies_data if 'url' in item}
 
-  # Loop pemindaian multi-halaman
-  for page in range(start_page, max_pages + 1):
-    if page == 1:
-        target_urls = ['https://new1.pusatfilm21info.com/movie/', 'https://new1.pusatfilm21info.com/']
-    else:
-        target_urls = [f'https://new1.pusatfilm21info.com/movie/page/{page}/', f'https://new1.pusatfilm21info.com/page/{page}/']
-    
-    res = None
-    for url in target_urls:
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=15)
-            if r.status_code == 200:
-                res = r
-                print(f'\n[+] Memindai Katalog: {url}')
-                break
-        except Exception:
-            pass
-            
-    if not res or res.status_code != 200:
-        print(f'[-] Halaman {page} tidak ditemukan (404). Berhenti memindai halaman selanjutnya.')
-        break
+  # Daftar rute Panen Raya (Beranda + Kategori Populer)
+  target_urls = ['https://new1.pusatfilm21info.com/']
+  genres = ['action', 'horror', 'comedy', 'thriller', 'drama', 'sci-fi', 'adventure', 'animation', 'romance']
+  
+  for g in genres:
+      target_urls.append(f'https://new1.pusatfilm21info.com/genre/{g}/')
+      target_urls.append(f'https://new1.pusatfilm21info.com/genre/{g}/page/2/')
 
-    movie_links = re.findall(
-        r'href=[\'"](https?://new1\.pusatfilm21info\.com/movie/[^\'"]+)[\'"]',
-        res.text,
-    )
-    if not movie_links:
-      movie_links = re.findall(r'href=[\'"](/movie/[^\'"]+)[\'"]', res.text)
-      movie_links = [f'https://new1.pusatfilm21info.com{l}' for l in movie_links]
+  for catalog_url in target_urls:
+    print(f'\n[+] Memindai Katalog: {catalog_url}')
+    try:
+      res = requests.get(catalog_url, headers=HEADERS, timeout=15)
+      if res.status_code != 200:
+        print(f'[-] Gagal diakses (Status: {res.status_code}). Lewati.')
+        continue
 
-    unprocessed_urls = [link for link in set(movie_links) if link not in processed_urls]
-    print(f'[>] Ditemukan {len(unprocessed_urls)} film baru di Halaman {page}. Memproses...')
+      movie_links = re.findall(
+          r'href=[\'"](https?://new1\.pusatfilm21info\.com/movie/[^\'"]+)[\'"]',
+          res.text,
+      )
+      if not movie_links:
+        movie_links = re.findall(r'href=[\'"](/movie/[^\'"]+)[\'"]', res.text)
+        movie_links = [f'https://new1.pusatfilm21info.com{l}' for l in movie_links]
 
-    if unprocessed_urls:
-      with ThreadPoolExecutor(max_workers=3) as executor:
-        results = list(executor.map(process_single_movie, unprocessed_urls))
+      # FILTER KRUSIAL: Buang link yang mengandung '/page/' agar bot tidak halusinasi
+      valid_links = []
+      for link in set(movie_links):
+          if '/page/' not in link and link.strip('/') != 'https://new1.pusatfilm21info.com/movie':
+              valid_links.append(link)
 
-      for item in results:
-        if item:
-          movies_data.append(item)
-          processed_urls.add(item['url'])
+      unprocessed_urls = [link for link in valid_links if link not in processed_urls]
+      print(f'[>] Ditemukan {len(unprocessed_urls)} film baru. Memproses...')
 
-      # Auto-save setiap selesai 1 halaman
-      with open('movies.json', 'w', encoding='utf-8') as f:
-        json.dump(movies_data, f, indent=2, ensure_ascii=False)
+      if unprocessed_urls:
+        with ThreadPoolExecutor(max_workers=3) as executor:
+          results = list(executor.map(process_single_movie, unprocessed_urls))
 
-    time.sleep(2) 
+        for item in results:
+          if item:
+            movies_data.append(item)
+            processed_urls.add(item['url'])
+
+        # Auto-save setiap selesai 1 rute halaman
+        with open('movies.json', 'w', encoding='utf-8') as f:
+          json.dump(movies_data, f, indent=2, ensure_ascii=False)
+
+      time.sleep(2) 
+    except Exception as e:
+      print(f'[-] Error pada {catalog_url}: {e}')
 
   print(f'\n[v] SELESAI! Total {len(movies_data)} film tersimpan di movies.json')
 
 
 if __name__ == '__main__':
-  # Menyedot dari halaman 1 sampai 10 secara otomatis
-  scrape_pusatfilm(start_page=1, max_pages=10)
+  scrape_pusatfilm()
