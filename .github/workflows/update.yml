@@ -1,4 +1,4 @@
-name: Auto Update All Playlists
+name: Auto Update Sports Playlists
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-playlist:
+  update-sports:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 pycryptodome
+          pip install requests beautifulsoup4
 
       - name: Run FawaNews Scraper
         run: python fw.py
@@ -29,12 +29,9 @@ jobs:
       - name: Run RoxieStreams Soccer Scraper
         run: python rx_soccer.py
 
-      - name: Run Movie Scraper
-        run: python scrape_all_movies.py || true
-
-      - name: Commit & Push Changes
+      - name: Commit & Push Sports Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update sports and movies playlists [skip ci]" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main)
+          git add fawanews.json roxi_soccer.json sports.json || true
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update sports playlists [skip ci]" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main)
