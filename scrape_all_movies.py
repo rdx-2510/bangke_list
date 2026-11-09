@@ -1,4 +1,5 @@
 import base64
+import html
 import json
 import os
 import re
@@ -17,6 +18,7 @@ AES_KEY = b'96fb393f57087e9333cc067bf4aa378e'
 
 
 def decrypt_player_payload(html_content):
+  """Mendekripsi payload AES-CBC dari playsobat.xyz"""
   match = re.search(
       r'window\.payload\s*=\s*("(?:[^"\\]|\\.)*")', html_content
   )
@@ -35,12 +37,13 @@ def decrypt_player_payload(html_content):
 
 
 def process_single_movie(movie_url):
+  """Memproses 1 detail film: Ekstrak Judul Bersih, Poster, Embed, & Server Player"""
   try:
     res = requests.get(movie_url, headers=HEADERS, timeout=10)
     if res.status_code != 200:
       return None
 
-    # 1. Bersihkan Judul Film (Hapus SEO Spam)
+    # 1. Ekstrak & Bersihkan Judul Film
     h1_match = re.search(
         r'<h1[^>]*class="entry-title"[^>]*>(.+?)</h1>', res.text, re.DOTALL
     )
@@ -52,6 +55,7 @@ def process_single_movie(movie_url):
       )
       raw_title = title_match.group(1) if title_match else 'Unknown Title'
 
+    # Filter frasa iklan & SEO spam
     title = re.sub(
         r'(?i)(REBAHINXXI|LK21|LAYARKACA21|REBAHIN|BIOSKOPKEREN|Nonton'
         r' Film|Sub Indo|Streaming|\s*-\s*154\.203\.167\.130)',
@@ -59,7 +63,10 @@ def process_single_movie(movie_url):
         raw_title,
     ).strip()
 
-    # 2. Ambil Poster Film Asli
+    # POLISH: Decode HTML entities (&amp; -> &, &quot; -> ", dll)
+    title = html.unescape(title)
+
+    # 2. Ekstrak Gambar Poster Asli
     poster = ''
     poster_match = re.search(
         r'<figure[^>]*class="pull-left"[^>]*>.*?<img[^>]*src="([^"]+)"',
@@ -77,7 +84,7 @@ def process_single_movie(movie_url):
           poster = img
           break
 
-    # 3. Ambil Embed Playsobat & Dekripsi Player
+    # 3. Ambil Embed URL Playsobat & Dekripsi Player
     embed_match = re.search(
         r'src=[\'"](https?://playsobat\.xyz/e/[^\'"]+)[\'"]', res.text
     )
@@ -116,11 +123,14 @@ def scrape_rebahin(start_page=1, max_pages=50):
       except Exception:
         movies_data = []
 
-  # Melewati URL yang sudah lengkap (punya judul bersih)
+  # Melewati URL yang sudah lengkap (sudah punya judul bersih tanpa &amp;)
   processed_urls = {
       item.get('url')
       for item in movies_data
-      if 'url' in item and 'title' in item and item.get('title') != ''
+      if 'url' in item
+      and 'title' in item
+      and item.get('title') != ''
+      and '&amp;' not in item.get('title')
   }
 
   for page in range(start_page, max_pages + 1):
@@ -157,7 +167,7 @@ def scrape_rebahin(start_page=1, max_pages=50):
       ]
 
       if not unprocessed:
-        print(f'[=] Semua film di halaman {page} sudah ada di database.')
+        print(f'[=] Semua film di halaman {page} sudah up-to-date.')
         continue
 
       print(
@@ -165,7 +175,6 @@ def scrape_rebahin(start_page=1, max_pages=50):
           ' paralel...'
       )
 
-      # 5 worker paralel agar cepat tapi aman dari blokir IP
       with ThreadPoolExecutor(max_workers=5) as executor:
         results = list(executor.map(process_single_movie, unprocessed))
 
@@ -174,16 +183,15 @@ def scrape_rebahin(start_page=1, max_pages=50):
           movies_data.append(item)
           processed_urls.add(item['url'])
 
-      # Auto-save ke file JSON per selesai 1 halaman
+      # Simpan bertahap per halaman
       with open('movies.json', 'w', encoding='utf-8') as f:
-        json.dump(movies_data, f, indent=2)
+        json.dump(movies_data, f, indent=2, ensure_ascii=False)
 
     except Exception as e:
-      print(f'[-] Error pada halaman {page}: {e}')
+      print(f'[-] Error halaman {page}: {e}')
 
-  print(f'\n[v] SELESAI! Total {len(movies_data)} film tersimpan di movies.json')
+  print(f'\n[v] Selesai! Total {len(movies_data)} film tersimpan di movies.json')
 
 
 if __name__ == '__main__':
-  # Sedot halaman 1 sampai 50 secara bertahap
   scrape_rebahin(start_page=1, max_pages=50)
