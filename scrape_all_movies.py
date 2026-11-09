@@ -55,13 +55,24 @@ def process_single_movie(movie_item):
     )
     poster = poster_match.group(1) if poster_match else ''
 
-    # 3. Genre
-    genre_matches = re.findall(r'/genre/([^/]+)/?', res.text)
-    genres = (
-        [g.replace('-', ' ').title() for g in set(genre_matches)]
-        if genre_matches
-        else ['Movie']
-    )
+    # 3. Ekstrak Genre yang Bersih & Akurat
+    raw_genres = re.findall(r'/genre/([^/]+)/?[^>]*>([^<]+)</a>', res.text)
+    genres = [g[1].strip() for g in raw_genres if g[1].strip()]
+    if not genres:
+      genre_matches = re.findall(r'/genre/([^/"\']+)', res.text)
+      genres = (
+          [g.replace('-', ' ').title() for g in set(genre_matches)]
+          if genre_matches
+          else ['Movie']
+      )
+    # Filter tambahan untuk memastikan tidak ada elemen HTML nyasar
+    genres = [
+        re.sub(r'<[^>]+>', '', x)
+        for x in genres
+        if '\\' not in x and 'class' not in x.lower()
+    ]
+    if not genres:
+      genres = ['Movie']
 
     # 4. Embed KotakAjaib
     embed_match = re.search(
@@ -76,7 +87,7 @@ def process_single_movie(movie_item):
       embed_url = embed_match.group(0)
 
     if embed_url:
-      print(f'[OK] Sukses: {title} | Rating: {raw_rating}')
+      print(f'[OK] Sukses: {title} | Rating: {raw_rating} | Genres: {genres}')
       return {
           'title': title,
           'rating': raw_rating,
@@ -111,13 +122,11 @@ def scrape_pusatfilm():
       print(f'[-] Gagal mengakses beranda (Status: {res.status_code})')
       return
 
-    # Tangkap semua link film di beranda (baik format /movie/ maupun dari tag card)
     movie_links = re.findall(
         r'href=[\'"](https?://new1\.pusatfilm21info\.com/movie/[^\'"]+)[\'"]',
         res.text,
     )
     if not movie_links:
-      # Cadangan regex umum jika domain relatif/berbeda
       movie_links = re.findall(r'href=[\'"](/movie/[^\'"]+)[\'"]', res.text)
       movie_links = [
           f'https://new1.pusatfilm21info.com{l}' for l in movie_links
@@ -141,7 +150,6 @@ def scrape_pusatfilm():
         if item:
           movies_data.append(item)
 
-    # PASTIKAN file movies.json selalu dibuat/diperbarui meskipun data kosong atau bertambah
     with open('movies.json', 'w', encoding='utf-8') as f:
       json.dump(movies_data, f, indent=2, ensure_ascii=False)
 
