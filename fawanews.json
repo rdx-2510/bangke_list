@@ -2,29 +2,75 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "02:07:29 PM 09-11-2026",
-    "total_matches": 28,
-    "live_match": 6,
+    "last_update_time": "03:37:50 PM 09-11-2026",
+    "total_matches": 31,
+    "live_match": 8,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Politehnica Timisoara vs CSM Resita",
-            "timestamp": 1794233242,
+            "event_name": "ZED vs Samanod",
+            "timestamp": 1794238663,
             "eventInfo": {
-                "teamA": "Politehnica Timisoara",
-                "teamB": "CSM Resita",
+                "teamA": "ZED",
+                "teamB": "Samanod",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "09/11/2026 02:07:22 PM"
+                "startTime": "09/11/2026 03:37:43 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/EIIII.m3u8",
+                    "referer": "http://www.fawanews.sc/ZED%20vs%20Samanod.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Etar vs Montana",
+            "timestamp": 1794238663,
+            "eventInfo": {
+                "teamA": "Etar",
+                "teamB": "Montana",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "09/11/2026 03:37:43 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/FYYYQQQQAAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Etar%20vs%20Montana.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "CS Dinamo Bucuresti vs Ramnicu Valcea",
+            "timestamp": 1794238663,
+            "eventInfo": {
+                "teamA": "CS Dinamo Bucuresti",
+                "teamB": "Ramnicu Valcea",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "09/11/2026 03:37:43 PM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
                     "stream_url": "http://193.47.62.59/hls/WJJJJJAa.m3u8",
-                    "referer": "http://www.fawanews.sc/Politehnica%20Timisoara%20vs%20CSM%20Resita.html",
+                    "referer": "http://www.fawanews.sc/CS%20Dinamo%20Bucuresti%20vs%20Ramnicu%20Valcea.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
@@ -33,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Wadi Degla vs Kahrabaa Ismailia",
-            "timestamp": 1794233242,
+            "timestamp": 1794238664,
             "eventInfo": {
                 "teamA": "Wadi Degla",
                 "teamB": "Kahrabaa Ismailia",
@@ -41,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "09/11/2026 02:07:22 PM"
+                "startTime": "09/11/2026 03:37:44 PM"
             },
             "streams": [
                 {
@@ -56,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker Champion of Champions",
-            "timestamp": 1794233243,
+            "timestamp": 1794238664,
             "eventInfo": {
                 "teamA": "Snooker Champion of Champions",
                 "teamB": "",
@@ -64,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "09/11/2026 02:07:23 PM"
+                "startTime": "09/11/2026 03:37:44 PM"
             },
             "streams": [
                 {
@@ -79,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis ATP Stockholm",
-            "timestamp": 1794233243,
+            "timestamp": 1794238664,
             "eventInfo": {
                 "teamA": "Tennis ATP Stockholm",
                 "teamB": "",
@@ -87,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "09/11/2026 02:07:23 PM"
+                "startTime": "09/11/2026 03:37:44 PM"
             },
             "streams": [
                 {
@@ -102,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Afghanistan vs Zimbabwe",
-            "timestamp": 1794233244,
+            "timestamp": 1794238665,
             "eventInfo": {
                 "teamA": "Afghanistan",
                 "teamB": "Zimbabwe",
@@ -110,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "09/11/2026 02:07:24 PM"
+                "startTime": "09/11/2026 03:37:45 PM"
             },
             "streams": [
                 {
@@ -125,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Pakistan vs Sri Lanka",
-            "timestamp": 1794233244,
+            "timestamp": 1794238665,
             "eventInfo": {
                 "teamA": "Pakistan",
                 "teamB": "Sri Lanka",
@@ -133,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "09/11/2026 02:07:24 PM"
+                "startTime": "09/11/2026 03:37:45 PM"
             },
             "streams": [
                 {

@@ -1,7 +1,15 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Politehnica Timisoara vs CSM Resita
+#EXTINF:-1, FawaNews - ZED vs Samanod
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Politehnica%20Timisoara%20vs%20CSM%20Resita.html
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/ZED%20vs%20Samanod.html
+http://193.47.62.59/hls/EIIII.m3u8
+#EXTINF:-1, FawaNews - Etar vs Montana
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Etar%20vs%20Montana.html
+http://193.47.62.44/hls/FYYYQQQQAAAAA.m3u8
+#EXTINF:-1, FawaNews - CS Dinamo Bucuresti vs Ramnicu Valcea
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/CS%20Dinamo%20Bucuresti%20vs%20Ramnicu%20Valcea.html
 http://193.47.62.59/hls/WJJJJJAa.m3u8
 #EXTINF:-1, FawaNews - Wadi Degla vs Kahrabaa Ismailia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
