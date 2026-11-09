@@ -55,23 +55,15 @@ def process_single_movie(movie_item):
     )
     poster = poster_match.group(1) if poster_match else ''
 
-    # 3. Ekstrak Genre yang Bersih & Akurat
-    raw_genres = re.findall(r'/genre/([^/]+)/?[^>]*>([^<]+)</a>', res.text)
-    genres = [g[1].strip() for g in raw_genres if g[1].strip()]
-    if not genres:
-      genre_matches = re.findall(r'/genre/([^/"\']+)', res.text)
-      genres = (
-          [g.replace('-', ' ').title() for g in set(genre_matches)]
-          if genre_matches
-          else ['Movie']
-      )
-    # Filter tambahan untuk memastikan tidak ada elemen HTML nyasar
-    genres = [
-        re.sub(r'<[^>]+>', '', x)
-        for x in genres
-        if '\\' not in x and 'class' not in x.lower()
-    ]
-    if not genres:
+    # 3. Ekstrak Genre Sangat Ketat (Hanya dari link href, bebas sampah React/JSON)
+    genre_slugs = re.findall(
+        r'href=[\'"](?:https?://[^\'"]+)?/genre/([a-zA-Z0-9-]+)/?[\'"]', 
+        res.text
+    )
+    if genre_slugs:
+      # Bersihkan slug (misal: "sci-fi" jadi "Sci Fi")
+      genres = [g.replace('-', ' ').title() for g in set(genre_slugs)]
+    else:
       genres = ['Movie']
 
     # 4. Embed KotakAjaib
