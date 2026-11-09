@@ -25,6 +25,9 @@ def process_single_movie(movie_url):
     if res.status_code != 200:
       return None
 
+    # Tentukan tipe konten berdasarkan URL
+    content_type = "series" if "/tv/" in movie_url or "/episode/" in movie_url else "movie"
+
     # 1. Judul & Tahun
     title_match = re.search(
         r'<meta property="og:title" content="([^"]+)"', res.text
@@ -49,11 +52,19 @@ def process_single_movie(movie_url):
     ).strip()
     title = html.unescape(title)
 
-    # 2. Rating Dinamis Akurat (Mencegah salah tangkap usia 17+ atau titik gantung)
-    rating_match = re.search(r'★\s*([0-9]+(?:\.[0-9]+)?)', res.text)
-    if not rating_match:
-        rating_match = re.search(r'(?:Rating|rating)[^\d]*([0-9]+(?:\.[0-9]+)?)', res.text, re.IGNORECASE)
-    rating = rating_match.group(1) if rating_match else '0.0'
+    # 2. Rating SUPER KETAT (Wajib angka desimal spt 7.2, anti nyangkut umur 13+)
+    rating = '0.0'
+    # Coba cari dari schema JSON-LD
+    json_rating = re.search(r'"ratingValue"\s*:\s*"?(\d+\.\d+)', res.text)
+    if json_rating:
+        rating = json_rating.group(1)
+    else:
+        # Cari pakai ikon bintang atau kata rating
+        rating_match = re.search(r'★\s*(\d+\.\d+)', res.text)
+        if not rating_match:
+            rating_match = re.search(r'(?:Rating|rating|imdb)[^\d]*(\d+\.\d+)', res.text, re.IGNORECASE)
+        if rating_match:
+            rating = rating_match.group(1)
 
     # 3. Poster
     poster_match = re.search(
@@ -110,9 +121,10 @@ def process_single_movie(movie_url):
       embed_url = embed_match.group(0)
 
     if embed_url:
-      print(f'[OK] Sukses: {title} | Rating: {rating} | Durasi: {duration}')
+      print(f'[OK] Sukses: {title} | Type: {content_type} | Rating: {rating}')
       return {
           'title': title,
+          'type': content_type,
           'year': year,
           'rating': rating,
           'duration': duration,
@@ -142,8 +154,11 @@ def scrape_pusatfilm():
 
   processed_urls = {item.get('url') for item in movies_data if 'url' in item}
 
-  # Daftar rute Panen Raya (Beranda + Kategori Populer)
-  target_urls = ['https://new1.pusatfilm21info.com/']
+  # Daftar rute Panen Raya (Beranda, Kategori Populer, & TV Series)
+  target_urls = [
+      'https://new1.pusatfilm21info.com/',
+      'https://new1.pusatfilm21info.com/tv/'
+  ]
   genres = ['action', 'horror', 'comedy', 'thriller', 'drama', 'sci-fi', 'adventure', 'animation', 'romance']
   
   for g in genres:
@@ -158,22 +173,23 @@ def scrape_pusatfilm():
         print(f'[-] Gagal diakses (Status: {res.status_code}). Lewati.')
         continue
 
+      # Regex diperluas untuk menculik URL /movie/, /tv/, dan /episode/
       movie_links = re.findall(
-          r'href=[\'"](https?://new1\.pusatfilm21info\.com/movie/[^\'"]+)[\'"]',
+          r'href=[\'"](https?://new1\.pusatfilm21info\.com/(?:movie|tv|episode)/[^\'"]+)[\'"]',
           res.text,
       )
       if not movie_links:
-        movie_links = re.findall(r'href=[\'"](/movie/[^\'"]+)[\'"]', res.text)
+        movie_links = re.findall(r'href=[\'"](/(?:movie|tv|episode)/[^\'"]+)[\'"]', res.text)
         movie_links = [f'https://new1.pusatfilm21info.com{l}' for l in movie_links]
 
-      # FILTER KRUSIAL: Buang link yang mengandung '/page/' agar bot tidak halusinasi
+      # FILTER KRUSIAL: Buang link halaman pagination
       valid_links = []
       for link in set(movie_links):
-          if '/page/' not in link and link.strip('/') != 'https://new1.pusatfilm21info.com/movie':
+          if '/page/' not in link and link.strip('/') not in ['https://new1.pusatfilm21info.com/movie', 'https://new1.pusatfilm21info.com/tv']:
               valid_links.append(link)
 
       unprocessed_urls = [link for link in valid_links if link not in processed_urls]
-      print(f'[>] Ditemukan {len(unprocessed_urls)} film baru. Memproses...')
+      print(f'[>] Ditemukan {len(unprocessed_urls)} konten baru. Memproses...')
 
       if unprocessed_urls:
         with ThreadPoolExecutor(max_workers=3) as executor:
@@ -184,7 +200,7 @@ def scrape_pusatfilm():
             movies_data.append(item)
             processed_urls.add(item['url'])
 
-        # Auto-save setiap selesai 1 rute halaman
+        # Auto-save file
         with open('movies.json', 'w', encoding='utf-8') as f:
           json.dump(movies_data, f, indent=2, ensure_ascii=False)
 
@@ -192,7 +208,7 @@ def scrape_pusatfilm():
     except Exception as e:
       print(f'[-] Error pada {catalog_url}: {e}')
 
-  print(f'\n[v] SELESAI! Total {len(movies_data)} film tersimpan di movies.json')
+  print(f'\n[v] SELESAI! Total {len(movies_data)} konten tersimpan di movies.json')
 
 
 if __name__ == '__main__':
