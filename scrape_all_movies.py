@@ -35,18 +35,46 @@ def decrypt_player_payload(html_content):
 
 
 def process_single_movie(movie_url):
-  """Memproses 1 film secara paralel"""
+  """Memproses 1 film: Ambil Judul, Poster, Embed URL, & Player JSON"""
   try:
     res = requests.get(movie_url, headers=HEADERS, timeout=8)
     if res.status_code != 200:
       return None
-    match = re.search(
+
+    # 1. Ekstrak Judul Film dari Meta Tag / H1
+    title_match = re.search(
+        r'<meta property="og:title" content="([^"]+)"', res.text
+    )
+    if not title_match:
+      title_match = re.search(
+          r'<h1[^>]*class="entry-title"[^>]*>(.+?)</h1>', res.text
+      )
+
+    raw_title = title_match.group(1) if title_match else 'Unknown Title'
+    # Bersihkan frasa bawaan Muvipro jika ada
+    title = (
+        raw_title.replace('Nonton Film ', '')
+        .replace(' Sub Indo', '')
+        .replace(' Streaming', '')
+        .strip()
+    )
+
+    # 2. Ekstrak Link Poster Gambar
+    poster_match = re.search(
+        r'<meta property="og:image" content="([^"]+)"', res.text
+    )
+    if not poster_match:
+      poster_match = re.search(r'class="thumb"[^>]*src="([^"]+)"', res.text)
+    poster = poster_match.group(1) if poster_match else ''
+
+    # 3. Ekstrak Embed URL Playsobat
+    embed_match = re.search(
         r'src=[\'"](https?://playsobat\.xyz/e/[^\'"]+)[\'"]', res.text
     )
-    if not match:
+    if not embed_match:
       return None
 
-    embed_url = match.group(1)
+    embed_url = embed_match.group(1)
     embed_res = requests.get(
         embed_url,
         headers={**HEADERS, 'Referer': 'https://154.203.167.130/'},
@@ -55,8 +83,10 @@ def process_single_movie(movie_url):
     player_json = decrypt_player_payload(embed_res.text)
 
     if player_json:
-      print(f'[OK] Sukses: {movie_url}')
+      print(f'[OK] Sukses: {title}')
       return {
+          'title': title,
+          'poster': poster,
           'url': movie_url,
           'embed_url': embed_url,
           'players': player_json,
@@ -112,7 +142,6 @@ def scrape_rebahin(start_page=1, max_pages=1):
           ' paralel...'
       )
 
-      # Eksekusi 5 request film sekaligus secara paralel
       with ThreadPoolExecutor(max_workers=5) as executor:
         results = list(executor.map(process_single_movie, unprocessed))
 
@@ -126,9 +155,8 @@ def scrape_rebahin(start_page=1, max_pages=1):
 
   with open('movies.json', 'w', encoding='utf-8') as f:
     json.dump(movies_data, f, indent=2)
-  print('[v] movies.json berhasil diperbarui!')
+  print('[v] movies.json berhasil diperbarui dengan Judul & Poster!')
 
 
 if __name__ == '__main__':
-  # Untuk update rutin GitHub Actions, cukup max_pages=1
   scrape_rebahin(start_page=1, max_pages=1)
