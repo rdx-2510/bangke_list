@@ -111,33 +111,37 @@ def scrape_pusatfilm():
       print(f'[-] Gagal mengakses beranda (Status: {res.status_code})')
       return
 
+    # Tangkap semua link film di beranda (baik format /movie/ maupun dari tag card)
     movie_links = re.findall(
         r'href=[\'"](https?://new1\.pusatfilm21info\.com/movie/[^\'"]+)[\'"]',
         res.text,
     )
+    if not movie_links:
+      # Cadangan regex umum jika domain relatif/berbeda
+      movie_links = re.findall(r'href=[\'"](/movie/[^\'"]+)[\'"]', res.text)
+      movie_links = [
+          f'https://new1.pusatfilm21info.com{l}' for l in movie_links
+      ]
 
     items_to_process = []
     for link in set(movie_links):
       if link not in processed_urls:
-        items_to_process.append({'url': link, 'rating': '7.0'})
-
-    if not items_to_process:
-      print(f'[=] Semua film di beranda sudah up-to-date.')
-      return
+        items_to_process.append({'url': link, 'rating': '7.2'})
 
     print(
-        f'[>] Memproses {len(items_to_process)} film baru dari beranda secara'
-        ' paralel...'
+        f'[>] Ditemukan {len(items_to_process)} film baru di beranda untuk'
+        ' diproses.'
     )
 
-    with ThreadPoolExecutor(max_workers=3) as executor:
-      results = list(executor.map(process_single_movie, items_to_process))
+    if items_to_process:
+      with ThreadPoolExecutor(max_workers=3) as executor:
+        results = list(executor.map(process_single_movie, items_to_process))
 
-    for item in results:
-      if item:
-        movies_data.append(item)
-        processed_urls.add(item['url'])
+      for item in results:
+        if item:
+          movies_data.append(item)
 
+    # PASTIKAN file movies.json selalu dibuat/diperbarui meskipun data kosong atau bertambah
     with open('movies.json', 'w', encoding='utf-8') as f:
       json.dump(movies_data, f, indent=2, ensure_ascii=False)
 
