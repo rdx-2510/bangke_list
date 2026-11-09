@@ -20,7 +20,6 @@ HEADERS = {
 
 
 def process_single_movie(movie_item):
-  """Memproses 1 film PusatFilm21: Judul, Poster, Rating, Genre, & Embed KotakAjaib"""
   movie_url = movie_item['url']
   raw_rating = movie_item['rating']
 
@@ -29,7 +28,7 @@ def process_single_movie(movie_item):
     if res.status_code != 200:
       return None
 
-    # 1. Ekstrak & Bersihkan Judul Film
+    # 1. Judul
     title_match = re.search(
         r'<meta property="og:title" content="([^"]+)"', res.text
     )
@@ -50,13 +49,13 @@ def process_single_movie(movie_item):
     ).strip()
     title = html.unescape(title)
 
-    # 2. Ekstrak Poster Film Asli
+    # 2. Poster
     poster_match = re.search(
         r'<meta property="og:image" content="([^"]+)"', res.text
     )
     poster = poster_match.group(1) if poster_match else ''
 
-    # 3. Ekstrak Genre dari Halaman Detail
+    # 3. Genre
     genre_matches = re.findall(r'/genre/([^/]+)/?', res.text)
     genres = (
         [g.replace('-', ' ').title() for g in set(genre_matches)]
@@ -64,7 +63,7 @@ def process_single_movie(movie_item):
         else ['Movie']
     )
 
-    # 4. Ambil Link Embed Pemutar (KotakAjaib / Iframe)
+    # 4. Embed KotakAjaib
     embed_match = re.search(
         r'https?://kotakajaib\.me/embed/[^\'"]+', res.text
     )
@@ -77,7 +76,7 @@ def process_single_movie(movie_item):
       embed_url = embed_match.group(0)
 
     if embed_url:
-      print(f'[OK] Sukses: {title} | Rating: {raw_rating} | Genre: {genres}')
+      print(f'[OK] Sukses: {title} | Rating: {raw_rating}')
       return {
           'title': title,
           'rating': raw_rating,
@@ -91,7 +90,7 @@ def process_single_movie(movie_item):
   return None
 
 
-def scrape_pusatfilm(start_page=1, max_pages=10):
+def scrape_pusatfilm():
   movies_data = []
 
   if os.path.exists('movies.json'):
@@ -103,65 +102,52 @@ def scrape_pusatfilm(start_page=1, max_pages=10):
 
   processed_urls = {item.get('url') for item in movies_data if 'url' in item}
 
-  for page in range(start_page, max_pages + 1):
-    if page == 1:
-      catalog_url = 'https://new1.pusatfilm21info.com/'
-    else:
-      catalog_url = f'https://new1.pusatfilm21info.com/page/{page}/'
+  catalog_url = 'https://new1.pusatfilm21info.com/'
+  print(f'[+] Memindai Beranda Utama PusatFilm21...')
 
-    print(f'\n[+] Memindai Katalog PusatFilm21 Halaman {page}/{max_pages}...')
+  try:
+    res = requests.get(catalog_url, headers=HEADERS, timeout=15)
+    if res.status_code != 200:
+      print(f'[-] Gagal mengakses beranda (Status: {res.status_code})')
+      return
 
-    try:
-      res = requests.get(catalog_url, headers=HEADERS, timeout=15)
-      if res.status_code != 200:
-        print(
-            f'[-] Halaman {page} gagal diakses (Status: {res.status_code}).'
-            ' Berhenti.'
-        )
-        break
+    movie_links = re.findall(
+        r'href=[\'"](https?://new1\.pusatfilm21info\.com/movie/[^\'"]+)[\'"]',
+        res.text,
+    )
 
-      # Ekstrak semua link film dari halaman katalog
-      movie_links = re.findall(
-          r'href=[\'"](https?://new1\.pusatfilm21info\.com/movie/[^\'"]+)[\'"]',
-          res.text,
-      )
+    items_to_process = []
+    for link in set(movie_links):
+      if link not in processed_urls:
+        items_to_process.append({'url': link, 'rating': '7.0'})
 
-      items_to_process = []
-      for link in set(movie_links):
-        if link not in processed_urls:
-          items_to_process.append({'url': link, 'rating': '7.0'})
+    if not items_to_process:
+      print(f'[=] Semua film di beranda sudah up-to-date.')
+      return
 
-      if not items_to_process:
-        print(f'[=] Semua film di halaman {page} sudah up-to-date.')
-        continue
+    print(
+        f'[>] Memproses {len(items_to_process)} film baru dari beranda secara'
+        ' paralel...'
+    )
 
-      print(
-          f'[>] Memproses {len(items_to_process)} film baru di halaman {page}'
-          ' secara paralel...'
-      )
+    with ThreadPoolExecutor(max_workers=3) as executor:
+      results = list(executor.map(process_single_movie, items_to_process))
 
-      with ThreadPoolExecutor(max_workers=3) as executor:
-        results = list(executor.map(process_single_movie, items_to_process))
+    for item in results:
+      if item:
+        movies_data.append(item)
+        processed_urls.add(item['url'])
 
-      for item in results:
-        if item:
-          movies_data.append(item)
-          processed_urls.add(item['url'])
+    with open('movies.json', 'w', encoding='utf-8') as f:
+      json.dump(movies_data, f, indent=2, ensure_ascii=False)
 
-      with open('movies.json', 'w', encoding='utf-8') as f:
-        json.dump(movies_data, f, indent=2, ensure_ascii=False)
+    print(
+        f'\n[v] SELESAI! Total {len(movies_data)} film tersimpan di movies.json'
+    )
 
-      time.sleep(2)
-
-    except Exception as e:
-      print(f'[-] Error pada halaman {page}: {e}')
-      time.sleep(3)
-
-  print(
-      f'\n[v] SELESAI! Total {len(movies_data)} film PusatFilm21 tersimpan di'
-      ' movies.json'
-  )
+  except Exception as e:
+    print(f'[-] Error: {e}')
 
 
 if __name__ == '__main__':
-  scrape_pusatfilm(start_page=1, max_pages=10)
+  scrape_pusatfilm()
