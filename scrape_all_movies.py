@@ -9,8 +9,13 @@ import requests
 HEADERS = {
     'User-Agent': (
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,'
-        ' like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    )
+        ' like Gecko) Chrome/122.0.0.0 Safari/537.36'
+    ),
+    'Accept': (
+        'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    ),
+    'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Referer': 'https://new1.pusatfilm21info.com/',
 }
 
 
@@ -65,7 +70,6 @@ def process_single_movie(movie_item):
         r'https?://kotakajaib\.me/embed/[^\'"]+', res.text
     )
     if not embed_match:
-      # Cadangan pencarian iframe umum jika tidak pakai kotakajaib
       iframe_match = re.search(
           r'<iframe[^>]+src=[\'"](https?://[^\'"]+)[\'"]', res.text
       )
@@ -107,7 +111,10 @@ def scrape_pusatfilm(start_page=1, max_pages=20):
     try:
       res = requests.get(catalog_url, headers=HEADERS, timeout=15)
       if res.status_code != 200:
-        print(f'[-] Halaman {page} habis atau diblokir. Berhenti.')
+        print(
+            f'[-] Halaman {page} gagal diakses (Status: {res.status_code}).'
+            ' Berhenti.'
+        )
         break
 
       # Ekstrak semua link film dari katalog utama
@@ -119,7 +126,6 @@ def scrape_pusatfilm(start_page=1, max_pages=20):
       items_to_process = []
       for link in set(movie_links):
         if link not in processed_urls:
-          # Ekstrak rating dari sekitar kartu film jika ada, default 0.0 jika tidak ketemu
           items_to_process.append({'url': link, 'rating': '7.0'})
 
       if not items_to_process:
