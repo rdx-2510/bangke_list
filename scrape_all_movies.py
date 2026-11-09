@@ -3,6 +3,7 @@ import html
 import json
 import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
@@ -36,10 +37,13 @@ def decrypt_player_payload(html_content):
     return None
 
 
-def process_single_movie(movie_url):
-  """Memproses 1 detail film secara lengkap dan aman"""
+def process_single_movie(movie_item):
+  """Memproses 1 film: Judul, Poster, Rating, Genre, Embed, & Players"""
+  movie_url = movie_item['url']
+  raw_rating = movie_item['rating']
+
   try:
-    res = requests.get(movie_url, headers=HEADERS, timeout=10)
+    res = requests.get(movie_url, headers=HEADERS, timeout=15)
     if res.status_code != 200:
       return None
 
@@ -61,8 +65,6 @@ def process_single_movie(movie_url):
         '',
         raw_title,
     ).strip()
-
-    # Ubah entitas HTML (&amp; jadi &, dll)
     title = html.unescape(title)
 
     # 2. Ekstrak Poster Film Asli
@@ -83,7 +85,7 @@ def process_single_movie(movie_url):
           poster = img
           break
 
-    # 3. Ekstrak Kategori / Genre Asli Rebahin
+    # 3. Ekstrak Genre / Kategori dari Halaman Detail
     genre_matches = re.findall(
         r'href=[\'"]https?://154\.203\.167\.130/genre/([^\'"]+)/?[\'"]', res.text
     )
@@ -104,16 +106,17 @@ def process_single_movie(movie_url):
     embed_res = requests.get(
         embed_url,
         headers={**HEADERS, 'Referer': 'https://154.203.167.130/'},
-        timeout=10,
+        timeout=15,
     )
     player_json = decrypt_player_payload(embed_res.text)
 
     if player_json:
-      print(f'[OK] Sukses: {title} | Genre: {genres}')
+      print(f'[OK] Sukses: {title} | Rating: {raw_rating} | Genre: {genres}')
       return {
           'title': title,
-          'poster': poster,
+          'rating': raw_rating,
           'genres': genres,
+          'poster': poster,
           'url': movie_url,
           'embed_url': embed_url,
           'players': player_json,
@@ -133,7 +136,6 @@ def scrape_rebahin(start_page=1, max_pages=50):
       except Exception:
         movies_data = []
 
-  # Melewati URL yang sudah lengkap datanya di database lokal
   processed_urls = {
       item.get('url')
       for item in movies_data
@@ -148,45 +150,65 @@ def scrape_rebahin(start_page=1, max_pages=50):
     print(f'\n[+] Memindai Katalog Halaman {page}/{max_pages}...')
 
     try:
-      res = requests.get(catalog_url, headers=HEADERS, timeout=10)
+      res = requests.get(catalog_url, headers=HEADERS, timeout=15)
       if res.status_code != 200:
-        print(f'[-] Halaman {page} tidak ditemukan. Berhenti.')
+        print(f'[-] Halaman {page} tidak ditemukan atau habis. Berhenti.')
         break
 
-      movie_links = set(
-          re.findall(
-              r'href=[\'"](https?://154\.203\.167\.130/[^/\'"]+/?)[\'"]',
-              res.text,
-          )
-      )
-      unprocessed = [
-          link
-          for link in movie_links
-          if link not in processed_urls
-          and not any(
-              x in link
-              for x in [
-                  '/page/',
-                  '/category/',
-                  '/genre/',
-                  '/country/',
-                  '/year/',
-                  '/wp-',
-              ]
-          )
-      ]
+      # Ekstrak card film beserta rating dari halaman katalog utama menggunakan Regex presisi
+      # Mencari blok kartu film yang memuat rating bintang dan URL film
+      card_pattern = r'<div[^>]*class="[^"]*search-item[^"]*"[^>]*>.*?</div>\s*</div>'
+      # Cara aman: Cari semua link film beserta rating di sekitarnya
+      items_to_process = []
+
+      # Parsing sederhana per baris/kartu dari HTML katalog
+      # Mencari pola rating bintang: ⭐ 7.18 atau ★ 5
+      raw_cards = res.text.split('class="search-item"')
+      for card in raw_cards:
+        link_match = re.search(
+            r'href=[\'"](https?://154\.203\.167\.130/[^/\'"]+/?)[^>]*[\'"]',
+            card,
+        )
+        if not link_match:
+          continue
+
+        link = link_match.group(1)
+        if any(
+            x in link
+            for x in [
+                '/page/',
+                '/category/',
+                '/genre/',
+                '/country/',
+                '/year/',
+                '/wp-',
+            ]
+        ):
+          continue
+
+        if link in processed_urls:
+          continue
+
+        # Ambil rating dari kartu katalog
+        rating_match = re.search(r'★\s*([\d\.]+)', card)
+        rating = rating_match.group(1) if rating_match else '0.0'
+
+        items_to_process.append({'url': link, 'rating': rating})
+
+      # Hapus duplikat URL
+      unique_items = {item['url']: item for item in items_to_process}.values()
+      unprocessed = list(unique_items)
 
       if not unprocessed:
-        print(f'[=] Semua film di halaman {page} sudah up-to-date.')
+        print(f'[=] Semua film di halaman {page} sudah ada di database.')
         continue
 
       print(
           f'[>] Memproses {len(unprocessed)} film baru di halaman {page} secara'
-          ' paralel...'
+          ' paralel (Safe Mode)...'
       )
 
-      # 5 worker paralel untuk kecepatan optimal
-      with ThreadPoolExecutor(max_workers=5) as executor:
+      with ThreadPoolExecutor(max_workers=3) as executor:
         results = list(executor.map(process_single_movie, unprocessed))
 
       for item in results:
@@ -194,16 +216,17 @@ def scrape_rebahin(start_page=1, max_pages=50):
           movies_data.append(item)
           processed_urls.add(item['url'])
 
-      # Auto-save file per selesai 1 halaman
       with open('movies.json', 'w', encoding='utf-8') as f:
         json.dump(movies_data, f, indent=2, ensure_ascii=False)
 
+      time.sleep(2)
+
     except Exception as e:
-      print(f'[-] Error pada halaman {page}: {e}')
+      print(f'[-] Error timeout/koneksi pada halaman {page}: {e}')
+      time.sleep(3)
 
   print(f'\n[v] SELESAI! Total {len(movies_data)} film tersimpan di movies.json')
 
 
 if __name__ == '__main__':
-  # Menyedot hingga 50 halaman katalog secara otomatis
   scrape_rebahin(start_page=1, max_pages=50)
