@@ -1,0 +1,34 @@
+name: Auto Scrape Movies Library
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Berjalan 1 kali sehari setiap jam 00:00 UTC
+  workflow_dispatch: # Bisa dijalankan manual kapan saja via tombol Actions
+
+jobs:
+  update-movies:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pycryptodome
+
+      - name: Run Movie Scraper (Bulk Pages)
+        run: python scrape_all_movies.py
+
+      - name: Commit & Push Movies JSON
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add movies.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update full movies library [skip ci]" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main)
