@@ -1,8 +1,20 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Sacramento Kings vs Miami Heat
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sacramento%20Kings%20vs%20Miami%20Heat.html
+http://193.47.62.59/hls/CUUUAAAA.m3u8
+#EXTINF:-1, FawaNews - Los Angeles Clippers vs New Orleans Pelicans
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Clippers%20vs%20New%20Orleans%20Pelicans.html
+http://193.47.62.59/hls/CUUUAAA.m3u8
 #EXTINF:-1, FawaNews - Milwaukee Bucks vs Boston Celtics
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Milwaukee%20Bucks%20vs%20Boston%20Celtics.html
 http://193.47.62.41/hls/CUUUAA.m3u8
+#EXTINF:-1, FawaNews - Milwaukee Bucks vs Boston Celtics --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Milwaukee%20Bucks%20vs%20Boston%20Celtics%20---%20CH%202.html
+https://www.rtmpcdn.com/live/251e4c1f-7810-4bb1-bf88-ec7bafca8380.m3u8
 #EXTINF:-1, FawaNews - Dallas Mavericks vs Brooklyn Nets
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Dallas%20Mavericks%20vs%20Brooklyn%20Nets.html
@@ -27,14 +39,6 @@ http://193.47.62.44/hls/yooo.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Detroit%20Pistons%20vs%20Los%20Angeles%20Lakers%20---%20CH%202.html
 https://www.rtmpcdn.com/live/532a5970-ae56-4429-a351-30c7b3b55404.m3u8
-#EXTINF:-1, FawaNews - Sacramento Kings vs Miami Heat
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sacramento%20Kings%20vs%20Miami%20Heat.html
-http://193.47.62.59/hls/CUUUAAAA.m3u8
-#EXTINF:-1, FawaNews - Los Angeles Clippers vs New Orleans Pelicans
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Clippers%20vs%20New%20Orleans%20Pelicans.html
-http://193.47.62.59/hls/CUUUAAA.m3u8
 #EXTINF:-1, FawaNews - Boxing_Turhan vs Baumgardner
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Boxing_Turhan%20vs%20Baumgardner.html
