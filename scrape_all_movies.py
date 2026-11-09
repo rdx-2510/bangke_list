@@ -43,7 +43,6 @@ def process_single_movie(movie_item):
           else 'Unknown Title'
       )
 
-    # Filter kata Nonton, Sub Indo, dan sisa SEO spam PusatFilm21
     title = re.sub(
         r'(?i)(Nonton\s*Film|Nonton|Sub\s*Indo|Streaming|/.*PUSATFILM21)',
         '',
@@ -65,7 +64,7 @@ def process_single_movie(movie_item):
         else ['Movie']
     )
 
-    # 4. Ambil Link Embed Pemutar (KotakAjaib / Iframe / Player)
+    # 4. Ambil Link Embed Pemutar (KotakAjaib / Iframe)
     embed_match = re.search(
         r'https?://kotakajaib\.me/embed/[^\'"]+', res.text
     )
@@ -92,7 +91,7 @@ def process_single_movie(movie_item):
   return None
 
 
-def scrape_pusatfilm(start_page=1, max_pages=20):
+def scrape_pusatfilm(start_page=1, max_pages=10):
   movies_data = []
 
   if os.path.exists('movies.json'):
@@ -105,7 +104,11 @@ def scrape_pusatfilm(start_page=1, max_pages=20):
   processed_urls = {item.get('url') for item in movies_data if 'url' in item}
 
   for page in range(start_page, max_pages + 1):
-    catalog_url = f'https://new1.pusatfilm21info.com/page/{page}/'
+    if page == 1:
+      catalog_url = 'https://new1.pusatfilm21info.com/'
+    else:
+      catalog_url = f'https://new1.pusatfilm21info.com/page/{page}/'
+
     print(f'\n[+] Memindai Katalog PusatFilm21 Halaman {page}/{max_pages}...')
 
     try:
@@ -117,7 +120,7 @@ def scrape_pusatfilm(start_page=1, max_pages=20):
         )
         break
 
-      # Ekstrak semua link film dari katalog utama
+      # Ekstrak semua link film dari halaman katalog
       movie_links = re.findall(
           r'href=[\'"](https?://new1\.pusatfilm21info\.com/movie/[^\'"]+)[\'"]',
           res.text,
@@ -145,7 +148,6 @@ def scrape_pusatfilm(start_page=1, max_pages=20):
           movies_data.append(item)
           processed_urls.add(item['url'])
 
-      # Auto-save file per halaman selesai
       with open('movies.json', 'w', encoding='utf-8') as f:
         json.dump(movies_data, f, indent=2, ensure_ascii=False)
 
@@ -162,4 +164,4 @@ def scrape_pusatfilm(start_page=1, max_pages=20):
 
 
 if __name__ == '__main__':
-  scrape_pusatfilm(start_page=1, max_pages=20)
+  scrape_pusatfilm(start_page=1, max_pages=10)
