@@ -35,13 +35,13 @@ def decrypt_player_payload(html_content):
 
 
 def process_single_movie(movie_url):
-  """Memproses 1 film: Ambil Judul, Poster, Embed URL, & Player JSON"""
+  """Memproses 1 film: Ekstrak Judul, Gambar Poster, Embed URL, & Player JSON"""
   try:
     res = requests.get(movie_url, headers=HEADERS, timeout=8)
     if res.status_code != 200:
       return None
 
-    # 1. Ekstrak Judul Film dari Meta Tag / H1
+    # 1. Ekstrak Judul Film
     title_match = re.search(
         r'<meta property="og:title" content="([^"]+)"', res.text
     )
@@ -51,7 +51,6 @@ def process_single_movie(movie_url):
       )
 
     raw_title = title_match.group(1) if title_match else 'Unknown Title'
-    # Bersihkan frasa bawaan Muvipro jika ada
     title = (
         raw_title.replace('Nonton Film ', '')
         .replace(' Sub Indo', '')
@@ -59,7 +58,7 @@ def process_single_movie(movie_url):
         .strip()
     )
 
-    # 2. Ekstrak Link Poster Gambar
+    # 2. Ekstrak URL Poster Gambar
     poster_match = re.search(
         r'<meta property="og:image" content="([^"]+)"', res.text
     )
