@@ -2,15 +2,107 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "09:52:18 AM 09-11-2026",
-    "total_matches": 22,
-    "live_match": 2,
+    "last_update_time": "10:45:48 AM 09-11-2026",
+    "total_matches": 28,
+    "live_match": 6,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Politehnica Timisoara vs CSM Resita",
+            "timestamp": 1794221140,
+            "eventInfo": {
+                "teamA": "Politehnica Timisoara",
+                "teamB": "CSM Resita",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "09/11/2026 10:45:40 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/WJJJJJAa.m3u8",
+                    "referer": "http://www.fawanews.sc/Politehnica%20Timisoara%20vs%20CSM%20Resita.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Wadi Degla vs Kahrabaa Ismailia",
+            "timestamp": 1794221141,
+            "eventInfo": {
+                "teamA": "Wadi Degla",
+                "teamB": "Kahrabaa Ismailia",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "09/11/2026 10:45:41 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/WJJJJJA.m3u8",
+                    "referer": "http://www.fawanews.sc/Wadi%20Degla%20vs%20Kahrabaa%20Ismailia.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Snooker Champion of Champions",
+            "timestamp": 1794221141,
+            "eventInfo": {
+                "teamA": "Snooker Champion of Champions",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "09/11/2026 10:45:41 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/WJJJJJ.m3u8",
+                    "referer": "http://www.fawanews.sc/Snooker%20Champion%20of%20Champions.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Tennis ATP Stockholm",
+            "timestamp": 1794221141,
+            "eventInfo": {
+                "teamA": "Tennis ATP Stockholm",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "09/11/2026 10:45:41 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.55/hls/RGGG.m3u8",
+                    "referer": "http://www.fawanews.sc/Tennis%20ATP%20Stockholm.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Afghanistan vs Zimbabwe",
-            "timestamp": 1794217932,
+            "timestamp": 1794221142,
             "eventInfo": {
                 "teamA": "Afghanistan",
                 "teamB": "Zimbabwe",
@@ -18,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "09/11/2026 09:52:12 AM"
+                "startTime": "09/11/2026 10:45:42 AM"
             },
             "streams": [
                 {
@@ -33,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Pakistan vs Sri Lanka",
-            "timestamp": 1794217932,
+            "timestamp": 1794221142,
             "eventInfo": {
                 "teamA": "Pakistan",
                 "teamB": "Sri Lanka",
@@ -41,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "09/11/2026 09:52:12 AM"
+                "startTime": "09/11/2026 10:45:42 AM"
             },
             "streams": [
                 {
