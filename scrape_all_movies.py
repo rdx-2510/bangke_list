@@ -141,7 +141,7 @@ def build_pagination_url(base, page):
     """
     if page == 1:
         return base
-    
+
     if '?' in base:
         parts = base.split('?', 1)
         base_path = parts[0].rstrip('/')
@@ -174,7 +174,7 @@ def scrape_pusatfilm():
 
             try:
                 res = requests.get(url, headers=HEADERS, timeout=15)
-                
+
                 # Rem Otomatis jika halaman sudah habis
                 if res.status_code == 404:
                     print(f"[!] Halaman {page} tidak ditemukan (404). Kategori ini sudah habis ditelusuri.")
@@ -211,9 +211,9 @@ def scrape_pusatfilm():
                             processed_urls.add(item['url'])
                             added += 1
 
-                    # Incremental Save: Simpan JSON setiap kali selesai 1 halaman
+                    # OPTIMASI: Simpan tanpa 'indent=2' agar file movies.json sangat compact & ringan di Android
                     with open('movies.json', 'w', encoding='utf-8') as f:
-                        json.dump(movies_data, f, indent=2, ensure_ascii=False)
+                        json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
                     print(f"[+] Halaman {page} selesai. {added} data baru ditambahkan ke movies.json.")
 
