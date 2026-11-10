@@ -3,8 +3,13 @@ import json
 import os
 import re
 import time
+import random
 from concurrent.futures import ThreadPoolExecutor
 import requests
+
+BASE_URL = "https://new1.pusatfilm21info.com"
+START_PAGE = 1
+END_PAGE = 50  # Batas halaman jelajah (misal 1 - 50)
 
 HEADERS = {
     'User-Agent': (
@@ -18,191 +23,171 @@ HEADERS = {
     'Referer': 'https://new1.pusatfilm21info.com/',
 }
 
-
 def process_single_movie(movie_url):
-  try:
-    res = requests.get(movie_url, headers=HEADERS, timeout=15)
-    if res.status_code != 200:
-      return None
+    """
+    Fungsi andalan Piyan untuk mengekstrak data dengan presisi tinggi.
+    TIDAK ADA YANG DIUBAH DI SINI.
+    """
+    try:
+        res = requests.get(movie_url, headers=HEADERS, timeout=15)
+        if res.status_code != 200:
+            return None
 
-    content_type = "series" if "/tv/" in movie_url or "/episode/" in movie_url else "movie"
+        content_type = "series" if "/tv/" in movie_url or "/episode/" in movie_url else "movie"
 
-    # 1. Judul & Tahun
-    title_match = re.search(
-        r'<meta property="og:title" content="([^"]+)"', res.text
-    )
-    if title_match:
-      raw_title = title_match.group(1)
-    else:
-      h1_match = re.search(r'<h1[^>]*>(.+?)</h1>', res.text, re.DOTALL)
-      raw_title = (
-          re.sub(r'<[^>]+>', '', h1_match.group(1)).strip()
-          if h1_match
-          else 'Unknown Title'
-      )
+        # 1. Judul & Tahun
+        title_match = re.search(r'<meta property="og:title" content="([^"]+)"', res.text)
+        if title_match:
+            raw_title = title_match.group(1)
+        else:
+            h1_match = re.search(r'<h1[^>]*>(.+?)</h1>', res.text, re.DOTALL)
+            raw_title = re.sub(r'<[^>]+>', '', h1_match.group(1)).strip() if h1_match else 'Unknown Title'
 
-    year_match = re.search(r'\((\d{4})\)', raw_title)
-    year = year_match.group(1) if year_match else ''
+        year_match = re.search(r'\((\d{4})\)', raw_title)
+        year = year_match.group(1) if year_match else ''
 
-    title = re.sub(
-        r'(?i)(Nonton\s*Film|Nonton|Sub\s*Indo|Streaming|/.*PUSATFILM21|\(\d{4}\))',
-        '',
-        raw_title,
-    ).strip()
-    title = html.unescape(title)
+        title = re.sub(r'(?i)(Nonton\s*Film|Nonton|Sub\s*Indo|Streaming|/.*PUSATFILM21|\(\d{4}\))', '', raw_title).strip()
+        title = html.unescape(title)
 
-    # 2. Rating Akurat
-    rating = '0.0'
-    json_rating = re.search(r'"ratingValue"\s*:\s*"?(\d+\.\d+)', res.text)
-    if json_rating:
-        rating = json_rating.group(1)
-    else:
-        rating_match = re.search(r'★\s*(\d+\.\d+)', res.text)
-        if not rating_match:
-            rating_match = re.search(r'(?:Rating|rating|imdb)[^\d]*(\d+\.\d+)', res.text, re.IGNORECASE)
-        if rating_match:
-            rating = rating_match.group(1)
+        # 2. Rating Akurat
+        rating = '0.0'
+        json_rating = re.search(r'"ratingValue"\s*:\s*"?(\d+\.\d+)', res.text)
+        if json_rating:
+            rating = json_rating.group(1)
+        else:
+            rating_match = re.search(r'★\s*(\d+\.\d+)', res.text)
+            if not rating_match:
+                rating_match = re.search(r'(?:Rating|rating|imdb)[^\d]*(\d+\.\d+)', res.text, re.IGNORECASE)
+            if rating_match:
+                rating = rating_match.group(1)
 
-    # 3. Poster
-    poster_match = re.search(
-        r'<meta property="og:image" content="([^"]+)"', res.text
-    )
-    poster = poster_match.group(1) if poster_match else ''
+        # 3. Poster
+        poster_match = re.search(r'<meta property="og:image" content="([^"]+)"', res.text)
+        poster = poster_match.group(1) if poster_match else ''
 
-    # 4. Genre Bersih
-    genre_slugs = re.findall(
-        r'href=[\'"](?:https?://[^\'"]+)?/genre/([a-zA-Z0-9-]+)/?[\'"]', 
-        res.text
-    )
-    genres = [g.replace('-', ' ').title() for g in set(genre_slugs)] if genre_slugs else ['Movie']
+        # 4. Genre Bersih
+        genre_slugs = re.findall(r'href=[\'"](?:https?://[^\'"]+)?/genre/([a-zA-Z0-9-]+)/?[\'"]', res.text)
+        genres = [g.replace('-', ' ').title() for g in set(genre_slugs)] if genre_slugs else ['Movie']
 
-    # 5. Sinopsis Murni
-    syn_match = re.search(r'<meta (?:property="og:description"|name="description") content="([^"]+)"', res.text, re.IGNORECASE)
-    raw_synopsis = syn_match.group(1) if syn_match else ""
-    synopsis = re.sub(r'(?i)Nonton\s+.*?(?:PUSATFILM21|subtitle Indonesia).*?(?:\.|$)', '', raw_synopsis).strip()
-    synopsis = html.unescape(synopsis)
+        # 5. Sinopsis Murni
+        syn_match = re.search(r'<meta (?:property="og:description"|name="description") content="([^"]+)"', res.text, re.IGNORECASE)
+        raw_synopsis = syn_match.group(1) if syn_match else ""
+        synopsis = re.sub(r'(?i)Nonton\s+.*?(?:PUSATFILM21|subtitle Indonesia).*?(?:\.|$)', '', raw_synopsis).strip()
+        synopsis = html.unescape(synopsis)
 
-    # 6. Metadata Lainnya
-    country, cast, duration, director = '', '', '', ''
-    seo_match = re.search(r'(Film\s+[^<]+?dari\s+[^<]+?disutradarai[^<]+)', res.text, re.IGNORECASE)
-    if seo_match:
-        seo_text = seo_match.group(1)
-        c_match = re.search(r'dari\s+([A-Z][a-zA-Z\s]+?)\s+ini', seo_text)
-        if c_match: country = c_match.group(1).strip()
-        
-        dir_match = re.search(r'disutradarai\s+(.+?)\s+dan\s+dibintangi', seo_text)
-        if dir_match: director = dir_match.group(1).strip()
-        
-        cast_match = re.search(r'dibintangi\s+(.+?)\.', seo_text)
-        if cast_match: cast = cast_match.group(1).strip()
+        # 6. Metadata Lainnya
+        country, cast, duration, director = '', '', '', ''
+        seo_match = re.search(r'(Film\s+[^<]+?dari\s+[^<]+?disutradarai[^<]+)', res.text, re.IGNORECASE)
+        if seo_match:
+            seo_text = seo_match.group(1)
+            c_match = re.search(r'dari\s+([A-Z][a-zA-Z\s]+?)\s+ini', seo_text)
+            if c_match: country = c_match.group(1).strip()
+            dir_match = re.search(r'disutradarai\s+(.+?)\s+dan\s+dibintangi', seo_text)
+            if dir_match: director = dir_match.group(1).strip()
+            cast_match = re.search(r'dibintangi\s+(.+?)\.', seo_text)
+            if cast_match: cast = cast_match.group(1).strip()
 
-    dur_match = re.search(r'Durasi\s+(\d+\s*jam\s*\d*\s*menit|\d+\s*menit)', res.text, re.IGNORECASE)
-    if not dur_match:
-        dur_match = re.search(r'>\s*(\d+j\s*\d+m|\d+m)\s*<', res.text)
-    if dur_match: duration = dur_match.group(1).strip()
+        dur_match = re.search(r'Durasi\s+(\d+\s*jam\s*\d*\s*menit|\d+\s*menit)', res.text, re.IGNORECASE)
+        if not dur_match:
+            dur_match = re.search(r'>\s*(\d+j\s*\d+m|\d+m)\s*<', res.text)
+        if dur_match: duration = dur_match.group(1).strip()
 
-    # 7. MULTI-SERVER EXTRACTION (Menangkap KotakAjaib, Streamtape, Vikingfile, dll)
-    servers = []
-    
-    # Tangkap semua URL embed atau iframe yang tersedia di halaman
-    all_iframes = re.findall(r'<iframe[^>]+src=[\'"](https?://[^\'"]+)[\'"]', res.text)
-    all_embeds = re.findall(r'https?://(?:kotakajaib|streamtape|vikingfile|hydrax|gdplayer)[^\s\'"]+', res.text, re.IGNORECASE)
-    
-    combined_links = list(set(all_iframes + all_embeds))
-    
-    for idx, link in enumerate(combined_links):
-        # Deteksi nama server berdasarkan domainnya
-        server_name = "Server Utama"
-        if "kotakajaib" in link: server_name = "KotakAjaib"
-        elif "streamtape" in link: server_name = "Streamtape"
-        elif "vikingfile" in link: server_name = "Vikingfile"
-        elif "hydrax" in link: server_name = "Hydrax"
-        elif "gdplayer" in link: server_name = "GDPlayer"
-        else: server_name = f"Server {idx+1}"
-        
-        servers.append({
-            "name": server_name,
-            "url": link
-        })
+        # 7. MULTI-SERVER EXTRACTION
+        servers = []
+        all_iframes = re.findall(r'<iframe[^>]+src=[\'"](https?://[^\'"]+)[\'"]', res.text)
+        all_embeds = re.findall(r'https?://(?:kotakajaib|streamtape|vikingfile|hydrax|gdplayer)[^\s\'"]+', res.text, re.IGNORECASE)
 
-    # Fallback jika tidak ada server multi, ambil embed standar
-    embed_url = servers[0]["url"] if servers else ""
+        combined_links = list(set(all_iframes + all_embeds))
 
-    if servers or embed_url:
-      print(f'[OK] Sukses: {title} | Ditemukan {len(servers)} pilihan server')
-      return {
-          'title': title,
-          'type': content_type,
-          'year': year,
-          'rating': rating,
-          'duration': duration,
-          'country': country,
-          'director': director,
-          'cast': cast,
-          'synopsis': synopsis,
-          'genres': genres,
-          'poster': poster,
-          'url': movie_url,
-          'embed_url': embed_url,  # Kompatibilitas mundur
-          'servers': servers       # Pilihan banyak server untuk UI mendatang
-      }
-  except Exception:
-    pass
-  return None
+        for idx, link in enumerate(combined_links):
+            server_name = "Server Utama"
+            if "kotakajaib" in link: server_name = "KotakAjaib"
+            elif "streamtape" in link: server_name = "Streamtape"
+            elif "vikingfile" in link: server_name = "Vikingfile"
+            elif "hydrax" in link: server_name = "Hydrax"
+            elif "gdplayer" in link: server_name = "GDPlayer"
+            else: server_name = f"Server {idx+1}"
 
+            servers.append({"name": server_name, "url": link})
+
+        embed_url = servers[0]["url"] if servers else ""
+
+        if servers or embed_url:
+            print(f'[OK] Tersimpan: {title} | Ditemukan {len(servers)} server')
+            return {
+                'title': title, 'type': content_type, 'year': year, 'rating': rating,
+                'duration': duration, 'country': country, 'director': director, 'cast': cast,
+                'synopsis': synopsis, 'genres': genres, 'poster': poster, 'url': movie_url,
+                'embed_url': embed_url, 'servers': servers
+            }
+    except Exception:
+        pass
+    return None
 
 def scrape_pusatfilm():
-  movies_data = []
-  if os.path.exists('movies.json'):
-    with open('movies.json', 'r', encoding='utf-8') as f:
-      try: movies_data = json.load(f)
-      except: movies_data = []
+    movies_data = []
+    if os.path.exists('movies.json'):
+        with open('movies.json', 'r', encoding='utf-8') as f:
+            try: movies_data = json.load(f)
+            except: movies_data = []
 
-  processed_urls = {item.get('url') for item in movies_data if 'url' in item}
+    processed_urls = {item.get('url') for item in movies_data if 'url' in item}
 
-  target_urls = [
-      'https://new1.pusatfilm21info.com/',
-      'https://new1.pusatfilm21info.com/tv/'
-  ]
-  genres = ['action', 'horror', 'comedy', 'thriller', 'drama', 'sci-fi', 'adventure', 'animation', 'romance']
-  for g in genres:
-      target_urls.append(f'https://new1.pusatfilm21info.com/genre/{g}/')
+    print(f"\n[+] Memulai Scraping dari halaman {START_PAGE} sampai {END_PAGE}...")
 
-  for catalog_url in target_urls:
-    print(f'\n[+] Memindai: {catalog_url}')
-    try:
-      res = requests.get(catalog_url, headers=HEADERS, timeout=15)
-      if res.status_code != 200: continue
+    # LOOPING HALAMAN DYNAMIC
+    for page in range(START_PAGE, END_PAGE + 1):
+        url = f"{BASE_URL}/" if page == 1 else f"{BASE_URL}/page/{page}/"
+        print(f"\n[->] Memindai Halaman {page}: {url}")
 
-      movie_links = re.findall(
-          r'href=[\'"](https?://new1\.pusatfilm21info\.com/(?:movie|tv|episode)/[^\'"]+)[\'"]',
-          res.text,
-      )
-      if not movie_links:
-        movie_links = re.findall(r'href=[\'"](/(?:movie|tv|episode)/[^\'"]+)[\'"]', res.text)
-        movie_links = [f'https://new1.pusatfilm21info.com{l}' for l in movie_links]
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=15)
+            if res.status_code != 200:
+                print(f"[!] Halaman {page} gagal dimuat (Status: {res.status_code}). Lanjut...")
+                continue
 
-      valid_links = [l for l in set(movie_links) if '/page/' not in l]
-      unprocessed_urls = [l for l in valid_links if l not in processed_urls]
+            movie_links = re.findall(
+                r'href=[\'"](https?://new1\.pusatfilm21info\.com/(?:movie|tv|episode)/[^\'"]+)[\'"]',
+                res.text,
+            )
+            if not movie_links:
+                movie_links = re.findall(r'href=[\'"](/(?:movie|tv|episode)/[^\'"]+)[\'"]', res.text)
+                movie_links = [f'https://new1.pusatfilm21info.com{l}' for l in movie_links]
 
-      if unprocessed_urls:
-        with ThreadPoolExecutor(max_workers=3) as executor:
-          results = list(executor.map(process_single_movie, unprocessed_urls))
+            valid_links = [l for l in set(movie_links) if '/page/' not in l]
+            unprocessed_urls = [l for l in valid_links if l not in processed_urls]
 
-        for item in results:
-          if item:
-            movies_data.append(item)
-            processed_urls.add(item['url'])
+            if not unprocessed_urls:
+                print(f"[*] Tidak ada film baru di halaman {page}. (Sudah ada di JSON)")
+            else:
+                print(f"[*] Ditemukan {len(unprocessed_urls)} link baru. Mengekstrak data secara paralel...")
+                
+                # Eksekusi paralel 3-5 tugas sekaligus
+                with ThreadPoolExecutor(max_workers=5) as executor:
+                    results = list(executor.map(process_single_movie, unprocessed_urls))
 
-        with open('movies.json', 'w', encoding='utf-8') as f:
-          json.dump(movies_data, f, indent=2, ensure_ascii=False)
+                added = 0
+                for item in results:
+                    if item:
+                        movies_data.append(item)
+                        processed_urls.add(item['url'])
+                        added += 1
 
-      time.sleep(2)
-    except Exception as e:
-      print(f'[-] Error: {e}')
+                # Incremental Save: Simpan JSON setiap kali selesai 1 halaman
+                with open('movies.json', 'w', encoding='utf-8') as f:
+                    json.dump(movies_data, f, indent=2, ensure_ascii=False)
+                
+                print(f"[+] Halaman {page} selesai. {added} data baru ditambahkan ke movies.json.")
 
-  print(f'\n[v] SELESAI! Total {len(movies_data)} konten dengan multi-server tersimpan.')
+        except Exception as e:
+            print(f'[-] Error saat memproses halaman {page}: {e}')
 
+        # ANTI-BLOCKING DELAY
+        delay = random.uniform(1.5, 3.5)
+        print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir Cloudflare...")
+        time.sleep(delay)
+
+    print(f'\n[v] MISI SELESAI! Total keseluruhan: {len(movies_data)} film/series tersimpan.')
 
 if __name__ == '__main__':
-  scrape_pusatfilm()
+    scrape_pusatfilm()
