@@ -7,9 +7,20 @@ import random
 from concurrent.futures import ThreadPoolExecutor
 import requests
 
-BASE_URL = "https://new1.pusatfilm21info.com"
+# DAFTAR URL TARGET (TERMASUK URL CUSTOM DARI PIYAN)
+BASE_URLS = [
+    "https://new1.pusatfilm21info.com/movie?sort=latest", # Semua film urutan paling baru
+    "https://new1.pusatfilm21info.com/movie?sort=latest&country=indonesia", # Film Indonesia terbaru
+    "https://new1.pusatfilm21info.com/movie?sort=latest&genre=horror&country=indonesia", # Horor Indonesia terbaru
+    "https://new1.pusatfilm21info.com/movie",
+    "https://new1.pusatfilm21info.com/tv",
+    "https://new1.pusatfilm21info.com/genre/action",
+    "https://new1.pusatfilm21info.com/genre/horror",
+    "https://new1.pusatfilm21info.com/genre/comedy"
+]
+
 START_PAGE = 1
-END_PAGE = 50  # Batas halaman jelajah (misal 1 - 50)
+END_PAGE = 10  # Batas maksimal halaman PER KATEGORI
 
 HEADERS = {
     'User-Agent': (
@@ -25,8 +36,7 @@ HEADERS = {
 
 def process_single_movie(movie_url):
     """
-    Fungsi andalan Piyan untuk mengekstrak data dengan presisi tinggi.
-    TIDAK ADA YANG DIUBAH DI SINI.
+    Fungsi andalan untuk mengekstrak data film dengan presisi tinggi.
     """
     try:
         res = requests.get(movie_url, headers=HEADERS, timeout=15)
@@ -124,6 +134,22 @@ def process_single_movie(movie_url):
         pass
     return None
 
+def build_pagination_url(base, page):
+    """
+    Fungsi cerdas untuk merakit URL pagination, 
+    bahkan jika URL dasar memiliki parameter (seperti ?sort=latest).
+    """
+    if page == 1:
+        return base
+    
+    if '?' in base:
+        parts = base.split('?', 1)
+        base_path = parts[0].rstrip('/')
+        query_params = parts[1]
+        return f"{base_path}/page/{page}/?{query_params}"
+    else:
+        return f"{base.rstrip('/')}/page/{page}/"
+
 def scrape_pusatfilm():
     movies_data = []
     if os.path.exists('movies.json'):
@@ -133,59 +159,71 @@ def scrape_pusatfilm():
 
     processed_urls = {item.get('url') for item in movies_data if 'url' in item}
 
-    print(f"\n[+] Memulai Scraping dari halaman {START_PAGE} sampai {END_PAGE}...")
+    print(f"\n[+] Memulai Scraping Multi-Kategori (Maks {END_PAGE} Halaman/Kategori)...")
 
-    # LOOPING HALAMAN DYNAMIC
-    for page in range(START_PAGE, END_PAGE + 1):
-        url = f"{BASE_URL}/" if page == 1 else f"{BASE_URL}/page/{page}/"
-        print(f"\n[->] Memindai Halaman {page}: {url}")
+    # OUTER LOOP: Mengunjungi setiap Kategori / Base URL
+    for base_url in BASE_URLS:
+        print(f"\n==================================================")
+        print(f"[>] MEMASUKI KATEGORI: {base_url}")
+        print(f"==================================================")
 
-        try:
-            res = requests.get(url, headers=HEADERS, timeout=15)
-            if res.status_code != 200:
-                print(f"[!] Halaman {page} gagal dimuat (Status: {res.status_code}). Lanjut...")
-                continue
+        # INNER LOOP: Pindah Halaman di dalam kategori tersebut
+        for page in range(START_PAGE, END_PAGE + 1):
+            url = build_pagination_url(base_url, page)
+            print(f"\n[->] Memindai Halaman {page}: {url}")
 
-            movie_links = re.findall(
-                r'href=[\'"](https?://new1\.pusatfilm21info\.com/(?:movie|tv|episode)/[^\'"]+)[\'"]',
-                res.text,
-            )
-            if not movie_links:
-                movie_links = re.findall(r'href=[\'"](/(?:movie|tv|episode)/[^\'"]+)[\'"]', res.text)
-                movie_links = [f'https://new1.pusatfilm21info.com{l}' for l in movie_links]
-
-            valid_links = [l for l in set(movie_links) if '/page/' not in l]
-            unprocessed_urls = [l for l in valid_links if l not in processed_urls]
-
-            if not unprocessed_urls:
-                print(f"[*] Tidak ada film baru di halaman {page}. (Sudah ada di JSON)")
-            else:
-                print(f"[*] Ditemukan {len(unprocessed_urls)} link baru. Mengekstrak data secara paralel...")
+            try:
+                res = requests.get(url, headers=HEADERS, timeout=15)
                 
-                # Eksekusi paralel 3-5 tugas sekaligus
-                with ThreadPoolExecutor(max_workers=5) as executor:
-                    results = list(executor.map(process_single_movie, unprocessed_urls))
+                # Rem Otomatis jika halaman sudah habis
+                if res.status_code == 404:
+                    print(f"[!] Halaman {page} tidak ditemukan (404). Kategori ini sudah habis ditelusuri.")
+                    break 
 
-                added = 0
-                for item in results:
-                    if item:
-                        movies_data.append(item)
-                        processed_urls.add(item['url'])
-                        added += 1
+                if res.status_code != 200:
+                    print(f"[!] Gagal dimuat (Status: {res.status_code}). Lanjut halaman berikutnya...")
+                    continue
 
-                # Incremental Save: Simpan JSON setiap kali selesai 1 halaman
-                with open('movies.json', 'w', encoding='utf-8') as f:
-                    json.dump(movies_data, f, indent=2, ensure_ascii=False)
-                
-                print(f"[+] Halaman {page} selesai. {added} data baru ditambahkan ke movies.json.")
+                movie_links = re.findall(
+                    r'href=[\'"](https?://new1\.pusatfilm21info\.com/(?:movie|tv|episode)/[^\'"]+)[\'"]',
+                    res.text,
+                )
+                if not movie_links:
+                    movie_links = re.findall(r'href=[\'"](/(?:movie|tv|episode)/[^\'"]+)[\'"]', res.text)
+                    movie_links = [f'https://new1.pusatfilm21info.com{l}' for l in movie_links]
 
-        except Exception as e:
-            print(f'[-] Error saat memproses halaman {page}: {e}')
+                valid_links = [l for l in set(movie_links) if '/page/' not in l]
+                unprocessed_urls = [l for l in valid_links if l not in processed_urls]
 
-        # ANTI-BLOCKING DELAY
-        delay = random.uniform(1.5, 3.5)
-        print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir Cloudflare...")
-        time.sleep(delay)
+                if not unprocessed_urls:
+                    print(f"[*] Tidak ada film baru di halaman {page}. (Sudah ada di JSON)")
+                else:
+                    print(f"[*] Ditemukan {len(unprocessed_urls)} link baru. Mengekstrak data secara paralel...")
+
+                    # Eksekusi paralel 5 tugas sekaligus
+                    with ThreadPoolExecutor(max_workers=5) as executor:
+                        results = list(executor.map(process_single_movie, unprocessed_urls))
+
+                    added = 0
+                    for item in results:
+                        if item:
+                            movies_data.append(item)
+                            processed_urls.add(item['url'])
+                            added += 1
+
+                    # Incremental Save: Simpan JSON setiap kali selesai 1 halaman
+                    with open('movies.json', 'w', encoding='utf-8') as f:
+                        json.dump(movies_data, f, indent=2, ensure_ascii=False)
+
+                    print(f"[+] Halaman {page} selesai. {added} data baru ditambahkan ke movies.json.")
+
+            except Exception as e:
+                print(f'[-] Error saat memproses halaman {page}: {e}')
+
+            # ANTI-BLOCKING DELAY
+            delay = random.uniform(1.5, 3.5)
+            print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir...")
+            time.sleep(delay)
 
     print(f'\n[v] MISI SELESAI! Total keseluruhan: {len(movies_data)} film/series tersimpan.')
 
