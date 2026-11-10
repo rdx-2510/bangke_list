@@ -207,23 +207,24 @@ def scrape_pusatfilm():
                     added = 0
                     for item in results:
                         if item:
-                            movies_data.append(item)
+                            # Masukkan ke posisi paling depan (index 0) agar muncul paling kiri di aplikasi
+                            movies_data.insert(0, item)
                             processed_urls.add(item['url'])
                             added += 1
 
-                    # OPTIMASI: Simpan tanpa 'indent=2' agar file movies.json sangat compact & ringan di Android
+                    # Simpan dalam format minified (tanpa spasi/enter) agar ukuran file sangat kecil & ringan
                     with open('movies.json', 'w', encoding='utf-8') as f:
                         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
-                    print(f"[+] Halaman {page} selesai. {added} data baru ditambahkan ke movies.json.")
+                    print(f"[+] Halaman {page} selesai. {added} data baru ditambahkan ke posisi terdepan movies.json.")
 
             except Exception as e:
                 print(f'[-] Error saat memproses halaman {page}: {e}')
 
-            # ANTI-BLOCKING DELAY
-            delay = random.uniform(1.5, 3.5)
-            print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir...")
-            time.sleep(delay)
+        # ANTI-BLOCKING DELAY
+        delay = random.uniform(1.5, 3.5)
+        print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir...")
+        time.sleep(delay)
 
     print(f'\n[v] MISI SELESAI! Total keseluruhan: {len(movies_data)} film/series tersimpan.')
 
