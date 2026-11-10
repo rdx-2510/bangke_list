@@ -102,12 +102,18 @@ def process_single_movie(movie_url):
             dur_match = re.search(r'>\s*(\d+j\s*\d+m|\d+m)\s*<', res.text)
         if dur_match: duration = dur_match.group(1).strip()
 
-        # 7. MULTI-SERVER EXTRACTION
+        # 7. MULTI-SERVER EXTRACTION (DENGAN FILTER IKLAN SAMPAH)
         servers = []
+        
+        # Daftar domain iklan / pop-under yang WAJIB dibuang
+        AD_DOMAINS = ['decafeligiblyhad', 'adsterra', 'popads', 'histats', 'bet365', 'slot', 'gacor', 'doubleclick', 'analytics']
+
         all_iframes = re.findall(r'<iframe[^>]+src=[\'"](https?://[^\'"]+)[\'"]', res.text)
         all_embeds = re.findall(r'https?://(?:kotakajaib|streamtape|vikingfile|hydrax|gdplayer)[^\s\'"]+', res.text, re.IGNORECASE)
 
-        combined_links = list(set(all_iframes + all_embeds))
+        # Hanya simpan link iframe yang BUKAN iklan
+        clean_iframes = [link for link in all_iframes if not any(ad in link.lower() for ad in AD_DOMAINS)]
+        combined_links = list(set(clean_iframes + all_embeds))
 
         for idx, link in enumerate(combined_links):
             server_name = "Server Utama"
