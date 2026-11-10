@@ -34,6 +34,13 @@ HEADERS = {
     'Referer': 'https://new1.pusatfilm21info.com/',
 }
 
+# DAFTAR BLACKLIST DOMAIN IKLAN / POP-UNDER / TRACKING
+AD_DOMAINS = [
+    'decafeligiblyhad', 'adsterra', 'popads', 'histats', 'bet365', 
+    'slot', 'gacor', 'doubleclick', 'analytics', 'greentrafsa', 
+    'smartpop', 'trafsa', 'clickadu', 'propellerads', 'exoclick'
+]
+
 def process_single_movie(movie_url):
     """
     Fungsi andalan untuk mengekstrak data film dengan presisi tinggi.
@@ -102,16 +109,12 @@ def process_single_movie(movie_url):
             dur_match = re.search(r'>\s*(\d+j\s*\d+m|\d+m)\s*<', res.text)
         if dur_match: duration = dur_match.group(1).strip()
 
-        # 7. MULTI-SERVER EXTRACTION (DENGAN FILTER IKLAN SAMPAH)
+        # 7. MULTI-SERVER EXTRACTION (DENGAN FILTER IKLAN SUPER KETAT)
         servers = []
-        
-        # Daftar domain iklan / pop-under yang WAJIB dibuang
-        AD_DOMAINS = ['decafeligiblyhad', 'adsterra', 'popads', 'histats', 'bet365', 'slot', 'gacor', 'doubleclick', 'analytics']
-
         all_iframes = re.findall(r'<iframe[^>]+src=[\'"](https?://[^\'"]+)[\'"]', res.text)
         all_embeds = re.findall(r'https?://(?:kotakajaib|streamtape|vikingfile|hydrax|gdplayer)[^\s\'"]+', res.text, re.IGNORECASE)
 
-        # Hanya simpan link iframe yang BUKAN iklan
+        # Filter: Hanya simpan link iframe yang BUKAN iklan
         clean_iframes = [link for link in all_iframes if not any(ad in link.lower() for ad in AD_DOMAINS)]
         combined_links = list(set(clean_iframes + all_embeds))
 
@@ -142,8 +145,7 @@ def process_single_movie(movie_url):
 
 def build_pagination_url(base, page):
     """
-    Fungsi cerdas untuk merakit URL pagination, 
-    bahkan jika URL dasar memiliki parameter (seperti ?sort=latest).
+    Fungsi cerdas untuk merakit URL pagination.
     """
     if page == 1:
         return base
@@ -163,6 +165,26 @@ def scrape_pusatfilm():
             try: movies_data = json.load(f)
             except: movies_data = []
 
+    # === FITUR OTO-CLEAN: BERSIHKAN SERVER IKLAN DARI DATA EXISTING MOVIES.JSON ===
+    print("[*] Memeriksa & membersihkan data movies.json lama dari domain iklan...")
+    cleaned_count = 0
+    for item in movies_data:
+        if 'servers' in item and isinstance(item['servers'], list):
+            orig_len = len(item['servers'])
+            item['servers'] = [
+                s for s in item['servers'] 
+                if not any(ad in s.get('url', '').lower() for ad in AD_DOMAINS)
+            ]
+            if len(item['servers']) < orig_len:
+                cleaned_count += 1
+                if item['servers']:
+                    item['embed_url'] = item['servers'][0]['url']
+                else:
+                    item['embed_url'] = ""
+
+    if cleaned_count > 0:
+        print(f"[✓] Berhasil menyapu server iklan dari {cleaned_count} film lama!")
+
     processed_urls = {item.get('url') for item in movies_data if 'url' in item}
 
     print(f"\n[+] Memulai Scraping Multi-Kategori (Maks {END_PAGE} Halaman/Kategori)...")
@@ -181,7 +203,6 @@ def scrape_pusatfilm():
             try:
                 res = requests.get(url, headers=HEADERS, timeout=15)
 
-                # Rem Otomatis jika halaman sudah habis
                 if res.status_code == 404:
                     print(f"[!] Halaman {page} tidak ditemukan (404). Kategori ini sudah habis ditelusuri.")
                     break 
@@ -206,7 +227,6 @@ def scrape_pusatfilm():
                 else:
                     print(f"[*] Ditemukan {len(unprocessed_urls)} link baru. Mengekstrak data secara paralel...")
 
-                    # Eksekusi paralel 5 tugas sekaligus
                     with ThreadPoolExecutor(max_workers=5) as executor:
                         results = list(executor.map(process_single_movie, unprocessed_urls))
 
@@ -227,12 +247,16 @@ def scrape_pusatfilm():
             except Exception as e:
                 print(f'[-] Error saat memproses halaman {page}: {e}')
 
-        # ANTI-BLOCKING DELAY
-        delay = random.uniform(1.5, 3.5)
-        print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir...")
-        time.sleep(delay)
+            # ANTI-BLOCKING DELAY
+            delay = random.uniform(1.5, 3.5)
+            print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir...")
+            time.sleep(delay)
 
-    print(f'\n[v] MISI SELESAI! Total keseluruhan: {len(movies_data)} film/series tersimpan.')
+    # Simpan versi final
+    with open('movies.json', 'w', encoding='utf-8') as f:
+        json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
+
+    print(f'\n[v] MISI SELESAI! Total keseluruhan: {len(movies_data)} film/series tersimpan bersih.')
 
 if __name__ == '__main__':
     scrape_pusatfilm()
