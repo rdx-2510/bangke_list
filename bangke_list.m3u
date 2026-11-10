@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Snooker Champion of Champions
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20Champion%20of%20Champions.html
+http://193.47.62.59/hls/WJJJJJ.m3u8
+#EXTINF:-1, FawaNews - Tennis ATP Stockholm
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20ATP%20Stockholm.html
+http://193.47.62.55/hls/RGGG.m3u8
 #EXTINF:-1, FawaNews - New Zealand vs India
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20Zealand%20vs%20India.html
