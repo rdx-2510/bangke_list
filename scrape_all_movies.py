@@ -16,7 +16,7 @@ BASE_URLS = [
     "https://new1.pusatfilm21info.com/tv",
     "https://new1.pusatfilm21info.com/genre/action",
     "https://new1.pusatfilm21info.com/genre/horror",
-    "https://new1.pusatfilm21info.com/genre/comedy"
+    "https://new1.pusatfilm21info.com/genre/comedy", "https://new1.pusatfilm21info.com/network/netflix"
 ]
 
 START_PAGE = 1
