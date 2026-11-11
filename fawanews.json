@@ -2,15 +2,61 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "02:03:54 PM 11-11-2026",
-    "total_matches": 32,
-    "live_match": 10,
+    "last_update_time": "03:38:55 PM 11-11-2026",
+    "total_matches": 34,
+    "live_match": 12,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Simba Queens vs JKT Queens",
+            "timestamp": 1794411525,
+            "eventInfo": {
+                "teamA": "Simba Queens",
+                "teamB": "JKT Queens",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 03:38:45 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/WAWAWA.m3u8",
+                    "referer": "http://www.fawanews.sc/Simba%20Queens%20vs%20JKT%20Queens.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Turkiye U19 vs Slovakia U19",
+            "timestamp": 1794411525,
+            "eventInfo": {
+                "teamA": "Turkiye U19",
+                "teamB": "Slovakia U19",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 03:38:45 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/T.m3u8",
+                    "referer": "http://www.fawanews.sc/Turkiye%20U19%20vs%20Slovakia%20U19.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Snooker Champion of Champions",
-            "timestamp": 1794405827,
+            "timestamp": 1794411525,
             "eventInfo": {
                 "teamA": "Snooker Champion of Champions",
                 "teamB": "",
@@ -18,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:47 PM"
+                "startTime": "11/11/2026 03:38:45 PM"
             },
             "streams": [
                 {
@@ -33,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis ATP Stockholm",
-            "timestamp": 1794405827,
+            "timestamp": 1794411526,
             "eventInfo": {
                 "teamA": "Tennis ATP Stockholm",
                 "teamB": "",
@@ -41,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:47 PM"
+                "startTime": "11/11/2026 03:38:46 PM"
             },
             "streams": [
                 {
@@ -56,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vietnam vs Chinese Taipei",
-            "timestamp": 1794405828,
+            "timestamp": 1794411527,
             "eventInfo": {
                 "teamA": "Vietnam",
                 "teamB": "Chinese Taipei",
@@ -64,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:48 PM"
+                "startTime": "11/11/2026 03:38:47 PM"
             },
             "streams": [
                 {
@@ -79,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Croatia U19 vs Hungary U19",
-            "timestamp": 1794405828,
+            "timestamp": 1794411527,
             "eventInfo": {
                 "teamA": "Croatia U19",
                 "teamB": "Hungary U19",
@@ -87,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:48 PM"
+                "startTime": "11/11/2026 03:38:47 PM"
             },
             "streams": [
                 {
@@ -102,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "France U17 vs Armenia U17",
-            "timestamp": 1794405829,
+            "timestamp": 1794411527,
             "eventInfo": {
                 "teamA": "France U17",
                 "teamB": "Armenia U17",
@@ -110,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:49 PM"
+                "startTime": "11/11/2026 03:38:47 PM"
             },
             "streams": [
                 {
@@ -125,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Urawa Reds vs Cerezo Osaka",
-            "timestamp": 1794405829,
+            "timestamp": 1794411528,
             "eventInfo": {
                 "teamA": "Urawa Reds",
                 "teamB": "Cerezo Osaka",
@@ -133,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:49 PM"
+                "startTime": "11/11/2026 03:38:48 PM"
             },
             "streams": [
                 {
@@ -148,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Yokohama F Marinos vs Kashima Antlers",
-            "timestamp": 1794405829,
+            "timestamp": 1794411528,
             "eventInfo": {
                 "teamA": "Yokohama F Marinos",
                 "teamB": "Kashima Antlers",
@@ -156,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:49 PM"
+                "startTime": "11/11/2026 03:38:48 PM"
             },
             "streams": [
                 {
@@ -171,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vissel Kobe vs Machida",
-            "timestamp": 1794405829,
+            "timestamp": 1794411528,
             "eventInfo": {
                 "teamA": "Vissel Kobe",
                 "teamB": "Machida",
@@ -179,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:49 PM"
+                "startTime": "11/11/2026 03:38:48 PM"
             },
             "streams": [
                 {
@@ -194,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kawasaki Frontale vs Kashiwa Reysol",
-            "timestamp": 1794405830,
+            "timestamp": 1794411529,
             "eventInfo": {
                 "teamA": "Kawasaki Frontale",
                 "teamB": "Kashiwa Reysol",
@@ -202,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:50 PM"
+                "startTime": "11/11/2026 03:38:49 PM"
             },
             "streams": [
                 {
@@ -217,7 +263,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Pakistan vs Sri Lanka1",
-            "timestamp": 1794405830,
+            "timestamp": 1794411529,
             "eventInfo": {
                 "teamA": "Pakistan",
                 "teamB": "Sri Lanka1",
@@ -225,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "11/11/2026 02:03:50 PM"
+                "startTime": "11/11/2026 03:38:49 PM"
             },
             "streams": [
                 {
