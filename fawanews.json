@@ -2,15 +2,61 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "11:24:55 PM 10-11-2026",
-    "total_matches": 43,
-    "live_match": 16,
+    "last_update_time": "12:35:50 AM 11-11-2026",
+    "total_matches": 44,
+    "live_match": 24,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "New York Knicks vs Milwaukee Bucks",
+            "timestamp": 1794357342,
+            "eventInfo": {
+                "teamA": "New York Knicks",
+                "teamB": "Milwaukee Bucks",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 12:35:42 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/RPPP.m3u8",
+                    "referer": "http://www.fawanews.sc/New%20York%20Knicks%20vs%20Milwaukee%20Bucks.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "New York Knicks vs Milwaukee Bucks --- CH 2",
+            "timestamp": 1794357342,
+            "eventInfo": {
+                "teamA": "New York Knicks",
+                "teamB": "Milwaukee Bucks --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 12:35:42 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/9848ddd9-8474-4c3b-87a8-a40daa4b2132.m3u8",
+                    "referer": "http://www.fawanews.sc/New%20York%20Knicks%20vs%20Milwaukee%20Bucks%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Portland Trail Blazers vs Oklahoma City Thunder",
-            "timestamp": 1794353083,
+            "timestamp": 1794357343,
             "eventInfo": {
                 "teamA": "Portland Trail Blazers",
                 "teamB": "Oklahoma City Thunder",
@@ -18,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:43 PM"
+                "startTime": "11/11/2026 12:35:43 AM"
             },
             "streams": [
                 {
@@ -33,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sacramento Kings vs Orlando Magic",
-            "timestamp": 1794353083,
+            "timestamp": 1794357343,
             "eventInfo": {
                 "teamA": "Sacramento Kings",
                 "teamB": "Orlando Magic",
@@ -41,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:43 PM"
+                "startTime": "11/11/2026 12:35:43 AM"
             },
             "streams": [
                 {
@@ -56,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Utah Jazz vs Miami Heat",
-            "timestamp": 1794353084,
+            "timestamp": 1794357343,
             "eventInfo": {
                 "teamA": "Utah Jazz",
                 "teamB": "Miami Heat",
@@ -64,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:44 PM"
+                "startTime": "11/11/2026 12:35:43 AM"
             },
             "streams": [
                 {
@@ -79,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Phoenix Suns vs Los Angeles Clippers",
-            "timestamp": 1794353084,
+            "timestamp": 1794357343,
             "eventInfo": {
                 "teamA": "Phoenix Suns",
                 "teamB": "Los Angeles Clippers",
@@ -87,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:44 PM"
+                "startTime": "11/11/2026 12:35:43 AM"
             },
             "streams": [
                 {
@@ -102,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Philadelphia 76ers vs Boston Celtics",
-            "timestamp": 1794353084,
+            "timestamp": 1794357343,
             "eventInfo": {
                 "teamA": "Philadelphia 76ers",
                 "teamB": "Boston Celtics",
@@ -110,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:44 PM"
+                "startTime": "11/11/2026 12:35:43 AM"
             },
             "streams": [
                 {
@@ -124,22 +170,22 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "New York Knicks vs Milwaukee Bucks",
-            "timestamp": 1794353085,
+            "event_name": "Los Angeles Kings vs Nashville Predators",
+            "timestamp": 1794357344,
             "eventInfo": {
-                "teamA": "New York Knicks",
-                "teamB": "Milwaukee Bucks",
+                "teamA": "Los Angeles Kings",
+                "teamB": "Nashville Predators",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:45 PM"
+                "startTime": "11/11/2026 12:35:44 AM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.50/hls/RPPP.m3u8",
-                    "referer": "http://www.fawanews.sc/New%20York%20Knicks%20vs%20Milwaukee%20Bucks.html",
+                    "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/a303a19d-9d30-4284-b19d-5371a2a17d19/master.m3u8",
+                    "referer": "http://www.fawanews.sc/Los%20Angeles%20Kings%20vs%20Nashville%20Predators.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
@@ -148,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Once Caldas vs Atl Nacional",
-            "timestamp": 1794353085,
+            "timestamp": 1794357344,
             "eventInfo": {
                 "teamA": "Once Caldas",
                 "teamB": "Atl Nacional",
@@ -156,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:45 PM"
+                "startTime": "11/11/2026 12:35:44 AM"
             },
             "streams": [
                 {
@@ -171,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Miami Oh vs Ohio",
-            "timestamp": 1794353086,
+            "timestamp": 1794357344,
             "eventInfo": {
                 "teamA": "Miami Oh",
                 "teamB": "Ohio",
@@ -179,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:46 PM"
+                "startTime": "11/11/2026 12:35:44 AM"
             },
             "streams": [
                 {
@@ -194,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "WWE NXT",
-            "timestamp": 1794353086,
+            "timestamp": 1794357344,
             "eventInfo": {
                 "teamA": "WWE NXT",
                 "teamB": "",
@@ -202,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:46 PM"
+                "startTime": "11/11/2026 12:35:44 AM"
             },
             "streams": [
                 {
@@ -216,8 +262,54 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "St Louis Blues vs Detroit Red Wings",
+            "timestamp": 1794357344,
+            "eventInfo": {
+                "teamA": "St Louis Blues",
+                "teamB": "Detroit Red Wings",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 12:35:44 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/ce4864af-8b0b-40f2-8061-682cbf95e8dc/master.m3u8",
+                    "referer": "http://www.fawanews.sc/St%20Louis%20Blues%20vs%20Detroit%20Red%20Wings.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Columbus Blue Jackets vs Florida Panthers",
+            "timestamp": 1794357344,
+            "eventInfo": {
+                "teamA": "Columbus Blue Jackets",
+                "teamB": "Florida Panthers",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 12:35:44 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/454378de-87a7-4f70-8531-0c322b6fd5ae/master.m3u8",
+                    "referer": "http://www.fawanews.sc/Columbus%20Blue%20Jackets%20vs%20Florida%20Panthers.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Sint Maarten vs Anguilla",
-            "timestamp": 1794353087,
+            "timestamp": 1794357345,
             "eventInfo": {
                 "teamA": "Sint Maarten",
                 "teamB": "Anguilla",
@@ -225,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:47 PM"
+                "startTime": "11/11/2026 12:35:45 AM"
             },
             "streams": [
                 {
@@ -240,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Bowling Green vs Kent State",
-            "timestamp": 1794353087,
+            "timestamp": 1794357345,
             "eventInfo": {
                 "teamA": "Bowling Green",
                 "teamB": "Kent State",
@@ -248,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:47 PM"
+                "startTime": "11/11/2026 12:35:45 AM"
             },
             "streams": [
                 {
@@ -263,7 +355,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Akron vs Western Michigan",
-            "timestamp": 1794353087,
+            "timestamp": 1794357345,
             "eventInfo": {
                 "teamA": "Akron",
                 "teamB": "Western Michigan",
@@ -271,7 +363,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:47 PM"
+                "startTime": "11/11/2026 12:35:45 AM"
             },
             "streams": [
                 {
@@ -285,8 +377,100 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Winnipeg Jets vs New Jersey Devils",
+            "timestamp": 1794357345,
+            "eventInfo": {
+                "teamA": "Winnipeg Jets",
+                "teamB": "New Jersey Devils",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 12:35:45 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/74ab6a71-32e2-45c1-b389-0b9aa16627f1/master.m3u8",
+                    "referer": "http://www.fawanews.sc/Winnipeg%20Jets%20vs%20New%20Jersey%20Devils.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Toronto Maple Leafs vs Colorado Avalanche",
+            "timestamp": 1794357345,
+            "eventInfo": {
+                "teamA": "Toronto Maple Leafs",
+                "teamB": "Colorado Avalanche",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 12:35:45 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/7d0c6f9a-a210-41ab-9310-f88cd4660ceb/master.m3u8",
+                    "referer": "http://www.fawanews.sc/Toronto%20Maple%20Leafs%20vs%20Colorado%20Avalanche.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Ottawa Senators vs Washington Capitals",
+            "timestamp": 1794357346,
+            "eventInfo": {
+                "teamA": "Ottawa Senators",
+                "teamB": "Washington Capitals",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 12:35:46 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/b5597202-61a7-4a60-ad7b-7d2d3cb6035b/master.m3u8",
+                    "referer": "http://www.fawanews.sc/Ottawa%20Senators%20vs%20Washington%20Capitals.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Montreal Canadiens vs Minnesota Wild",
+            "timestamp": 1794357346,
+            "eventInfo": {
+                "teamA": "Montreal Canadiens",
+                "teamB": "Minnesota Wild",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "11/11/2026 12:35:46 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/7cdc4685-e0d3-4741-8f8b-0db26f2bdda1/master.m3u8",
+                    "referer": "http://www.fawanews.sc/Montreal%20Canadiens%20vs%20Minnesota%20Wild.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Liverpool M vs Juventud",
-            "timestamp": 1794353089,
+            "timestamp": 1794357346,
             "eventInfo": {
                 "teamA": "Liverpool M",
                 "teamB": "Juventud",
@@ -294,7 +478,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:49 PM"
+                "startTime": "11/11/2026 12:35:46 AM"
             },
             "streams": [
                 {
@@ -309,7 +493,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Inter Bogota vs America De Cali",
-            "timestamp": 1794353089,
+            "timestamp": 1794357346,
             "eventInfo": {
                 "teamA": "Inter Bogota",
                 "teamB": "America De Cali",
@@ -317,7 +501,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:49 PM"
+                "startTime": "11/11/2026 12:35:46 AM"
             },
             "streams": [
                 {
@@ -332,7 +516,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Florida State vs Florida",
-            "timestamp": 1794353090,
+            "timestamp": 1794357346,
             "eventInfo": {
                 "teamA": "Florida State",
                 "teamB": "Florida",
@@ -340,7 +524,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:50 PM"
+                "startTime": "11/11/2026 12:35:46 AM"
             },
             "streams": [
                 {
@@ -355,7 +539,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis WTA Finals Indian Wells",
-            "timestamp": 1794353090,
+            "timestamp": 1794357346,
             "eventInfo": {
                 "teamA": "Tennis WTA Finals Indian Wells",
                 "teamB": "",
@@ -363,7 +547,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "10/11/2026 11:24:50 PM"
+                "startTime": "11/11/2026 12:35:46 AM"
             },
             "streams": [
                 {
