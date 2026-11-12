@@ -1,28 +1,4 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Toronto Raptors vs Boston Celtics
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Toronto%20Raptors%20vs%20Boston%20Celtics.html
-http://193.47.62.50/hls/AVVVAAA.m3u8
-#EXTINF:-1, FawaNews - New York Knicks vs Cleveland Cavaliers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Knicks%20vs%20Cleveland%20Cavaliers.html
-http://193.47.62.59/hls/AVVV.m3u8
-#EXTINF:-1, FawaNews - Indiana Pacers vs Washington Wizards
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Indiana%20Pacers%20vs%20Washington%20Wizards.html
-http://193.47.62.44/hls/NRRR.m3u8
-#EXTINF:-1, FawaNews - Portland Trail Blazers vs Oklahoma City Thunder
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Portland%20Trail%20Blazers%20vs%20Oklahoma%20City%20Thunder.html
-http://193.47.62.59/hls/AVVVAA.m3u8
-#EXTINF:-1, FawaNews - Houston Rockets vs Golden State Warriors
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Houston%20Rockets%20vs%20Golden%20State%20Warriors.html
-http://193.47.62.44/hls/NRRRAA.m3u8
-#EXTINF:-1, FawaNews - Utah Jazz vs Orlando Magic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Utah%20Jazz%20vs%20Orlando%20Magic.html
-http://193.47.62.55/hls/AVVVAAAAQA.m3u8
 #EXTINF:-1, FawaNews - New Orleans Pelicans vs Brooklyn Nets
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20Orleans%20Pelicans%20vs%20Brooklyn%20Nets.html
@@ -39,6 +15,42 @@ http://193.47.62.44/hls/NRRRA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Chicago%20Bulls%20vs%20San%20Antonio%20Spurs.html
 http://193.47.62.55/hls/AVVVAAAAA.m3u8
+#EXTINF:-1, FawaNews - Toronto Raptors vs Boston Celtics
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Toronto%20Raptors%20vs%20Boston%20Celtics.html
+http://193.47.62.50/hls/AVVVAAA.m3u8
+#EXTINF:-1, FawaNews - Toronto Raptors vs Boston Celtics --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Toronto%20Raptors%20vs%20Boston%20Celtics%20---%20CH%202.html
+https://www.rtmpcdn.com/live/39894ba2-bbc0-47ae-a0a6-c6017cf7eb37.m3u8
+#EXTINF:-1, FawaNews - New York Knicks vs Cleveland Cavaliers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Knicks%20vs%20Cleveland%20Cavaliers.html
+http://193.47.62.59/hls/AVVV.m3u8
+#EXTINF:-1, FawaNews - New York Knicks vs Cleveland Cavaliers --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20York%20Knicks%20vs%20Cleveland%20Cavaliers%20---%20CH%202.html
+https://www.rtmpcdn.com/live/f90f2f8d-6b4f-4aeb-9f1c-8a6f558c6698.m3u8
+#EXTINF:-1, FawaNews - Indiana Pacers vs Washington Wizards
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Indiana%20Pacers%20vs%20Washington%20Wizards.html
+http://193.47.62.44/hls/NRRR.m3u8
+#EXTINF:-1, FawaNews - Indiana Pacers vs Washington Wizards --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Indiana%20Pacers%20vs%20Washington%20Wizards%20---%20CH%202.html
+https://www.rtmpcdn.com/live/eacf0405-585a-4871-9076-46758191fee5.m3u8
+#EXTINF:-1, FawaNews - Portland Trail Blazers vs Oklahoma City Thunder
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Portland%20Trail%20Blazers%20vs%20Oklahoma%20City%20Thunder.html
+http://193.47.62.59/hls/AVVVAA.m3u8
+#EXTINF:-1, FawaNews - Houston Rockets vs Golden State Warriors
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Houston%20Rockets%20vs%20Golden%20State%20Warriors.html
+http://193.47.62.44/hls/NRRRAA.m3u8
+#EXTINF:-1, FawaNews - Utah Jazz vs Orlando Magic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Utah%20Jazz%20vs%20Orlando%20Magic.html
+http://193.47.62.55/hls/AVVVAAAAQA.m3u8
 #EXTINF:-1, FawaNews - California vs USC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/California%20vs%20USC.html
