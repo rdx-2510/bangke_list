@@ -1,16 +1,28 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Equatorial Guinea vs Zimbabwe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Equatorial%20Guinea%20vs%20Zimbabwe.html
-http://193.47.62.44/hls/GGGGA.m3u8
 #EXTINF:-1, FawaNews - DR Congo vs Sierra Leone
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/DR%20Congo%20vs%20Sierra%20Leone.html
 http://193.47.62.59/hls/GGGGAA.m3u8
+#EXTINF:-1, FawaNews - DR Congo vs Sierra Leone --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/DR%20Congo%20vs%20Sierra%20Leone%20---%20CH%202.html
+https://www.rtmpcdn.com/live/f19479d7-0000-4b2b-8adf-3a39c47e4bee.m3u8
+#EXTINF:-1, FawaNews - Equatorial Guinea vs Zimbabwe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Equatorial%20Guinea%20vs%20Zimbabwe.html
+http://193.47.62.44/hls/GGGGA.m3u8
+#EXTINF:-1, FawaNews - Equatorial Guinea vs Zimbabwe --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Equatorial%20Guinea%20vs%20Zimbabwe%20---%20CH%202.html
+https://www.rtmpcdn.com/live/b9b09c7b-5cc0-477b-8148-7345d757cf57.m3u8
 #EXTINF:-1, FawaNews - Madagascar vs Guinea Bissau
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Madagascar%20vs%20Guinea%20Bissau.html
 http://193.47.62.59/hls/GGGGAAAA.m3u8
+#EXTINF:-1, FawaNews - Madagascar vs Guinea Bissau --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Madagascar%20vs%20Guinea%20Bissau%20---%20CH%202.html
+https://www.rtmpcdn.com/live/48188144-5399-4da3-ab38-99af6a1a06ed.m3u8
 #EXTINF:-1, FawaNews - Ghana vs Somalia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Ghana%20vs%20Somalia.html
@@ -23,6 +35,10 @@ https://www.rtmpcdn.com/live/17e1ac47-caa9-4698-a236-70ce92411dea.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guinea%20vs%20Eritrea.html
 http://193.47.62.59/hls/GGGGAAA.m3u8
+#EXTINF:-1, FawaNews - Guinea vs Eritrea --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guinea%20vs%20Eritrea%20---%20CH%202.html
+https://www.rtmpcdn.com/live/576e7206-53a9-498f-9735-1383ded86fe8.m3u8
 #EXTINF:-1, FawaNews - Turkey vs Belgium
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Turkey%20vs%20Belgium.html
