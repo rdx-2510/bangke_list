@@ -1,28 +1,48 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Turkey vs Belgium1
+#EXTINF:-1, FawaNews - UEFA Nations League Simulcast
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Turkey%20vs%20Belgium1.html
-http://193.47.62.50/hls/EEEEAAAAX.m3u8
-#EXTINF:-1, FawaNews - Turkey vs Belgium --- CH 2
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/UEFA%20Nations%20League%20Simulcast.html
+http://193.47.62.41/hls/RVVVAmaster.m3u8
+#EXTINF:-1, FawaNews - Italy vs France --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Turkey%20vs%20Belgium%20---%20CH%202.html
-https://www.rtmpcdn.com/live/177f579d-a5a2-4aa9-a3a9-0bd2e41fdcd3.m3u8
-#EXTINF:-1, FawaNews - Armenia vs Cyprus1
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Italy%20vs%20France%20---%20CH%202.html
+https://live01-cn-ali.xqnbu.com/live/99429832_tsc.m3u8
+#EXTINF:-1, FawaNews - England vs Croatia --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Armenia%20vs%20Cyprus1.html
-http://193.47.62.50/hls/EEEEAAAX.m3u8
-#EXTINF:-1, FawaNews - Armenia vs Cyprus --- CH 2
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/England%20vs%20Croatia%20---%20CH%202.html
+https://www.rtmpcdn.com/live/e2fefd1f-0c53-461c-9e8b-8780f63f0874.m3u8
+#EXTINF:-1, FawaNews - Czech Republic vs Spain --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Armenia%20vs%20Cyprus%20---%20CH%202.html
-https://www.rtmpcdn.com/live/805fb1e1-c171-469e-9cd0-659b98ca4547.m3u8
-#EXTINF:-1, FawaNews - Guinea vs Eritrea
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Czech%20Republic%20vs%20Spain%20---%20CH%202.html
+https://www.rtmpcdn.com/live/4d6b1628-9a18-4c59-b149-17048ce4f7f4.m3u8
+#EXTINF:-1, FawaNews - Albania vs Finland
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guinea%20vs%20Eritrea.html
-http://193.47.62.59/hls/GGGGAAA.m3u8
-#EXTINF:-1, FawaNews - Guinea vs Eritrea --- CH 2
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Albania%20vs%20Finland.html
+http://193.47.62.41/hls/RVVVmaster.m3u8
+#EXTINF:-1, FawaNews - Montenegro vs Latvia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guinea%20vs%20Eritrea%20---%20CH%202.html
-https://www.rtmpcdn.com/live/576e7206-53a9-498f-9735-1383ded86fe8.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Montenegro%20vs%20Latvia.html
+http://193.47.62.41/hls/CCEEEAmaster.m3u8
+#EXTINF:-1, FawaNews - San Marino vs Belarus
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Marino%20vs%20Belarus.html
+http://193.47.62.41/hls/CCEEEmaster.m3u8
+#EXTINF:-1, FawaNews - Senegal vs Sudan --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Senegal%20vs%20Sudan%20---%20CH%202.html
+https://www.rtmpcdn.com/live/66f8ae7c-cebd-49e9-988e-fa4bf8c30c19.m3u8
+#EXTINF:-1, FawaNews - Ivory Coast vs Gambia --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Ivory%20Coast%20vs%20Gambia%20---%20CH%202.html
+https://www.rtmpcdn.com/live/277ad19b-b75e-42b1-93f6-e74fef790dd6.m3u8
+#EXTINF:-1, FawaNews - Cameroon vs Namibia --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cameroon%20vs%20Namibia%20---%20CH%202.html
+https://www.rtmpcdn.com/live/86881c24-41e4-4602-bf1c-e74a44d1496b.m3u8
+#EXTINF:-1, FawaNews - Benin vs Central Africa --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Benin%20vs%20Central%20Africa%20---%20CH%202.html
+https://www.rtmpcdn.com/live/6290ac21-2215-47a1-9b4e-cc978188e334.m3u8
 #EXTINF:-1, FawaNews - SL Benfica W vs Austria Vienna W
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/SL%20Benfica%20W%20vs%20Austria%20Vienna%20W.html
@@ -39,26 +59,6 @@ http://193.47.62.41/hls/RVVVAAAmaster.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Bonaire%20vs%20Cuba.html
 http://193.47.62.41/hls/RVVVAAmaster.m3u8
-#EXTINF:-1, FawaNews - UEFA Nations League Simulcast
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/UEFA%20Nations%20League%20Simulcast.html
-http://193.47.62.41/hls/RVVVAmaster.m3u8
-#EXTINF:-1, FawaNews - Albania vs Finland
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Albania%20vs%20Finland.html
-http://193.47.62.41/hls/RVVVmaster.m3u8
-#EXTINF:-1, FawaNews - Montenegro vs Latvia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Montenegro%20vs%20Latvia.html
-http://193.47.62.41/hls/CCEEEAmaster.m3u8
-#EXTINF:-1, FawaNews - San Marino vs Belarus
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Marino%20vs%20Belarus.html
-http://193.47.62.41/hls/CCEEEmaster.m3u8
-#EXTINF:-1, FawaNews - England U20 vs Czech Republic U20
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/England%20U20%20vs%20Czech%20Republic%20U20.html
-http://193.47.62.41/hls/FZZZAAAAqqmaster.m3u8
 #EXTINF:-1, FawaNews - Valencia vs Bayern Munchen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Valencia%20vs%20Bayern%20Munchen.html
@@ -135,26 +135,10 @@ http://193.47.62.55/hls/V333.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Malta%20vs%20Eswatini.html
 http://193.47.62.55/hls/V333A.m3u8
-#EXTINF:-1, FawaNews - Lithuania vs Suriname
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Lithuania%20vs%20Suriname.html
-http://193.47.62.50/hls/EEEE.m3u8
 #EXTINF:-1, FawaNews - Seattle Kraken vs Carolina Hurricanes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Seattle%20Kraken%20vs%20Carolina%20Hurricanes.html
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/bdd8fe96-ed38-410e-84d5-8c77947c69b6/master.m3u8
-#EXTINF:-1, FawaNews - Torreense W vs Sparta Prague W
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Torreense%20W%20vs%20Sparta%20Prague%20W.html
-http://193.47.62.50/hls/EEEEAA.m3u8
-#EXTINF:-1, FawaNews - Italy U20 vs Portugal U20
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Italy%20U20%20vs%20Portugal%20U20.html
-http://193.47.62.41/hls/FF444AAAA.m3u8
-#EXTINF:-1, FawaNews - France U20 vs Denmark U20
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/France%20U20%20vs%20Denmark%20U20.html
-http://193.47.62.41/hls/FF444AAA.m3u8
 #EXTINF:-1, FawaNews - Golf LPGA The ANNIKA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20LPGA%20The%20ANNIKA.html
@@ -163,3 +147,7 @@ http://193.47.62.41/hls/FF444.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20PGA%20Austin%20Championship.html
 http://193.47.62.50/hls/VYYYAAAAq.m3u8
+#EXTINF:-1, FawaNews - Tennis ATP Stockholm
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20ATP%20Stockholm.html
+http://193.47.62.55/hls/RGGG.m3u8
