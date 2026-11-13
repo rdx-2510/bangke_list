@@ -47,30 +47,40 @@ AD_DOMAINS = [
 
 def fetch_tmdb_poster(title, year="", is_tv=False):
     """
-    Mencari poster ASLI resolusi tinggi langsung dari database TMDb.
+    Mencari poster ASLI dengan toleransi perbedaan tahun rilis.
     """
     if not TMDB_API_KEY or TMDB_API_KEY == "MASUKKAN_API_KEY_TMDB_KAMU_DISINI":
-        return "" # Skip jika API belum diset
+        return "" 
     
-    # Normalisasi judul untuk membuang embel-embel
     clean_title = re.sub(r'(?i)(Season \d+|Episode \d+)', '', title).strip()
-
     search_type = "tv" if is_tv else "movie"
-    url = f"https://api.themoviedb.org/3/search/{search_type}?api_key={TMDB_API_KEY}&query={requests.utils.quote(clean_title)}"
+    base_search_url = f"https://api.themoviedb.org/3/search/{search_type}?api_key={TMDB_API_KEY}&query={requests.utils.quote(clean_title)}"
     
+    url_with_year = base_search_url
     if year:
         year_param = "first_air_date_year" if is_tv else "primary_release_year"
-        url += f"&{year_param}={year}"
+        url_with_year += f"&{year_param}={year}"
 
     try:
-        res = requests.get(url, timeout=5)
+        # PERCOBAAN 1: Cari secara spesifik dengan Tahun Rilis
+        res = requests.get(url_with_year, timeout=5)
         if res.status_code == 200:
             data = res.json()
             if data.get("results") and len(data["results"]) > 0:
                 poster_path = data["results"][0].get("poster_path")
                 if poster_path:
-                    # Mengambil gambar kualitas w500 (Cukup tajam untuk STB/HP)
                     return f"https://image.tmdb.org/t/p/w500{poster_path}"
+        
+        # PERCOBAAN 2: Jika kosong, cari TANPA Tahun (mengantisipasi perbedaan tahun di web sumber)
+        if year:
+            res_no_year = requests.get(base_search_url, timeout=5)
+            if res_no_year.status_code == 200:
+                data_no = res_no_year.json()
+                if data_no.get("results") and len(data_no["results"]) > 0:
+                    poster_path = data_no["results"][0].get("poster_path")
+                    if poster_path:
+                        return f"https://image.tmdb.org/t/p/w500{poster_path}"
+                        
     except Exception:
         pass
     
@@ -110,14 +120,11 @@ def process_single_movie(movie_url):
             if rating_match:
                 rating = rating_match.group(1)
 
-        # 3. Poster (Dengan TMDb Fallback)
+        # 3. Poster (Dengan TMDb Smart Fallback)
         poster_match = re.search(r'<meta property="og:image" content="([^"]+)"', res.text)
         original_poster = poster_match.group(1) if poster_match else ''
         
-        # Panggil TMDb untuk mendapatkan poster asli (Akurat!)
         tmdb_poster = fetch_tmdb_poster(title, year, content_type == "series")
-        
-        # Jika berhasil dapat dari TMDb, pakai TMDb. Kalau gagal, baru pakai bawaan web sumber.
         final_poster = tmdb_poster if tmdb_poster else original_poster
 
         # 4. Genre Bersih
@@ -199,7 +206,7 @@ def scrape_pusatfilm():
             try: movies_data = json.load(f)
             except: movies_data = []
 
-    print("[*] Memeriksa & membersihkan data movies.json lama dari domain iklan...")
+    print("[*] Memeriksa & membersihkan server iklan dari data lama...")
     cleaned_count = 0
     for item in movies_data:
         if 'servers' in item and isinstance(item['servers'], list):
@@ -217,6 +224,12 @@ def scrape_pusatfilm():
 
     if cleaned_count > 0:
         print(f"[✓] Berhasil menyapu server iklan dari {cleaned_count} film lama!")
+
+    print("[*] Memeriksa & mereset poster lama agar diperbarui otomatis ke TMDb...")
+    for item in movies_data:
+        current_poster = item.get('poster', '')
+        if not current_poster or "pusatfilm21" in current_poster or "image.tmdb.org" not in current_poster:
+            item['poster'] = ""
 
     processed_urls = {item.get('url') for item in movies_data if 'url' in item}
 
@@ -253,25 +266,36 @@ def scrape_pusatfilm():
                 valid_links = [l for l in set(movie_links) if '/page/' not in l]
                 unprocessed_urls = [l for l in valid_links if l not in processed_urls]
 
-                if not unprocessed_urls:
-                    print(f"[*] Tidak ada film baru di halaman {page}. (Sudah ada di JSON)")
+                # Izinkan juga memproses ulang film lama jika posternya masih kosong (dikosongkan untuk diperbarui)
+                force_check_urls = [item['url'] for item in movies_data if not item.get('poster')]
+                target_urls = list(set(unprocessed_urls + force_check_urls))
+
+                if not target_urls:
+                    print(f"[*] Tidak ada film baru atau pembaruan poster di halaman {page}.")
                 else:
-                    print(f"[*] Ditemukan {len(unprocessed_urls)} link baru. Mengekstrak data secara paralel...")
+                    print(f"[*] Memproses {len(target_urls)} target (film baru / pembaruan poster)...")
 
                     with ThreadPoolExecutor(max_workers=5) as executor:
-                        results = list(executor.map(process_single_movie, unprocessed_urls))
+                        results = list(executor.map(process_single_movie, target_urls))
 
                     added = 0
+                    updated = 0
                     for item in results:
                         if item:
-                            movies_data.insert(0, item)
-                            processed_urls.add(item['url'])
-                            added += 1
+                            # Cek apakah film sudah ada di list
+                            existing_idx = next((i for i, m in enumerate(movies_data) if m.get('url') == item['url']), -1)
+                            if existing_idx != -1:
+                                movies_data[existing_idx] = item # Update data dengan poster baru
+                                updated += 1
+                            else:
+                                movies_data.insert(0, item)
+                                processed_urls.add(item['url'])
+                                added += 1
 
                     with open('movies.json', 'w', encoding='utf-8') as f:
                         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
-                    print(f"[+] Halaman {page} selesai. {added} data baru ditambahkan ke posisi terdepan movies.json.")
+                    print(f"[+] Halaman {page} selesai. Menambahkan {added} film baru, memperbarui {updated} poster.")
 
             except Exception as e:
                 print(f'[-] Error saat memproses halaman {page}: {e}')
