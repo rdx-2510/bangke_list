@@ -2,15 +2,15 @@
     "name": "RoxieStreams Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "09:47:29 AM 13-11-2026",
+    "last_update_time": "10:48:16 AM 13-11-2026",
     "total_matches": 21,
-    "live_match": 19,
+    "live_match": 20,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Zambia vs Burundi",
-            "timestamp": 1794563243,
+            "timestamp": 1794566888,
             "eventInfo": {
                 "teamA": "Zambia",
                 "teamB": "Burundi",
@@ -18,12 +18,35 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:23 AM"
+                "startTime": "13/11/2026 10:48:08 AM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
-                    "stream_url": "https://admin2.formaturamaxi.com.br/beines.m3u8",
+                    "stream_url": "https://tedesco.formaturamaxi.com.br/bein.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Nigeria vs Tanzania",
+            "timestamp": 1794566889,
+            "eventInfo": {
+                "teamA": "Nigeria",
+                "teamB": "Tanzania",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "13/11/2026 10:48:09 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://tedesco.formaturamaxi.com.br/bein.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
@@ -33,7 +56,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "South Africa vs Kenya",
-            "timestamp": 1794563243,
+            "timestamp": 1794566889,
             "eventInfo": {
                 "teamA": "South Africa",
                 "teamB": "Kenya",
@@ -41,12 +64,12 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:23 AM"
+                "startTime": "13/11/2026 10:48:09 AM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
-                    "stream_url": "https://admin2.formaturamaxi.com.br/beines.m3u8",
+                    "stream_url": "https://tedesco.formaturamaxi.com.br/bein.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
@@ -56,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Moldova vs Kazakhstan",
-            "timestamp": 1794563244,
+            "timestamp": 1794566890,
             "eventInfo": {
                 "teamA": "Moldova",
                 "teamB": "Kazakhstan",
@@ -64,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:24 AM"
+                "startTime": "13/11/2026 10:48:10 AM"
             },
             "streams": [
                 {
@@ -79,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Egypt vs Malawi",
-            "timestamp": 1794563244,
+            "timestamp": 1794566890,
             "eventInfo": {
                 "teamA": "Egypt",
                 "teamB": "Malawi",
@@ -87,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:24 AM"
+                "startTime": "13/11/2026 10:48:10 AM"
             },
             "streams": [
                 {
@@ -102,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Liechtenstein vs Azerbaijan",
-            "timestamp": 1794563244,
+            "timestamp": 1794566891,
             "eventInfo": {
                 "teamA": "Liechtenstein",
                 "teamB": "Azerbaijan",
@@ -110,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:24 AM"
+                "startTime": "13/11/2026 10:48:11 AM"
             },
             "streams": [
                 {
@@ -125,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Scotland vs North Macedonia",
-            "timestamp": 1794563245,
+            "timestamp": 1794566891,
             "eventInfo": {
                 "teamA": "Scotland",
                 "teamB": "North Macedonia",
@@ -133,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:25 AM"
+                "startTime": "13/11/2026 10:48:11 AM"
             },
             "streams": [
                 {
@@ -148,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Slovenia vs Switzerland",
-            "timestamp": 1794563245,
+            "timestamp": 1794566891,
             "eventInfo": {
                 "teamA": "Slovenia",
                 "teamB": "Switzerland",
@@ -156,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:25 AM"
+                "startTime": "13/11/2026 10:48:11 AM"
             },
             "streams": [
                 {
@@ -171,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Netherlands vs Greece",
-            "timestamp": 1794563245,
+            "timestamp": 1794566892,
             "eventInfo": {
                 "teamA": "Netherlands",
                 "teamB": "Greece",
@@ -179,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:25 AM"
+                "startTime": "13/11/2026 10:48:12 AM"
             },
             "streams": [
                 {
@@ -194,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Serbia vs Germany",
-            "timestamp": 1794563246,
+            "timestamp": 1794566892,
             "eventInfo": {
                 "teamA": "Serbia",
                 "teamB": "Germany",
@@ -202,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:26 AM"
+                "startTime": "13/11/2026 10:48:12 AM"
             },
             "streams": [
                 {
@@ -217,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Bulgaria vs Iceland",
-            "timestamp": 1794563246,
+            "timestamp": 1794566892,
             "eventInfo": {
                 "teamA": "Bulgaria",
                 "teamB": "Iceland",
@@ -225,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:26 AM"
+                "startTime": "13/11/2026 10:48:12 AM"
             },
             "streams": [
                 {
@@ -240,7 +263,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Luxembourg vs Estonia",
-            "timestamp": 1794563246,
+            "timestamp": 1794566893,
             "eventInfo": {
                 "teamA": "Luxembourg",
                 "teamB": "Estonia",
@@ -248,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:26 AM"
+                "startTime": "13/11/2026 10:48:13 AM"
             },
             "streams": [
                 {
@@ -263,7 +286,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Morocco vs Niger",
-            "timestamp": 1794563247,
+            "timestamp": 1794566893,
             "eventInfo": {
                 "teamA": "Morocco",
                 "teamB": "Niger",
@@ -271,12 +294,12 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:27 AM"
+                "startTime": "13/11/2026 10:48:13 AM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
-                    "stream_url": "https://admin2.formaturamaxi.com.br/beines.m3u8",
+                    "stream_url": "https://tedesco.formaturamaxi.com.br/bein.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
@@ -286,7 +309,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Colo-Colo vs Racing Club",
-            "timestamp": 1794563247,
+            "timestamp": 1794566893,
             "eventInfo": {
                 "teamA": "Colo-Colo",
                 "teamB": "Racing Club",
@@ -294,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:27 AM"
+                "startTime": "13/11/2026 10:48:13 AM"
             },
             "streams": [
                 {
@@ -309,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Argentina vs Uruguay",
-            "timestamp": 1794563248,
+            "timestamp": 1794566894,
             "eventInfo": {
                 "teamA": "Argentina",
                 "teamB": "Uruguay",
@@ -317,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:28 AM"
+                "startTime": "13/11/2026 10:48:14 AM"
             },
             "streams": [
                 {
@@ -332,7 +355,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Saint Martin vs El Salvador",
-            "timestamp": 1794563248,
+            "timestamp": 1794566894,
             "eventInfo": {
                 "teamA": "Saint Martin",
                 "teamB": "El Salvador",
@@ -340,7 +363,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:28 AM"
+                "startTime": "13/11/2026 10:48:14 AM"
             },
             "streams": [
                 {
@@ -355,7 +378,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Ecuador vs Costa Rica",
-            "timestamp": 1794563249,
+            "timestamp": 1794566895,
             "eventInfo": {
                 "teamA": "Ecuador",
                 "teamB": "Costa Rica",
@@ -363,7 +386,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:29 AM"
+                "startTime": "13/11/2026 10:48:15 AM"
             },
             "streams": [
                 {
@@ -378,7 +401,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Montserrat vs Nicaragua",
-            "timestamp": 1794563249,
+            "timestamp": 1794566896,
             "eventInfo": {
                 "teamA": "Montserrat",
                 "teamB": "Nicaragua",
@@ -386,7 +409,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:29 AM"
+                "startTime": "13/11/2026 10:48:16 AM"
             },
             "streams": [
                 {
@@ -401,7 +424,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Peru vs Bolivia",
-            "timestamp": 1794563249,
+            "timestamp": 1794566896,
             "eventInfo": {
                 "teamA": "Peru",
                 "teamB": "Bolivia",
@@ -409,7 +432,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:29 AM"
+                "startTime": "13/11/2026 10:48:16 AM"
             },
             "streams": [
                 {
@@ -424,7 +447,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Guatemala vs Canada",
-            "timestamp": 1794563249,
+            "timestamp": 1794566896,
             "eventInfo": {
                 "teamA": "Guatemala",
                 "teamB": "Canada",
@@ -432,7 +455,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "13/11/2026 09:47:29 AM"
+                "startTime": "13/11/2026 10:48:16 AM"
             },
             "streams": [
                 {
