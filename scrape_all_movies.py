@@ -84,6 +84,8 @@ def fetch_tmdb_poster(title, year="", is_tv=False):
     return ""
 
 def process_single_movie(movie_url):
+    if not movie_url or not str(movie_url).startswith("http"):
+        return None
     try:
         res = requests.get(movie_url, headers=HEADERS, timeout=15)
         if res.status_code != 200:
@@ -196,37 +198,50 @@ def scrape_pusatfilm():
             try: movies_data = json.load(f)
             except: movies_data = []
 
-    # === SUNTIKKAN MANUAL DARI manual_movies.json (TERMASUK FILM INDIA JADUL) ===
+    # Bersihkan sisa entri rusak jika ada yang url-nya kosong/None
+    movies_data = [m for m in movies_data if m.get('url')]
+
+    # === PROSES & SUNTIKKAN MANUAL DARI manual_movies.json ===
+    manual_category_map = {}
     if os.path.exists('manual_movies.json'):
         try:
             with open('manual_movies.json', 'r', encoding='utf-8') as mf:
                 manual_movies = json.load(mf)
-                existing_urls = {m.get('url') for m in movies_data}
-                injected_count = 0
-                
                 for mm in manual_movies:
-                    if mm.get('url') not in existing_urls:
-                        formatted_movie = {
-                            'title': mm.get('title'),
-                            'type': 'movie',
-                            'year': mm.get('year', ''),
-                            'rating': mm.get('rating', '7.0'),
-                            'duration': '120 menit',
-                            'country': 'India',
-                            'director': '',
-                            'cast': '',
-                            'synopsis': mm.get('synopsis', ''),
-                            'genres': [mm.get('category', 'Film India Jadul'), 'Drama', 'Romance'],
-                            'poster': mm.get('poster', ''),
-                            'url': mm.get('url'),
-                            'embed_url': mm.get('stream_url', ''),
-                            'servers': [{'name': 'Server Utama', 'url': mm.get('stream_url', '')}] if mm.get('stream_url') else []
-                        }
-                        movies_data.insert(0, formatted_movie)
-                        existing_urls.add(mm.get('url'))
-                        injected_count += 1
-                if injected_count > 0:
-                    print(f"[✓] Berhasil menyuntikkan {injected_count} film dari manual_movies.json!")
+                    m_url = (mm.get('url') or mm.get('stream_url') or '').strip()
+                    if m_url.startswith('http'):
+                        manual_category_map[m_url] = mm.get('category', 'Film India Jadul')
+
+                existing_urls = {m.get('url') for m in movies_data}
+                urls_to_scrape = [u for u in manual_category_map if u not in existing_urls]
+
+                if urls_to_scrape:
+                    print(f"[*] Mengambil poster TMDb & link player untuk {len(urls_to_scrape)} film dari manual_movies.json...")
+                    with ThreadPoolExecutor(max_workers=5) as executor:
+                        manual_results = list(executor.map(process_single_movie, urls_to_scrape))
+
+                    injected_count = 0
+                    for item in manual_results:
+                        if item:
+                            cat = manual_category_map.get(item['url'], 'Film India Jadul')
+                            if cat not in item['genres']:
+                                item['genres'].insert(0, cat)
+                            movies_data.insert(0, item)
+                            injected_count += 1
+                    print(f"[✓] Berhasil menyuntikkan {injected_count} film lengkap dengan poster & server dari manual_movies.json!")
+
+                # Pastikan semua film manual yang sudah ada di movies.json tetap punya tag kategorinya
+                for m in movies_data:
+                    u = m.get('url')
+                    if u in manual_category_map:
+                        cat = manual_category_map[u]
+                        if 'genres' not in m or not isinstance(m['genres'], list):
+                            m['genres'] = [cat]
+                        elif cat not in m['genres']:
+                            m['genres'].insert(0, cat)
+
+                with open('movies.json', 'w', encoding='utf-8') as f:
+                    json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
         except Exception as e:
             print(f"[!] Gagal memproses manual_movies.json: {e}")
 
@@ -255,7 +270,7 @@ def scrape_pusatfilm():
         if not current_poster or "pusatfilm21" in current_poster or "image.tmdb.org" not in current_poster:
             item['poster'] = ""
 
-    processed_urls = {item.get('url') for item in movies_data if 'url' in item}
+    processed_urls = {item.get('url') for item in movies_data if item.get('url')}
 
     print(f"\n[+] Memulai Scraping Multi-Kategori (Maks {END_PAGE} Halaman/Kategori)...")
 
@@ -290,7 +305,7 @@ def scrape_pusatfilm():
                 valid_links = [l for l in set(movie_links) if '/page/' not in l]
                 unprocessed_urls = [l for l in valid_links if l not in processed_urls]
 
-                force_check_urls = [item['url'] for item in movies_data if not item.get('poster')]
+                force_check_urls = [item['url'] for item in movies_data if item.get('url') and not item.get('poster')]
                 target_urls = list(set(unprocessed_urls + force_check_urls))
 
                 if not target_urls:
@@ -305,6 +320,12 @@ def scrape_pusatfilm():
                     updated = 0
                     for item in results:
                         if item:
+                            # Pertahankan kategori manual jika URL termasuk di manual_movies.json
+                            if item['url'] in manual_category_map:
+                                cat = manual_category_map[item['url']]
+                                if cat not in item['genres']:
+                                    item['genres'].insert(0, cat)
+
                             existing_idx = next((i for i, m in enumerate(movies_data) if m.get('url') == item['url']), -1)
                             if existing_idx != -1:
                                 movies_data[existing_idx] = item 
