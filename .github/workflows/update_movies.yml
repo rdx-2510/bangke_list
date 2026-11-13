@@ -25,6 +25,8 @@ jobs:
 
       - name: Run PusatFilm21 Scraper
         run: python scrape_all_movies.py
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
       - name: Commit & Push Movies JSON
         run: |
