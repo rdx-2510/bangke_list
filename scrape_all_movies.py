@@ -226,11 +226,11 @@ def scrape_pusatfilm():
                             cat = manual_category_map.get(item['url'], 'Film India Jadul')
                             if cat not in item['genres']:
                                 item['genres'].insert(0, cat)
-                            movies_data.insert(0, item)
+                            movies_data.append(item)
                             injected_count += 1
                     print(f"[✓] Berhasil menyuntikkan {injected_count} film lengkap dengan poster & server dari manual_movies.json!")
 
-                # Pastikan semua film manual yang sudah ada di movies.json tetap punya tag kategorinya
+                # Pastikan semua film manual tetap punya tag kategorinya
                 for m in movies_data:
                     u = m.get('url')
                     if u in manual_category_map:
@@ -239,9 +239,6 @@ def scrape_pusatfilm():
                             m['genres'] = [cat]
                         elif cat not in m['genres']:
                             m['genres'].insert(0, cat)
-
-                with open('movies.json', 'w', encoding='utf-8') as f:
-                    json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
         except Exception as e:
             print(f"[!] Gagal memproses manual_movies.json: {e}")
 
@@ -271,10 +268,12 @@ def scrape_pusatfilm():
             item['poster'] = ""
 
     processed_urls = {item.get('url') for item in movies_data if item.get('url')}
+    latest_urls_ordered = []
 
     print(f"\n[+] Memulai Scraping Multi-Kategori (Maks {END_PAGE} Halaman/Kategori)...")
 
     for base_url in BASE_URLS:
+        is_latest_source = "sort=latest" in base_url
         print(f"\n==================================================")
         print(f"[>] MEMASUKI KATEGORI: {base_url}")
         print(f"==================================================")
@@ -302,9 +301,15 @@ def scrape_pusatfilm():
                     movie_links = re.findall(r'href=[\'"](/(?:movie|tv|episode)/[^\'"]+)[\'"]', res.text)
                     movie_links = [f'https://new1.pusatfilm21info.com{l}' for l in movie_links]
 
-                valid_links = [l for l in set(movie_links) if '/page/' not in l]
-                unprocessed_urls = [l for l in valid_links if l not in processed_urls]
+                valid_links = [l for l in dict.fromkeys(movie_links) if '/page/' not in l]
 
+                # Catat film yang berasal dari halaman sort=latest (halaman 1-3) sebagai "Film Terbaru"
+                if is_latest_source and page <= 3:
+                    for l in valid_links:
+                        if l not in manual_category_map and l not in latest_urls_ordered:
+                            latest_urls_ordered.append(l)
+
+                unprocessed_urls = [l for l in valid_links if l not in processed_urls]
                 force_check_urls = [item['url'] for item in movies_data if item.get('url') and not item.get('poster')]
                 target_urls = list(set(unprocessed_urls + force_check_urls))
 
@@ -320,11 +325,13 @@ def scrape_pusatfilm():
                     updated = 0
                     for item in results:
                         if item:
-                            # Pertahankan kategori manual jika URL termasuk di manual_movies.json
                             if item['url'] in manual_category_map:
                                 cat = manual_category_map[item['url']]
                                 if cat not in item['genres']:
                                     item['genres'].insert(0, cat)
+                            elif is_latest_source and page <= 3:
+                                if 'Film Terbaru' not in item['genres']:
+                                    item['genres'].insert(0, 'Film Terbaru')
 
                             existing_idx = next((i for i, m in enumerate(movies_data) if m.get('url') == item['url']), -1)
                             if existing_idx != -1:
@@ -347,10 +354,62 @@ def scrape_pusatfilm():
             print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir...")
             time.sleep(delay)
 
+    # =========================================================================
+    # PENGURUTAN TAMPILAN KATEGORI BANGKETV:
+    # 1. "Film Terbaru" (dari sort=latest) -> Tepat di bawah poster besar
+    # 2. Film & Series Reguler (Action, Comedy, Drama, Horror, dll.)
+    # 3. "Film India Jadul" -> Paling bawah
+    # =========================================================================
+    print("\n[*] Mengatur urutan tampilan: Film Terbaru di atas, Film India Jadul di bawah...")
+    latest_url_set = set(latest_urls_ordered)
+    movie_by_url = {m.get('url'): m for m in movies_data if m.get('url')}
+
+    film_terbaru = []
+    seen_terbaru = set()
+
+    # Masukkan sesuai urutan asli dari sort=latest
+    for u in latest_urls_ordered:
+        if u in movie_by_url and u not in manual_category_map:
+            m = movie_by_url[u]
+            genres = m.get('genres', [])
+            if 'Film Terbaru' in genres:
+                genres.remove('Film Terbaru')
+            genres.insert(0, 'Film Terbaru')
+            m['genres'] = genres
+            film_terbaru.append(m)
+            seen_terbaru.add(u)
+
+    film_reguler = []
+    film_india_jadul = []
+
+    for m in movies_data:
+        u = m.get('url')
+        if u in seen_terbaru:
+            continue
+
+        genres = m.get('genres', [])
+        if 'Film India Jadul' in genres or u in manual_category_map:
+            # Pastikan 'Film India Jadul' tetap jadi kategori utamanya
+            if 'Film India Jadul' in genres:
+                genres.remove('Film India Jadul')
+            genres.insert(0, 'Film India Jadul')
+            m['genres'] = genres
+            film_india_jadul.append(m)
+        else:
+            # Bersihkan tag 'Film Terbaru' lama jika sudah tergeser dari halaman terbaru
+            if 'Film Terbaru' in genres and u not in latest_url_set:
+                genres.remove('Film Terbaru')
+                if not genres:
+                    genres = ['Movie']
+                m['genres'] = genres
+            film_reguler.append(m)
+
+    movies_data = film_terbaru + film_reguler + film_india_jadul
+
     with open('movies.json', 'w', encoding='utf-8') as f:
         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
-    print(f'\n[v] MISI SELESAI! Total keseluruhan: {len(movies_data)} film/series tersimpan bersih.')
+    print(f'\n[v] MISI SELESAI! Total: {len(movies_data)} film (Film Terbaru: {len(film_terbaru)} | Reguler: {len(film_reguler)} | Film India Jadul: {len(film_india_jadul)})')
 
 if __name__ == '__main__':
     scrape_pusatfilm()
