@@ -7,20 +7,25 @@ import random
 from concurrent.futures import ThreadPoolExecutor
 import requests
 
-# DAFTAR URL TARGET (TERMASUK URL CUSTOM DARI PIYAN)
+# === KONFIGURASI TMDB UNTUK POSTER ASLI ===
+# API KEY TMDb milik Piyan
+TMDB_API_KEY = "47a5cbd2c24e6c8885ea8b9304fd086b" 
+
+# DAFTAR URL TARGET
 BASE_URLS = [
-    "https://new1.pusatfilm21info.com/movie?sort=latest", # Semua film urutan paling baru
-    "https://new1.pusatfilm21info.com/movie?sort=latest&country=indonesia", # Film Indonesia terbaru
-    "https://new1.pusatfilm21info.com/movie?sort=latest&genre=horror&country=indonesia", # Horor Indonesia terbaru
+    "https://new1.pusatfilm21info.com/movie?sort=latest",
+    "https://new1.pusatfilm21info.com/movie?sort=latest&country=indonesia",
+    "https://new1.pusatfilm21info.com/movie?sort=latest&genre=horror&country=indonesia",
     "https://new1.pusatfilm21info.com/movie",
     "https://new1.pusatfilm21info.com/tv",
     "https://new1.pusatfilm21info.com/genre/action",
     "https://new1.pusatfilm21info.com/genre/horror",
-    "https://new1.pusatfilm21info.com/genre/comedy", "https://new1.pusatfilm21info.com/network/netflix"
+    "https://new1.pusatfilm21info.com/genre/comedy", 
+    "https://new1.pusatfilm21info.com/network/netflix"
 ]
 
 START_PAGE = 1
-END_PAGE = 10  # Batas maksimal halaman PER KATEGORI
+END_PAGE = 10
 
 HEADERS = {
     'User-Agent': (
@@ -34,17 +39,44 @@ HEADERS = {
     'Referer': 'https://new1.pusatfilm21info.com/',
 }
 
-# DAFTAR BLACKLIST DOMAIN IKLAN / POP-UNDER / TRACKING
 AD_DOMAINS = [
     'decafeligiblyhad', 'adsterra', 'popads', 'histats', 'bet365', 
     'slot', 'gacor', 'doubleclick', 'analytics', 'greentrafsa', 
     'smartpop', 'trafsa', 'clickadu', 'propellerads', 'exoclick'
 ]
 
+def fetch_tmdb_poster(title, year="", is_tv=False):
+    """
+    Mencari poster ASLI resolusi tinggi langsung dari database TMDb.
+    """
+    if not TMDB_API_KEY or TMDB_API_KEY == "MASUKKAN_API_KEY_TMDB_KAMU_DISINI":
+        return "" # Skip jika API belum diset
+    
+    # Normalisasi judul untuk membuang embel-embel
+    clean_title = re.sub(r'(?i)(Season \d+|Episode \d+)', '', title).strip()
+
+    search_type = "tv" if is_tv else "movie"
+    url = f"https://api.themoviedb.org/3/search/{search_type}?api_key={TMDB_API_KEY}&query={requests.utils.quote(clean_title)}"
+    
+    if year:
+        year_param = "first_air_date_year" if is_tv else "primary_release_year"
+        url += f"&{year_param}={year}"
+
+    try:
+        res = requests.get(url, timeout=5)
+        if res.status_code == 200:
+            data = res.json()
+            if data.get("results") and len(data["results"]) > 0:
+                poster_path = data["results"][0].get("poster_path")
+                if poster_path:
+                    # Mengambil gambar kualitas w500 (Cukup tajam untuk STB/HP)
+                    return f"https://image.tmdb.org/t/p/w500{poster_path}"
+    except Exception:
+        pass
+    
+    return ""
+
 def process_single_movie(movie_url):
-    """
-    Fungsi andalan untuk mengekstrak data film dengan presisi tinggi.
-    """
     try:
         res = requests.get(movie_url, headers=HEADERS, timeout=15)
         if res.status_code != 200:
@@ -78,9 +110,15 @@ def process_single_movie(movie_url):
             if rating_match:
                 rating = rating_match.group(1)
 
-        # 3. Poster
+        # 3. Poster (Dengan TMDb Fallback)
         poster_match = re.search(r'<meta property="og:image" content="([^"]+)"', res.text)
-        poster = poster_match.group(1) if poster_match else ''
+        original_poster = poster_match.group(1) if poster_match else ''
+        
+        # Panggil TMDb untuk mendapatkan poster asli (Akurat!)
+        tmdb_poster = fetch_tmdb_poster(title, year, content_type == "series")
+        
+        # Jika berhasil dapat dari TMDb, pakai TMDb. Kalau gagal, baru pakai bawaan web sumber.
+        final_poster = tmdb_poster if tmdb_poster else original_poster
 
         # 4. Genre Bersih
         genre_slugs = re.findall(r'href=[\'"](?:https?://[^\'"]+)?/genre/([a-zA-Z0-9-]+)/?[\'"]', res.text)
@@ -109,12 +147,11 @@ def process_single_movie(movie_url):
             dur_match = re.search(r'>\s*(\d+j\s*\d+m|\d+m)\s*<', res.text)
         if dur_match: duration = dur_match.group(1).strip()
 
-        # 7. MULTI-SERVER EXTRACTION (DENGAN FILTER IKLAN SUPER KETAT)
+        # 7. MULTI-SERVER EXTRACTION
         servers = []
         all_iframes = re.findall(r'<iframe[^>]+src=[\'"](https?://[^\'"]+)[\'"]', res.text)
         all_embeds = re.findall(r'https?://(?:kotakajaib|streamtape|vikingfile|hydrax|gdplayer)[^\s\'"]+', res.text, re.IGNORECASE)
 
-        # Filter: Hanya simpan link iframe yang BUKAN iklan
         clean_iframes = [link for link in all_iframes if not any(ad in link.lower() for ad in AD_DOMAINS)]
         combined_links = list(set(clean_iframes + all_embeds))
 
@@ -132,11 +169,12 @@ def process_single_movie(movie_url):
         embed_url = servers[0]["url"] if servers else ""
 
         if servers or embed_url:
-            print(f'[OK] Tersimpan: {title} | Ditemukan {len(servers)} server')
+            status_poster = "TMDb" if tmdb_poster else "Web/Thumbnail"
+            print(f'[OK] Tersimpan: {title} | Server: {len(servers)} | Poster: {status_poster}')
             return {
                 'title': title, 'type': content_type, 'year': year, 'rating': rating,
                 'duration': duration, 'country': country, 'director': director, 'cast': cast,
-                'synopsis': synopsis, 'genres': genres, 'poster': poster, 'url': movie_url,
+                'synopsis': synopsis, 'genres': genres, 'poster': final_poster, 'url': movie_url,
                 'embed_url': embed_url, 'servers': servers
             }
     except Exception:
@@ -144,12 +182,8 @@ def process_single_movie(movie_url):
     return None
 
 def build_pagination_url(base, page):
-    """
-    Fungsi cerdas untuk merakit URL pagination.
-    """
     if page == 1:
         return base
-
     if '?' in base:
         parts = base.split('?', 1)
         base_path = parts[0].rstrip('/')
@@ -165,7 +199,6 @@ def scrape_pusatfilm():
             try: movies_data = json.load(f)
             except: movies_data = []
 
-    # === FITUR OTO-CLEAN: BERSIHKAN SERVER IKLAN DARI DATA EXISTING MOVIES.JSON ===
     print("[*] Memeriksa & membersihkan data movies.json lama dari domain iklan...")
     cleaned_count = 0
     for item in movies_data:
@@ -189,13 +222,11 @@ def scrape_pusatfilm():
 
     print(f"\n[+] Memulai Scraping Multi-Kategori (Maks {END_PAGE} Halaman/Kategori)...")
 
-    # OUTER LOOP: Mengunjungi setiap Kategori / Base URL
     for base_url in BASE_URLS:
         print(f"\n==================================================")
         print(f"[>] MEMASUKI KATEGORI: {base_url}")
         print(f"==================================================")
 
-        # INNER LOOP: Pindah Halaman di dalam kategori tersebut
         for page in range(START_PAGE, END_PAGE + 1):
             url = build_pagination_url(base_url, page)
             print(f"\n[->] Memindai Halaman {page}: {url}")
@@ -233,12 +264,10 @@ def scrape_pusatfilm():
                     added = 0
                     for item in results:
                         if item:
-                            # Masukkan ke posisi paling depan (index 0) agar muncul paling kiri di aplikasi
                             movies_data.insert(0, item)
                             processed_urls.add(item['url'])
                             added += 1
 
-                    # Simpan dalam format minified (tanpa spasi/enter) agar ukuran file sangat kecil & ringan
                     with open('movies.json', 'w', encoding='utf-8') as f:
                         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
@@ -247,12 +276,10 @@ def scrape_pusatfilm():
             except Exception as e:
                 print(f'[-] Error saat memproses halaman {page}: {e}')
 
-            # ANTI-BLOCKING DELAY
             delay = random.uniform(1.5, 3.5)
             print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir...")
             time.sleep(delay)
 
-    # Simpan versi final
     with open('movies.json', 'w', encoding='utf-8') as f:
         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
