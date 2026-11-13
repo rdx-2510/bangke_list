@@ -8,8 +8,8 @@ from concurrent.futures import ThreadPoolExecutor
 import requests
 
 # === KONFIGURASI TMDB UNTUK POSTER ASLI ===
-# API KEY TMDb milik Piyan
-TMDB_API_KEY = "47a5cbd2c24e6c8885ea8b9304fd086b" 
+# Mengambil kunci dari brankas rahasia GitHub Actions (Sangat Aman)
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 # DAFTAR URL TARGET
 BASE_URLS = [
