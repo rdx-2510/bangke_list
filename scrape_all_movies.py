@@ -8,7 +8,6 @@ from concurrent.futures import ThreadPoolExecutor
 import requests
 
 # === KONFIGURASI TMDB UNTUK POSTER ASLI ===
-# Mengambil kunci dari brankas rahasia GitHub Actions (Sangat Aman)
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 # DAFTAR URL TARGET
@@ -51,18 +50,17 @@ def fetch_tmdb_poster(title, year="", is_tv=False):
     """
     if not TMDB_API_KEY or TMDB_API_KEY == "MASUKKAN_API_KEY_TMDB_KAMU_DISINI":
         return "" 
-    
+
     clean_title = re.sub(r'(?i)(Season \d+|Episode \d+)', '', title).strip()
     search_type = "tv" if is_tv else "movie"
     base_search_url = f"https://api.themoviedb.org/3/search/{search_type}?api_key={TMDB_API_KEY}&query={requests.utils.quote(clean_title)}"
-    
+
     url_with_year = base_search_url
     if year:
         year_param = "first_air_date_year" if is_tv else "primary_release_year"
         url_with_year += f"&{year_param}={year}"
 
     try:
-        # PERCOBAAN 1: Cari secara spesifik dengan Tahun Rilis
         res = requests.get(url_with_year, timeout=5)
         if res.status_code == 200:
             data = res.json()
@@ -70,8 +68,7 @@ def fetch_tmdb_poster(title, year="", is_tv=False):
                 poster_path = data["results"][0].get("poster_path")
                 if poster_path:
                     return f"https://image.tmdb.org/t/p/w500{poster_path}"
-        
-        # PERCOBAAN 2: Jika kosong, cari TANPA Tahun (mengantisipasi perbedaan tahun di web sumber)
+
         if year:
             res_no_year = requests.get(base_search_url, timeout=5)
             if res_no_year.status_code == 200:
@@ -80,10 +77,10 @@ def fetch_tmdb_poster(title, year="", is_tv=False):
                     poster_path = data_no["results"][0].get("poster_path")
                     if poster_path:
                         return f"https://image.tmdb.org/t/p/w500{poster_path}"
-                        
+
     except Exception:
         pass
-    
+
     return ""
 
 def process_single_movie(movie_url):
@@ -94,7 +91,6 @@ def process_single_movie(movie_url):
 
         content_type = "series" if "/tv/" in movie_url or "/episode/" in movie_url else "movie"
 
-        # 1. Judul & Tahun
         title_match = re.search(r'<meta property="og:title" content="([^"]+)"', res.text)
         if title_match:
             raw_title = title_match.group(1)
@@ -108,7 +104,6 @@ def process_single_movie(movie_url):
         title = re.sub(r'(?i)(Nonton\s*Film|Nonton|Sub\s*Indo|Streaming|/.*PUSATFILM21|\(\d{4}\))', '', raw_title).strip()
         title = html.unescape(title)
 
-        # 2. Rating Akurat
         rating = '0.0'
         json_rating = re.search(r'"ratingValue"\s*:\s*"?(\d+\.\d+)', res.text)
         if json_rating:
@@ -120,24 +115,20 @@ def process_single_movie(movie_url):
             if rating_match:
                 rating = rating_match.group(1)
 
-        # 3. Poster (Dengan TMDb Smart Fallback)
         poster_match = re.search(r'<meta property="og:image" content="([^"]+)"', res.text)
         original_poster = poster_match.group(1) if poster_match else ''
-        
+
         tmdb_poster = fetch_tmdb_poster(title, year, content_type == "series")
         final_poster = tmdb_poster if tmdb_poster else original_poster
 
-        # 4. Genre Bersih
         genre_slugs = re.findall(r'href=[\'"](?:https?://[^\'"]+)?/genre/([a-zA-Z0-9-]+)/?[\'"]', res.text)
         genres = [g.replace('-', ' ').title() for g in set(genre_slugs)] if genre_slugs else ['Movie']
 
-        # 5. Sinopsis Murni
         syn_match = re.search(r'<meta (?:property="og:description"|name="description") content="([^"]+)"', res.text, re.IGNORECASE)
         raw_synopsis = syn_match.group(1) if syn_match else ""
         synopsis = re.sub(r'(?i)Nonton\s+.*?(?:PUSATFILM21|subtitle Indonesia).*?(?:\.|$)', '', raw_synopsis).strip()
         synopsis = html.unescape(synopsis)
 
-        # 6. Metadata Lainnya
         country, cast, duration, director = '', '', '', ''
         seo_match = re.search(r'(Film\s+[^<]+?dari\s+[^<]+?disutradarai[^<]+)', res.text, re.IGNORECASE)
         if seo_match:
@@ -154,7 +145,6 @@ def process_single_movie(movie_url):
             dur_match = re.search(r'>\s*(\d+j\s*\d+m|\d+m)\s*<', res.text)
         if dur_match: duration = dur_match.group(1).strip()
 
-        # 7. MULTI-SERVER EXTRACTION
         servers = []
         all_iframes = re.findall(r'<iframe[^>]+src=[\'"](https?://[^\'"]+)[\'"]', res.text)
         all_embeds = re.findall(r'https?://(?:kotakajaib|streamtape|vikingfile|hydrax|gdplayer)[^\s\'"]+', res.text, re.IGNORECASE)
@@ -205,6 +195,40 @@ def scrape_pusatfilm():
         with open('movies.json', 'r', encoding='utf-8') as f:
             try: movies_data = json.load(f)
             except: movies_data = []
+
+    # === SUNTIKKAN MANUAL DARI manual_movies.json (TERMASUK FILM INDIA JADUL) ===
+    if os.path.exists('manual_movies.json'):
+        try:
+            with open('manual_movies.json', 'r', encoding='utf-8') as mf:
+                manual_movies = json.load(mf)
+                existing_urls = {m.get('url') for m in movies_data}
+                injected_count = 0
+                
+                for mm in manual_movies:
+                    if mm.get('url') not in existing_urls:
+                        formatted_movie = {
+                            'title': mm.get('title'),
+                            'type': 'movie',
+                            'year': mm.get('year', ''),
+                            'rating': mm.get('rating', '7.0'),
+                            'duration': '120 menit',
+                            'country': 'India',
+                            'director': '',
+                            'cast': '',
+                            'synopsis': mm.get('synopsis', ''),
+                            'genres': [mm.get('category', 'Film India Jadul'), 'Drama', 'Romance'],
+                            'poster': mm.get('poster', ''),
+                            'url': mm.get('url'),
+                            'embed_url': mm.get('stream_url', ''),
+                            'servers': [{'name': 'Server Utama', 'url': mm.get('stream_url', '')}] if mm.get('stream_url') else []
+                        }
+                        movies_data.insert(0, formatted_movie)
+                        existing_urls.add(mm.get('url'))
+                        injected_count += 1
+                if injected_count > 0:
+                    print(f"[✓] Berhasil menyuntikkan {injected_count} film dari manual_movies.json!")
+        except Exception as e:
+            print(f"[!] Gagal memproses manual_movies.json: {e}")
 
     print("[*] Memeriksa & membersihkan server iklan dari data lama...")
     cleaned_count = 0
@@ -266,7 +290,6 @@ def scrape_pusatfilm():
                 valid_links = [l for l in set(movie_links) if '/page/' not in l]
                 unprocessed_urls = [l for l in valid_links if l not in processed_urls]
 
-                # Izinkan juga memproses ulang film lama jika posternya masih kosong (dikosongkan untuk diperbarui)
                 force_check_urls = [item['url'] for item in movies_data if not item.get('poster')]
                 target_urls = list(set(unprocessed_urls + force_check_urls))
 
@@ -282,10 +305,9 @@ def scrape_pusatfilm():
                     updated = 0
                     for item in results:
                         if item:
-                            # Cek apakah film sudah ada di list
                             existing_idx = next((i for i, m in enumerate(movies_data) if m.get('url') == item['url']), -1)
                             if existing_idx != -1:
-                                movies_data[existing_idx] = item # Update data dengan poster baru
+                                movies_data[existing_idx] = item 
                                 updated += 1
                             else:
                                 movies_data.insert(0, item)
