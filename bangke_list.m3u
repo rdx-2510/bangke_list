@@ -1,4 +1,20 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Norway vs Wales
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Norway%20vs%20Wales.html
+http://193.47.62.50/hls/PPPPA.m3u8
+#EXTINF:-1, FawaNews - Norway vs Wales --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Norway%20vs%20Wales%20---%20CH%202.html
+https://www.rtmpcdn.com/live/p-d8baf4c5767d492d943102db9d02b7ca.m3u8
+#EXTINF:-1, FawaNews - Georgia vs Hungary
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Georgia%20vs%20Hungary.html
+http://193.47.62.50/hls/PPPP.m3u8
+#EXTINF:-1, FawaNews - Georgia vs Hungary --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Georgia%20vs%20Hungary%20---%20CH%202.html
+https://www.rtmpcdn.com/live/p-fec29b5ecce748a0a9260937bde1530f.m3u8
 #EXTINF:-1, FawaNews - England vs Japan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/England%20vs%20Japan.html
@@ -19,14 +35,6 @@ http://193.47.62.55/hls/bbbbAAAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Uganda%20vs%20Botswana%20---%20CH%202.html
 https://www.rtmpcdn.com/live/p-d63c89d1469d40618905a319561b159e.m3u8
-#EXTINF:-1, FawaNews - Norway vs Wales
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Norway%20vs%20Wales.html
-http://193.47.62.50/hls/PPPPA.m3u8
-#EXTINF:-1, FawaNews - Georgia vs Hungary
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Georgia%20vs%20Hungary.html
-http://193.47.62.50/hls/PPPP.m3u8
 #EXTINF:-1, FawaNews - Vanderbilt vs Alabama
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vanderbilt%20vs%20Alabama.html
@@ -55,6 +63,10 @@ http://193.47.62.59/hls/VVVVAAAAAQAAAQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Brighton%20W%20vs%20Liverpool%20W.html
 http://193.47.62.59/hls/VVVVAAAAAQAAA.m3u8
+#EXTINF:-1, FawaNews - Brighton W vs Liverpool W --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Brighton%20W%20vs%20Liverpool%20W%20---%20CH%202.html
+https://www.rtmpcdn.com/live/p-80bb817030b8404eb3b81085e20a1624.m3u8
 #EXTINF:-1, FawaNews - RAF Abu Dhabi Chimaev vs Weidman
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/RAF%20Abu%20Dhabi%20Chimaev%20vs%20Weidman.html
@@ -95,6 +107,10 @@ http://193.47.62.59/hls/VVVVAAAAAQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20LPGA%20The%20ANNIKA.html
 http://193.47.62.41/hls/FF444.m3u8
+#EXTINF:-1, FawaNews - Carolina Hurricanes vs Seattle Kraken
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Carolina%20Hurricanes%20vs%20Seattle%20Kraken.html
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/65f8f5c5-95fa-4e14-b4fc-66aa7c657d35/master.m3u8
 #EXTINF:-1, FawaNews - Southern Methodist vs Wake Forest
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Southern%20Methodist%20vs%20Wake%20Forest.html
