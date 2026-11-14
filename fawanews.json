@@ -2,29 +2,144 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "09:34:48 AM 14-11-2026",
-    "total_matches": 27,
-    "live_match": 7,
+    "last_update_time": "10:30:00 AM 14-11-2026",
+    "total_matches": 33,
+    "live_match": 11,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Japan vs Brazil",
-            "timestamp": 1794648880,
+            "event_name": "Japan vs Brazil1",
+            "timestamp": 1794652190,
             "eventInfo": {
                 "teamA": "Japan",
-                "teamB": "Brazil",
+                "teamB": "Brazil1",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "14/11/2026 09:34:40 AM"
+                "startTime": "14/11/2026 10:29:50 AM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.50/hls/SASASABAA.m3u8",
-                    "referer": "http://www.fawanews.sc/Japan%20vs%20Brazil.html",
+                    "stream_url": "http://193.47.62.50/hls/SASASABAAX.m3u8",
+                    "referer": "http://www.fawanews.sc/Japan%20vs%20Brazil1.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Italy vs Argentina",
+            "timestamp": 1794652190,
+            "eventInfo": {
+                "teamA": "Italy",
+                "teamB": "Argentina",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "14/11/2026 10:29:50 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/OOOOAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Italy%20vs%20Argentina.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Valmiera vs Tukums 2000",
+            "timestamp": 1794652191,
+            "eventInfo": {
+                "teamA": "Valmiera",
+                "teamB": "Tukums 2000",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "14/11/2026 10:29:51 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/OOOOAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Valmiera%20vs%20Tukums%202000.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Espanyol W vs Costa Adeje Tenerife W",
+            "timestamp": 1794652191,
+            "eventInfo": {
+                "teamA": "Espanyol W",
+                "teamB": "Costa Adeje Tenerife W",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "14/11/2026 10:29:51 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/OOOOA.m3u8",
+                    "referer": "http://www.fawanews.sc/Espanyol%20W%20vs%20Costa%20Adeje%20Tenerife%20W.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Hoffenheim W vs Freiburg W",
+            "timestamp": 1794652192,
+            "eventInfo": {
+                "teamA": "Hoffenheim W",
+                "teamB": "Freiburg W",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "14/11/2026 10:29:52 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/OOOO.m3u8",
+                    "referer": "http://www.fawanews.sc/Hoffenheim%20W%20vs%20Freiburg%20W.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Perth vs Illawarra Hawks",
+            "timestamp": 1794652192,
+            "eventInfo": {
+                "teamA": "Perth",
+                "teamB": "Illawarra Hawks",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "14/11/2026 10:29:52 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/SASASA.m3u8",
+                    "referer": "http://www.fawanews.sc/Perth%20vs%20Illawarra%20Hawks.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
@@ -33,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Oman vs Tajikistan",
-            "timestamp": 1794648880,
+            "timestamp": 1794652192,
             "eventInfo": {
                 "teamA": "Oman",
                 "teamB": "Tajikistan",
@@ -41,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "14/11/2026 09:34:40 AM"
+                "startTime": "14/11/2026 10:29:52 AM"
             },
             "streams": [
                 {
@@ -56,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "India vs Bhutan",
-            "timestamp": 1794648881,
+            "timestamp": 1794652193,
             "eventInfo": {
                 "teamA": "India",
                 "teamB": "Bhutan",
@@ -64,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "14/11/2026 09:34:41 AM"
+                "startTime": "14/11/2026 10:29:53 AM"
             },
             "streams": [
                 {
@@ -79,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Melbourne United vs South East Melbourne",
-            "timestamp": 1794648881,
+            "timestamp": 1794652193,
             "eventInfo": {
                 "teamA": "Melbourne United",
                 "teamB": "South East Melbourne",
@@ -87,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "14/11/2026 09:34:41 AM"
+                "startTime": "14/11/2026 10:29:53 AM"
             },
             "streams": [
                 {
@@ -101,31 +216,8 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Carlton Blues W vs Hawthorn Hawks W",
-            "timestamp": 1794648881,
-            "eventInfo": {
-                "teamA": "Carlton Blues W",
-                "teamB": "Hawthorn Hawks W",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "14/11/2026 09:34:41 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/ZZZZAAQQQQQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Carlton%20Blues%20W%20vs%20Hawthorn%20Hawks%20W.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "Perth Scorchers vs Adelaide Strikers",
-            "timestamp": 1794648882,
+            "timestamp": 1794652194,
             "eventInfo": {
                 "teamA": "Perth Scorchers",
                 "teamB": "Adelaide Strikers",
@@ -133,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "14/11/2026 09:34:42 AM"
+                "startTime": "14/11/2026 10:29:54 AM"
             },
             "streams": [
                 {
@@ -148,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Golf DP World Tour Championship",
-            "timestamp": 1794648882,
+            "timestamp": 1794652194,
             "eventInfo": {
                 "teamA": "Golf DP World Tour Championship",
                 "teamB": "",
@@ -156,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "14/11/2026 09:34:42 AM"
+                "startTime": "14/11/2026 10:29:54 AM"
             },
             "streams": [
                 {
