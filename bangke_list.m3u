@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Los Angeles Clippers vs Oklahoma City Thunder
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Clippers%20vs%20Oklahoma%20City%20Thunder.html
+http://193.47.62.59/hls/XAXAXAAAAA.m3u8
+#EXTINF:-1, FawaNews - Sacramento Kings vs Portland Trail Blazers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sacramento%20Kings%20vs%20Portland%20Trail%20Blazers.html
+http://193.47.62.55/hls/RFRFRFAAA.m3u8
+#EXTINF:-1, FawaNews - San Antonio Spurs vs Golden State Warriors
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Antonio%20Spurs%20vs%20Golden%20State%20Warriors.html
+http://193.47.62.59/hls/XAXAXAAAA.m3u8
 #EXTINF:-1, FawaNews - Houston Rockets vs Utah Jazz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Houston%20Rockets%20vs%20Utah%20Jazz.html
@@ -47,18 +59,6 @@ http://193.47.62.59/hls/XAXAXA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Indiana%20Pacers%20vs%20New%20York%20Knicks%20---%20CH%202.html
 https://www.rtmpcdn.com/live/19b85780-60e4-4b8c-8b57-29436886cfea.m3u8
-#EXTINF:-1, FawaNews - Los Angeles Clippers vs Oklahoma City Thunder
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Clippers%20vs%20Oklahoma%20City%20Thunder.html
-http://193.47.62.59/hls/XAXAXAAAAA.m3u8
-#EXTINF:-1, FawaNews - Sacramento Kings vs Portland Trail Blazers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sacramento%20Kings%20vs%20Portland%20Trail%20Blazers.html
-http://193.47.62.55/hls/RFRFRFAAA.m3u8
-#EXTINF:-1, FawaNews - San Antonio Spurs vs Golden State Warriors
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Antonio%20Spurs%20vs%20Golden%20State%20Warriors.html
-http://193.47.62.59/hls/XAXAXAAAA.m3u8
 #EXTINF:-1, FawaNews - Colorado Buffaloes vs Houston
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Colorado%20Buffaloes%20vs%20Houston.html
@@ -79,6 +79,10 @@ http://193.47.62.41/hls/goooaaaQQAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guatemala%20vs%20Canada.html
 http://193.47.62.41/hls/goooaaaQQA.m3u8
+#EXTINF:-1, FawaNews - Guatemala vs Canada --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Guatemala%20vs%20Canada%20---%20CH%202.html
+https://www.rtmpcdn.com/live/b2ddec11-b615-44f5-a85f-4cb77f3a1c40.m3u8
 #EXTINF:-1, FawaNews - Peru vs Bolivia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Peru%20vs%20Bolivia.html
