@@ -19,7 +19,7 @@ BASE_URLS = [
     "https://new1.pusatfilm21info.com/tv",
     "https://new1.pusatfilm21info.com/genre/action",
     "https://new1.pusatfilm21info.com/genre/horror",
-    "https://new1.pusatfilm21info.com/genre/comedy", 
+    "https://new1.pusatfilm21info.com/genre/comedy",
     "https://new1.pusatfilm21info.com/network/netflix"
 ]
 
@@ -39,17 +39,18 @@ HEADERS = {
 }
 
 AD_DOMAINS = [
-    'decafeligiblyhad', 'adsterra', 'popads', 'histats', 'bet365', 
-    'slot', 'gacor', 'doubleclick', 'analytics', 'greentrafsa', 
+    'decafeligiblyhad', 'adsterra', 'popads', 'histats', 'bet365',
+    'slot', 'gacor', 'doubleclick', 'analytics', 'greentrafsa',
     'smartpop', 'trafsa', 'clickadu', 'propellerads', 'exoclick'
 ]
+
 
 def fetch_tmdb_poster(title, year="", is_tv=False):
     """
     Mencari poster ASLI dengan toleransi perbedaan tahun rilis.
     """
     if not TMDB_API_KEY or TMDB_API_KEY == "MASUKKAN_API_KEY_TMDB_KAMU_DISINI":
-        return "" 
+        return ""
 
     clean_title = re.sub(r'(?i)(Season \d+|Episode \d+)', '', title).strip()
     search_type = "tv" if is_tv else "movie"
@@ -82,6 +83,7 @@ def fetch_tmdb_poster(title, year="", is_tv=False):
         pass
 
     return ""
+
 
 def process_single_movie(movie_url):
     if not movie_url or not str(movie_url).startswith("http"):
@@ -136,16 +138,20 @@ def process_single_movie(movie_url):
         if seo_match:
             seo_text = seo_match.group(1)
             c_match = re.search(r'dari\s+([A-Z][a-zA-Z\s]+?)\s+ini', seo_text)
-            if c_match: country = c_match.group(1).strip()
+            if c_match:
+                country = c_match.group(1).strip()
             dir_match = re.search(r'disutradarai\s+(.+?)\s+dan\s+dibintangi', seo_text)
-            if dir_match: director = dir_match.group(1).strip()
+            if dir_match:
+                director = dir_match.group(1).strip()
             cast_match = re.search(r'dibintangi\s+(.+?)\.', seo_text)
-            if cast_match: cast = cast_match.group(1).strip()
+            if cast_match:
+                cast = cast_match.group(1).strip()
 
         dur_match = re.search(r'Durasi\s+(\d+\s*jam\s*\d*\s*menit|\d+\s*menit)', res.text, re.IGNORECASE)
         if not dur_match:
             dur_match = re.search(r'>\s*(\d+j\s*\d+m|\d+m)\s*<', res.text)
-        if dur_match: duration = dur_match.group(1).strip()
+        if dur_match:
+            duration = dur_match.group(1).strip()
 
         servers = []
         all_iframes = re.findall(r'<iframe[^>]+src=[\'"](https?://[^\'"]+)[\'"]', res.text)
@@ -156,12 +162,18 @@ def process_single_movie(movie_url):
 
         for idx, link in enumerate(combined_links):
             server_name = "Server Utama"
-            if "kotakajaib" in link: server_name = "KotakAjaib"
-            elif "streamtape" in link: server_name = "Streamtape"
-            elif "vikingfile" in link: server_name = "Vikingfile"
-            elif "hydrax" in link: server_name = "Hydrax"
-            elif "gdplayer" in link: server_name = "GDPlayer"
-            else: server_name = f"Server {idx+1}"
+            if "kotakajaib" in link:
+                server_name = "KotakAjaib"
+            elif "streamtape" in link:
+                server_name = "Streamtape"
+            elif "vikingfile" in link:
+                server_name = "Vikingfile"
+            elif "hydrax" in link:
+                server_name = "Hydrax"
+            elif "gdplayer" in link:
+                server_name = "GDPlayer"
+            else:
+                server_name = f"Server {idx+1}"
 
             servers.append({"name": server_name, "url": link})
 
@@ -180,23 +192,22 @@ def process_single_movie(movie_url):
         pass
     return None
 
+
 def build_pagination_url(base, page):
     if page == 1:
         return base
-    if '?' in base:
-        parts = base.split('?', 1)
-        base_path = parts[0].rstrip('/')
-        query_params = parts[1]
-        return f"{base_path}/page/{page}/?{query_params}"
-    else:
-        return f"{base.rstrip('/')}/page/{page}/"
+    separator = '&' if '?' in base else '?'
+    return f"{base.rstrip('/')}{separator}page={page}"
+
 
 def scrape_pusatfilm():
     movies_data = []
     if os.path.exists('movies.json'):
         with open('movies.json', 'r', encoding='utf-8') as f:
-            try: movies_data = json.load(f)
-            except: movies_data = []
+            try:
+                movies_data = json.load(f)
+            except Exception:
+                movies_data = []
 
     # Bersihkan sisa entri rusak jika ada yang url-nya kosong/None
     movies_data = [m for m in movies_data if m.get('url')]
@@ -248,7 +259,7 @@ def scrape_pusatfilm():
         if 'servers' in item and isinstance(item['servers'], list):
             orig_len = len(item['servers'])
             item['servers'] = [
-                s for s in item['servers'] 
+                s for s in item['servers']
                 if not any(ad in s.get('url', '').lower() for ad in AD_DOMAINS)
             ]
             if len(item['servers']) < orig_len:
@@ -270,10 +281,26 @@ def scrape_pusatfilm():
     processed_urls = {item.get('url') for item in movies_data if item.get('url')}
     latest_urls_ordered = []
 
+    # Cek ulang poster kosong CUKUP 1 KALI di awal (tidak diulang tiap halaman)
+    force_check_urls = [item['url'] for item in movies_data if item.get('url') and not item.get('poster')]
+    if force_check_urls:
+        print(f"[*] Mencoba memperbarui {len(force_check_urls)} poster yang masih kosong...")
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            poster_results = list(executor.map(process_single_movie, force_check_urls))
+        updated_posters = 0
+        for item in poster_results:
+            if item and item.get('poster'):
+                existing_idx = next((i for i, m in enumerate(movies_data) if m.get('url') == item['url']), -1)
+                if existing_idx != -1:
+                    movies_data[existing_idx] = item
+                    updated_posters += 1
+        print(f"[✓] Pembaruan poster selesai ({updated_posters} poster diperbarui).")
+
     print(f"\n[+] Memulai Scraping Multi-Kategori (Maks {END_PAGE} Halaman/Kategori)...")
 
     for base_url in BASE_URLS:
         is_latest_source = "sort=latest" in base_url
+        seen_in_category = set()
         print(f"\n==================================================")
         print(f"[>] MEMASUKI KATEGORI: {base_url}")
         print(f"==================================================")
@@ -287,7 +314,7 @@ def scrape_pusatfilm():
 
                 if res.status_code == 404:
                     print(f"[!] Halaman {page} tidak ditemukan (404). Kategori ini sudah habis ditelusuri.")
-                    break 
+                    break
 
                 if res.status_code != 200:
                     print(f"[!] Gagal dimuat (Status: {res.status_code}). Lanjut halaman berikutnya...")
@@ -303,26 +330,30 @@ def scrape_pusatfilm():
 
                 valid_links = [l for l in dict.fromkeys(movie_links) if '/page/' not in l]
 
+                # Deteksi jika halaman 2+ mengembalikan daftar film yang sama persis (infinite scroll SPA)
+                new_links_in_cat = [l for l in valid_links if l not in seen_in_category]
+                if page > 1 and not new_links_in_cat:
+                    print(f"[*] Halaman {page} tidak memuat judul baru (batas halaman/infinite scroll). Lanjut kategori berikutnya.")
+                    break
+                seen_in_category.update(valid_links)
+
                 # Catat film yang berasal dari halaman sort=latest (halaman 1-3) sebagai "Film Terbaru"
                 if is_latest_source and page <= 3:
                     for l in valid_links:
                         if l not in manual_category_map and l not in latest_urls_ordered:
                             latest_urls_ordered.append(l)
 
-                unprocessed_urls = [l for l in valid_links if l not in processed_urls]
-                force_check_urls = [item['url'] for item in movies_data if item.get('url') and not item.get('poster')]
-                target_urls = list(set(unprocessed_urls + force_check_urls))
+                target_urls = [l for l in valid_links if l not in processed_urls]
 
                 if not target_urls:
-                    print(f"[*] Tidak ada film baru atau pembaruan poster di halaman {page}.")
+                    print(f"[*] Semua film di halaman {page} sudah ada di database.")
                 else:
-                    print(f"[*] Memproses {len(target_urls)} target (film baru / pembaruan poster)...")
+                    print(f"[*] Memproses {len(target_urls)} film baru...")
 
                     with ThreadPoolExecutor(max_workers=5) as executor:
                         results = list(executor.map(process_single_movie, target_urls))
 
                     added = 0
-                    updated = 0
                     for item in results:
                         if item:
                             if item['url'] in manual_category_map:
@@ -333,24 +364,19 @@ def scrape_pusatfilm():
                                 if 'Film Terbaru' not in item['genres']:
                                     item['genres'].insert(0, 'Film Terbaru')
 
-                            existing_idx = next((i for i, m in enumerate(movies_data) if m.get('url') == item['url']), -1)
-                            if existing_idx != -1:
-                                movies_data[existing_idx] = item 
-                                updated += 1
-                            else:
-                                movies_data.insert(0, item)
-                                processed_urls.add(item['url'])
-                                added += 1
+                            movies_data.insert(0, item)
+                            processed_urls.add(item['url'])
+                            added += 1
 
                     with open('movies.json', 'w', encoding='utf-8') as f:
                         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
-                    print(f"[+] Halaman {page} selesai. Menambahkan {added} film baru, memperbarui {updated} poster.")
+                    print(f"[+] Halaman {page} selesai. Menambahkan {added} film baru.")
 
             except Exception as e:
                 print(f'[-] Error saat memproses halaman {page}: {e}')
 
-            delay = random.uniform(1.5, 3.5)
+            delay = random.uniform(1.5, 3.0)
             print(f"[*] Jeda aman {delay:.2f} detik agar tidak diblokir...")
             time.sleep(delay)
 
@@ -410,6 +436,7 @@ def scrape_pusatfilm():
         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
     print(f'\n[v] MISI SELESAI! Total: {len(movies_data)} film (Film Terbaru: {len(film_terbaru)} | Reguler: {len(film_reguler)} | Film India Jadul: {len(film_india_jadul)})')
+
 
 if __name__ == '__main__':
     scrape_pusatfilm()
