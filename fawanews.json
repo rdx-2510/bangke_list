@@ -2,15 +2,84 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "06:28:59 PM 15-11-2026",
-    "total_matches": 46,
+    "last_update_time": "07:34:56 PM 15-11-2026",
+    "total_matches": 52,
     "live_match": 18,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "UEFA Nations League Simulcast_4",
+            "timestamp": 1794771283,
+            "eventInfo": {
+                "teamA": "UEFA Nations League Simulcast_4",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:43 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/EHHHHAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/UEFA%20Nations%20League%20Simulcast_4.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Spain vs England --- CH 2",
+            "timestamp": 1794771283,
+            "eventInfo": {
+                "teamA": "Spain",
+                "teamB": "England --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:43 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/3ee6bb15-0a9e-4f51-96ec-335948942e0c.m3u8",
+                    "referer": "http://www.fawanews.sc/Spain%20vs%20England%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Croatia vs Czech Republic --- CH 2",
+            "timestamp": 1794771285,
+            "eventInfo": {
+                "teamA": "Croatia",
+                "teamB": "Czech Republic --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:45 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/17b041bb-0e08-418c-af9a-26cc42a84050.m3u8",
+                    "referer": "http://www.fawanews.sc/Croatia%20vs%20Czech%20Republic%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Philadelphia 76ers vs Indiana Pacers",
-            "timestamp": 1794767328,
+            "timestamp": 1794771288,
             "eventInfo": {
                 "teamA": "Philadelphia 76ers",
                 "teamB": "Indiana Pacers",
@@ -18,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:48 PM"
+                "startTime": "15/11/2026 07:34:48 PM"
             },
             "streams": [
                 {
@@ -33,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Philadelphia 76ers vs Indiana Pacers --- CH 2",
-            "timestamp": 1794767328,
+            "timestamp": 1794771288,
             "eventInfo": {
                 "teamA": "Philadelphia 76ers",
                 "teamB": "Indiana Pacers --- CH 2",
@@ -41,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:48 PM"
+                "startTime": "15/11/2026 07:34:48 PM"
             },
             "streams": [
                 {
@@ -56,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Oklahoma vs Ole Miss",
-            "timestamp": 1794767328,
+            "timestamp": 1794771288,
             "eventInfo": {
                 "teamA": "Oklahoma",
                 "teamB": "Ole Miss",
@@ -64,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:48 PM"
+                "startTime": "15/11/2026 07:34:48 PM"
             },
             "streams": [
                 {
@@ -78,114 +147,22 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Belarus vs Albania",
-            "timestamp": 1794767329,
+            "event_name": "Juan Pablo II vs Deportivo Garcilaso",
+            "timestamp": 1794771288,
             "eventInfo": {
-                "teamA": "Belarus",
-                "teamB": "Albania",
+                "teamA": "Juan Pablo II",
+                "teamB": "Deportivo Garcilaso",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:49 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/K777AAAAAQQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Belarus%20vs%20Albania.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Belarus vs Albania --- CH 2",
-            "timestamp": 1794767329,
-            "eventInfo": {
-                "teamA": "Belarus",
-                "teamB": "Albania --- CH 2",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:49 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "https://www.rtmpcdn.com/live/f9df0015-1e2b-44c2-b80d-20f372802281.m3u8",
-                    "referer": "http://www.fawanews.sc/Belarus%20vs%20Albania%20---%20CH%202.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Finland vs San Marino",
-            "timestamp": 1794767329,
-            "eventInfo": {
-                "teamA": "Finland",
-                "teamB": "San Marino",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:49 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/K777AAAAAQQQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Finland%20vs%20San%20Marino.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Finland vs San Marino --- CH 2",
-            "timestamp": 1794767329,
-            "eventInfo": {
-                "teamA": "Finland",
-                "teamB": "San Marino --- CH 2",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:49 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "https://www.rtmpcdn.com/live/fa20cc01-ec22-4ad1-955e-e73325a1e0d0.m3u8",
-                    "referer": "http://www.fawanews.sc/Finland%20vs%20San%20Marino%20---%20CH%202.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Comerciantes Unidos vs Sport Boys",
-            "timestamp": 1794767330,
-            "eventInfo": {
-                "teamA": "Comerciantes Unidos",
-                "teamB": "Sport Boys",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:50 PM"
+                "startTime": "15/11/2026 07:34:48 PM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
                     "stream_url": "http://193.47.62.41/hls/J444AAA.m3u8",
-                    "referer": "http://www.fawanews.sc/Comerciantes%20Unidos%20vs%20Sport%20Boys.html",
+                    "referer": "http://www.fawanews.sc/Juan%20Pablo%20II%20vs%20Deportivo%20Garcilaso.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
@@ -193,22 +170,22 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Golf PGA Austin Championship",
-            "timestamp": 1794767330,
+            "event_name": "Tennis WTA Finals Indian Wells",
+            "timestamp": 1794771289,
             "eventInfo": {
-                "teamA": "Golf PGA Austin Championship",
+                "teamA": "Tennis WTA Finals Indian Wells",
                 "teamB": "",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:50 PM"
+                "startTime": "15/11/2026 07:34:49 PM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.50/hls/VYYYAAAAq.m3u8",
-                    "referer": "http://www.fawanews.sc/Golf%20PGA%20Austin%20Championship.html",
+                    "stream_url": "http://193.47.62.50/hls/BUUU.m3u8",
+                    "referer": "http://www.fawanews.sc/Tennis%20WTA%20Finals%20Indian%20Wells.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
@@ -216,137 +193,22 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Eldense vs Sabadell",
-            "timestamp": 1794767330,
+            "event_name": "Gotham W vs Kansas City Current W",
+            "timestamp": 1794771289,
             "eventInfo": {
-                "teamA": "Eldense",
-                "teamB": "Sabadell",
+                "teamA": "Gotham W",
+                "teamB": "Kansas City Current W",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:50 PM"
+                "startTime": "15/11/2026 07:34:49 PM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/J444AA.m3u8",
-                    "referer": "http://www.fawanews.sc/Eldense%20vs%20Sabadell.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Eibar vs Cadiz CF",
-            "timestamp": 1794767331,
-            "eventInfo": {
-                "teamA": "Eibar",
-                "teamB": "Cadiz CF",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:51 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/J444A.m3u8",
-                    "referer": "http://www.fawanews.sc/Eibar%20vs%20Cadiz%20CF.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Valencia W vs Granada CF W",
-            "timestamp": 1794767331,
-            "eventInfo": {
-                "teamA": "Valencia W",
-                "teamB": "Granada CF W",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:51 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/J444.m3u8",
-                    "referer": "http://www.fawanews.sc/Valencia%20W%20vs%20Granada%20CF%20W.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Deportivo la Coruna W vs Barcelona W",
-            "timestamp": 1794767331,
-            "eventInfo": {
-                "teamA": "Deportivo la Coruna W",
-                "teamB": "Barcelona W",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:51 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/K777AAAAAQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Deportivo%20la%20Coruna%20W%20vs%20Barcelona%20W.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Ravenna vs Forli",
-            "timestamp": 1794767332,
-            "eventInfo": {
-                "teamA": "Ravenna",
-                "teamB": "Forli",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:52 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/B222a.m3u8",
-                    "referer": "http://www.fawanews.sc/Ravenna%20vs%20Forli.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Arsenal W vs London City Lionesses W",
-            "timestamp": 1794767332,
-            "eventInfo": {
-                "teamA": "Arsenal W",
-                "teamB": "London City Lionesses W",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 06:28:52 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/K777AAAAAQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Arsenal%20W%20vs%20London%20City%20Lionesses%20W.html",
+                    "stream_url": "http://193.47.62.41/hls/EHHHHAAAAQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Gotham%20W%20vs%20Kansas%20City%20Current%20W.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
@@ -355,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Darts Grand Slam",
-            "timestamp": 1794767332,
+            "timestamp": 1794771289,
             "eventInfo": {
                 "teamA": "Darts Grand Slam",
                 "teamB": "",
@@ -363,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:52 PM"
+                "startTime": "15/11/2026 07:34:49 PM"
             },
             "streams": [
                 {
@@ -378,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis ATP Finals - Turin",
-            "timestamp": 1794767332,
+            "timestamp": 1794771289,
             "eventInfo": {
                 "teamA": "Tennis ATP Finals - Turin",
                 "teamB": "",
@@ -386,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:52 PM"
+                "startTime": "15/11/2026 07:34:49 PM"
             },
             "streams": [
                 {
@@ -400,8 +262,31 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Danubio vs Liverpool M",
+            "timestamp": 1794771289,
+            "eventInfo": {
+                "teamA": "Danubio",
+                "teamB": "Liverpool M",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:49 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/EHHHHAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Danubio%20vs%20Liverpool%20M.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Snooker Champion of Champions",
-            "timestamp": 1794767333,
+            "timestamp": 1794771290,
             "eventInfo": {
                 "teamA": "Snooker Champion of Champions",
                 "teamB": "",
@@ -409,13 +294,128 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 06:28:53 PM"
+                "startTime": "15/11/2026 07:34:50 PM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
                     "stream_url": "http://193.47.62.59/hls/WJJJJJ.m3u8",
                     "referer": "http://www.fawanews.sc/Snooker%20Champion%20of%20Champions.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Golf PGA Austin Championship",
+            "timestamp": 1794771290,
+            "eventInfo": {
+                "teamA": "Golf PGA Austin Championship",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:50 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/VYYYAAAAq.m3u8",
+                    "referer": "http://www.fawanews.sc/Golf%20PGA%20Austin%20Championship.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Golf LPGA The ANNIKA",
+            "timestamp": 1794771290,
+            "eventInfo": {
+                "teamA": "Golf LPGA The ANNIKA",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:50 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/FF444.m3u8",
+                    "referer": "http://www.fawanews.sc/Golf%20LPGA%20The%20ANNIKA.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Boca Juniors vs Ind Valle del Cauca",
+            "timestamp": 1794771291,
+            "eventInfo": {
+                "teamA": "Boca Juniors",
+                "teamB": "Ind Valle del Cauca",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:51 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/EHHHHAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Boca%20Juniors%20vs%20Ind%20Valle%20del%20Cauca.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Always Ready vs Independiente",
+            "timestamp": 1794771291,
+            "eventInfo": {
+                "teamA": "Always Ready",
+                "teamB": "Independiente",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:51 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/EHHHHA.m3u8",
+                    "referer": "http://www.fawanews.sc/Always%20Ready%20vs%20Independiente.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Comerciantes Unidos vs Sport Boys",
+            "timestamp": 1794771291,
+            "eventInfo": {
+                "teamA": "Comerciantes Unidos",
+                "teamB": "Sport Boys",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 07:34:51 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/J444AAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Comerciantes%20Unidos%20vs%20Sport%20Boys.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
