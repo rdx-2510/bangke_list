@@ -1,8 +1,16 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - NFL_Detroit Lions vs New England Patriots
+#EXTINF:-1, FawaNews - Philadelphia 76ers vs Indiana Pacers
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/NFL_Detroit%20Lions%20vs%20New%20England%20Patriots.html
-http://193.47.62.50/hls/K555AAAAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Philadelphia%2076ers%20vs%20Indiana%20Pacers.html
+http://193.47.62.41/hls/J444AAAA.m3u8
+#EXTINF:-1, FawaNews - Philadelphia 76ers vs Indiana Pacers --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Philadelphia%2076ers%20vs%20Indiana%20Pacers%20---%20CH%202.html
+https://www.rtmpcdn.com/live/82091001-94e6-46f4-b0bf-7726d28de024.m3u8
+#EXTINF:-1, FawaNews - Oklahoma vs Ole Miss
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Oklahoma%20vs%20Ole%20Miss.html
+http://193.47.62.41/hls/EHHHH.m3u8
 #EXTINF:-1, FawaNews - Belarus vs Albania
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Belarus%20vs%20Albania.html
@@ -19,14 +27,6 @@ http://193.47.62.41/hls/K777AAAAAQQQQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Finland%20vs%20San%20Marino%20---%20CH%202.html
 https://www.rtmpcdn.com/live/fa20cc01-ec22-4ad1-955e-e73325a1e0d0.m3u8
-#EXTINF:-1, FawaNews - Oklahoma vs Ole Miss
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Oklahoma%20vs%20Ole%20Miss.html
-http://193.47.62.41/hls/EHHHH.m3u8
-#EXTINF:-1, FawaNews - Philadelphia 76ers vs Indiana Pacers
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Philadelphia%2076ers%20vs%20Indiana%20Pacers.html
-http://193.47.62.41/hls/J444AAAA.m3u8
 #EXTINF:-1, FawaNews - Comerciantes Unidos vs Sport Boys
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Comerciantes%20Unidos%20vs%20Sport%20Boys.html
@@ -59,47 +59,15 @@ http://193.47.62.41/hls/B222a.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Arsenal%20W%20vs%20London%20City%20Lionesses%20W.html
 http://193.47.62.41/hls/K777AAAAAQ.m3u8
-#EXTINF:-1, FawaNews - Aris vs Olympiacos
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Aris%20vs%20Olympiacos.html
-http://193.47.62.41/hls/K777AAA.m3u8
-#EXTINF:-1, FawaNews - AZ Alkmaar W vs Ajax W
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/AZ%20Alkmaar%20W%20vs%20Ajax%20W.html
-http://193.47.62.41/hls/B222.m3u8
-#EXTINF:-1, FawaNews - FC Twente W vs PSV W
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/FC%20Twente%20W%20vs%20PSV%20W.html
-http://193.47.62.44/hls/G666AAAAAAA.m3u8
-#EXTINF:-1, FawaNews - Mora vs Vasteras
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Mora%20vs%20Vasteras.html
-http://193.47.62.41/hls/K777AA.m3u8
-#EXTINF:-1, FawaNews - Kalmar vs Sodertalje
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kalmar%20vs%20Sodertalje.html
-http://193.47.62.41/hls/K777A.m3u8
-#EXTINF:-1, FawaNews - Ittihad Kalba vs Shabab Al Ahli Dubai
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Ittihad%20Kalba%20vs%20Shabab%20Al%20Ahli%20Dubai.html
-http://193.47.62.41/hls/K777AAAAA.m3u8
-#EXTINF:-1, FawaNews - Al Jazira vs Bani Yas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Jazira%20vs%20Bani%20Yas.html
-http://193.47.62.41/hls/K777AAAA.m3u8
-#EXTINF:-1, FawaNews - Granada CF vs Las Palmas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Granada%20CF%20vs%20Las%20Palmas.html
-http://193.47.62.44/hls/HMMMAAAAAQ.m3u8
 #EXTINF:-1, FawaNews - Darts Grand Slam
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Darts%20Grand%20Slam.html
 http://193.47.62.59/hls/BEEEAAA.m3u8
-#EXTINF:-1, FawaNews - Snooker Champion of Champions
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20Champion%20of%20Champions.html
-http://193.47.62.59/hls/WJJJJJ.m3u8
 #EXTINF:-1, FawaNews - Tennis ATP Finals - Turin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20ATP%20Finals%20-%20Turin.html
 http://193.47.62.44/hls/G666AAAAA.m3u8
+#EXTINF:-1, FawaNews - Snooker Champion of Champions
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Snooker%20Champion%20of%20Champions.html
+http://193.47.62.59/hls/WJJJJJ.m3u8
