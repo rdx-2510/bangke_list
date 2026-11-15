@@ -2,38 +2,15 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "04:44:14 AM 15-11-2026",
-    "total_matches": 48,
-    "live_match": 25,
+    "last_update_time": "05:42:53 AM 15-11-2026",
+    "total_matches": 51,
+    "live_match": 30,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "UFC 334_Jared Gordon vs Melquizael Costa_2",
-            "timestamp": 1794717842,
-            "eventInfo": {
-                "teamA": "UFC 334_Jared Gordon",
-                "teamB": "Melquizael Costa_2",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "15/11/2026 04:44:02 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "https://temp.formaturamaxi.com.br/simplyabby.m3u8",
-                    "referer": "http://www.fawanews.sc/UFC%20334_Jared%20Gordon%20vs%20Melquizael%20Costa_2.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "Boxing_Pacheco vs Fulghum",
-            "timestamp": 1794717842,
+            "timestamp": 1794721358,
             "eventInfo": {
                 "teamA": "Boxing_Pacheco",
                 "teamB": "Fulghum",
@@ -41,7 +18,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:02 AM"
+                "startTime": "15/11/2026 05:42:38 AM"
             },
             "streams": [
                 {
@@ -56,7 +33,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Australia vs New Zealand",
-            "timestamp": 1794717843,
+            "timestamp": 1794721358,
             "eventInfo": {
                 "teamA": "Australia",
                 "teamB": "New Zealand",
@@ -64,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:03 AM"
+                "startTime": "15/11/2026 05:42:38 AM"
             },
             "streams": [
                 {
@@ -78,8 +55,77 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Kashiwa Reysol vs Kawasaki Frontale",
+            "timestamp": 1794721358,
+            "eventInfo": {
+                "teamA": "Kashiwa Reysol",
+                "teamB": "Kawasaki Frontale",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 05:42:38 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.55/hls/rrrrDDD.m3u8",
+                    "referer": "http://www.fawanews.sc/Kashiwa%20Reysol%20vs%20Kawasaki%20Frontale.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Kashima Antlers vs Yokohama F Marinos",
+            "timestamp": 1794721359,
+            "eventInfo": {
+                "teamA": "Kashima Antlers",
+                "teamB": "Yokohama F Marinos",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 05:42:39 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.55/hls/rrrrDD.m3u8",
+                    "referer": "http://www.fawanews.sc/Kashima%20Antlers%20vs%20Yokohama%20F%20Marinos.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Cerezo Osaka vs Urawa Reds",
+            "timestamp": 1794721359,
+            "eventInfo": {
+                "teamA": "Cerezo Osaka",
+                "teamB": "Urawa Reds",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 05:42:39 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.55/hls/rrrrD.m3u8",
+                    "referer": "http://www.fawanews.sc/Cerezo%20Osaka%20vs%20Urawa%20Reds.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Brisbane Bullets vs Tasmania JackJumpers",
-            "timestamp": 1794717843,
+            "timestamp": 1794721359,
             "eventInfo": {
                 "teamA": "Brisbane Bullets",
                 "teamB": "Tasmania JackJumpers",
@@ -87,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:03 AM"
+                "startTime": "15/11/2026 05:42:39 AM"
             },
             "streams": [
                 {
@@ -102,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Australia W vs New Zealand W",
-            "timestamp": 1794717843,
+            "timestamp": 1794721360,
             "eventInfo": {
                 "teamA": "Australia W",
                 "teamB": "New Zealand W",
@@ -110,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:03 AM"
+                "startTime": "15/11/2026 05:42:39 AM"
             },
             "streams": [
                 {
@@ -124,8 +170,77 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Machida vs Vissel Kobe",
+            "timestamp": 1794721360,
+            "eventInfo": {
+                "teamA": "Machida",
+                "teamB": "Vissel Kobe",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 05:42:40 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.55/hls/rrrr.m3u8",
+                    "referer": "http://www.fawanews.sc/Machida%20vs%20Vissel%20Kobe.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Toyama vs Tokushima",
+            "timestamp": 1794721360,
+            "eventInfo": {
+                "teamA": "Toyama",
+                "teamB": "Tokushima",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 05:42:40 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/feeeAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Toyama%20vs%20Tokushima.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Imabari vs Iwata",
+            "timestamp": 1794721360,
+            "eventInfo": {
+                "teamA": "Imabari",
+                "teamB": "Iwata",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "15/11/2026 05:42:40 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/feeeA.m3u8",
+                    "referer": "http://www.fawanews.sc/Imabari%20vs%20Iwata.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Hawaii vs North Dakota State",
-            "timestamp": 1794717844,
+            "timestamp": 1794721361,
             "eventInfo": {
                 "teamA": "Hawaii",
                 "teamB": "North Dakota State",
@@ -133,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:04 AM"
+                "startTime": "15/11/2026 05:42:41 AM"
             },
             "streams": [
                 {
@@ -148,7 +263,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sydney vs New Zealand Breakers",
-            "timestamp": 1794717845,
+            "timestamp": 1794721361,
             "eventInfo": {
                 "teamA": "Sydney",
                 "teamB": "New Zealand Breakers",
@@ -156,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:05 AM"
+                "startTime": "15/11/2026 05:42:41 AM"
             },
             "streams": [
                 {
@@ -171,7 +286,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vegalta Sendai vs Blaublitz",
-            "timestamp": 1794717845,
+            "timestamp": 1794721361,
             "eventInfo": {
                 "teamA": "Vegalta Sendai",
                 "teamB": "Blaublitz",
@@ -179,7 +294,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:05 AM"
+                "startTime": "15/11/2026 05:42:41 AM"
             },
             "streams": [
                 {
@@ -194,7 +309,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vanraure vs Iwaki",
-            "timestamp": 1794717845,
+            "timestamp": 1794721362,
             "eventInfo": {
                 "teamA": "Vanraure",
                 "teamB": "Iwaki",
@@ -202,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:05 AM"
+                "startTime": "15/11/2026 05:42:42 AM"
             },
             "streams": [
                 {
@@ -217,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Hokkaido Consadole Sapporo vs Sagan Tosu",
-            "timestamp": 1794717845,
+            "timestamp": 1794721362,
             "eventInfo": {
                 "teamA": "Hokkaido Consadole Sapporo",
                 "teamB": "Sagan Tosu",
@@ -225,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:05 AM"
+                "startTime": "15/11/2026 05:42:42 AM"
             },
             "streams": [
                 {
@@ -240,7 +355,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Canberra W vs Brisbane Roar W",
-            "timestamp": 1794717846,
+            "timestamp": 1794721362,
             "eventInfo": {
                 "teamA": "Canberra W",
                 "teamB": "Brisbane Roar W",
@@ -248,7 +363,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:06 AM"
+                "startTime": "15/11/2026 05:42:42 AM"
             },
             "streams": [
                 {
@@ -263,7 +378,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Arizona vs Utah",
-            "timestamp": 1794717846,
+            "timestamp": 1794721363,
             "eventInfo": {
                 "teamA": "Arizona",
                 "teamB": "Utah",
@@ -271,7 +386,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:06 AM"
+                "startTime": "15/11/2026 05:42:43 AM"
             },
             "streams": [
                 {
@@ -286,7 +401,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Washington State vs Colorado State Rams",
-            "timestamp": 1794717846,
+            "timestamp": 1794721363,
             "eventInfo": {
                 "teamA": "Washington State",
                 "teamB": "Colorado State Rams",
@@ -294,7 +409,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:06 AM"
+                "startTime": "15/11/2026 05:42:43 AM"
             },
             "streams": [
                 {
@@ -309,7 +424,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Australia vs England",
-            "timestamp": 1794717846,
+            "timestamp": 1794721363,
             "eventInfo": {
                 "teamA": "Australia",
                 "teamB": "England",
@@ -317,7 +432,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:06 AM"
+                "startTime": "15/11/2026 05:42:43 AM"
             },
             "streams": [
                 {
@@ -332,7 +447,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "New Zealand vs India",
-            "timestamp": 1794717847,
+            "timestamp": 1794721363,
             "eventInfo": {
                 "teamA": "New Zealand",
                 "teamB": "India",
@@ -340,7 +455,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:07 AM"
+                "startTime": "15/11/2026 05:42:43 AM"
             },
             "streams": [
                 {
@@ -355,7 +470,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "New Zealand vs IndiaF",
-            "timestamp": 1794717847,
+            "timestamp": 1794721364,
             "eventInfo": {
                 "teamA": "New Zealand",
                 "teamB": "IndiaF",
@@ -363,7 +478,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:07 AM"
+                "startTime": "15/11/2026 05:42:44 AM"
             },
             "streams": [
                 {
@@ -378,7 +493,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Los Angeles Kings vs Calgary Flames",
-            "timestamp": 1794717847,
+            "timestamp": 1794721364,
             "eventInfo": {
                 "teamA": "Los Angeles Kings",
                 "teamB": "Calgary Flames",
@@ -386,7 +501,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:07 AM"
+                "startTime": "15/11/2026 05:42:44 AM"
             },
             "streams": [
                 {
@@ -401,7 +516,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Anaheim Ducks vs New York Islanders",
-            "timestamp": 1794717847,
+            "timestamp": 1794721364,
             "eventInfo": {
                 "teamA": "Anaheim Ducks",
                 "teamB": "New York Islanders",
@@ -409,7 +524,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:07 AM"
+                "startTime": "15/11/2026 05:42:44 AM"
             },
             "streams": [
                 {
@@ -424,7 +539,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "UTEP vs Wyoming",
-            "timestamp": 1794717848,
+            "timestamp": 1794721365,
             "eventInfo": {
                 "teamA": "UTEP",
                 "teamB": "Wyoming",
@@ -432,7 +547,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:08 AM"
+                "startTime": "15/11/2026 05:42:45 AM"
             },
             "streams": [
                 {
@@ -447,7 +562,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "San Diego State vs Utah State",
-            "timestamp": 1794717848,
+            "timestamp": 1794721365,
             "eventInfo": {
                 "teamA": "San Diego State",
                 "teamB": "Utah State",
@@ -455,7 +570,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:08 AM"
+                "startTime": "15/11/2026 05:42:45 AM"
             },
             "streams": [
                 {
@@ -470,7 +585,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Oklahoma State vs Texas Tech",
-            "timestamp": 1794717848,
+            "timestamp": 1794721365,
             "eventInfo": {
                 "teamA": "Oklahoma State",
                 "teamB": "Texas Tech",
@@ -478,7 +593,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:08 AM"
+                "startTime": "15/11/2026 05:42:45 AM"
             },
             "streams": [
                 {
@@ -493,7 +608,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "UTSA vs North Texas",
-            "timestamp": 1794717848,
+            "timestamp": 1794721366,
             "eventInfo": {
                 "teamA": "UTSA",
                 "teamB": "North Texas",
@@ -501,7 +616,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:08 AM"
+                "startTime": "15/11/2026 05:42:46 AM"
             },
             "streams": [
                 {
@@ -516,7 +631,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Utah Mammoth vs San Jose Sharks",
-            "timestamp": 1794717849,
+            "timestamp": 1794721366,
             "eventInfo": {
                 "teamA": "Utah Mammoth",
                 "teamB": "San Jose Sharks",
@@ -524,7 +639,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:09 AM"
+                "startTime": "15/11/2026 05:42:46 AM"
             },
             "streams": [
                 {
@@ -539,7 +654,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "AEW Full Gear",
-            "timestamp": 1794717849,
+            "timestamp": 1794721366,
             "eventInfo": {
                 "teamA": "AEW Full Gear",
                 "teamB": "",
@@ -547,7 +662,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:09 AM"
+                "startTime": "15/11/2026 05:42:46 AM"
             },
             "streams": [
                 {
@@ -562,7 +677,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "AEW Full Gear --- CH 2",
-            "timestamp": 1794717849,
+            "timestamp": 1794721366,
             "eventInfo": {
                 "teamA": "AEW Full Gear --- CH 2",
                 "teamB": "",
@@ -570,7 +685,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "15/11/2026 04:44:09 AM"
+                "startTime": "15/11/2026 05:42:46 AM"
             },
             "streams": [
                 {
