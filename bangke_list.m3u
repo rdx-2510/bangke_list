@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Washington Wizards vs Houston Rockets
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Wizards%20vs%20Houston%20Rockets.html
+http://193.47.62.44/hls/HKKK.m3u8
+#EXTINF:-1, FawaNews - Washington Wizards vs Houston Rockets --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Wizards%20vs%20Houston%20Rockets%20---%20CH%202.html
+https://www.rtmpcdn.com/live/71223bef-1adf-46be-9820-21c53546c723.m3u8
 #EXTINF:-1, FawaNews - Edmonton Elks vs Montreal Alouettes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Edmonton%20Elks%20vs%20Montreal%20Alouettes.html
@@ -35,14 +43,34 @@ http://193.47.62.41/hls/E666AA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Los%20Angeles%20Clippers%20vs%20Charlotte%20Hornets%20---%20CH%202.html
 https://www.rtmpcdn.com/live/489c3484-5b2a-42bf-9ec7-24ef19d6409a.m3u8
-#EXTINF:-1, FawaNews - Phoenix Suns vs Los Angeles Lakers
+#EXTINF:-1, FawaNews - Sacramento Kings vs Oklahoma City Thunder
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Phoenix%20Suns%20vs%20Los%20Angeles%20Lakers.html
-http://193.47.62.41/hls/E666.m3u8
-#EXTINF:-1, FawaNews - Phoenix Suns vs Los Angeles Lakers --- CH 2
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sacramento%20Kings%20vs%20Oklahoma%20City%20Thunder.html
+http://193.47.62.59/hls/HKKKAA.m3u8
+#EXTINF:-1, FawaNews - Milwaukee Bucks vs Atlanta Hawks
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Phoenix%20Suns%20vs%20Los%20Angeles%20Lakers%20---%20CH%202.html
-https://www.rtmpcdn.com/live/d971c459-44ef-41ba-b27a-64dbb86610bf.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Milwaukee%20Bucks%20vs%20Atlanta%20Hawks.html
+http://193.47.62.44/hls/HKKKA.m3u8
+#EXTINF:-1, FawaNews - Vegas Golden Knights vs Vancouver Canucks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vegas%20Golden%20Knights%20vs%20Vancouver%20Canucks.html
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/85ea717a-41bb-4b38-9b9d-2cd5fadb87f3/master.m3u8
+#EXTINF:-1, FawaNews - San Jose Sharks vs Nashville Predators
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Jose%20Sharks%20vs%20Nashville%20Predators.html
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/38ac7669-7852-49d8-8548-808fa44ee721/master.m3u8
+#EXTINF:-1, FawaNews - Dallas Stars vs Florida Panthers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Dallas%20Stars%20vs%20Florida%20Panthers.html
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/143dbe0a-d6b3-49a1-b843-171fcb2a547e/master.m3u8
+#EXTINF:-1, FawaNews - Anaheim Ducks vs Calgary Flames
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Anaheim%20Ducks%20vs%20Calgary%20Flames.html
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/0f0bb84e-da49-46cc-9ace-725ff4723966/master.m3u8
+#EXTINF:-1, FawaNews - Philadelphia Flyers vs Edmonton Oilers
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Philadelphia%20Flyers%20vs%20Edmonton%20Oilers.html
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/48a599a4-478d-482d-a460-d8879fbb3397/master.m3u8
 #EXTINF:-1, FawaNews - Quindio vs Cartagena
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Quindio%20vs%20Cartagena.html
