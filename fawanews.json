@@ -2,15 +2,38 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "05:22:02 AM 16-11-2026",
-    "total_matches": 36,
-    "live_match": 14,
+    "last_update_time": "08:07:16 AM 16-11-2026",
+    "total_matches": 37,
+    "live_match": 15,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "South Africa vs Bangladesh",
+            "timestamp": 1794816426,
+            "eventInfo": {
+                "teamA": "South Africa",
+                "teamB": "Bangladesh",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "16/11/2026 08:07:06 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JYYY.m3u8",
+                    "referer": "http://www.fawanews.sc/South%20Africa%20vs%20Bangladesh.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Sacramento Kings vs Oklahoma City Thunder",
-            "timestamp": 1794806515,
+            "timestamp": 1794816427,
             "eventInfo": {
                 "teamA": "Sacramento Kings",
                 "teamB": "Oklahoma City Thunder",
@@ -18,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:55 AM"
+                "startTime": "16/11/2026 08:07:07 AM"
             },
             "streams": [
                 {
@@ -33,7 +56,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sacramento Kings vs Oklahoma City Thunder --- CH 2",
-            "timestamp": 1794806515,
+            "timestamp": 1794816427,
             "eventInfo": {
                 "teamA": "Sacramento Kings",
                 "teamB": "Oklahoma City Thunder --- CH 2",
@@ -41,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:55 AM"
+                "startTime": "16/11/2026 08:07:07 AM"
             },
             "streams": [
                 {
@@ -56,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vegas Golden Knights vs Vancouver Canucks",
-            "timestamp": 1794806516,
+            "timestamp": 1794816428,
             "eventInfo": {
                 "teamA": "Vegas Golden Knights",
                 "teamB": "Vancouver Canucks",
@@ -64,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:56 AM"
+                "startTime": "16/11/2026 08:07:08 AM"
             },
             "streams": [
                 {
@@ -79,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "San Jose Sharks vs Nashville Predators",
-            "timestamp": 1794806516,
+            "timestamp": 1794816428,
             "eventInfo": {
                 "teamA": "San Jose Sharks",
                 "teamB": "Nashville Predators",
@@ -87,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:56 AM"
+                "startTime": "16/11/2026 08:07:08 AM"
             },
             "streams": [
                 {
@@ -102,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Dallas Stars vs Florida Panthers",
-            "timestamp": 1794806516,
+            "timestamp": 1794816428,
             "eventInfo": {
                 "teamA": "Dallas Stars",
                 "teamB": "Florida Panthers",
@@ -110,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:56 AM"
+                "startTime": "16/11/2026 08:07:08 AM"
             },
             "streams": [
                 {
@@ -125,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Anaheim Ducks vs Calgary Flames",
-            "timestamp": 1794806516,
+            "timestamp": 1794816428,
             "eventInfo": {
                 "teamA": "Anaheim Ducks",
                 "teamB": "Calgary Flames",
@@ -133,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:56 AM"
+                "startTime": "16/11/2026 08:07:08 AM"
             },
             "streams": [
                 {
@@ -148,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Philadelphia Flyers vs Edmonton Oilers",
-            "timestamp": 1794806516,
+            "timestamp": 1794816429,
             "eventInfo": {
                 "teamA": "Philadelphia Flyers",
                 "teamB": "Edmonton Oilers",
@@ -156,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:56 AM"
+                "startTime": "16/11/2026 08:07:09 AM"
             },
             "streams": [
                 {
@@ -171,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Quindio vs Cartagena",
-            "timestamp": 1794806517,
+            "timestamp": 1794816429,
             "eventInfo": {
                 "teamA": "Quindio",
                 "teamB": "Cartagena",
@@ -179,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:57 AM"
+                "startTime": "16/11/2026 08:07:09 AM"
             },
             "streams": [
                 {
@@ -194,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tigres vs Real Cundinamarca",
-            "timestamp": 1794806517,
+            "timestamp": 1794816429,
             "eventInfo": {
                 "teamA": "Tigres",
                 "teamB": "Real Cundinamarca",
@@ -202,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:57 AM"
+                "startTime": "16/11/2026 08:07:09 AM"
             },
             "streams": [
                 {
@@ -217,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Panama vs Curacao",
-            "timestamp": 1794806517,
+            "timestamp": 1794816429,
             "eventInfo": {
                 "teamA": "Panama",
                 "teamB": "Curacao",
@@ -225,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:57 AM"
+                "startTime": "16/11/2026 08:07:09 AM"
             },
             "streams": [
                 {
@@ -240,7 +263,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Panama vs Curacao --- CH 2",
-            "timestamp": 1794806517,
+            "timestamp": 1794816430,
             "eventInfo": {
                 "teamA": "Panama",
                 "teamB": "Curacao --- CH 2",
@@ -248,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:57 AM"
+                "startTime": "16/11/2026 08:07:10 AM"
             },
             "streams": [
                 {
@@ -263,7 +286,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Defensor Sp vs Penarol",
-            "timestamp": 1794806518,
+            "timestamp": 1794816430,
             "eventInfo": {
                 "teamA": "Defensor Sp",
                 "teamB": "Penarol",
@@ -271,7 +294,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:58 AM"
+                "startTime": "16/11/2026 08:07:10 AM"
             },
             "streams": [
                 {
@@ -286,7 +309,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Nacional Potosi vs Real Potosi",
-            "timestamp": 1794806518,
+            "timestamp": 1794816430,
             "eventInfo": {
                 "teamA": "Nacional Potosi",
                 "teamB": "Real Potosi",
@@ -294,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:58 AM"
+                "startTime": "16/11/2026 08:07:10 AM"
             },
             "streams": [
                 {
@@ -309,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Cerro Porteno vs Sol de America",
-            "timestamp": 1794806518,
+            "timestamp": 1794816430,
             "eventInfo": {
                 "teamA": "Cerro Porteno",
                 "teamB": "Sol de America",
@@ -317,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "16/11/2026 05:21:58 AM"
+                "startTime": "16/11/2026 08:07:10 AM"
             },
             "streams": [
                 {
