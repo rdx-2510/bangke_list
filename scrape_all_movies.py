@@ -16,7 +16,7 @@ BASE_URLS = [
     "https://new1.pusatfilm21info.com/movie?sort=latest&country=indonesia",
     "https://new1.pusatfilm21info.com/movie?sort=latest&genre=horror&country=indonesia",
     "https://new1.pusatfilm21info.com/movie",
-    "https://new1.pusatfilm21info.com/tv",
+    "https://new1.pusatfilm21info.com/series",
     "https://new1.pusatfilm21info.com/genre/action",
     "https://new1.pusatfilm21info.com/genre/horror",
     "https://new1.pusatfilm21info.com/genre/comedy",
