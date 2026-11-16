@@ -20,7 +20,7 @@ BASE_URLS = [
     "https://new1.pusatfilm21info.com/genre/action",
     "https://new1.pusatfilm21info.com/genre/horror",
     "https://new1.pusatfilm21info.com/genre/comedy",
-    "https://new1.pusatfilm21info.com/network/netflix", "https://new1.pusatfilm21info.com/collection/god-of-gamblers-collection", "https://new1.pusatfilm21info.com/collection/mr-vampire-collection"
+    "https://new1.pusatfilm21info.com/network/netflix"
 ]
 
 START_PAGE = 1
