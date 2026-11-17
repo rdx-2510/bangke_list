@@ -2,15 +2,153 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "12:48:07 PM 17-11-2026",
-    "total_matches": 45,
-    "live_match": 16,
+    "last_update_time": "02:04:47 PM 17-11-2026",
+    "total_matches": 49,
+    "live_match": 20,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Tanzania vs Nigeria --- CH 2",
+            "timestamp": 1794924272,
+            "eventInfo": {
+                "teamA": "Tanzania",
+                "teamB": "Nigeria --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 02:04:32 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/7c933eda-431f-4caa-9008-17ac8e7ebb54.m3u8",
+                    "referer": "http://www.fawanews.sc/Tanzania%20vs%20Nigeria%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Malawi vs Egypt --- CH 2",
+            "timestamp": 1794924272,
+            "eventInfo": {
+                "teamA": "Malawi",
+                "teamB": "Egypt --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 02:04:32 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/50127d52-8556-469e-9ae7-15f060864c3b.m3u8",
+                    "referer": "http://www.fawanews.sc/Malawi%20vs%20Egypt%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "South Sudan vs Angola --- CH 2",
+            "timestamp": 1794924273,
+            "eventInfo": {
+                "teamA": "South Sudan",
+                "teamB": "Angola --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 02:04:33 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/5a65e2d5-ac96-4791-aa28-0284b664fb1e.m3u8",
+                    "referer": "http://www.fawanews.sc/South%20Sudan%20vs%20Angola%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Lesotho vs Gabon --- CH 2",
+            "timestamp": 1794924273,
+            "eventInfo": {
+                "teamA": "Lesotho",
+                "teamB": "Gabon --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 02:04:33 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/59af5074-339a-4afd-9440-8cf4365d4035.m3u8",
+                    "referer": "http://www.fawanews.sc/Lesotho%20vs%20Gabon%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Ethiopia vs Mozambique --- CH 2",
+            "timestamp": 1794924274,
+            "eventInfo": {
+                "teamA": "Ethiopia",
+                "teamB": "Mozambique --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 02:04:34 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/574a24d8-002c-447e-88c4-ffce6332bc14.m3u8",
+                    "referer": "http://www.fawanews.sc/Ethiopia%20vs%20Mozambique%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Burundi vs Zambia --- CH 2",
+            "timestamp": 1794924275,
+            "eventInfo": {
+                "teamA": "Burundi",
+                "teamB": "Zambia --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 02:04:35 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/8ac411a1-461d-42c3-a06c-56554c7ed9e7.m3u8",
+                    "referer": "http://www.fawanews.sc/Burundi%20vs%20Zambia%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "United Arab Emirates vs Syria",
-            "timestamp": 1794919674,
+            "timestamp": 1794924275,
             "eventInfo": {
                 "teamA": "United Arab Emirates",
                 "teamB": "Syria",
@@ -18,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:54 PM"
+                "startTime": "17/11/2026 02:04:35 PM"
             },
             "streams": [
                 {
@@ -32,8 +170,31 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Liberec vs Kolner",
+            "timestamp": 1794924276,
+            "eventInfo": {
+                "teamA": "Liberec",
+                "teamB": "Kolner",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 02:04:36 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/JJJJ.m3u8",
+                    "referer": "http://www.fawanews.sc/Liberec%20vs%20Kolner.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Qatar vs South Korea",
-            "timestamp": 1794919675,
+            "timestamp": 1794924276,
             "eventInfo": {
                 "teamA": "Qatar",
                 "teamB": "South Korea",
@@ -41,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:55 PM"
+                "startTime": "17/11/2026 02:04:36 PM"
             },
             "streams": [
                 {
@@ -56,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "India vs Pakistan",
-            "timestamp": 1794919675,
+            "timestamp": 1794924276,
             "eventInfo": {
                 "teamA": "India",
                 "teamB": "Pakistan",
@@ -64,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:55 PM"
+                "startTime": "17/11/2026 02:04:36 PM"
             },
             "streams": [
                 {
@@ -78,22 +239,45 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Japan vs Paraguay",
-            "timestamp": 1794919675,
+            "event_name": "Japan vs Paraguay1",
+            "timestamp": 1794924277,
             "eventInfo": {
                 "teamA": "Japan",
-                "teamB": "Paraguay",
+                "teamB": "Paraguay1",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:55 PM"
+                "startTime": "17/11/2026 02:04:37 PM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/DGGGAAA.m3u8",
-                    "referer": "http://www.fawanews.sc/Japan%20vs%20Paraguay.html",
+                    "stream_url": "http://193.47.62.41/hls/XDGGGAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Japan%20vs%20Paraguay1.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Japan vs Paraguay --- CH 2",
+            "timestamp": 1794924277,
+            "eventInfo": {
+                "teamA": "Japan",
+                "teamB": "Paraguay --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 02:04:37 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/03555648-a6e1-4fa1-935a-30ff11848a99.m3u8",
+                    "referer": "http://www.fawanews.sc/Japan%20vs%20Paraguay%20---%20CH%202.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
@@ -102,7 +286,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis ATP Finals - Turin",
-            "timestamp": 1794919676,
+            "timestamp": 1794924277,
             "eventInfo": {
                 "teamA": "Tennis ATP Finals - Turin",
                 "teamB": "",
@@ -110,7 +294,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:56 PM"
+                "startTime": "17/11/2026 02:04:37 PM"
             },
             "streams": [
                 {
@@ -124,31 +308,8 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Thailand vs Tajikistan",
-            "timestamp": 1794919676,
-            "eventInfo": {
-                "teamA": "Thailand",
-                "teamB": "Tajikistan",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "17/11/2026 12:47:56 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/DGGGAA.m3u8",
-                    "referer": "http://www.fawanews.sc/Thailand%20vs%20Tajikistan.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "Thailand vs Tajikistan --- CH 2",
-            "timestamp": 1794919677,
+            "timestamp": 1794924278,
             "eventInfo": {
                 "teamA": "Thailand",
                 "teamB": "Tajikistan --- CH 2",
@@ -156,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:57 PM"
+                "startTime": "17/11/2026 02:04:38 PM"
             },
             "streams": [
                 {
@@ -171,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "China vs Bahrain",
-            "timestamp": 1794919677,
+            "timestamp": 1794924278,
             "eventInfo": {
                 "teamA": "China",
                 "teamB": "Bahrain",
@@ -179,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:57 PM"
+                "startTime": "17/11/2026 02:04:38 PM"
             },
             "streams": [
                 {
@@ -194,7 +355,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "China vs Bahrain --- CH 2",
-            "timestamp": 1794919677,
+            "timestamp": 1794924279,
             "eventInfo": {
                 "teamA": "China",
                 "teamB": "Bahrain --- CH 2",
@@ -202,7 +363,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:57 PM"
+                "startTime": "17/11/2026 02:04:39 PM"
             },
             "streams": [
                 {
@@ -217,7 +378,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kyrgyzstan vs Vietnam",
-            "timestamp": 1794919678,
+            "timestamp": 1794924279,
             "eventInfo": {
                 "teamA": "Kyrgyzstan",
                 "teamB": "Vietnam",
@@ -225,7 +386,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:58 PM"
+                "startTime": "17/11/2026 02:04:39 PM"
             },
             "streams": [
                 {
@@ -240,7 +401,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kyrgyzstan vs Vietnam --- CH 2",
-            "timestamp": 1794919678,
+            "timestamp": 1794924279,
             "eventInfo": {
                 "teamA": "Kyrgyzstan",
                 "teamB": "Vietnam --- CH 2",
@@ -248,7 +409,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:47:58 PM"
+                "startTime": "17/11/2026 02:04:39 PM"
             },
             "streams": [
                 {
@@ -262,77 +423,8 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Brunei vs Oman",
-            "timestamp": 1794919679,
-            "eventInfo": {
-                "teamA": "Brunei",
-                "teamB": "Oman",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "17/11/2026 12:47:59 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/QVVV.m3u8",
-                    "referer": "http://www.fawanews.sc/Brunei%20vs%20Oman.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Brunei vs Oman --- CH 2",
-            "timestamp": 1794919679,
-            "eventInfo": {
-                "teamA": "Brunei",
-                "teamB": "Oman --- CH 2",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "17/11/2026 12:47:59 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "https://www.rtmpcdn.com/live/42fcb69e-39df-47e3-8457-78429e8cd3b3.m3u8",
-                    "referer": "http://www.fawanews.sc/Brunei%20vs%20Oman%20---%20CH%202.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Adelaide W vs Sydney Sixers W",
-            "timestamp": 1794919679,
-            "eventInfo": {
-                "teamA": "Adelaide W",
-                "teamB": "Sydney Sixers W",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "17/11/2026 12:47:59 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.59/hls/GTTT.m3u8",
-                    "referer": "http://www.fawanews.sc/Adelaide%20W%20vs%20Sydney%20Sixers%20W.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "South Africa vs Bangladesh_2",
-            "timestamp": 1794919680,
+            "timestamp": 1794924280,
             "eventInfo": {
                 "teamA": "South Africa",
                 "teamB": "Bangladesh_2",
@@ -340,7 +432,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:48:00 PM"
+                "startTime": "17/11/2026 02:04:40 PM"
             },
             "streams": [
                 {
@@ -355,7 +447,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Afghanistan vs Zimbabwe_2",
-            "timestamp": 1794919680,
+            "timestamp": 1794924281,
             "eventInfo": {
                 "teamA": "Afghanistan",
                 "teamB": "Zimbabwe_2",
@@ -363,7 +455,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 12:48:00 PM"
+                "startTime": "17/11/2026 02:04:41 PM"
             },
             "streams": [
                 {
