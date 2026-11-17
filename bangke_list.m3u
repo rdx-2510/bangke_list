@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Singapore vs Brazil --- CH 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Singapore%20vs%20Brazil%20---%20CH%202.html
-https://www.rtmpcdn.com/live/0972098c-089b-42aa-b107-66a0bdf00b02.m3u8
 #EXTINF:-1, FawaNews - United Arab Emirates vs Syria
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/United%20Arab%20Emirates%20vs%20Syria.html
@@ -27,14 +23,26 @@ http://193.47.62.44/hls/G666AAAAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Thailand%20vs%20Tajikistan.html
 http://193.47.62.41/hls/DGGGAA.m3u8
-#EXTINF:-1, FawaNews - Kyrgyzstan vs Vietnam
+#EXTINF:-1, FawaNews - Thailand vs Tajikistan --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kyrgyzstan%20vs%20Vietnam.html
-http://193.47.62.41/hls/DGGGA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Thailand%20vs%20Tajikistan%20---%20CH%202.html
+https://www.rtmpcdn.com/live/ed11496e-37aa-47af-819a-e0833a242ab3.m3u8
 #EXTINF:-1, FawaNews - China vs Bahrain
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/China%20vs%20Bahrain.html
 http://193.47.62.41/hls/DGGG.m3u8
+#EXTINF:-1, FawaNews - China vs Bahrain --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/China%20vs%20Bahrain%20---%20CH%202.html
+https://www.rtmpcdn.com/live/16e7e114-f5c9-436e-ae15-8b26b9186da0.m3u8
+#EXTINF:-1, FawaNews - Kyrgyzstan vs Vietnam
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kyrgyzstan%20vs%20Vietnam.html
+http://193.47.62.41/hls/DGGGA.m3u8
+#EXTINF:-1, FawaNews - Kyrgyzstan vs Vietnam --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kyrgyzstan%20vs%20Vietnam%20---%20CH%202.html
+https://www.rtmpcdn.com/live/55217c48-6317-4259-80a7-9df8f0c89bde.m3u8
 #EXTINF:-1, FawaNews - Brunei vs Oman
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Brunei%20vs%20Oman.html
@@ -55,7 +63,3 @@ http://193.47.62.59/hls/RREGEGEAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Afghanistan%20vs%20Zimbabwe_2.html
 http://193.47.62.44/hls/RREGEGEA.m3u8
-#EXTINF:-1, FawaNews - Pakistan vs Sri Lanka
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Pakistan%20vs%20Sri%20Lanka.html
-http://193.47.62.41/hls/RREGEGE.m3u8
