@@ -2,15 +2,38 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "09:51:20 AM 17-11-2026",
-    "total_matches": 44,
-    "live_match": 14,
+    "last_update_time": "10:51:44 AM 17-11-2026",
+    "total_matches": 45,
+    "live_match": 15,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Singapore vs Brazil --- CH 2",
+            "timestamp": 1794912690,
+            "eventInfo": {
+                "teamA": "Singapore",
+                "teamB": "Brazil --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "17/11/2026 10:51:30 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/0972098c-089b-42aa-b107-66a0bdf00b02.m3u8",
+                    "referer": "http://www.fawanews.sc/Singapore%20vs%20Brazil%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "United Arab Emirates vs Syria",
-            "timestamp": 1794909072,
+            "timestamp": 1794912692,
             "eventInfo": {
                 "teamA": "United Arab Emirates",
                 "teamB": "Syria",
@@ -18,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:12 AM"
+                "startTime": "17/11/2026 10:51:32 AM"
             },
             "streams": [
                 {
@@ -33,7 +56,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Qatar vs South Korea",
-            "timestamp": 1794909073,
+            "timestamp": 1794912692,
             "eventInfo": {
                 "teamA": "Qatar",
                 "teamB": "South Korea",
@@ -41,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:13 AM"
+                "startTime": "17/11/2026 10:51:32 AM"
             },
             "streams": [
                 {
@@ -56,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "India vs Pakistan",
-            "timestamp": 1794909073,
+            "timestamp": 1794912693,
             "eventInfo": {
                 "teamA": "India",
                 "teamB": "Pakistan",
@@ -64,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:13 AM"
+                "startTime": "17/11/2026 10:51:33 AM"
             },
             "streams": [
                 {
@@ -79,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Japan vs Paraguay",
-            "timestamp": 1794909073,
+            "timestamp": 1794912693,
             "eventInfo": {
                 "teamA": "Japan",
                 "teamB": "Paraguay",
@@ -87,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:13 AM"
+                "startTime": "17/11/2026 10:51:33 AM"
             },
             "streams": [
                 {
@@ -102,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis ATP Finals - Turin",
-            "timestamp": 1794909073,
+            "timestamp": 1794912694,
             "eventInfo": {
                 "teamA": "Tennis ATP Finals - Turin",
                 "teamB": "",
@@ -110,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:13 AM"
+                "startTime": "17/11/2026 10:51:34 AM"
             },
             "streams": [
                 {
@@ -125,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Thailand vs Tajikistan",
-            "timestamp": 1794909074,
+            "timestamp": 1794912694,
             "eventInfo": {
                 "teamA": "Thailand",
                 "teamB": "Tajikistan",
@@ -133,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:14 AM"
+                "startTime": "17/11/2026 10:51:34 AM"
             },
             "streams": [
                 {
@@ -148,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kyrgyzstan vs Vietnam",
-            "timestamp": 1794909074,
+            "timestamp": 1794912695,
             "eventInfo": {
                 "teamA": "Kyrgyzstan",
                 "teamB": "Vietnam",
@@ -156,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:14 AM"
+                "startTime": "17/11/2026 10:51:35 AM"
             },
             "streams": [
                 {
@@ -171,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "China vs Bahrain",
-            "timestamp": 1794909074,
+            "timestamp": 1794912695,
             "eventInfo": {
                 "teamA": "China",
                 "teamB": "Bahrain",
@@ -179,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:14 AM"
+                "startTime": "17/11/2026 10:51:35 AM"
             },
             "streams": [
                 {
@@ -194,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Brunei vs Oman",
-            "timestamp": 1794909075,
+            "timestamp": 1794912696,
             "eventInfo": {
                 "teamA": "Brunei",
                 "teamB": "Oman",
@@ -202,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:15 AM"
+                "startTime": "17/11/2026 10:51:36 AM"
             },
             "streams": [
                 {
@@ -217,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Brunei vs Oman --- CH 2",
-            "timestamp": 1794909075,
+            "timestamp": 1794912696,
             "eventInfo": {
                 "teamA": "Brunei",
                 "teamB": "Oman --- CH 2",
@@ -225,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:15 AM"
+                "startTime": "17/11/2026 10:51:36 AM"
             },
             "streams": [
                 {
@@ -240,7 +263,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Adelaide W vs Sydney Sixers W",
-            "timestamp": 1794909075,
+            "timestamp": 1794912696,
             "eventInfo": {
                 "teamA": "Adelaide W",
                 "teamB": "Sydney Sixers W",
@@ -248,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:15 AM"
+                "startTime": "17/11/2026 10:51:36 AM"
             },
             "streams": [
                 {
@@ -263,7 +286,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "South Africa vs Bangladesh_2",
-            "timestamp": 1794909075,
+            "timestamp": 1794912697,
             "eventInfo": {
                 "teamA": "South Africa",
                 "teamB": "Bangladesh_2",
@@ -271,7 +294,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:15 AM"
+                "startTime": "17/11/2026 10:51:37 AM"
             },
             "streams": [
                 {
@@ -286,7 +309,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Afghanistan vs Zimbabwe_2",
-            "timestamp": 1794909076,
+            "timestamp": 1794912697,
             "eventInfo": {
                 "teamA": "Afghanistan",
                 "teamB": "Zimbabwe_2",
@@ -294,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:16 AM"
+                "startTime": "17/11/2026 10:51:37 AM"
             },
             "streams": [
                 {
@@ -309,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Pakistan vs Sri Lanka",
-            "timestamp": 1794909076,
+            "timestamp": 1794912697,
             "eventInfo": {
                 "teamA": "Pakistan",
                 "teamB": "Sri Lanka",
@@ -317,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "17/11/2026 09:51:16 AM"
+                "startTime": "17/11/2026 10:51:37 AM"
             },
             "streams": [
                 {
