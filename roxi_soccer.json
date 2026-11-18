@@ -2,15 +2,38 @@
     "name": "RoxieStreams Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "09:43:30 PM 18-11-2026",
+    "last_update_time": "10:42:55 PM 18-11-2026",
     "total_matches": 6,
-    "live_match": 4,
+    "live_match": 5,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Coritiba vs Santos",
+            "timestamp": 1795041773,
+            "eventInfo": {
+                "teamA": "Coritiba",
+                "teamB": "Santos",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "18/11/2026 10:42:53 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin.formaturamaxi.com.br/fana.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Remo vs Chapecoense",
-            "timestamp": 1795038208,
+            "timestamp": 1795041773,
             "eventInfo": {
                 "teamA": "Remo",
                 "teamB": "Chapecoense",
@@ -18,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 09:43:28 PM"
+                "startTime": "18/11/2026 10:42:53 PM"
             },
             "streams": [
                 {
@@ -33,7 +56,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Cruzeiro vs Palmeiras",
-            "timestamp": 1795038209,
+            "timestamp": 1795041774,
             "eventInfo": {
                 "teamA": "Cruzeiro",
                 "teamB": "Palmeiras",
@@ -41,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 09:43:29 PM"
+                "startTime": "18/11/2026 10:42:54 PM"
             },
             "streams": [
                 {
@@ -56,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "GrÃªmio vs Bahia",
-            "timestamp": 1795038210,
+            "timestamp": 1795041775,
             "eventInfo": {
                 "teamA": "GrÃªmio",
                 "teamB": "Bahia",
@@ -64,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 09:43:30 PM"
+                "startTime": "18/11/2026 10:42:55 PM"
             },
             "streams": [
                 {
@@ -79,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Corinthians vs Botafogo",
-            "timestamp": 1795038210,
+            "timestamp": 1795041775,
             "eventInfo": {
                 "teamA": "Corinthians",
                 "teamB": "Botafogo",
@@ -87,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 09:43:30 PM"
+                "startTime": "18/11/2026 10:42:55 PM"
             },
             "streams": [
                 {
