@@ -2,38 +2,15 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "11:50:00 AM 18-11-2026",
-    "total_matches": 31,
-    "live_match": 9,
+    "last_update_time": "12:53:29 PM 18-11-2026",
+    "total_matches": 33,
+    "live_match": 11,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Boxing_Junior vs Ahio",
-            "timestamp": 1795002593,
-            "eventInfo": {
-                "teamA": "Boxing_Junior",
-                "teamB": "Ahio",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "18/11/2026 11:49:53 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.50/hls/KKKK.m3u8",
-                    "referer": "http://www.fawanews.sc/Boxing_Junior%20vs%20Ahio.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "Tennis ATP Finals - Turin",
-            "timestamp": 1795002593,
+            "timestamp": 1795006398,
             "eventInfo": {
                 "teamA": "Tennis ATP Finals - Turin",
                 "teamB": "",
@@ -41,7 +18,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 11:49:53 AM"
+                "startTime": "18/11/2026 12:53:18 PM"
             },
             "streams": [
                 {
@@ -55,8 +32,77 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Borneo vs Manila Digger",
+            "timestamp": 1795006399,
+            "eventInfo": {
+                "teamA": "Borneo",
+                "teamB": "Manila Digger",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "18/11/2026 12:53:19 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/UUUUAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Borneo%20vs%20Manila%20Digger.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Tampines vs Ratchaburi",
+            "timestamp": 1795006399,
+            "eventInfo": {
+                "teamA": "Tampines",
+                "teamB": "Ratchaburi",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "18/11/2026 12:53:19 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/UUUUA.m3u8",
+                    "referer": "http://www.fawanews.sc/Tampines%20vs%20Ratchaburi.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Ho Chi Minh vs Buriram",
+            "timestamp": 1795006400,
+            "eventInfo": {
+                "teamA": "Ho Chi Minh",
+                "teamB": "Buriram",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "18/11/2026 12:53:20 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/UUUU.m3u8",
+                    "referer": "http://www.fawanews.sc/Ho%20Chi%20Minh%20vs%20Buriram.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Snooker German Masters --- Table 1",
-            "timestamp": 1795002594,
+            "timestamp": 1795006400,
             "eventInfo": {
                 "teamA": "Snooker German Masters --- Table 1",
                 "teamB": "",
@@ -64,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 11:49:54 AM"
+                "startTime": "18/11/2026 12:53:20 PM"
             },
             "streams": [
                 {
@@ -79,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker German Masters --- Table 2",
-            "timestamp": 1795002594,
+            "timestamp": 1795006400,
             "eventInfo": {
                 "teamA": "Snooker German Masters --- Table 2",
                 "teamB": "",
@@ -87,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 11:49:54 AM"
+                "startTime": "18/11/2026 12:53:20 PM"
             },
             "streams": [
                 {
@@ -102,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker German Masters --- Table 3",
-            "timestamp": 1795002594,
+            "timestamp": 1795006401,
             "eventInfo": {
                 "teamA": "Snooker German Masters --- Table 3",
                 "teamB": "",
@@ -110,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 11:49:54 AM"
+                "startTime": "18/11/2026 12:53:21 PM"
             },
             "streams": [
                 {
@@ -125,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker German Masters --- Table 4",
-            "timestamp": 1795002595,
+            "timestamp": 1795006401,
             "eventInfo": {
                 "teamA": "Snooker German Masters --- Table 4",
                 "teamB": "",
@@ -133,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 11:49:55 AM"
+                "startTime": "18/11/2026 12:53:21 PM"
             },
             "streams": [
                 {
@@ -148,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "South Africa vs Bangladesh_2",
-            "timestamp": 1795002595,
+            "timestamp": 1795006401,
             "eventInfo": {
                 "teamA": "South Africa",
                 "teamB": "Bangladesh_2",
@@ -156,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 11:49:55 AM"
+                "startTime": "18/11/2026 12:53:21 PM"
             },
             "streams": [
                 {
@@ -171,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Pakistan vs Sri Lanka",
-            "timestamp": 1795002595,
+            "timestamp": 1795006402,
             "eventInfo": {
                 "teamA": "Pakistan",
                 "teamB": "Sri Lanka",
@@ -179,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 11:49:55 AM"
+                "startTime": "18/11/2026 12:53:22 PM"
             },
             "streams": [
                 {
@@ -194,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Australia vs England",
-            "timestamp": 1795002595,
+            "timestamp": 1795006402,
             "eventInfo": {
                 "teamA": "Australia",
                 "teamB": "England",
@@ -202,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "18/11/2026 11:49:55 AM"
+                "startTime": "18/11/2026 12:53:22 PM"
             },
             "streams": [
                 {
