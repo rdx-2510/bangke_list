@@ -1,8 +1,24 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Darts Grand Slam
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Darts%20Grand%20Slam.html
+http://193.47.62.59/hls/BEEEAAA.m3u8
+#EXTINF:-1, FawaNews - Golf CME Group Tour Championship
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20CME%20Group%20Tour%20Championship.html
+http://193.47.62.44/hls/BBBBAAAAAQA.m3u8
+#EXTINF:-1, FawaNews - Bayern Munchen vs Baskonia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Bayern%20Munchen%20vs%20Baskonia.html
+http://193.47.62.50/hls/AGGGAAAAQ.m3u8
 #EXTINF:-1, FawaNews - Zalgiris Kaunas vs Panathinaikos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Zalgiris%20Kaunas%20vs%20Panathinaikos.html
 http://193.47.62.50/hls/AGGGAAAA.m3u8
+#EXTINF:-1, FawaNews - Zalgiris Kaunas vs Panathinaikos --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Zalgiris%20Kaunas%20vs%20Panathinaikos%20---%20CH%202.html
+https://www.rtmpcdn.com/live/c7fe455a-4100-4fd8-8b4a-7711f7ef382e.m3u8
 #EXTINF:-1, FawaNews - Vaxjo vs IF Bjorkloven
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vaxjo%20vs%20IF%20Bjorkloven.html
@@ -43,10 +59,18 @@ http://193.47.62.55/hls/FRFRFR.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Austria%20Vienna%20W%20vs%20Bayern%20Munchen%20W.html
 http://193.47.62.41/hls/RARARADA.m3u8
+#EXTINF:-1, FawaNews - Austria Vienna W vs Bayern Munchen W --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Austria%20Vienna%20W%20vs%20Bayern%20Munchen%20W%20---%20CH%202.html
+https://www.rtmpcdn.com/live/0e161892-a360-4bdb-a91a-ad23032c29a1.m3u8
 #EXTINF:-1, FawaNews - Paris FC W vs Koge W
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Paris%20FC%20W%20vs%20Koge%20W.html
 http://193.47.62.41/hls/RARARADAA.m3u8
+#EXTINF:-1, FawaNews - Paris FC W vs Koge W --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Paris%20FC%20W%20vs%20Koge%20W%20---%20CH%202.html
+https://www.rtmpcdn.com/live/3621686f-14a0-48b8-ad20-ea85b64567ef.m3u8
 #EXTINF:-1, FawaNews - Maccabi Tel Aviv vs Dubai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Maccabi%20Tel%20Aviv%20vs%20Dubai.html
