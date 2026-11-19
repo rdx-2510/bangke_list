@@ -2,15 +2,38 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "12:55:29 PM 19-11-2026",
-    "total_matches": 42,
-    "live_match": 20,
+    "last_update_time": "01:56:03 PM 19-11-2026",
+    "total_matches": 43,
+    "live_match": 21,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Saudi Arabia U17 vs Uruguay U17",
+            "timestamp": 1795096551,
+            "eventInfo": {
+                "teamA": "Saudi Arabia U17",
+                "teamB": "Uruguay U17",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "19/11/2026 01:55:51 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/KKKKK.m3u8",
+                    "referer": "http://www.fawanews.sc/Saudi%20Arabia%20U17%20vs%20Uruguay%20U17.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "South Korea U17 vs Uganda U17",
-            "timestamp": 1795092920,
+            "timestamp": 1795096551,
             "eventInfo": {
                 "teamA": "South Korea U17",
                 "teamB": "Uganda U17",
@@ -18,7 +41,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:20 PM"
+                "startTime": "19/11/2026 01:55:51 PM"
             },
             "streams": [
                 {
@@ -33,7 +56,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "New Caledonia U17 vs Ecuador U17",
-            "timestamp": 1795092920,
+            "timestamp": 1795096551,
             "eventInfo": {
                 "teamA": "New Caledonia U17",
                 "teamB": "Ecuador U17",
@@ -41,7 +64,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:20 PM"
+                "startTime": "19/11/2026 01:55:51 PM"
             },
             "streams": [
                 {
@@ -56,7 +79,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "France U17 vs Haiti U17",
-            "timestamp": 1795092920,
+            "timestamp": 1795096552,
             "eventInfo": {
                 "teamA": "France U17",
                 "teamB": "Haiti U17",
@@ -64,7 +87,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:20 PM"
+                "startTime": "19/11/2026 01:55:52 PM"
             },
             "streams": [
                 {
@@ -79,7 +102,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Golf PGA RSM Classic",
-            "timestamp": 1795092920,
+            "timestamp": 1795096552,
             "eventInfo": {
                 "teamA": "Golf PGA RSM Classic",
                 "teamB": "",
@@ -87,7 +110,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:20 PM"
+                "startTime": "19/11/2026 01:55:52 PM"
             },
             "streams": [
                 {
@@ -102,7 +125,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Termez Surkhon vs Andijan",
-            "timestamp": 1795092921,
+            "timestamp": 1795096552,
             "eventInfo": {
                 "teamA": "Termez Surkhon",
                 "teamB": "Andijan",
@@ -110,7 +133,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:21 PM"
+                "startTime": "19/11/2026 01:55:52 PM"
             },
             "streams": [
                 {
@@ -125,7 +148,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Al Wasl vs Hatta",
-            "timestamp": 1795092921,
+            "timestamp": 1795096553,
             "eventInfo": {
                 "teamA": "Al Wasl",
                 "teamB": "Hatta",
@@ -133,7 +156,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:21 PM"
+                "startTime": "19/11/2026 01:55:53 PM"
             },
             "streams": [
                 {
@@ -148,7 +171,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Dob vs NK Bistrica",
-            "timestamp": 1795092921,
+            "timestamp": 1795096553,
             "eventInfo": {
                 "teamA": "Dob",
                 "teamB": "NK Bistrica",
@@ -156,7 +179,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:21 PM"
+                "startTime": "19/11/2026 01:55:53 PM"
             },
             "streams": [
                 {
@@ -171,7 +194,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Beltinci vs Celje",
-            "timestamp": 1795092921,
+            "timestamp": 1795096553,
             "eventInfo": {
                 "teamA": "Beltinci",
                 "teamB": "Celje",
@@ -179,7 +202,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:21 PM"
+                "startTime": "19/11/2026 01:55:53 PM"
             },
             "streams": [
                 {
@@ -194,7 +217,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Cong An Ha Noi vs Johor DT",
-            "timestamp": 1795092921,
+            "timestamp": 1795096553,
             "eventInfo": {
                 "teamA": "Cong An Ha Noi",
                 "teamB": "Johor DT",
@@ -202,7 +225,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:21 PM"
+                "startTime": "19/11/2026 01:55:53 PM"
             },
             "streams": [
                 {
@@ -217,7 +240,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Svay Rieng vs Port FC",
-            "timestamp": 1795092922,
+            "timestamp": 1795096554,
             "eventInfo": {
                 "teamA": "Svay Rieng",
                 "teamB": "Port FC",
@@ -225,7 +248,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:22 PM"
+                "startTime": "19/11/2026 01:55:54 PM"
             },
             "streams": [
                 {
@@ -240,7 +263,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Persib Bandung vs Shan Utd",
-            "timestamp": 1795092922,
+            "timestamp": 1795096554,
             "eventInfo": {
                 "teamA": "Persib Bandung",
                 "teamB": "Shan Utd",
@@ -248,7 +271,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:22 PM"
+                "startTime": "19/11/2026 01:55:54 PM"
             },
             "streams": [
                 {
@@ -263,7 +286,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Tennis ATP Finals - Turin",
-            "timestamp": 1795092923,
+            "timestamp": 1795096555,
             "eventInfo": {
                 "teamA": "Tennis ATP Finals - Turin",
                 "teamB": "",
@@ -271,7 +294,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:23 PM"
+                "startTime": "19/11/2026 01:55:55 PM"
             },
             "streams": [
                 {
@@ -286,7 +309,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker German Masters --- Table 1",
-            "timestamp": 1795092923,
+            "timestamp": 1795096555,
             "eventInfo": {
                 "teamA": "Snooker German Masters --- Table 1",
                 "teamB": "",
@@ -294,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:23 PM"
+                "startTime": "19/11/2026 01:55:55 PM"
             },
             "streams": [
                 {
@@ -309,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker German Masters --- Table 2",
-            "timestamp": 1795092923,
+            "timestamp": 1795096555,
             "eventInfo": {
                 "teamA": "Snooker German Masters --- Table 2",
                 "teamB": "",
@@ -317,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:23 PM"
+                "startTime": "19/11/2026 01:55:55 PM"
             },
             "streams": [
                 {
@@ -332,7 +355,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker German Masters --- Table 3",
-            "timestamp": 1795092923,
+            "timestamp": 1795096556,
             "eventInfo": {
                 "teamA": "Snooker German Masters --- Table 3",
                 "teamB": "",
@@ -340,7 +363,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:23 PM"
+                "startTime": "19/11/2026 01:55:56 PM"
             },
             "streams": [
                 {
@@ -355,7 +378,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Snooker German Masters --- Table 4",
-            "timestamp": 1795092924,
+            "timestamp": 1795096556,
             "eventInfo": {
                 "teamA": "Snooker German Masters --- Table 4",
                 "teamB": "",
@@ -363,7 +386,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:24 PM"
+                "startTime": "19/11/2026 01:55:56 PM"
             },
             "streams": [
                 {
@@ -378,7 +401,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Illawarra Hawks vs Adelaide",
-            "timestamp": 1795092924,
+            "timestamp": 1795096556,
             "eventInfo": {
                 "teamA": "Illawarra Hawks",
                 "teamB": "Adelaide",
@@ -386,7 +409,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:24 PM"
+                "startTime": "19/11/2026 01:55:56 PM"
             },
             "streams": [
                 {
@@ -401,7 +424,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Brisbane W vs Sydney Thunder W",
-            "timestamp": 1795092924,
+            "timestamp": 1795096557,
             "eventInfo": {
                 "teamA": "Brisbane W",
                 "teamB": "Sydney Thunder W",
@@ -409,7 +432,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:24 PM"
+                "startTime": "19/11/2026 01:55:57 PM"
             },
             "streams": [
                 {
@@ -424,7 +447,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "South Africa vs Bangladesh_2",
-            "timestamp": 1795092924,
+            "timestamp": 1795096557,
             "eventInfo": {
                 "teamA": "South Africa",
                 "teamB": "Bangladesh_2",
@@ -432,7 +455,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:24 PM"
+                "startTime": "19/11/2026 01:55:57 PM"
             },
             "streams": [
                 {
@@ -447,7 +470,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Pakistan vs Sri Lanka",
-            "timestamp": 1795092924,
+            "timestamp": 1795096557,
             "eventInfo": {
                 "teamA": "Pakistan",
                 "teamB": "Sri Lanka",
@@ -455,7 +478,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "19/11/2026 12:55:24 PM"
+                "startTime": "19/11/2026 01:55:57 PM"
             },
             "streams": [
                 {
