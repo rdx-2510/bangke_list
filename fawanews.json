@@ -2,15 +2,314 @@
     "name": "FawaNews Live and Upcoming Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "11:46:40 AM 20-11-2026",
-    "total_matches": 26,
-    "live_match": 6,
+    "last_update_time": "12:51:39 PM 20-11-2026",
+    "total_matches": 41,
+    "live_match": 19,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Navbahor Namangan vs Neftchi Fargona",
+            "timestamp": 1795179089,
+            "eventInfo": {
+                "teamA": "Navbahor Namangan",
+                "teamB": "Neftchi Fargona",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:29 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/RUUU.m3u8",
+                    "referer": "http://www.fawanews.sc/Navbahor%20Namangan%20vs%20Neftchi%20Fargona.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Mali U17 vs New Zealand U17",
+            "timestamp": 1795179089,
+            "eventInfo": {
+                "teamA": "Mali U17",
+                "teamB": "New Zealand U17",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:29 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/RUUU.m3u8",
+                    "referer": "http://www.fawanews.sc/Mali%20U17%20vs%20New%20Zealand%20U17.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Cuba U17 vs Tajikistan U17",
+            "timestamp": 1795179089,
+            "eventInfo": {
+                "teamA": "Cuba U17",
+                "teamB": "Tajikistan U17",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:29 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/RYYYAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Cuba%20U17%20vs%20Tajikistan%20U17.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Belgium U17 vs Vietnam U17",
+            "timestamp": 1795179090,
+            "eventInfo": {
+                "teamA": "Belgium U17",
+                "teamB": "Vietnam U17",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:30 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/RYYYAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Belgium%20U17%20vs%20Vietnam%20U17.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Al Sadd vs Lusail",
+            "timestamp": 1795179090,
+            "eventInfo": {
+                "teamA": "Al Sadd",
+                "teamB": "Lusail",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:30 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/RYYYAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Al%20Sadd%20vs%20Lusail.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Al Duhail vs Qatar SC",
+            "timestamp": 1795179090,
+            "eventInfo": {
+                "teamA": "Al Duhail",
+                "teamB": "Qatar SC",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:30 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/RYYYA.m3u8",
+                    "referer": "http://www.fawanews.sc/Al%20Duhail%20vs%20Qatar%20SC.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Terengganu vs DPMM",
+            "timestamp": 1795179090,
+            "eventInfo": {
+                "teamA": "Terengganu",
+                "teamB": "DPMM",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:30 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/RYYY.m3u8",
+                    "referer": "http://www.fawanews.sc/Terengganu%20vs%20DPMM.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Ittihad Kalba vs Al Sharjah",
+            "timestamp": 1795179091,
+            "eventInfo": {
+                "teamA": "Ittihad Kalba",
+                "teamB": "Al Sharjah",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:31 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/VVVVAAAAQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Ittihad%20Kalba%20vs%20Al%20Sharjah.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Viettel vs Song Lam Nghe An",
+            "timestamp": 1795179091,
+            "eventInfo": {
+                "teamA": "Viettel",
+                "teamB": "Song Lam Nghe An",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:31 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/VVVVAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Viettel%20vs%20Song%20Lam%20Nghe%20An.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "OKMK vs Qizilqum",
+            "timestamp": 1795179091,
+            "eventInfo": {
+                "teamA": "OKMK",
+                "teamB": "Qizilqum",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:31 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/VVVVAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/OKMK%20vs%20Qizilqum.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Lok Tashkent vs Pakhtakor",
+            "timestamp": 1795179092,
+            "eventInfo": {
+                "teamA": "Lok Tashkent",
+                "teamB": "Pakhtakor",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:32 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/VVVVAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Lok%20Tashkent%20vs%20Pakhtakor.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Beijing Guoan vs Shanghai Port",
+            "timestamp": 1795179092,
+            "eventInfo": {
+                "teamA": "Beijing Guoan",
+                "teamB": "Shanghai Port",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:32 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/VVVVA.m3u8",
+                    "referer": "http://www.fawanews.sc/Beijing%20Guoan%20vs%20Shanghai%20Port.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Van vs Ararat-Armenia",
+            "timestamp": 1795179093,
+            "eventInfo": {
+                "teamA": "Van",
+                "teamB": "Ararat-Armenia",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "20/11/2026 12:51:33 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/VVVV.m3u8",
+                    "referer": "http://www.fawanews.sc/Van%20vs%20Ararat-Armenia.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Vissel Kobe vs Mito",
-            "timestamp": 1795175191,
+            "timestamp": 1795179093,
             "eventInfo": {
                 "teamA": "Vissel Kobe",
                 "teamB": "Mito",
@@ -18,7 +317,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "20/11/2026 11:46:31 AM"
+                "startTime": "20/11/2026 12:51:33 PM"
             },
             "streams": [
                 {
@@ -33,7 +332,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kashiwa Reysol vs Chiba",
-            "timestamp": 1795175192,
+            "timestamp": 1795179093,
             "eventInfo": {
                 "teamA": "Kashiwa Reysol",
                 "teamB": "Chiba",
@@ -41,7 +340,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "20/11/2026 11:46:32 AM"
+                "startTime": "20/11/2026 12:51:33 PM"
             },
             "streams": [
                 {
@@ -56,7 +355,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kashima Antlers vs Shimizu S-Pulse",
-            "timestamp": 1795175192,
+            "timestamp": 1795179093,
             "eventInfo": {
                 "teamA": "Kashima Antlers",
                 "teamB": "Shimizu S-Pulse",
@@ -64,7 +363,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "20/11/2026 11:46:32 AM"
+                "startTime": "20/11/2026 12:51:33 PM"
             },
             "streams": [
                 {
@@ -79,7 +378,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "WS Wanderers vs Adelaide United",
-            "timestamp": 1795175193,
+            "timestamp": 1795179094,
             "eventInfo": {
                 "teamA": "WS Wanderers",
                 "teamB": "Adelaide United",
@@ -87,7 +386,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "20/11/2026 11:46:33 AM"
+                "startTime": "20/11/2026 12:51:34 PM"
             },
             "streams": [
                 {
@@ -102,7 +401,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Cairns Taipans vs Perth",
-            "timestamp": 1795175193,
+            "timestamp": 1795179094,
             "eventInfo": {
                 "teamA": "Cairns Taipans",
                 "teamB": "Perth",
@@ -110,7 +409,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "20/11/2026 11:46:33 AM"
+                "startTime": "20/11/2026 12:51:34 PM"
             },
             "streams": [
                 {
@@ -125,7 +424,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "New Zealand vs India",
-            "timestamp": 1795175193,
+            "timestamp": 1795179094,
             "eventInfo": {
                 "teamA": "New Zealand",
                 "teamB": "India",
@@ -133,7 +432,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "20/11/2026 11:46:33 AM"
+                "startTime": "20/11/2026 12:51:34 PM"
             },
             "streams": [
                 {
