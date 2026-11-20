@@ -1,12 +1,32 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Spain U17 vs China U17
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Spain%20U17%20vs%20China%20U17.html
+http://193.47.62.41/hls/tiiiA.m3u8
+#EXTINF:-1, FawaNews - Bengaluru FC vs Mumbai City
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Bengaluru%20FC%20vs%20Mumbai%20City.html
+http://193.47.62.41/hls/VVVVAAAAQ.m3u8
 #EXTINF:-1, FawaNews - Navbahor Namangan vs Neftchi Fargona
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Navbahor%20Namangan%20vs%20Neftchi%20Fargona.html
-http://193.47.62.41/hls/RUUU.m3u8
+http://193.47.62.41/hls/RUUUA.m3u8
 #EXTINF:-1, FawaNews - Mali U17 vs New Zealand U17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Mali%20U17%20vs%20New%20Zealand%20U17.html
 http://193.47.62.41/hls/RUUU.m3u8
+#EXTINF:-1, FawaNews - MotoGP Grand Prix of Portugal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Portugal.html
+http://193.47.62.41/hls/tiii.m3u8
+#EXTINF:-1, FawaNews - Tennis ATP Finals - Turin
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Tennis%20ATP%20Finals%20-%20Turin.html
+http://193.47.62.44/hls/G666AAAAA.m3u8
+#EXTINF:-1, FawaNews - Golf PGA RSM Classic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Golf%20PGA%20RSM%20Classic.html
+http://193.47.62.44/hls/BBBBAAAAAQA.m3u8
 #EXTINF:-1, FawaNews - Cuba U17 vs Tajikistan U17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cuba%20U17%20vs%20Tajikistan%20U17.html
@@ -31,6 +51,10 @@ http://193.47.62.41/hls/RYYY.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Ittihad%20Kalba%20vs%20Al%20Sharjah.html
 http://193.47.62.41/hls/VVVVAAAAQQ.m3u8
+#EXTINF:-1, FawaNews - FC Bihor vs Gloria Bistrita
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/FC%20Bihor%20vs%20Gloria%20Bistrita.html
+http://193.47.62.41/hls/tiiiAA.m3u8
 #EXTINF:-1, FawaNews - Viettel vs Song Lam Nghe An
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Viettel%20vs%20Song%20Lam%20Nghe%20An.html
@@ -47,31 +71,3 @@ http://193.47.62.41/hls/VVVVAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Beijing%20Guoan%20vs%20Shanghai%20Port.html
 http://193.47.62.41/hls/VVVVA.m3u8
-#EXTINF:-1, FawaNews - Van vs Ararat-Armenia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Van%20vs%20Ararat-Armenia.html
-http://193.47.62.41/hls/VVVV.m3u8
-#EXTINF:-1, FawaNews - Vissel Kobe vs Mito
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vissel%20Kobe%20vs%20Mito.html
-http://193.47.62.41/hls/FRFRFRAA.m3u8
-#EXTINF:-1, FawaNews - Kashiwa Reysol vs Chiba
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kashiwa%20Reysol%20vs%20Chiba.html
-http://193.47.62.41/hls/FRFRFRA.m3u8
-#EXTINF:-1, FawaNews - Kashima Antlers vs Shimizu S-Pulse
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Kashima%20Antlers%20vs%20Shimizu%20S-Pulse.html
-http://193.47.62.41/hls/FRFRFR.m3u8
-#EXTINF:-1, FawaNews - WS Wanderers vs Adelaide United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/WS%20Wanderers%20vs%20Adelaide%20United.html
-http://193.47.62.41/hls/JJJJa.m3u8
-#EXTINF:-1, FawaNews - Cairns Taipans vs Perth
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Cairns%20Taipans%20vs%20Perth.html
-http://193.47.62.41/hls/JJJJ.m3u8
-#EXTINF:-1, FawaNews - New Zealand vs India
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/New%20Zealand%20vs%20India.html
-http://193.47.62.41/hls/qaqaqa.m3u8
