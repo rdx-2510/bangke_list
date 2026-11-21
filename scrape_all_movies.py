@@ -9,6 +9,7 @@ import requests
 
 # === KONFIGURASI TMDB UNTUK POSTER ASLI ===
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
+OUTPUT_FILE = "pelem_list.json"
 
 # DAFTAR URL TARGET
 BASE_URLS = [
@@ -202,7 +203,15 @@ def build_pagination_url(base, page):
 
 def scrape_pusatfilm():
     movies_data = []
-    if os.path.exists('movies.json'):
+    if os.path.exists(OUTPUT_FILE):
+        with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+            try:
+                movies_data = json.load(f)
+            except Exception:
+                movies_data = []
+
+    # Migrasi otomatis dari movies.json lama jika pelem_list.json masih kosong
+    if not movies_data and os.path.exists('movies.json'):
         with open('movies.json', 'r', encoding='utf-8') as f:
             try:
                 movies_data = json.load(f)
@@ -368,7 +377,7 @@ def scrape_pusatfilm():
                             processed_urls.add(item['url'])
                             added += 1
 
-                    with open('movies.json', 'w', encoding='utf-8') as f:
+                    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
                         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
                     print(f"[+] Halaman {page} selesai. Menambahkan {added} film baru.")
@@ -432,7 +441,7 @@ def scrape_pusatfilm():
 
     movies_data = film_terbaru + film_reguler + film_india_jadul
 
-    with open('movies.json', 'w', encoding='utf-8') as f:
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(movies_data, f, ensure_ascii=False, separators=(',', ':'))
 
     print(f'\n[v] MISI SELESAI! Total: {len(movies_data)} film (Film Terbaru: {len(film_terbaru)} | Reguler: {len(film_reguler)} | Film India Jadul: {len(film_india_jadul)})')
