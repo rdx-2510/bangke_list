@@ -9,7 +9,7 @@ import requests
 
 # === KONFIGURASI TMDB UNTUK POSTER ASLI ===
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
-OUTPUT_FILE = "pelem_list.json"
+OUTPUT_FILE = "pelem.json"
 
 # DAFTAR URL TARGET
 BASE_URLS = [
