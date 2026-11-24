@@ -2,46 +2,23 @@
     "name": "RoxieStreams Sports Data",
     "owner": "Piyan BangkeTV",
     "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "06:40:58 AM 24-11-2026",
-    "total_matches": 8,
-    "live_match": 8,
+    "last_update_time": "01:01:02 PM 24-11-2026",
+    "total_matches": 17,
+    "live_match": 17,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Hammarby vs IFK GÃ¶teborg",
-            "timestamp": 1795502454,
+            "event_name": "Galatasaray vs Aston Villa",
+            "timestamp": 1795525256,
             "eventInfo": {
-                "teamA": "Hammarby",
-                "teamB": "IFK GÃ¶teborg",
+                "teamA": "Galatasaray",
+                "teamB": "Aston Villa",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "24/11/2026 06:40:54 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "RoxieSoccer",
-                    "stream_url": "https://admin2.formaturamaxi.com.br/tv4football.m3u8",
-                    "referer": "https://roxiestreams.info/",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Monza vs Fiorentina",
-            "timestamp": 1795502454,
-            "eventInfo": {
-                "teamA": "Monza",
-                "teamB": "Fiorentina",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "RoxieStreams Live",
-                "event_logo": "",
-                "startTime": "24/11/2026 06:40:54 AM"
+                "startTime": "24/11/2026 01:00:56 PM"
             },
             "streams": [
                 {
@@ -55,16 +32,16 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Levante vs Elche",
-            "timestamp": 1795502455,
+            "event_name": "BodÃ¸ / Glimt vs LASK Linz",
+            "timestamp": 1795525257,
             "eventInfo": {
-                "teamA": "Levante",
-                "teamB": "Elche",
+                "teamA": "BodÃ¸ / Glimt",
+                "teamB": "LASK Linz",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "24/11/2026 06:40:55 AM"
+                "startTime": "24/11/2026 01:00:57 PM"
             },
             "streams": [
                 {
@@ -78,16 +55,16 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Brentford vs Everton",
-            "timestamp": 1795502456,
+            "event_name": "Norwich City vs QPR",
+            "timestamp": 1795525257,
             "eventInfo": {
-                "teamA": "Brentford",
-                "teamB": "Everton",
+                "teamA": "Norwich City",
+                "teamB": "QPR",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "24/11/2026 06:40:56 AM"
+                "startTime": "24/11/2026 01:00:57 PM"
             },
             "streams": [
                 {
@@ -101,16 +78,62 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Internacional vs VitÃ³ria",
-            "timestamp": 1795502456,
+            "event_name": "Portsmouth vs West Ham",
+            "timestamp": 1795525257,
             "eventInfo": {
-                "teamA": "Internacional",
-                "teamB": "VitÃ³ria",
+                "teamA": "Portsmouth",
+                "teamB": "West Ham",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "24/11/2026 06:40:56 AM"
+                "startTime": "24/11/2026 01:00:57 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/tv4football.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Sheffield United vs Southampton",
+            "timestamp": 1795525258,
+            "eventInfo": {
+                "teamA": "Sheffield United",
+                "teamB": "Southampton",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:00:58 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/bour.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "UEFA Goals Show",
+            "timestamp": 1795525258,
+            "eventInfo": {
+                "teamA": "UEFA Goals Show",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:00:58 PM"
             },
             "streams": [
                 {
@@ -124,21 +147,21 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Botafogo vs SÃ£o Paulo",
-            "timestamp": 1795502457,
+            "event_name": "Arsenal vs Borussia Dortmund",
+            "timestamp": 1795525258,
             "eventInfo": {
-                "teamA": "Botafogo",
-                "teamB": "SÃ£o Paulo",
+                "teamA": "Arsenal",
+                "teamB": "Borussia Dortmund",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "24/11/2026 06:40:57 AM"
+                "startTime": "24/11/2026 01:00:58 PM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
-                    "stream_url": "https://admin.formaturamaxi.com.br/fana2pt.m3u8",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/colo.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
@@ -147,21 +170,21 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Santos vs GrÃªmio",
-            "timestamp": 1795502457,
+            "event_name": "Como vs AEK Athens",
+            "timestamp": 1795525259,
             "eventInfo": {
-                "teamA": "Santos",
-                "teamB": "GrÃªmio",
+                "teamA": "Como",
+                "teamB": "AEK Athens",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "24/11/2026 06:40:57 AM"
+                "startTime": "24/11/2026 01:00:59 PM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
-                    "stream_url": "https://admin.formaturamaxi.com.br/fana3pt.m3u8",
+                    "stream_url": "https://admin.formaturamaxi.com.br/fs1.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
@@ -170,21 +193,205 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "St. Louis City vs Los Angeles FC",
-            "timestamp": 1795502458,
+            "event_name": "Feyenoord vs Porto",
+            "timestamp": 1795525259,
             "eventInfo": {
-                "teamA": "St. Louis City",
-                "teamB": "Los Angeles FC",
+                "teamA": "Feyenoord",
+                "teamB": "Porto",
                 "teamAFlag": "",
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "24/11/2026 06:40:58 AM"
+                "startTime": "24/11/2026 01:00:59 PM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
-                    "stream_url": "https://admin2.formaturamaxi.com.br/fs1.m3u8",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/bbc.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Manchester City vs Napoli",
+            "timestamp": 1795525259,
+            "eventInfo": {
+                "teamA": "Manchester City",
+                "teamB": "Napoli",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:00:59 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin.formaturamaxi.com.br/fana2.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "RB Leipzig vs Lens",
+            "timestamp": 1795525260,
+            "eventInfo": {
+                "teamA": "RB Leipzig",
+                "teamB": "Lens",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:01:00 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin.formaturamaxi.com.br/afaplay.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Real Madrid vs PSV",
+            "timestamp": 1795525260,
+            "eventInfo": {
+                "teamA": "Real Madrid",
+                "teamB": "PSV",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:01:00 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin.formaturamaxi.com.br/fana3.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Slovan Bratislava vs Real Betis",
+            "timestamp": 1795525260,
+            "eventInfo": {
+                "teamA": "Slovan Bratislava",
+                "teamB": "Real Betis",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:01:00 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/primemx.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Rangers vs Aberdeen",
+            "timestamp": 1795525261,
+            "eventInfo": {
+                "teamA": "Rangers",
+                "teamB": "Aberdeen",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:01:01 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin.formaturamaxi.com.br/fana.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Wolves vs Derby County",
+            "timestamp": 1795525261,
+            "eventInfo": {
+                "teamA": "Wolves",
+                "teamB": "Derby County",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:01:01 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/xtra.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Chapecoense vs Palmeiras",
+            "timestamp": 1795525261,
+            "eventInfo": {
+                "teamA": "Chapecoense",
+                "teamB": "Palmeiras",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:01:01 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://tedesco.formaturamaxi.com.br/bein.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "SJ Earthquakes vs Houston Dynamo",
+            "timestamp": 1795525262,
+            "eventInfo": {
+                "teamA": "SJ Earthquakes",
+                "teamB": "Houston Dynamo",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "24/11/2026 01:01:02 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/foxonemx.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
