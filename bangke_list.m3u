@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1, FawaNews - Denver Nuggets vs Dallas Mavericks
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Denver%20Nuggets%20vs%20Dallas%20Mavericks.html
+http://193.47.62.50/hls/CUUUFAAAA.m3u8
+#EXTINF:-1, FawaNews - Denver Nuggets vs Dallas Mavericks --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Denver%20Nuggets%20vs%20Dallas%20Mavericks%20---%20CH%202.html
+https://www.rtmpcdn.com/live/496ecfe0e4b601c3a5281056fdc3ea206a891e655fb331391fc70ed14ecc964b.m3u8
 #EXTINF:-1, FawaNews - Washington Wizards vs Boston Celtics
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Washington%20Wizards%20vs%20Boston%20Celtics.html
@@ -11,10 +19,6 @@ http://193.47.62.44/hls/CUUUFAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Orlando%20Magic%20vs%20Detroit%20Pistons%20---%20CH%202.html
 https://www.rtmpcdn.com/live/58a3972ae0378b5958ca9d0fd1d6e8a20815b3f4d37f8439bb20b83db87291e8.m3u8
-#EXTINF:-1, FawaNews - Denver Nuggets vs Dallas Mavericks
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Denver%20Nuggets%20vs%20Dallas%20Mavericks.html
-http://193.47.62.50/hls/CUUUFAAAA.m3u8
 #EXTINF:-1, FawaNews - San Jose Earthquakes vs Houston Dynamo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/San%20Jose%20Earthquakes%20vs%20Houston%20Dynamo.html

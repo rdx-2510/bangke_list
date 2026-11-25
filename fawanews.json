@@ -1,16 +1,60 @@
 {
-    "name": "FawaNews Live and Upcoming Sports Data",
-    "owner": "Piyan BangkeTV",
-    "telegram_channel": "https://t.me/bangketv",
-    "last_update_time": "01:01:00 AM 25-11-2026",
-    "total_matches": 38,
-    "live_match": 18,
+    "name": "Sports Data",
+    "last_update_time": "06:20:21 AM 25-11-2026",
+    "total_matches": 19,
+    "live_match": 19,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Denver Nuggets vs Dallas Mavericks",
+            "timestamp": 1795587610,
+            "eventInfo": {
+                "teamA": "Denver Nuggets",
+                "teamB": "Dallas Mavericks",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 06:20:10 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/CUUUFAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Denver%20Nuggets%20vs%20Dallas%20Mavericks.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Denver Nuggets vs Dallas Mavericks --- CH 2",
+            "timestamp": 1795587610,
+            "eventInfo": {
+                "teamA": "Denver Nuggets",
+                "teamB": "Dallas Mavericks --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 06:20:10 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/496ecfe0e4b601c3a5281056fdc3ea206a891e655fb331391fc70ed14ecc964b.m3u8",
+                    "referer": "http://www.fawanews.sc/Denver%20Nuggets%20vs%20Dallas%20Mavericks%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Washington Wizards vs Boston Celtics",
-            "timestamp": 1795568450,
+            "timestamp": 1795587611,
             "eventInfo": {
                 "teamA": "Washington Wizards",
                 "teamB": "Boston Celtics",
@@ -18,7 +62,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:50 AM"
+                "startTime": "25/11/2026 06:20:11 AM"
             },
             "streams": [
                 {
@@ -33,7 +77,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Orlando Magic vs Detroit Pistons",
-            "timestamp": 1795568450,
+            "timestamp": 1795587611,
             "eventInfo": {
                 "teamA": "Orlando Magic",
                 "teamB": "Detroit Pistons",
@@ -41,7 +85,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:50 AM"
+                "startTime": "25/11/2026 06:20:11 AM"
             },
             "streams": [
                 {
@@ -56,7 +100,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Orlando Magic vs Detroit Pistons --- CH 2",
-            "timestamp": 1795568450,
+            "timestamp": 1795587611,
             "eventInfo": {
                 "teamA": "Orlando Magic",
                 "teamB": "Detroit Pistons --- CH 2",
@@ -64,7 +108,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:50 AM"
+                "startTime": "25/11/2026 06:20:11 AM"
             },
             "streams": [
                 {
@@ -78,31 +122,8 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Denver Nuggets vs Dallas Mavericks",
-            "timestamp": 1795568451,
-            "eventInfo": {
-                "teamA": "Denver Nuggets",
-                "teamB": "Dallas Mavericks",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "25/11/2026 01:00:51 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.50/hls/CUUUFAAAA.m3u8",
-                    "referer": "http://www.fawanews.sc/Denver%20Nuggets%20vs%20Dallas%20Mavericks.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "San Jose Earthquakes vs Houston Dynamo",
-            "timestamp": 1795568451,
+            "timestamp": 1795587612,
             "eventInfo": {
                 "teamA": "San Jose Earthquakes",
                 "teamB": "Houston Dynamo",
@@ -110,7 +131,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:51 AM"
+                "startTime": "25/11/2026 06:20:12 AM"
             },
             "streams": [
                 {
@@ -125,7 +146,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "America De Cali vs Dep Cali",
-            "timestamp": 1795568451,
+            "timestamp": 1795587612,
             "eventInfo": {
                 "teamA": "America De Cali",
                 "teamB": "Dep Cali",
@@ -133,7 +154,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:51 AM"
+                "startTime": "25/11/2026 06:20:12 AM"
             },
             "streams": [
                 {
@@ -148,7 +169,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Edmonton Oilers vs Vegas Golden Knights",
-            "timestamp": 1795568452,
+            "timestamp": 1795587612,
             "eventInfo": {
                 "teamA": "Edmonton Oilers",
                 "teamB": "Vegas Golden Knights",
@@ -156,7 +177,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:52 AM"
+                "startTime": "25/11/2026 06:20:12 AM"
             },
             "streams": [
                 {
@@ -171,7 +192,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Western Michigan vs Miami OH",
-            "timestamp": 1795568452,
+            "timestamp": 1795587612,
             "eventInfo": {
                 "teamA": "Western Michigan",
                 "teamB": "Miami OH",
@@ -179,7 +200,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:52 AM"
+                "startTime": "25/11/2026 06:20:12 AM"
             },
             "streams": [
                 {
@@ -194,7 +215,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Eastern Michigan vs Kent State",
-            "timestamp": 1795568452,
+            "timestamp": 1795587613,
             "eventInfo": {
                 "teamA": "Eastern Michigan",
                 "teamB": "Kent State",
@@ -202,7 +223,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:52 AM"
+                "startTime": "25/11/2026 06:20:13 AM"
             },
             "streams": [
                 {
@@ -217,7 +238,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Old Dominion vs Hampton",
-            "timestamp": 1795568452,
+            "timestamp": 1795587613,
             "eventInfo": {
                 "teamA": "Old Dominion",
                 "teamB": "Hampton",
@@ -225,7 +246,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:52 AM"
+                "startTime": "25/11/2026 06:20:13 AM"
             },
             "streams": [
                 {
@@ -240,7 +261,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "South Florida vs Stetson",
-            "timestamp": 1795568453,
+            "timestamp": 1795587613,
             "eventInfo": {
                 "teamA": "South Florida",
                 "teamB": "Stetson",
@@ -248,7 +269,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:53 AM"
+                "startTime": "25/11/2026 06:20:13 AM"
             },
             "streams": [
                 {
@@ -263,7 +284,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Coastal Carolina vs Campbell",
-            "timestamp": 1795568453,
+            "timestamp": 1795587614,
             "eventInfo": {
                 "teamA": "Coastal Carolina",
                 "teamB": "Campbell",
@@ -271,7 +292,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:53 AM"
+                "startTime": "25/11/2026 06:20:14 AM"
             },
             "streams": [
                 {
@@ -286,7 +307,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Georgia Tech vs Samford",
-            "timestamp": 1795568453,
+            "timestamp": 1795587614,
             "eventInfo": {
                 "teamA": "Georgia Tech",
                 "teamB": "Samford",
@@ -294,7 +315,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:53 AM"
+                "startTime": "25/11/2026 06:20:14 AM"
             },
             "streams": [
                 {
@@ -309,7 +330,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Millonarios vs Bucaramanga",
-            "timestamp": 1795568454,
+            "timestamp": 1795587614,
             "eventInfo": {
                 "teamA": "Millonarios",
                 "teamB": "Bucaramanga",
@@ -317,7 +338,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:54 AM"
+                "startTime": "25/11/2026 06:20:14 AM"
             },
             "streams": [
                 {
@@ -332,7 +353,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Purdue University vs DePaul Blue Demons",
-            "timestamp": 1795568454,
+            "timestamp": 1795587615,
             "eventInfo": {
                 "teamA": "Purdue University",
                 "teamB": "DePaul Blue Demons",
@@ -340,7 +361,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:54 AM"
+                "startTime": "25/11/2026 06:20:15 AM"
             },
             "streams": [
                 {
@@ -355,7 +376,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Iowa State Cyclones vs San Diego State",
-            "timestamp": 1795568454,
+            "timestamp": 1795587615,
             "eventInfo": {
                 "teamA": "Iowa State Cyclones",
                 "teamB": "San Diego State",
@@ -363,7 +384,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:54 AM"
+                "startTime": "25/11/2026 06:20:15 AM"
             },
             "streams": [
                 {
@@ -378,7 +399,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Creighton vs Michigan",
-            "timestamp": 1795568454,
+            "timestamp": 1795587615,
             "eventInfo": {
                 "teamA": "Creighton",
                 "teamB": "Michigan",
@@ -386,7 +407,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:54 AM"
+                "startTime": "25/11/2026 06:20:15 AM"
             },
             "streams": [
                 {
@@ -401,7 +422,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Arizona vs Providence",
-            "timestamp": 1795568455,
+            "timestamp": 1795587615,
             "eventInfo": {
                 "teamA": "Arizona",
                 "teamB": "Providence",
@@ -409,7 +430,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 01:00:55 AM"
+                "startTime": "25/11/2026 06:20:15 AM"
             },
             "streams": [
                 {
