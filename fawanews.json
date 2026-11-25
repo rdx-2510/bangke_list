@@ -1,14 +1,267 @@
 {
     "name": "Sports Data",
-    "last_update_time": "09:01:01 AM 25-11-2026",
-    "total_matches": 4,
-    "live_match": 4,
+    "last_update_time": "10:01:02 AM 25-11-2026",
+    "total_matches": 15,
+    "live_match": 15,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Persib Bandung vs Seoul",
+            "timestamp": 1795600851,
+            "eventInfo": {
+                "teamA": "Persib Bandung",
+                "teamB": "Seoul",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:51 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/ZTTTAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Persib%20Bandung%20vs%20Seoul.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Kryvbas vs FC Kharkiv",
+            "timestamp": 1795600852,
+            "eventInfo": {
+                "teamA": "Kryvbas",
+                "teamB": "FC Kharkiv",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:52 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/ZTTTAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Kryvbas%20vs%20FC%20Kharkiv.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Kashima Antlers vs Jeonbuk",
+            "timestamp": 1795600852,
+            "eventInfo": {
+                "teamA": "Kashima Antlers",
+                "teamB": "Jeonbuk",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:52 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/ZTTTA.m3u8",
+                    "referer": "http://www.fawanews.sc/Kashima%20Antlers%20vs%20Jeonbuk.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Gamba Osaka vs Port FC",
+            "timestamp": 1795600852,
+            "eventInfo": {
+                "teamA": "Gamba Osaka",
+                "teamB": "Port FC",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:52 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.50/hls/ZTTT.m3u8",
+                    "referer": "http://www.fawanews.sc/Gamba%20Osaka%20vs%20Port%20FC.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Urawa Reds vs Cerezo Osaka",
+            "timestamp": 1795600853,
+            "eventInfo": {
+                "teamA": "Urawa Reds",
+                "teamB": "Cerezo Osaka",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:53 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/DEDEDEAAAQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Urawa%20Reds%20vs%20Cerezo%20Osaka.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "V-Varen Nagasaki vs Kawasaki Frontale",
+            "timestamp": 1795600853,
+            "eventInfo": {
+                "teamA": "V-Varen Nagasaki",
+                "teamB": "Kawasaki Frontale",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:53 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/DEDEDEAAAQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/V-Varen%20Nagasaki%20vs%20Kawasaki%20Frontale.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Okayama vs Shimizu S-Pulse",
+            "timestamp": 1795600853,
+            "eventInfo": {
+                "teamA": "Okayama",
+                "teamB": "Shimizu S-Pulse",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:53 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/DEDEDEAAAQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Okayama%20vs%20Shimizu%20S-Pulse.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Mito vs Tokyo Verdy",
+            "timestamp": 1795600854,
+            "eventInfo": {
+                "teamA": "Mito",
+                "teamB": "Tokyo Verdy",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:54 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/DEDEDEAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Mito%20vs%20Tokyo%20Verdy.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "FC Tokyo vs Sanfrecce Hiroshima",
+            "timestamp": 1795600854,
+            "eventInfo": {
+                "teamA": "FC Tokyo",
+                "teamB": "Sanfrecce Hiroshima",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:54 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/DEDEDEAA.m3u8",
+                    "referer": "http://www.fawanews.sc/FC%20Tokyo%20vs%20Sanfrecce%20Hiroshima.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Chiba vs Nagoya Grampus",
+            "timestamp": 1795600854,
+            "eventInfo": {
+                "teamA": "Chiba",
+                "teamB": "Nagoya Grampus",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:54 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/DEDEDEA.m3u8",
+                    "referer": "http://www.fawanews.sc/Chiba%20vs%20Nagoya%20Grampus.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Avispa Fukuoka vs Yokohama F Marinos",
+            "timestamp": 1795600854,
+            "eventInfo": {
+                "teamA": "Avispa Fukuoka",
+                "teamB": "Yokohama F Marinos",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "25/11/2026 10:00:54 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.59/hls/DEDEDE.m3u8",
+                    "referer": "http://www.fawanews.sc/Avispa%20Fukuoka%20vs%20Yokohama%20F%20Marinos.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "South Africa vs Bangladesh_2",
-            "timestamp": 1795597253,
+            "timestamp": 1795600855,
             "eventInfo": {
                 "teamA": "South Africa",
                 "teamB": "Bangladesh_2",
@@ -16,7 +269,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 09:00:53 AM"
+                "startTime": "25/11/2026 10:00:55 AM"
             },
             "streams": [
                 {
@@ -31,7 +284,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Melbourne Renegades W vs Brisbane Heat W",
-            "timestamp": 1795597253,
+            "timestamp": 1795600855,
             "eventInfo": {
                 "teamA": "Melbourne Renegades W",
                 "teamB": "Brisbane Heat W",
@@ -39,7 +292,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 09:00:53 AM"
+                "startTime": "25/11/2026 10:00:55 AM"
             },
             "streams": [
                 {
@@ -54,7 +307,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Melbourne Victory vs Viettel",
-            "timestamp": 1795597254,
+            "timestamp": 1795600855,
             "eventInfo": {
                 "teamA": "Melbourne Victory",
                 "teamB": "Viettel",
@@ -62,7 +315,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 09:00:54 AM"
+                "startTime": "25/11/2026 10:00:55 AM"
             },
             "streams": [
                 {
@@ -77,7 +330,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Melbourne Victory vs Viettel --- CH 2",
-            "timestamp": 1795597254,
+            "timestamp": 1795600856,
             "eventInfo": {
                 "teamA": "Melbourne Victory",
                 "teamB": "Viettel --- CH 2",
@@ -85,7 +338,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "25/11/2026 09:00:54 AM"
+                "startTime": "25/11/2026 10:00:56 AM"
             },
             "streams": [
                 {
