@@ -7,7 +7,7 @@ import random
 from concurrent.futures import ThreadPoolExecutor
 import requests
 
-# === KONFIGURASI TMDB UNTUK POSTER ASLI ===
+# === KONFIGURASI TMDB UNTUK POSTER & RATING ASLI ===
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 OUTPUT_FILE = "pelem.json"
 
@@ -46,44 +46,56 @@ AD_DOMAINS = [
 ]
 
 
-def fetch_tmdb_poster(title, year="", is_tv=False):
+def fetch_tmdb_details(title, year="", is_tv=False):
     """
-    Mencari poster ASLI dengan toleransi perbedaan tahun rilis.
+    Mencari poster & rating asli dari TMDb dengan toleransi perbedaan tahun rilis.
+    Mengembalikan tuple: (poster_url, rating_str)
     """
     if not TMDB_API_KEY or TMDB_API_KEY == "MASUKKAN_API_KEY_TMDB_KAMU_DISINI":
-        return ""
+        return "", ""
 
     clean_title = re.sub(r'(?i)(Season \d+|Episode \d+)', '', title).strip()
     search_type = "tv" if is_tv else "movie"
-    base_search_url = f"https://api.themoviedb.org/3/search/{search_type}?api_key={TMDB_API_KEY}&query={requests.utils.quote(clean_title)}"
+    base_search_url = (
+        f"https://api.themoviedb.org/3/search/{search_type}"
+        f"?api_key={TMDB_API_KEY}&query={requests.utils.quote(clean_title)}"
+    )
 
     url_with_year = base_search_url
     if year:
         year_param = "first_air_date_year" if is_tv else "primary_release_year"
         url_with_year += f"&{year_param}={year}"
 
+    def extract_info(result_item):
+        poster_path = result_item.get("poster_path")
+        poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else ""
+        vote_avg = result_item.get("vote_average")
+        rating_str = ""
+        try:
+            if vote_avg is not None and float(vote_avg) > 0:
+                rating_str = f"{float(vote_avg):.1f}"
+        except Exception:
+            pass
+        return poster_url, rating_str
+
     try:
         res = requests.get(url_with_year, timeout=5)
         if res.status_code == 200:
             data = res.json()
-            if data.get("results") and len(data["results"]) > 0:
-                poster_path = data["results"][0].get("poster_path")
-                if poster_path:
-                    return f"https://image.tmdb.org/t/p/w500{poster_path}"
+            if data.get("results"):
+                return extract_info(data["results"][0])
 
         if year:
             res_no_year = requests.get(base_search_url, timeout=5)
             if res_no_year.status_code == 200:
                 data_no = res_no_year.json()
-                if data_no.get("results") and len(data_no["results"]) > 0:
-                    poster_path = data_no["results"][0].get("poster_path")
-                    if poster_path:
-                        return f"https://image.tmdb.org/t/p/w500{poster_path}"
+                if data_no.get("results"):
+                    return extract_info(data_no["results"][0])
 
     except Exception:
         pass
 
-    return ""
+    return "", ""
 
 
 def process_single_movie(movie_url):
@@ -109,22 +121,18 @@ def process_single_movie(movie_url):
         title = re.sub(r'(?i)(Nonton\s*Film|Nonton|Sub\s*Indo|Streaming|/.*PUSATFILM21|\(\d{4}\))', '', raw_title).strip()
         title = html.unescape(title)
 
-        rating = '0.0'
-        json_rating = re.search(r'"ratingValue"\s*:\s*"?(\d+\.\d+)', res.text)
-        if json_rating:
-            rating = json_rating.group(1)
-        else:
-            rating_match = re.search(r'★\s*(\d+\.\d+)', res.text)
-            if not rating_match:
-                rating_match = re.search(r'(?:Rating|rating|imdb)[^\d]*(\d+\.\d+)', res.text, re.IGNORECASE)
-            if rating_match:
-                rating = rating_match.group(1)
-
         poster_match = re.search(r'<meta property="og:image" content="([^"]+)"', res.text)
         original_poster = poster_match.group(1) if poster_match else ''
 
-        tmdb_poster = fetch_tmdb_poster(title, year, content_type == "series")
+        tmdb_poster, tmdb_rating = fetch_tmdb_details(title, year, content_type == "series")
         final_poster = tmdb_poster if tmdb_poster else original_poster
+
+        # Prioritaskan rating dari TMDb; fallback ke IMDb di halaman web (abaikan rating widget 1.5)
+        rating = tmdb_rating if tmdb_rating else '0.0'
+        if rating == '0.0':
+            imdb_match = re.search(r'(?:imdb|IMDb)[^\d]{0,15}(\d+\.\d+)', res.text)
+            if imdb_match and imdb_match.group(1) != '1.5':
+                rating = imdb_match.group(1)
 
         genre_slugs = re.findall(r'href=[\'"](?:https?://[^\'"]+)?/genre/([a-zA-Z0-9-]+)/?[\'"]', res.text)
         genres = [g.replace('-', ' ').title() for g in set(genre_slugs)] if genre_slugs else ['Movie']
@@ -182,7 +190,7 @@ def process_single_movie(movie_url):
 
         if servers or embed_url:
             status_poster = "TMDb" if tmdb_poster else "Web/Thumbnail"
-            print(f'[OK] Tersimpan: {title} | Server: {len(servers)} | Poster: {status_poster}')
+            print(f'[OK] Tersimpan: {title} | Rating: {rating} | Server: {len(servers)} | Poster: {status_poster}')
             return {
                 'title': title, 'type': content_type, 'year': year, 'rating': rating,
                 'duration': duration, 'country': country, 'director': director, 'cast': cast,
@@ -195,10 +203,16 @@ def process_single_movie(movie_url):
 
 
 def build_pagination_url(base, page):
+    """
+    Format pagination WordPress: menyisipkan /page/{page}/ sebelum query string (?)
+    Contoh: .../movie?sort=latest -> .../movie/page/2/?sort=latest
+    """
     if page == 1:
         return base
-    separator = '&' if '?' in base else '?'
-    return f"{base.rstrip('/')}{separator}page={page}"
+    if '?' in base:
+        path, query = base.split('?', 1)
+        return f"{path.rstrip('/')}/page/{page}/?{query}"
+    return f"{base.rstrip('/')}/page/{page}/"
 
 
 def scrape_pusatfilm():
@@ -210,7 +224,6 @@ def scrape_pusatfilm():
             except Exception:
                 movies_data = []
 
-    # Migrasi otomatis dari movies.json lama jika pelem_list.json masih kosong
     if not movies_data and os.path.exists('movies.json'):
         with open('movies.json', 'r', encoding='utf-8') as f:
             try:
@@ -218,7 +231,6 @@ def scrape_pusatfilm():
             except Exception:
                 movies_data = []
 
-    # Bersihkan sisa entri rusak jika ada yang url-nya kosong/None
     movies_data = [m for m in movies_data if m.get('url')]
 
     # === PROSES & SUNTIKKAN MANUAL DARI manual_movies.json ===
@@ -250,7 +262,6 @@ def scrape_pusatfilm():
                             injected_count += 1
                     print(f"[✓] Berhasil menyuntikkan {injected_count} film lengkap dengan poster & server dari manual_movies.json!")
 
-                # Pastikan semua film manual tetap punya tag kategorinya
                 for m in movies_data:
                     u = m.get('url')
                     if u in manual_category_map:
@@ -287,10 +298,34 @@ def scrape_pusatfilm():
         if not current_poster or "pusatfilm21" in current_poster or "image.tmdb.org" not in current_poster:
             item['poster'] = ""
 
+    # Perbarui rating film lama yang masih '1.5' atau '0.0' langsung lewat TMDb API
+    items_need_rating = [
+        item for item in movies_data
+        if item.get('rating') in ('', '0.0', '1.5', None) and item.get('title')
+    ]
+    if items_need_rating:
+        print(f"[*] Memperbarui rating TMDb untuk {len(items_need_rating)} film lama...")
+
+        def refresh_tmdb_item(item):
+            poster, rating = fetch_tmdb_details(
+                item.get('title', ''),
+                item.get('year', ''),
+                item.get('type') == 'series'
+            )
+            if rating:
+                item['rating'] = rating
+            elif item.get('rating') == '1.5':
+                item['rating'] = '0.0'
+            if poster and not item.get('poster'):
+                item['poster'] = poster
+
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            list(executor.map(refresh_tmdb_item, items_need_rating))
+        print("[✓] Pembaruan rating film lama selesai.")
+
     processed_urls = {item.get('url') for item in movies_data if item.get('url')}
     latest_urls_ordered = []
 
-    # Cek ulang poster kosong CUKUP 1 KALI di awal (tidak diulang tiap halaman)
     force_check_urls = [item['url'] for item in movies_data if item.get('url') and not item.get('poster')]
     if force_check_urls:
         print(f"[*] Mencoba memperbarui {len(force_check_urls)} poster yang masih kosong...")
@@ -339,14 +374,12 @@ def scrape_pusatfilm():
 
                 valid_links = [l for l in dict.fromkeys(movie_links) if '/page/' not in l]
 
-                # Deteksi jika halaman 2+ mengembalikan daftar film yang sama persis (infinite scroll SPA)
                 new_links_in_cat = [l for l in valid_links if l not in seen_in_category]
                 if page > 1 and not new_links_in_cat:
                     print(f"[*] Halaman {page} tidak memuat judul baru (batas halaman/infinite scroll). Lanjut kategori berikutnya.")
                     break
                 seen_in_category.update(valid_links)
 
-                # Catat film yang berasal dari halaman sort=latest (halaman 1-3) sebagai "Film Terbaru"
                 if is_latest_source and page <= 3:
                     for l in valid_links:
                         if l not in manual_category_map and l not in latest_urls_ordered:
@@ -390,10 +423,7 @@ def scrape_pusatfilm():
             time.sleep(delay)
 
     # =========================================================================
-    # PENGURUTAN TAMPILAN KATEGORI BANGKETV:
-    # 1. "Film Terbaru" (dari sort=latest) -> Tepat di bawah poster besar
-    # 2. Film & Series Reguler (Action, Comedy, Drama, Horror, dll.)
-    # 3. "Film India Jadul" -> Paling bawah
+    # PENGURUTAN TAMPILAN KATEGORI BANGKETV
     # =========================================================================
     print("\n[*] Mengatur urutan tampilan: Film Terbaru di atas, Film India Jadul di bawah...")
     latest_url_set = set(latest_urls_ordered)
@@ -402,7 +432,6 @@ def scrape_pusatfilm():
     film_terbaru = []
     seen_terbaru = set()
 
-    # Masukkan sesuai urutan asli dari sort=latest
     for u in latest_urls_ordered:
         if u in movie_by_url and u not in manual_category_map:
             m = movie_by_url[u]
@@ -424,14 +453,12 @@ def scrape_pusatfilm():
 
         genres = m.get('genres', [])
         if 'Film India Jadul' in genres or u in manual_category_map:
-            # Pastikan 'Film India Jadul' tetap jadi kategori utamanya
             if 'Film India Jadul' in genres:
                 genres.remove('Film India Jadul')
             genres.insert(0, 'Film India Jadul')
             m['genres'] = genres
             film_india_jadul.append(m)
         else:
-            # Bersihkan tag 'Film Terbaru' lama jika sudah tergeser dari halaman terbaru
             if 'Film Terbaru' in genres and u not in latest_url_set:
                 genres.remove('Film Terbaru')
                 if not genres:
