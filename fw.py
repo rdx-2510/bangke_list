@@ -133,14 +133,12 @@ def main():
         f.write(m3u_content)
 
     json_output = {
-        "name": "FawaNews Live and Upcoming Sports Data",
-        "owner": "Piyan BangkeTV",
-        "telegram_channel": "https://t.me/bangketv",
-        "last_update_time": time.strftime("%I:%M:%S %p %d-%m-%Y"),
-        "total_matches": len(match_links),
-        "live_match": success_count,
-        "matches": json_matches,
-    }
+    "name": "Sports Data",
+    "last_update_time": time.strftime("%I:%M:%S %p %d-%m-%Y"),
+    "total_matches": len(matches),
+    "live_match": success_count,
+    "matches": json_matches,
+}
 
     with open("fawanews.json", "w", encoding="utf-8") as f:
         json.dump(json_output, f, ensure_ascii=False, indent=4)
