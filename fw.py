@@ -135,7 +135,7 @@ def main():
     json_output = {
     "name": "Sports Data",
     "last_update_time": time.strftime("%I:%M:%S %p %d-%m-%Y"),
-    "total_matches": len(matches),
+    "total_matches": len(json_matches),
     "live_match": success_count,
     "matches": json_matches,
 }
