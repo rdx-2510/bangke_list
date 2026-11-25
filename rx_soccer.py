@@ -151,14 +151,12 @@ def main():
         f.write(m3u_content)
 
     json_output = {
-        "name": "RoxieStreams Sports Data",
-        "owner": "Piyan BangkeTV",
-        "telegram_channel": "https://t.me/bangketv",
-        "last_update_time": time.strftime("%I:%M:%S %p %d-%m-%Y"),
-        "total_matches": len(matches),
-        "live_match": success_count,
-        "matches": json_matches,
-    }
+    "name": "Sports Data",
+    "last_update_time": time.strftime("%I:%M:%S %p %d-%m-%Y"),
+    "total_matches": len(matches),
+    "live_match": success_count,
+    "matches": json_matches,
+}
 
     output_json = "roxi_soccer.json"
     with open(output_json, "w", encoding="utf-8") as f:
