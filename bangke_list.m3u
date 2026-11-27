@@ -1,20 +1,16 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - AEL Limassol vs Ol Nicosia
+#EXTINF:-1, FawaNews - Nottingham Forest vs Chelsea --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/AEL%20Limassol%20vs%20Ol%20Nicosia.html
-http://193.47.62.55/hls/QFFFA.m3u8
-#EXTINF:-1, FawaNews - AEK Larnaca vs Apollon
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Nottingham%20Forest%20vs%20Chelsea%20---%20CH%202.html
+https://www.rtmpcdn.com/live/64063219-fb4b-4120-9722-626b9a80225f.m3u8
+#EXTINF:-1, FawaNews - Southampton vs Middlesbrough
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/AEK%20Larnaca%20vs%20Apollon.html
-http://193.47.62.55/hls/QFFF.m3u8
-#EXTINF:-1, FawaNews - Stellenbosch vs TS Galaxy
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Southampton%20vs%20Middlesbrough.html
+http://193.47.62.41/hls/V444AAAAQQ.m3u8
+#EXTINF:-1, FawaNews - Southampton vs Middlesbrough --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Stellenbosch%20vs%20TS%20Galaxy.html
-http://193.47.62.50/hls/JMMM.m3u8
-#EXTINF:-1, FawaNews - Omonia 29th May vs Omonia Aradippou
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Omonia%2029th%20May%20vs%20Omonia%20Aradippou.html
-http://193.47.62.59/hls/YYYYAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Southampton%20vs%20Middlesbrough%20---%20CH%202.html
+https://www.rtmpcdn.com/live/644a23ba-7dbc-47c8-9e1a-e000bd326f12.m3u8
 #EXTINF:-1, FawaNews - Nacional Asuncion vs Rubio Nu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Nacional%20Asuncion%20vs%20Rubio%20Nu.html
@@ -23,30 +19,54 @@ http://193.47.62.44/hls/POPOPOQQAAAQQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Maritimo%20vs%20Nacional.html
 http://193.47.62.41/hls/V444AAAAQQQ.m3u8
-#EXTINF:-1, FawaNews - Southampton vs Middlesbrough
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Southampton%20vs%20Middlesbrough.html
-http://193.47.62.41/hls/V444AAAAQQ.m3u8
 #EXTINF:-1, FawaNews - Levante vs Racing Santander
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Levante%20vs%20Racing%20Santander.html
 http://193.47.62.44/hls/POPOPOQQAAA.m3u8
+#EXTINF:-1, FawaNews - Levante vs Racing Santander --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Levante%20vs%20Racing%20Santander%20---%20CH%202.html
+https://www.rtmpcdn.com/live/b4db5999-a404-4a81-9e25-d7137abdb1bd.m3u8
 #EXTINF:-1, FawaNews - Venezia vs Bologna
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Venezia%20vs%20Bologna.html
 http://193.47.62.41/hls/V444AAAA.m3u8
-#EXTINF:-1, FawaNews - Leuven vs Kortrijk
+#EXTINF:-1, FawaNews - Venezia vs Bologna --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Leuven%20vs%20Kortrijk.html
-http://193.47.62.44/hls/POPOPOQQA.m3u8
-#EXTINF:-1, FawaNews - Scunthorpe vs Wealdstone
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Scunthorpe%20vs%20Wealdstone.html
-http://193.47.62.41/hls/V444AAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Venezia%20vs%20Bologna%20---%20CH%202.html
+https://www.rtmpcdn.com/live/ddeeca3c-f6ba-48a5-acc8-12af50703edb.m3u8
 #EXTINF:-1, FawaNews - Brest vs Paris FC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Brest%20vs%20Paris%20FC.html
 http://193.47.62.41/hls/V444AA.m3u8
+#EXTINF:-1, FawaNews - Brest vs Paris FC --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Brest%20vs%20Paris%20FC%20---%20CH%202.html
+https://www.rtmpcdn.com/live/6763b7f5-cd08-443a-b7b6-2fe714fc677a.m3u8
+#EXTINF:-1, FawaNews - Leuven vs Kortrijk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Leuven%20vs%20Kortrijk.html
+http://193.47.62.44/hls/POPOPOQQA.m3u8
+#EXTINF:-1, FawaNews - Leuven vs Kortrijk --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Leuven%20vs%20Kortrijk%20---%20CH%202.html
+https://www.rtmpcdn.com/live/76271c62-0ba2-4f9e-8aa4-31b6f5cacfc1.m3u8
+#EXTINF:-1, FawaNews - Scunthorpe vs Wealdstone
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Scunthorpe%20vs%20Wealdstone.html
+http://193.47.62.41/hls/V444AAA.m3u8
+#EXTINF:-1, FawaNews - Werder Bremen vs Monchengladbach
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Werder%20Bremen%20vs%20Monchengladbach.html
+http://193.47.62.44/hls/POPOPO.m3u8
+#EXTINF:-1, FawaNews - Werder Bremen vs Monchengladbach --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Werder%20Bremen%20vs%20Monchengladbach%20---%20CH%202.html
+https://www.rtmpcdn.com/live/88fbc948-5f87-44b7-b376-f2f52765a58e.m3u8
+#EXTINF:-1, FawaNews - Leganes vs Sabadell
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Leganes%20vs%20Sabadell.html
+http://193.47.62.41/hls/V444.m3u8
 #EXTINF:-1, FawaNews - Gornik Zabrze vs Wisla Plock
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Gornik%20Zabrze%20vs%20Wisla%20Plock.html
@@ -55,14 +75,10 @@ http://193.47.62.44/hls/POPOPOQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Chrobry%20Glogow%20vs%20Skierniewice.html
 http://193.47.62.41/hls/V444A.m3u8
-#EXTINF:-1, FawaNews - Leganes vs Sabadell
+#EXTINF:-1, FawaNews - Largs Thistle vs Ayr United
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Leganes%20vs%20Sabadell.html
-http://193.47.62.41/hls/V444.m3u8
-#EXTINF:-1, FawaNews - Werder Bremen vs Monchengladbach
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Werder%20Bremen%20vs%20Monchengladbach.html
-http://193.47.62.44/hls/POPOPO.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Largs%20Thistle%20vs%20Ayr%20United.html
+http://193.47.62.41/hls/KUUUA.m3u8
 #EXTINF:-1, FawaNews - Winterthur vs Rapperswil-Jona
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Winterthur%20vs%20Rapperswil-Jona.html
@@ -139,55 +155,3 @@ http://193.47.62.59/hls/YYYYAAAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Feirense%20vs%20Portimonense.html
 http://193.47.62.59/hls/YYYYA.m3u8
-#EXTINF:-1, FawaNews - Heidenheim vs Nurnberg
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Heidenheim%20vs%20Nurnberg.html
-http://193.47.62.50/hls/JMMMAAAA.m3u8
-#EXTINF:-1, FawaNews - Bochum vs Darmstadt
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Bochum%20vs%20Darmstadt.html
-http://193.47.62.50/hls/JMMMAAA.m3u8
-#EXTINF:-1, FawaNews - Al Ittihad vs Neom SC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Ittihad%20vs%20Neom%20SC.html
-http://193.47.62.50/hls/JMMMAA.m3u8
-#EXTINF:-1, FawaNews - Istra 1961 vs Varazdin
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Istra%201961%20vs%20Varazdin.html
-http://193.47.62.41/hls/8KKKAAAQ.m3u8
-#EXTINF:-1, FawaNews - Artis Brno vs Slovacko
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Artis%20Brno%20vs%20Slovacko.html
-http://193.47.62.41/hls/QFFFAA.m3u8
-#EXTINF:-1, FawaNews - Celik Zenica vs BSK Banja Luka
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Celik%20Zenica%20vs%20BSK%20Banja%20Luka.html
-http://193.47.62.41/hls/8KKKAAA.m3u8
-#EXTINF:-1, FawaNews - Rakow vs Piast Gliwice
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Rakow%20vs%20Piast%20Gliwice.html
-http://193.47.62.41/hls/8KKKAA.m3u8
-#EXTINF:-1, FawaNews - Rizespor vs Kasimpasa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Rizespor%20vs%20Kasimpasa.html
-http://193.47.62.41/hls/8KKKA.m3u8
-#EXTINF:-1, FawaNews - Alanyaspor vs Konyaspor
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Alanyaspor%20vs%20Konyaspor.html
-http://193.47.62.41/hls/8KKK.m3u8
-#EXTINF:-1, FawaNews - Umraniyespor vs Manisa FK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Umraniyespor%20vs%20Manisa%20FK.html
-http://193.47.62.41/hls/J777AAAA.m3u8
-#EXTINF:-1, FawaNews - Sariyer vs Istanbulspor AS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Sariyer%20vs%20Istanbulspor%20AS.html
-http://193.47.62.41/hls/J777AAA.m3u8
-#EXTINF:-1, FawaNews - Radomlje vs Nafta
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Radomlje%20vs%20Nafta.html
-http://193.47.62.41/hls/J777A.m3u8
-#EXTINF:-1, FawaNews - Warta Poznan vs Pogon Siedlce
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Warta%20Poznan%20vs%20Pogon%20Siedlce.html
-http://193.47.62.41/hls/J777.m3u8
