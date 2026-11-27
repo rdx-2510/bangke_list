@@ -20,26 +20,34 @@ NON_FOOTBALL_KEYWORDS = [
     "nhl", "hockey", "ice hockey", "nfl", "mlb", "baseball",
     "tennis", "atp", "wta", "ufc", "mma", "boxing",
     "formula 1", "f1", "motogp", "rugby", "cricket",
-    "volleyball", "handball", "snooker", "darts", "golf", "afl"
+    "volleyball", "handball", "snooker", "darts", "golf", "afl",
+    # Olahraga musim dingin
+    "skiing", "cross country", "biathlon", "alpine", "curling", "skating"
 ]
 
 
 def is_non_football(text: str) -> bool:
     lowered = text.lower()
-    return any(re.search(rf"\b{re.escape(kw)}\b", lowered) if len(kw) <= 3 else kw in lowered for kw in NON_FOOTBALL_KEYWORDS)
+    return any(
+        re.search(rf"\b{re.escape(kw)}\b", lowered) if len(kw) <= 3 else kw in lowered
+        for kw in NON_FOOTBALL_KEYWORDS
+    )
 
 
 def is_other_sport_on_sofascore(title: str) -> bool:
     """
-    Cek khusus laga timnas/kelompok umur (misal 'Indonesia vs Thailand' atau 'Honduras U17 vs Japan U17')
-    yang di FawaNews tidak mencantumkan nama cabang olahraga.
+    Verifikasi khusus laga timnas/kelompok umur (misal 'Indonesia vs Thailand' atau 'Honduras U17 vs Japan U17')
+    yang di FawaNews tidak mencantumkan label cabang olahraga.
     Mengembalikan True HANYA jika SofaScore memastikan cabang olahraganya BUKAN football.
     """
     if " vs " not in title.lower():
         return False
 
-    # Jalankan cek ini hanya untuk laga non-klub (tanpa FC/CF/United/dll) atau laga U17-U23
-    is_club = re.search(r"\b(fc|cf|sc|ac|united|city|rovers|athletic|real|inter|sporting|dynamo|lokomotiv|persepolis)\b", title, re.IGNORECASE)
+    is_club = re.search(
+        r"\b(fc|cf|sc|ac|united|city|rovers|athletic|real|inter|sporting|dynamo|lokomotiv|persepolis|persib|persija|persebaya|arema)\b",
+        title,
+        re.IGNORECASE,
+    )
     if is_club:
         return False
 
@@ -99,17 +107,29 @@ def get_all_matches():
                     continue
                 seen_urls.add(full_url)
 
-                # Gabungkan teks link, atribut alt/src ikon olahraga di dekat link, dan judul file
+                clean_name = (
+                    full_url.split("/")[-1]
+                    .replace(".html", "")
+                    .replace("%20", " ")
+                )
+
+                # Lewati otomatis tautan artikel berita & event non-pertandingan (tanpa 'vs')
+                if " vs " not in clean_name.lower():
+                    continue
+
                 link_text = a_tag.get_text(" ", strip=True)
                 img_hints = " ".join(
                     f"{img.get('alt', '')} {img.get('src', '')}"
                     for img in a_tag.find_all("img")
                 )
-                parent_text = a_tag.parent.get_text(" ", strip=True) if a_tag.parent else ""
+                parent_text = (
+                    a_tag.parent.get_text(" ", strip=True)
+                    if a_tag.parent
+                    else ""
+                )
                 context_str = f"{href} {link_text} {img_hints} {parent_text}"
 
                 if is_non_football(context_str):
-                    clean_name = full_url.split("/")[-1].replace(".html", "").replace("%20", " ")
                     print(f"[FILTER] Dilewati (Non-Football di Beranda): {clean_name}")
                     continue
 
@@ -129,8 +149,9 @@ def extract_stream(match_url):
         res = requests.get(match_url, headers=page_headers, timeout=10)
         html = res.text
 
-        # Lapis 2: Cek judul halaman detail jika beranda belum mencantumkan nama cabang olahraga
-        title_match = re.search(r"<title[^>]*>(.*?)</title>", html, re.IGNORECASE | re.DOTALL)
+        title_match = re.search(
+            r"<title[^>]*>(.*?)</title>", html, re.IGNORECASE | re.DOTALL
+        )
         if title_match and is_non_football(title_match.group(1)):
             return "SKIP_NON_FOOTBALL"
 
@@ -164,7 +185,6 @@ def main():
         )
         print(f"[{idx}/{len(match_links)}] Memproses: {raw_title}")
 
-        # Lapis 1 & 3: Cek kata kunci judul + verifikasi cabang olahraga laga timnas/U17 di SofaScore
         if is_non_football(raw_title) or is_other_sport_on_sofascore(raw_title):
             print("    └─ [FILTER] Dilewati (Bukan Sepak Bola)")
             continue
