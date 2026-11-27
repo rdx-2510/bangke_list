@@ -1,14 +1,60 @@
 {
     "name": "Sports Data",
-    "last_update_time": "11:00:54 PM 26-11-2026",
-    "total_matches": 6,
-    "live_match": 6,
+    "last_update_time": "12:01:04 AM 27-11-2026",
+    "total_matches": 13,
+    "live_match": 13,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Club Leon vs Cruz Azul",
+            "timestamp": 1795737654,
+            "eventInfo": {
+                "teamA": "Club Leon",
+                "teamB": "Cruz Azul",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 12:00:54 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/viiiAaQQqQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Club%20Leon%20vs%20Cruz%20Azul.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Panama vs Puerto Rico",
+            "timestamp": 1795737655,
+            "eventInfo": {
+                "teamA": "Panama",
+                "teamB": "Puerto Rico",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 12:00:55 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/viiiAaQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Panama%20vs%20Puerto%20Rico.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Texas Tech vs TCU",
-            "timestamp": 1795734047,
+            "timestamp": 1795737655,
             "eventInfo": {
                 "teamA": "Texas Tech",
                 "teamB": "TCU",
@@ -16,7 +62,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "26/11/2026 11:00:47 PM"
+                "startTime": "27/11/2026 12:00:55 AM"
             },
             "streams": [
                 {
@@ -30,8 +76,100 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Pachuca vs Guadalajara Chivas",
+            "timestamp": 1795737655,
+            "eventInfo": {
+                "teamA": "Pachuca",
+                "teamB": "Guadalajara Chivas",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 12:00:55 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/viiiAaQQqQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Pachuca%20vs%20Guadalajara%20Chivas.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Argentina vs Bahamas",
+            "timestamp": 1795737656,
+            "eventInfo": {
+                "teamA": "Argentina",
+                "teamB": "Bahamas",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 12:00:56 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/viiiAaQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Argentina%20vs%20Bahamas.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Montevideo City vs Nacional",
+            "timestamp": 1795737656,
+            "eventInfo": {
+                "teamA": "Montevideo City",
+                "teamB": "Nacional",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 12:00:56 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/viiiAaQQq.m3u8",
+                    "referer": "http://www.fawanews.sc/Montevideo%20City%20vs%20Nacional.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Golf BMW Australian PGA Championship",
+            "timestamp": 1795737656,
+            "eventInfo": {
+                "teamA": "Golf BMW Australian PGA Championship",
+                "teamB": "",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 12:00:56 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/DEDEDEDEAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Golf%20BMW%20Australian%20PGA%20Championship.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Sao Paulo vs Remo",
-            "timestamp": 1795734047,
+            "timestamp": 1795737657,
             "eventInfo": {
                 "teamA": "Sao Paulo",
                 "teamB": "Remo",
@@ -39,7 +177,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "26/11/2026 11:00:47 PM"
+                "startTime": "27/11/2026 12:00:57 AM"
             },
             "streams": [
                 {
@@ -54,7 +192,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sao Paulo vs Remo --- CH 2",
-            "timestamp": 1795734048,
+            "timestamp": 1795737657,
             "eventInfo": {
                 "teamA": "Sao Paulo",
                 "teamB": "Remo --- CH 2",
@@ -62,7 +200,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "26/11/2026 11:00:48 PM"
+                "startTime": "27/11/2026 12:00:57 AM"
             },
             "streams": [
                 {
@@ -76,8 +214,31 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "TCU vs Creighton",
+            "timestamp": 1795737657,
+            "eventInfo": {
+                "teamA": "TCU",
+                "teamB": "Creighton",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 12:00:57 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/viiiAa.m3u8",
+                    "referer": "http://www.fawanews.sc/TCU%20vs%20Creighton.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Cerro Porteno vs Libertad Asuncion",
-            "timestamp": 1795734048,
+            "timestamp": 1795737657,
             "eventInfo": {
                 "teamA": "Cerro Porteno",
                 "teamB": "Libertad Asuncion",
@@ -85,7 +246,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "26/11/2026 11:00:48 PM"
+                "startTime": "27/11/2026 12:00:57 AM"
             },
             "streams": [
                 {
@@ -100,7 +261,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Uruguay vs Canada",
-            "timestamp": 1795734049,
+            "timestamp": 1795737658,
             "eventInfo": {
                 "teamA": "Uruguay",
                 "teamB": "Canada",
@@ -108,7 +269,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "26/11/2026 11:00:49 PM"
+                "startTime": "27/11/2026 12:00:58 AM"
             },
             "streams": [
                 {
@@ -123,7 +284,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "New Zealand vs India",
-            "timestamp": 1795734049,
+            "timestamp": 1795737658,
             "eventInfo": {
                 "teamA": "New Zealand",
                 "teamB": "India",
@@ -131,7 +292,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "26/11/2026 11:00:49 PM"
+                "startTime": "27/11/2026 12:00:58 AM"
             },
             "streams": [
                 {
