@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Azam vs Al Ahly Tripoli
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Azam%20vs%20Al%20Ahly%20Tripoli.html
-http://193.47.62.50/hls/TFFFAAAQQ.m3u8
 #EXTINF:-1, FawaNews - Al Qadsiah vs Al Fayha
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Qadsiah%20vs%20Al%20Fayha.html
@@ -19,10 +15,6 @@ http://193.47.62.44/hls/TDDDA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Inter%20Kashi%20vs%20Churchill%20Brothers.html
 http://193.47.62.44/hls/TDDDAAA.m3u8
-#EXTINF:-1, FawaNews - Al Sailiya vs Al Gharafa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Sailiya%20vs%20Al%20Gharafa.html
-http://193.47.62.50/hls/TFFFAAAQ.m3u8
 #EXTINF:-1, FawaNews - Honduras U17 vs Japan U17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Honduras%20U17%20vs%20Japan%20U17.html
@@ -31,6 +23,10 @@ http://193.47.62.55/hls/TFFFAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Colombia%20U17%20vs%20Serbia%20U17.html
 http://193.47.62.55/hls/TFFFA.m3u8
+#EXTINF:-1, FawaNews - Al Sailiya vs Al Gharafa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Al%20Sailiya%20vs%20Al%20Gharafa.html
+http://193.47.62.50/hls/TFFFAAAQ.m3u8
 #EXTINF:-1, FawaNews - DPMM vs Kelantan Red Warrior
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/DPMM%20vs%20Kelantan%20Red%20Warrior.html
