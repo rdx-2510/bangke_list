@@ -1,14 +1,129 @@
 {
     "name": "Sports Data",
-    "last_update_time": "02:00:56 PM 27-11-2026",
-    "total_matches": 19,
-    "live_match": 19,
+    "last_update_time": "02:35:48 PM 27-11-2026",
+    "total_matches": 24,
+    "live_match": 24,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "U Cluj vs Sepsi Sf Gheorghe",
+            "timestamp": 1795790143,
+            "eventInfo": {
+                "teamA": "U Cluj",
+                "teamB": "Sepsi Sf Gheorghe",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 02:35:43 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/XAXAXAQQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/U%20Cluj%20vs%20Sepsi%20Sf%20Gheorghe.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Lusail vs Al Arabi",
+            "timestamp": 1795790143,
+            "eventInfo": {
+                "teamA": "Lusail",
+                "teamB": "Al Arabi",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 02:35:43 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/XAXAXAQQQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Lusail%20vs%20Al%20Arabi.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Montenegro U17 vs Chile U17",
+            "timestamp": 1795790143,
+            "eventInfo": {
+                "teamA": "Montenegro U17",
+                "teamB": "Chile U17",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 02:35:43 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/XAXAXAQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Montenegro%20U17%20vs%20Chile%20U17.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Algeria U17 vs Dominican Republic U17",
+            "timestamp": 1795790143,
+            "eventInfo": {
+                "teamA": "Algeria U17",
+                "teamB": "Dominican Republic U17",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 02:35:43 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/XAXAXAQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Algeria%20U17%20vs%20Dominican%20Republic%20U17.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Neftci Baku vs Zira",
+            "timestamp": 1795790144,
+            "eventInfo": {
+                "teamA": "Neftci Baku",
+                "teamB": "Zira",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 02:35:44 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/XAXAXAQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Neftci%20Baku%20vs%20Zira.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Al Qadsiah vs Al Fayha",
-            "timestamp": 1795788050,
+            "timestamp": 1795790144,
             "eventInfo": {
                 "teamA": "Al Qadsiah",
                 "teamB": "Al Fayha",
@@ -16,7 +131,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:50 PM"
+                "startTime": "27/11/2026 02:35:44 PM"
             },
             "streams": [
                 {
@@ -31,7 +146,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Ireland U17 vs Tanzania U17",
-            "timestamp": 1795788051,
+            "timestamp": 1795790144,
             "eventInfo": {
                 "teamA": "Ireland U17",
                 "teamB": "Tanzania U17",
@@ -39,7 +154,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:51 PM"
+                "startTime": "27/11/2026 02:35:44 PM"
             },
             "streams": [
                 {
@@ -54,7 +169,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Costa Rica U17 vs Brazil U17",
-            "timestamp": 1795788051,
+            "timestamp": 1795790144,
             "eventInfo": {
                 "teamA": "Costa Rica U17",
                 "teamB": "Brazil U17",
@@ -62,7 +177,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:51 PM"
+                "startTime": "27/11/2026 02:35:44 PM"
             },
             "streams": [
                 {
@@ -77,7 +192,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Inter Kashi vs Churchill Brothers",
-            "timestamp": 1795788051,
+            "timestamp": 1795790145,
             "eventInfo": {
                 "teamA": "Inter Kashi",
                 "teamB": "Churchill Brothers",
@@ -85,7 +200,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:51 PM"
+                "startTime": "27/11/2026 02:35:45 PM"
             },
             "streams": [
                 {
@@ -100,7 +215,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Honduras U17 vs Japan U17",
-            "timestamp": 1795788051,
+            "timestamp": 1795790145,
             "eventInfo": {
                 "teamA": "Honduras U17",
                 "teamB": "Japan U17",
@@ -108,7 +223,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:51 PM"
+                "startTime": "27/11/2026 02:35:45 PM"
             },
             "streams": [
                 {
@@ -123,7 +238,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Colombia U17 vs Serbia U17",
-            "timestamp": 1795788052,
+            "timestamp": 1795790145,
             "eventInfo": {
                 "teamA": "Colombia U17",
                 "teamB": "Serbia U17",
@@ -131,7 +246,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:52 PM"
+                "startTime": "27/11/2026 02:35:45 PM"
             },
             "streams": [
                 {
@@ -146,7 +261,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Al Sailiya vs Al Gharafa",
-            "timestamp": 1795788052,
+            "timestamp": 1795790145,
             "eventInfo": {
                 "teamA": "Al Sailiya",
                 "teamB": "Al Gharafa",
@@ -154,7 +269,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:52 PM"
+                "startTime": "27/11/2026 02:35:45 PM"
             },
             "streams": [
                 {
@@ -169,7 +284,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "DPMM vs Kelantan Red Warrior",
-            "timestamp": 1795788052,
+            "timestamp": 1795790146,
             "eventInfo": {
                 "teamA": "DPMM",
                 "teamB": "Kelantan Red Warrior",
@@ -177,7 +292,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:52 PM"
+                "startTime": "27/11/2026 02:35:46 PM"
             },
             "streams": [
                 {
@@ -192,7 +307,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Al Kholood vs Al Khaleej",
-            "timestamp": 1795788053,
+            "timestamp": 1795790146,
             "eventInfo": {
                 "teamA": "Al Kholood",
                 "teamB": "Al Khaleej",
@@ -200,7 +315,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:53 PM"
+                "startTime": "27/11/2026 02:35:46 PM"
             },
             "streams": [
                 {
@@ -215,7 +330,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Maccabi Petah Tikva vs Hapoel Tel Aviv",
-            "timestamp": 1795788053,
+            "timestamp": 1795790146,
             "eventInfo": {
                 "teamA": "Maccabi Petah Tikva",
                 "teamB": "Hapoel Tel Aviv",
@@ -223,7 +338,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:53 PM"
+                "startTime": "27/11/2026 02:35:46 PM"
             },
             "streams": [
                 {
@@ -238,7 +353,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Uthai Thani vs Sisaket United",
-            "timestamp": 1795788053,
+            "timestamp": 1795790146,
             "eventInfo": {
                 "teamA": "Uthai Thani",
                 "teamB": "Sisaket United",
@@ -246,7 +361,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:53 PM"
+                "startTime": "27/11/2026 02:35:46 PM"
             },
             "streams": [
                 {
@@ -261,7 +376,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kokand 1912 vs Xorazm Urganch",
-            "timestamp": 1795788054,
+            "timestamp": 1795790147,
             "eventInfo": {
                 "teamA": "Kokand 1912",
                 "teamB": "Xorazm Urganch",
@@ -269,7 +384,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:54 PM"
+                "startTime": "27/11/2026 02:35:47 PM"
             },
             "streams": [
                 {
@@ -284,7 +399,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Buxoro vs Mashal Muborak",
-            "timestamp": 1795788054,
+            "timestamp": 1795790147,
             "eventInfo": {
                 "teamA": "Buxoro",
                 "teamB": "Mashal Muborak",
@@ -292,7 +407,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:54 PM"
+                "startTime": "27/11/2026 02:35:47 PM"
             },
             "streams": [
                 {
@@ -307,7 +422,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Geylang vs Tanjong Pagar",
-            "timestamp": 1795788054,
+            "timestamp": 1795790147,
             "eventInfo": {
                 "teamA": "Geylang",
                 "teamB": "Tanjong Pagar",
@@ -315,7 +430,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:54 PM"
+                "startTime": "27/11/2026 02:35:47 PM"
             },
             "streams": [
                 {
@@ -330,7 +445,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Syunik vs Van",
-            "timestamp": 1795788055,
+            "timestamp": 1795790147,
             "eventInfo": {
                 "teamA": "Syunik",
                 "teamB": "Van",
@@ -338,7 +453,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:55 PM"
+                "startTime": "27/11/2026 02:35:47 PM"
             },
             "streams": [
                 {
@@ -353,7 +468,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Song Lam Nghe An vs Phu Dong Ninh Binh",
-            "timestamp": 1795788055,
+            "timestamp": 1795790147,
             "eventInfo": {
                 "teamA": "Song Lam Nghe An",
                 "teamB": "Phu Dong Ninh Binh",
@@ -361,7 +476,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:55 PM"
+                "startTime": "27/11/2026 02:35:47 PM"
             },
             "streams": [
                 {
@@ -376,7 +491,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Nam Dinh vs Cong An Ha",
-            "timestamp": 1795788055,
+            "timestamp": 1795790148,
             "eventInfo": {
                 "teamA": "Nam Dinh",
                 "teamB": "Cong An Ha",
@@ -384,7 +499,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:55 PM"
+                "startTime": "27/11/2026 02:35:48 PM"
             },
             "streams": [
                 {
@@ -399,7 +514,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Livyi Bereg vs Kolos Kovalivka",
-            "timestamp": 1795788056,
+            "timestamp": 1795790148,
             "eventInfo": {
                 "teamA": "Livyi Bereg",
                 "teamB": "Kolos Kovalivka",
@@ -407,7 +522,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:56 PM"
+                "startTime": "27/11/2026 02:35:48 PM"
             },
             "streams": [
                 {
@@ -422,7 +537,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Imisli FK vs Safa Baku",
-            "timestamp": 1795788056,
+            "timestamp": 1795790148,
             "eventInfo": {
                 "teamA": "Imisli FK",
                 "teamB": "Safa Baku",
@@ -430,7 +545,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 02:00:56 PM"
+                "startTime": "27/11/2026 02:35:48 PM"
             },
             "streams": [
                 {
