@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - Academia del Balompie vs Tomayapo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Academia%20del%20Balompie%20vs%20Tomayapo.html
-http://193.47.62.44/hls/G222AAAAAQQA.m3u8
 #EXTINF:-1, FawaNews - Dep Cali vs Bucaramanga
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Dep%20Cali%20vs%20Bucaramanga.html
@@ -15,6 +11,10 @@ http://193.47.62.41/hls/4RRRAAAQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Fluminense%20vs%20Cruzeiro.html
 http://193.47.62.41/hls/4RRRAAA.m3u8
+#EXTINF:-1, FawaNews - Fluminense vs Cruzeiro --- CH 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/Fluminense%20vs%20Cruzeiro%20---%20CH%202.html
+https://www.rtmpcdn.com/live/6362c332-dc64-4ba3-88f5-6354527149dc.m3u8
 #EXTINF:-1, FawaNews - Vila Nova FC vs Atletico GO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Vila%20Nova%20FC%20vs%20Atletico%20GO.html

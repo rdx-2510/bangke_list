@@ -1,37 +1,14 @@
 {
     "name": "Sports Data",
-    "last_update_time": "11:00:52 PM 27-11-2026",
+    "last_update_time": "11:08:42 PM 27-11-2026",
     "total_matches": 10,
     "live_match": 10,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Academia del Balompie vs Tomayapo",
-            "timestamp": 1795820449,
-            "eventInfo": {
-                "teamA": "Academia del Balompie",
-                "teamB": "Tomayapo",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "27/11/2026 11:00:49 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.44/hls/G222AAAAAQQA.m3u8",
-                    "referer": "http://www.fawanews.sc/Academia%20del%20Balompie%20vs%20Tomayapo.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "Dep Cali vs Bucaramanga",
-            "timestamp": 1795820449,
+            "timestamp": 1795820919,
             "eventInfo": {
                 "teamA": "Dep Cali",
                 "teamB": "Bucaramanga",
@@ -39,7 +16,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:49 PM"
+                "startTime": "27/11/2026 11:08:39 PM"
             },
             "streams": [
                 {
@@ -54,7 +31,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Liverpool M vs Racing Montevideo",
-            "timestamp": 1795820450,
+            "timestamp": 1795820920,
             "eventInfo": {
                 "teamA": "Liverpool M",
                 "teamB": "Racing Montevideo",
@@ -62,7 +39,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:50 PM"
+                "startTime": "27/11/2026 11:08:40 PM"
             },
             "streams": [
                 {
@@ -77,7 +54,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Fluminense vs Cruzeiro",
-            "timestamp": 1795820450,
+            "timestamp": 1795820920,
             "eventInfo": {
                 "teamA": "Fluminense",
                 "teamB": "Cruzeiro",
@@ -85,7 +62,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:50 PM"
+                "startTime": "27/11/2026 11:08:40 PM"
             },
             "streams": [
                 {
@@ -99,8 +76,31 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Fluminense vs Cruzeiro --- CH 2",
+            "timestamp": 1795820920,
+            "eventInfo": {
+                "teamA": "Fluminense",
+                "teamB": "Cruzeiro --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "27/11/2026 11:08:40 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/6362c332-dc64-4ba3-88f5-6354527149dc.m3u8",
+                    "referer": "http://www.fawanews.sc/Fluminense%20vs%20Cruzeiro%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Vila Nova FC vs Atletico GO",
-            "timestamp": 1795820450,
+            "timestamp": 1795820921,
             "eventInfo": {
                 "teamA": "Vila Nova FC",
                 "teamB": "Atletico GO",
@@ -108,7 +108,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:50 PM"
+                "startTime": "27/11/2026 11:08:41 PM"
             },
             "streams": [
                 {
@@ -123,7 +123,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sp Luqueno vs Olimpia Asuncion",
-            "timestamp": 1795820451,
+            "timestamp": 1795820921,
             "eventInfo": {
                 "teamA": "Sp Luqueno",
                 "teamB": "Olimpia Asuncion",
@@ -131,7 +131,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:51 PM"
+                "startTime": "27/11/2026 11:08:41 PM"
             },
             "streams": [
                 {
@@ -146,7 +146,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Independiente vs Real Oruro",
-            "timestamp": 1795820451,
+            "timestamp": 1795820921,
             "eventInfo": {
                 "teamA": "Independiente",
                 "teamB": "Real Oruro",
@@ -154,7 +154,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:51 PM"
+                "startTime": "27/11/2026 11:08:41 PM"
             },
             "streams": [
                 {
@@ -169,7 +169,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Jamaica W vs Costa Rica W",
-            "timestamp": 1795820451,
+            "timestamp": 1795820922,
             "eventInfo": {
                 "teamA": "Jamaica W",
                 "teamB": "Costa Rica W",
@@ -177,7 +177,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:51 PM"
+                "startTime": "27/11/2026 11:08:42 PM"
             },
             "streams": [
                 {
@@ -192,7 +192,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Dep Cuenca vs Manta",
-            "timestamp": 1795820452,
+            "timestamp": 1795820922,
             "eventInfo": {
                 "teamA": "Dep Cuenca",
                 "teamB": "Manta",
@@ -200,7 +200,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:52 PM"
+                "startTime": "27/11/2026 11:08:42 PM"
             },
             "streams": [
                 {
@@ -215,7 +215,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Nacional Asuncion vs Rubio Nu",
-            "timestamp": 1795820452,
+            "timestamp": 1795820922,
             "eventInfo": {
                 "teamA": "Nacional Asuncion",
                 "teamB": "Rubio Nu",
@@ -223,7 +223,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 11:00:52 PM"
+                "startTime": "27/11/2026 11:08:42 PM"
             },
             "streams": [
                 {
