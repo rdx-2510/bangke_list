@@ -1,14 +1,14 @@
 {
     "name": "Sports Data",
-    "last_update_time": "09:00:59 AM 27-11-2026",
-    "total_matches": 8,
-    "live_match": 8,
+    "last_update_time": "09:31:31 AM 27-11-2026",
+    "total_matches": 3,
+    "live_match": 3,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Cross Country skiing World Cup",
-            "timestamp": 1795770050,
+            "timestamp": 1795771885,
             "eventInfo": {
                 "teamA": "Cross Country skiing World Cup",
                 "teamB": "",
@@ -16,7 +16,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 09:00:50 AM"
+                "startTime": "27/11/2026 09:31:25 AM"
             },
             "streams": [
                 {
@@ -30,54 +30,8 @@
         {
             "status": "LIVE",
             "Category": "Football",
-            "event_name": "Iran vs Australia",
-            "timestamp": 1795770051,
-            "eventInfo": {
-                "teamA": "Iran",
-                "teamB": "Australia",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "27/11/2026 09:00:51 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.44/hls/BEEEA.m3u8",
-                    "referer": "http://www.fawanews.sc/Iran%20vs%20Australia.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "North Melbourne W vs Melbourne Demons W",
-            "timestamp": 1795770051,
-            "eventInfo": {
-                "teamA": "North Melbourne W",
-                "teamB": "Melbourne Demons W",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "27/11/2026 09:00:51 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/FRFRFRVA.m3u8",
-                    "referer": "http://www.fawanews.sc/North%20Melbourne%20W%20vs%20Melbourne%20Demons%20W.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
             "event_name": "Macarthur FC vs Melbourne City",
-            "timestamp": 1795770051,
+            "timestamp": 1795771885,
             "eventInfo": {
                 "teamA": "Macarthur FC",
                 "teamB": "Melbourne City",
@@ -85,7 +39,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 09:00:51 AM"
+                "startTime": "27/11/2026 09:31:25 AM"
             },
             "streams": [
                 {
@@ -100,7 +54,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Macarthur FC vs Melbourne City --- CH 2",
-            "timestamp": 1795770051,
+            "timestamp": 1795771885,
             "eventInfo": {
                 "teamA": "Macarthur FC",
                 "teamB": "Melbourne City --- CH 2",
@@ -108,82 +62,13 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "27/11/2026 09:00:51 AM"
+                "startTime": "27/11/2026 09:31:25 AM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
                     "stream_url": "https://www.rtmpcdn.com/live/b9149b1d-db70-42f9-a0b9-1581ad9ee25e.m3u8",
                     "referer": "http://www.fawanews.sc/Macarthur%20FC%20vs%20Melbourne%20City%20---%20CH%202.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Australia vs England",
-            "timestamp": 1795770052,
-            "eventInfo": {
-                "teamA": "Australia",
-                "teamB": "England",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "27/11/2026 09:00:52 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/viii.m3u8",
-                    "referer": "http://www.fawanews.sc/Australia%20vs%20England.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "MotoGP Grand Prix of Valencia",
-            "timestamp": 1795770052,
-            "eventInfo": {
-                "teamA": "MotoGP Grand Prix of Valencia",
-                "teamB": "",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "27/11/2026 09:00:52 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/FRFRFRV.m3u8",
-                    "referer": "http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Valencia.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Indonesia vs Thailand",
-            "timestamp": 1795770052,
-            "eventInfo": {
-                "teamA": "Indonesia",
-                "teamB": "Thailand",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "27/11/2026 09:00:52 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.44/hls/BEEE.m3u8",
-                    "referer": "http://www.fawanews.sc/Indonesia%20vs%20Thailand.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
