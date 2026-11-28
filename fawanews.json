@@ -1,14 +1,83 @@
 {
     "name": "Sports Data",
-    "last_update_time": "08:00:49 AM 28-11-2026",
-    "total_matches": 9,
-    "live_match": 9,
+    "last_update_time": "09:00:49 AM 28-11-2026",
+    "total_matches": 12,
+    "live_match": 12,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Sabah vs Selangor",
+            "timestamp": 1795856447,
+            "eventInfo": {
+                "teamA": "Sabah",
+                "teamB": "Selangor",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 09:00:47 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/ccccQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Sabah%20vs%20Selangor.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Negeri Sembilan vs Terengganu",
+            "timestamp": 1795856447,
+            "eventInfo": {
+                "teamA": "Negeri Sembilan",
+                "teamB": "Terengganu",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 09:00:47 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/ccccQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Negeri%20Sembilan%20vs%20Terengganu.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Central Coast Mariners vs Auckland FC",
+            "timestamp": 1795856447,
+            "eventInfo": {
+                "teamA": "Central Coast Mariners",
+                "teamB": "Auckland FC",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 09:00:47 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/ccccQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Central%20Coast%20Mariners%20vs%20Auckland%20FC.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Pohang vs Gwangju FC",
-            "timestamp": 1795852846,
+            "timestamp": 1795856447,
             "eventInfo": {
                 "teamA": "Pohang",
                 "teamB": "Gwangju FC",
@@ -16,7 +85,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:46 AM"
+                "startTime": "28/11/2026 09:00:47 AM"
             },
             "streams": [
                 {
@@ -31,7 +100,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Bucheon FC 1995 vs Gimcheon Sangmu",
-            "timestamp": 1795852846,
+            "timestamp": 1795856448,
             "eventInfo": {
                 "teamA": "Bucheon FC 1995",
                 "teamB": "Gimcheon Sangmu",
@@ -39,7 +108,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:46 AM"
+                "startTime": "28/11/2026 09:00:48 AM"
             },
             "streams": [
                 {
@@ -54,7 +123,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kashiwa Reysol vs Sanfrecce Hiroshima",
-            "timestamp": 1795852847,
+            "timestamp": 1795856448,
             "eventInfo": {
                 "teamA": "Kashiwa Reysol",
                 "teamB": "Sanfrecce Hiroshima",
@@ -62,7 +131,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:47 AM"
+                "startTime": "28/11/2026 09:00:48 AM"
             },
             "streams": [
                 {
@@ -77,7 +146,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vissel Kobe vs Chiba",
-            "timestamp": 1795852847,
+            "timestamp": 1795856448,
             "eventInfo": {
                 "teamA": "Vissel Kobe",
                 "teamB": "Chiba",
@@ -85,7 +154,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:47 AM"
+                "startTime": "28/11/2026 09:00:48 AM"
             },
             "streams": [
                 {
@@ -100,7 +169,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kashima Antlers vs Okayama",
-            "timestamp": 1795852848,
+            "timestamp": 1795856448,
             "eventInfo": {
                 "teamA": "Kashima Antlers",
                 "teamB": "Okayama",
@@ -108,7 +177,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:48 AM"
+                "startTime": "28/11/2026 09:00:48 AM"
             },
             "streams": [
                 {
@@ -123,7 +192,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Shimizu S-Pulse vs Urawa Reds",
-            "timestamp": 1795852848,
+            "timestamp": 1795856449,
             "eventInfo": {
                 "teamA": "Shimizu S-Pulse",
                 "teamB": "Urawa Reds",
@@ -131,7 +200,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:48 AM"
+                "startTime": "28/11/2026 09:00:49 AM"
             },
             "streams": [
                 {
@@ -146,7 +215,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Kyoto vs Cerezo Osaka",
-            "timestamp": 1795852848,
+            "timestamp": 1795856449,
             "eventInfo": {
                 "teamA": "Kyoto",
                 "teamB": "Cerezo Osaka",
@@ -154,7 +223,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:48 AM"
+                "startTime": "28/11/2026 09:00:49 AM"
             },
             "streams": [
                 {
@@ -169,7 +238,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Anyang vs Jeju SK",
-            "timestamp": 1795852849,
+            "timestamp": 1795856449,
             "eventInfo": {
                 "teamA": "Anyang",
                 "teamB": "Jeju SK",
@@ -177,7 +246,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:49 AM"
+                "startTime": "28/11/2026 09:00:49 AM"
             },
             "streams": [
                 {
@@ -192,7 +261,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Seoul vs Daejeon",
-            "timestamp": 1795852849,
+            "timestamp": 1795856449,
             "eventInfo": {
                 "teamA": "Seoul",
                 "teamB": "Daejeon",
@@ -200,7 +269,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 08:00:49 AM"
+                "startTime": "28/11/2026 09:00:49 AM"
             },
             "streams": [
                 {
