@@ -1,14 +1,60 @@
 {
     "name": "Sports Data",
-    "last_update_time": "12:01:01 PM 28-11-2026",
-    "total_matches": 42,
-    "live_match": 42,
+    "last_update_time": "01:01:05 PM 28-11-2026",
+    "total_matches": 61,
+    "live_match": 61,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Preston vs Norwich City",
+            "timestamp": 1795870848,
+            "eventInfo": {
+                "teamA": "Preston",
+                "teamB": "Norwich City",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:48 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/AGGG.m3u8",
+                    "referer": "http://www.fawanews.sc/Preston%20vs%20Norwich%20City.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Preston vs Norwich City --- CH 2",
+            "timestamp": 1795870849,
+            "eventInfo": {
+                "teamA": "Preston",
+                "teamB": "Norwich City --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:49 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/ec1c7f7d-19f7-40ae-9ad1-fa16be470780.m3u8",
+                    "referer": "http://www.fawanews.sc/Preston%20vs%20Norwich%20City%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Lincoln vs Wolves",
-            "timestamp": 1795867252,
+            "timestamp": 1795870849,
             "eventInfo": {
                 "teamA": "Lincoln",
                 "teamB": "Wolves",
@@ -16,7 +62,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:52 PM"
+                "startTime": "28/11/2026 01:00:49 PM"
             },
             "streams": [
                 {
@@ -30,8 +76,31 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Lincoln vs Wolves --- CH 2",
+            "timestamp": 1795870849,
+            "eventInfo": {
+                "teamA": "Lincoln",
+                "teamB": "Wolves --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:49 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/37f53d4e-780f-41d9-86e5-e4b72ebea97e.m3u8",
+                    "referer": "http://www.fawanews.sc/Lincoln%20vs%20Wolves%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Blackburn Rovers vs Charlton",
-            "timestamp": 1795867252,
+            "timestamp": 1795870849,
             "eventInfo": {
                 "teamA": "Blackburn Rovers",
                 "teamB": "Charlton",
@@ -39,7 +108,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:52 PM"
+                "startTime": "28/11/2026 01:00:49 PM"
             },
             "streams": [
                 {
@@ -53,8 +122,31 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Blackburn Rovers vs Charlton --- CH 2",
+            "timestamp": 1795870850,
+            "eventInfo": {
+                "teamA": "Blackburn Rovers",
+                "teamB": "Charlton --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:50 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/c6aaf932-9ba9-4f5a-b154-a9de997c9be4.m3u8",
+                    "referer": "http://www.fawanews.sc/Blackburn%20Rovers%20vs%20Charlton%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Peterborough vs Cambridge United",
-            "timestamp": 1795867252,
+            "timestamp": 1795870850,
             "eventInfo": {
                 "teamA": "Peterborough",
                 "teamB": "Cambridge United",
@@ -62,7 +154,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:52 PM"
+                "startTime": "28/11/2026 01:00:50 PM"
             },
             "streams": [
                 {
@@ -77,7 +169,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "MK Dons vs Notts County",
-            "timestamp": 1795867253,
+            "timestamp": 1795870850,
             "eventInfo": {
                 "teamA": "MK Dons",
                 "teamB": "Notts County",
@@ -85,7 +177,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:53 PM"
+                "startTime": "28/11/2026 01:00:50 PM"
             },
             "streams": [
                 {
@@ -100,7 +192,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Exeter vs Crawley",
-            "timestamp": 1795867253,
+            "timestamp": 1795870851,
             "eventInfo": {
                 "teamA": "Exeter",
                 "teamB": "Crawley",
@@ -108,7 +200,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:53 PM"
+                "startTime": "28/11/2026 01:00:51 PM"
             },
             "streams": [
                 {
@@ -123,7 +215,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Bristol Rovers vs Tranmere",
-            "timestamp": 1795867253,
+            "timestamp": 1795870851,
             "eventInfo": {
                 "teamA": "Bristol Rovers",
                 "teamB": "Tranmere",
@@ -131,7 +223,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:53 PM"
+                "startTime": "28/11/2026 01:00:51 PM"
             },
             "streams": [
                 {
@@ -146,7 +238,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Woking vs Barrow",
-            "timestamp": 1795867254,
+            "timestamp": 1795870851,
             "eventInfo": {
                 "teamA": "Woking",
                 "teamB": "Barrow",
@@ -154,7 +246,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:54 PM"
+                "startTime": "28/11/2026 01:00:51 PM"
             },
             "streams": [
                 {
@@ -169,7 +261,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "AFC Fylde vs Aldershot",
-            "timestamp": 1795867254,
+            "timestamp": 1795870851,
             "eventInfo": {
                 "teamA": "AFC Fylde",
                 "teamB": "Aldershot",
@@ -177,7 +269,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:54 PM"
+                "startTime": "28/11/2026 01:00:51 PM"
             },
             "streams": [
                 {
@@ -191,8 +283,445 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "AmaZulu vs Milford FC",
+            "timestamp": 1795870852,
+            "eventInfo": {
+                "teamA": "AmaZulu",
+                "teamB": "Milford FC",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:52 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/UPPPA.m3u8",
+                    "referer": "http://www.fawanews.sc/AmaZulu%20vs%20Milford%20FC.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Widzew Lodz vs Zaglebie",
+            "timestamp": 1795870852,
+            "eventInfo": {
+                "teamA": "Widzew Lodz",
+                "teamB": "Zaglebie",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:52 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/UPPPAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Widzew%20Lodz%20vs%20Zaglebie.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "CSKA Moscow vs Zenit",
+            "timestamp": 1795870852,
+            "eventInfo": {
+                "teamA": "CSKA Moscow",
+                "teamB": "Zenit",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:52 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/UPPPAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/CSKA%20Moscow%20vs%20Zenit.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Botev Vratsa vs Ludogorets",
+            "timestamp": 1795870853,
+            "eventInfo": {
+                "teamA": "Botev Vratsa",
+                "teamB": "Ludogorets",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:53 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/UPPP.m3u8",
+                    "referer": "http://www.fawanews.sc/Botev%20Vratsa%20vs%20Ludogorets.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Real Betis vs Rayo Vallecano",
+            "timestamp": 1795870853,
+            "eventInfo": {
+                "teamA": "Real Betis",
+                "teamB": "Rayo Vallecano",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:53 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/R777AAAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Real%20Betis%20vs%20Rayo%20Vallecano.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Real Betis vs Rayo Vallecano --- CH 2",
+            "timestamp": 1795870853,
+            "eventInfo": {
+                "teamA": "Real Betis",
+                "teamB": "Rayo Vallecano --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:53 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/eada5324-7862-4fa0-990f-3d1d1e2392c7.m3u8",
+                    "referer": "http://www.fawanews.sc/Real%20Betis%20vs%20Rayo%20Vallecano%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Las Palmas vs Andorra",
+            "timestamp": 1795870853,
+            "eventInfo": {
+                "teamA": "Las Palmas",
+                "teamB": "Andorra",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:53 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/SASASAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Las%20Palmas%20vs%20Andorra.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Mashujaa vs TRA United",
+            "timestamp": 1795870854,
+            "eventInfo": {
+                "teamA": "Mashujaa",
+                "teamB": "TRA United",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:54 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.44/hls/dddd.m3u8",
+                    "referer": "http://www.fawanews.sc/Mashujaa%20vs%20TRA%20United.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Zemun vs Radnicki 1923",
+            "timestamp": 1795870854,
+            "eventInfo": {
+                "teamA": "Zemun",
+                "teamB": "Radnicki 1923",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:54 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/SASASAAQQQQQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Zemun%20vs%20Radnicki%201923.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Radnik vs Vojvodina",
+            "timestamp": 1795870854,
+            "eventInfo": {
+                "teamA": "Radnik",
+                "teamB": "Vojvodina",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:54 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/SASASAAQQQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Radnik%20vs%20Vojvodina.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Samsunspor vs Genclerbirligi",
+            "timestamp": 1795870854,
+            "eventInfo": {
+                "teamA": "Samsunspor",
+                "teamB": "Genclerbirligi",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:54 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/SASASAAQQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Samsunspor%20vs%20Genclerbirligi.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Vanspor FK vs Bursaspor",
+            "timestamp": 1795870855,
+            "eventInfo": {
+                "teamA": "Vanspor FK",
+                "teamB": "Bursaspor",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:55 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/SASASAAQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Vanspor%20FK%20vs%20Bursaspor.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Sakhnin vs Maccabi Haifa",
+            "timestamp": 1795870855,
+            "eventInfo": {
+                "teamA": "Sakhnin",
+                "teamB": "Maccabi Haifa",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:55 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/SASASAAQQQQQAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Sakhnin%20vs%20Maccabi%20Haifa.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Wurzburger Kickers vs Fortuna Dusseldorf",
+            "timestamp": 1795870855,
+            "eventInfo": {
+                "teamA": "Wurzburger Kickers",
+                "teamB": "Fortuna Dusseldorf",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:55 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/R777AAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Wurzburger%20Kickers%20vs%20Fortuna%20Dusseldorf.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Saarbrucken vs Alemannia Aachen",
+            "timestamp": 1795870856,
+            "eventInfo": {
+                "teamA": "Saarbrucken",
+                "teamB": "Alemannia Aachen",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:56 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/R777AAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Saarbrucken%20vs%20Alemannia%20Aachen.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "RW Essen vs Hoffenheim II",
+            "timestamp": 1795870856,
+            "eventInfo": {
+                "teamA": "RW Essen",
+                "teamB": "Hoffenheim II",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:56 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/R777AA.m3u8",
+                    "referer": "http://www.fawanews.sc/RW%20Essen%20vs%20Hoffenheim%20II.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Preussen Munster vs Verl",
+            "timestamp": 1795870856,
+            "eventInfo": {
+                "teamA": "Preussen Munster",
+                "teamB": "Verl",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:56 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/R777A.m3u8",
+                    "referer": "http://www.fawanews.sc/Preussen%20Munster%20vs%20Verl.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Mannheim vs Stuttgart II",
+            "timestamp": 1795870857,
+            "eventInfo": {
+                "teamA": "Mannheim",
+                "teamB": "Stuttgart II",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:56 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/R777.m3u8",
+                    "referer": "http://www.fawanews.sc/Mannheim%20vs%20Stuttgart%20II.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Al Wakrah vs Al Sadd",
+            "timestamp": 1795870857,
+            "eventInfo": {
+                "teamA": "Al Wakrah",
+                "teamB": "Al Sadd",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:57 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/SASASA.m3u8",
+                    "referer": "http://www.fawanews.sc/Al%20Wakrah%20vs%20Al%20Sadd.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Koge vs Aarhus Fremad",
-            "timestamp": 1795867254,
+            "timestamp": 1795870857,
             "eventInfo": {
                 "teamA": "Koge",
                 "teamB": "Aarhus Fremad",
@@ -200,7 +729,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:54 PM"
+                "startTime": "28/11/2026 01:00:57 PM"
             },
             "streams": [
                 {
@@ -215,7 +744,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Turan Tovuz vs Kapaz",
-            "timestamp": 1795867254,
+            "timestamp": 1795870857,
             "eventInfo": {
                 "teamA": "Turan Tovuz",
                 "teamB": "Kapaz",
@@ -223,7 +752,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:54 PM"
+                "startTime": "28/11/2026 01:00:57 PM"
             },
             "streams": [
                 {
@@ -238,7 +767,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sloga Meridian vs Radnik Bijeljina",
-            "timestamp": 1795867254,
+            "timestamp": 1795870858,
             "eventInfo": {
                 "teamA": "Sloga Meridian",
                 "teamB": "Radnik Bijeljina",
@@ -246,7 +775,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:54 PM"
+                "startTime": "28/11/2026 01:00:58 PM"
             },
             "streams": [
                 {
@@ -261,7 +790,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Vasas vs Honved",
-            "timestamp": 1795867255,
+            "timestamp": 1795870858,
             "eventInfo": {
                 "teamA": "Vasas",
                 "teamB": "Honved",
@@ -269,7 +798,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:55 PM"
+                "startTime": "28/11/2026 01:00:58 PM"
             },
             "streams": [
                 {
@@ -284,7 +813,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Lamphun Warrior vs Chonburi",
-            "timestamp": 1795867255,
+            "timestamp": 1795870858,
             "eventInfo": {
                 "teamA": "Lamphun Warrior",
                 "teamB": "Chonburi",
@@ -292,7 +821,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:55 PM"
+                "startTime": "28/11/2026 01:00:58 PM"
             },
             "streams": [
                 {
@@ -307,7 +836,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "FC Voluntari vs CFR Cluj",
-            "timestamp": 1795867255,
+            "timestamp": 1795870858,
             "eventInfo": {
                 "teamA": "FC Voluntari",
                 "teamB": "CFR Cluj",
@@ -315,7 +844,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:55 PM"
+                "startTime": "28/11/2026 01:00:58 PM"
             },
             "streams": [
                 {
@@ -330,7 +859,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Al Hazem vs Al Nassr",
-            "timestamp": 1795867255,
+            "timestamp": 1795870859,
             "eventInfo": {
                 "teamA": "Al Hazem",
                 "teamB": "Al Nassr",
@@ -338,7 +867,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:55 PM"
+                "startTime": "28/11/2026 01:00:59 PM"
             },
             "streams": [
                 {
@@ -352,8 +881,31 @@
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Al Hazem vs Al Nassr --- CH 2",
+            "timestamp": 1795870859,
+            "eventInfo": {
+                "teamA": "Al Hazem",
+                "teamB": "Al Nassr --- CH 2",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:00:59 PM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "https://www.rtmpcdn.com/live/bf421854-219b-402a-bdfb-9614f9601feb.m3u8",
+                    "referer": "http://www.fawanews.sc/Al%20Hazem%20vs%20Al%20Nassr%20---%20CH%202.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Hanoi FC vs Hong Linh Ha Tinh",
-            "timestamp": 1795867256,
+            "timestamp": 1795870859,
             "eventInfo": {
                 "teamA": "Hanoi FC",
                 "teamB": "Hong Linh Ha Tinh",
@@ -361,7 +913,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:56 PM"
+                "startTime": "28/11/2026 01:00:59 PM"
             },
             "streams": [
                 {
@@ -376,7 +928,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Varberg vs Ostersund",
-            "timestamp": 1795867256,
+            "timestamp": 1795870860,
             "eventInfo": {
                 "teamA": "Varberg",
                 "teamB": "Ostersund",
@@ -384,7 +936,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:56 PM"
+                "startTime": "28/11/2026 01:01:00 PM"
             },
             "streams": [
                 {
@@ -399,7 +951,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Orebro vs Enkoping SK",
-            "timestamp": 1795867256,
+            "timestamp": 1795870860,
             "eventInfo": {
                 "teamA": "Orebro",
                 "teamB": "Enkoping SK",
@@ -407,7 +959,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:56 PM"
+                "startTime": "28/11/2026 01:01:00 PM"
             },
             "streams": [
                 {
@@ -422,7 +974,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Dynamo Dresden vs St Pauli",
-            "timestamp": 1795867256,
+            "timestamp": 1795870860,
             "eventInfo": {
                 "teamA": "Dynamo Dresden",
                 "teamB": "St Pauli",
@@ -430,7 +982,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:56 PM"
+                "startTime": "28/11/2026 01:01:00 PM"
             },
             "streams": [
                 {
@@ -445,7 +997,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Holstein Kiel vs Kaiserslautern",
-            "timestamp": 1795867256,
+            "timestamp": 1795870860,
             "eventInfo": {
                 "teamA": "Holstein Kiel",
                 "teamB": "Kaiserslautern",
@@ -453,7 +1005,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:56 PM"
+                "startTime": "28/11/2026 01:01:00 PM"
             },
             "streams": [
                 {
@@ -468,7 +1020,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Hertha Berlin vs Karlsruher SC",
-            "timestamp": 1795867257,
+            "timestamp": 1795870861,
             "eventInfo": {
                 "teamA": "Hertha Berlin",
                 "teamB": "Karlsruher SC",
@@ -476,7 +1028,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:57 PM"
+                "startTime": "28/11/2026 01:01:01 PM"
             },
             "streams": [
                 {
@@ -491,7 +1043,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Hillerod vs Vendsyssel",
-            "timestamp": 1795867257,
+            "timestamp": 1795870861,
             "eventInfo": {
                 "teamA": "Hillerod",
                 "teamB": "Vendsyssel",
@@ -499,7 +1051,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:57 PM"
+                "startTime": "28/11/2026 01:01:01 PM"
             },
             "streams": [
                 {
@@ -514,7 +1066,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Rasisalai Utd vs Buriram",
-            "timestamp": 1795867257,
+            "timestamp": 1795870861,
             "eventInfo": {
                 "teamA": "Rasisalai Utd",
                 "teamB": "Buriram",
@@ -522,7 +1074,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:57 PM"
+                "startTime": "28/11/2026 01:01:01 PM"
             },
             "streams": [
                 {
@@ -537,7 +1089,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Balestier Khalsa vs Hougang",
-            "timestamp": 1795867257,
+            "timestamp": 1795870861,
             "eventInfo": {
                 "teamA": "Balestier Khalsa",
                 "teamB": "Hougang",
@@ -545,7 +1097,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:57 PM"
+                "startTime": "28/11/2026 01:01:01 PM"
             },
             "streams": [
                 {
@@ -560,7 +1112,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Qizilqum vs Pakhtakor",
-            "timestamp": 1795867258,
+            "timestamp": 1795870862,
             "eventInfo": {
                 "teamA": "Qizilqum",
                 "teamB": "Pakhtakor",
@@ -568,7 +1120,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:58 PM"
+                "startTime": "28/11/2026 01:01:02 PM"
             },
             "streams": [
                 {
@@ -583,7 +1135,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Neftchi Fargona vs Dinamo Samarkand",
-            "timestamp": 1795867258,
+            "timestamp": 1795870862,
             "eventInfo": {
                 "teamA": "Neftchi Fargona",
                 "teamB": "Dinamo Samarkand",
@@ -591,7 +1143,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:58 PM"
+                "startTime": "28/11/2026 01:01:02 PM"
             },
             "streams": [
                 {
@@ -606,7 +1158,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Liverpool U18 vs Everton U18",
-            "timestamp": 1795867258,
+            "timestamp": 1795870862,
             "eventInfo": {
                 "teamA": "Liverpool U18",
                 "teamB": "Everton U18",
@@ -614,7 +1166,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:58 PM"
+                "startTime": "28/11/2026 01:01:02 PM"
             },
             "streams": [
                 {
@@ -629,7 +1181,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Rubin Kazan vs Akron Togliatti",
-            "timestamp": 1795867258,
+            "timestamp": 1795870863,
             "eventInfo": {
                 "teamA": "Rubin Kazan",
                 "teamB": "Akron Togliatti",
@@ -637,7 +1189,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:58 PM"
+                "startTime": "28/11/2026 01:01:03 PM"
             },
             "streams": [
                 {
@@ -652,7 +1204,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Ho Chi Minh vs Gia Lai",
-            "timestamp": 1795867258,
+            "timestamp": 1795870863,
             "eventInfo": {
                 "teamA": "Ho Chi Minh",
                 "teamB": "Gia Lai",
@@ -660,7 +1212,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:58 PM"
+                "startTime": "28/11/2026 01:01:03 PM"
             },
             "streams": [
                 {
@@ -675,7 +1227,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Bac Ninh vs Da Nang",
-            "timestamp": 1795867259,
+            "timestamp": 1795870863,
             "eventInfo": {
                 "teamA": "Bac Ninh",
                 "teamB": "Da Nang",
@@ -683,7 +1235,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:59 PM"
+                "startTime": "28/11/2026 01:01:03 PM"
             },
             "streams": [
                 {
@@ -698,7 +1250,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Obolon vs FK Zorya Luhansk",
-            "timestamp": 1795867259,
+            "timestamp": 1795870864,
             "eventInfo": {
                 "teamA": "Obolon",
                 "teamB": "FK Zorya Luhansk",
@@ -706,7 +1258,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:59 PM"
+                "startTime": "28/11/2026 01:01:04 PM"
             },
             "streams": [
                 {
@@ -721,7 +1273,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Dynamo Kyiv vs Ch Odesa",
-            "timestamp": 1795867259,
+            "timestamp": 1795870864,
             "eventInfo": {
                 "teamA": "Dynamo Kyiv",
                 "teamB": "Ch Odesa",
@@ -729,7 +1281,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:59 PM"
+                "startTime": "28/11/2026 01:01:04 PM"
             },
             "streams": [
                 {
@@ -744,7 +1296,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Pattani vs Chiangrai Utd",
-            "timestamp": 1795867259,
+            "timestamp": 1795870864,
             "eventInfo": {
                 "teamA": "Pattani",
                 "teamB": "Chiangrai Utd",
@@ -752,7 +1304,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:59 PM"
+                "startTime": "28/11/2026 01:01:04 PM"
             },
             "streams": [
                 {
@@ -767,7 +1319,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "AFS vs Leixoes",
-            "timestamp": 1795867260,
+            "timestamp": 1795870864,
             "eventInfo": {
                 "teamA": "AFS",
                 "teamB": "Leixoes",
@@ -775,7 +1327,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:01:00 PM"
+                "startTime": "28/11/2026 01:01:04 PM"
             },
             "streams": [
                 {
@@ -790,7 +1342,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Lokomotiv Plovdiv vs Spartak Varna",
-            "timestamp": 1795867260,
+            "timestamp": 1795870865,
             "eventInfo": {
                 "teamA": "Lokomotiv Plovdiv",
                 "teamB": "Spartak Varna",
@@ -798,7 +1350,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:01:00 PM"
+                "startTime": "28/11/2026 01:01:05 PM"
             },
             "streams": [
                 {
@@ -813,7 +1365,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Sivasspor vs Bodrumspor",
-            "timestamp": 1795867260,
+            "timestamp": 1795870865,
             "eventInfo": {
                 "teamA": "Sivasspor",
                 "teamB": "Bodrumspor",
@@ -821,7 +1373,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:01:00 PM"
+                "startTime": "28/11/2026 01:01:05 PM"
             },
             "streams": [
                 {
@@ -836,7 +1388,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Bandirmaspor vs Batman Petrolspor",
-            "timestamp": 1795867260,
+            "timestamp": 1795870865,
             "eventInfo": {
                 "teamA": "Bandirmaspor",
                 "teamB": "Batman Petrolspor",
@@ -844,128 +1396,13 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:01:00 PM"
+                "startTime": "28/11/2026 01:01:05 PM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
                     "stream_url": "http://193.47.62.41/hls/veeea.m3u8",
                     "referer": "http://www.fawanews.sc/Bandirmaspor%20vs%20Batman%20Petrolspor.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Politehnica Timisoara vs FC Bihor",
-            "timestamp": 1795867261,
-            "eventInfo": {
-                "teamA": "Politehnica Timisoara",
-                "teamB": "FC Bihor",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "28/11/2026 12:01:01 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/veee.m3u8",
-                    "referer": "http://www.fawanews.sc/Politehnica%20Timisoara%20vs%20FC%20Bihor.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "AC Milan U20 vs Lecce U20",
-            "timestamp": 1795867261,
-            "eventInfo": {
-                "teamA": "AC Milan U20",
-                "teamB": "Lecce U20",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "28/11/2026 12:01:01 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.55/hls/J777.m3u8",
-                    "referer": "http://www.fawanews.sc/AC%20Milan%20U20%20vs%20Lecce%20U20.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Sabah vs Selangor",
-            "timestamp": 1795867261,
-            "eventInfo": {
-                "teamA": "Sabah",
-                "teamB": "Selangor",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "28/11/2026 12:01:01 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/ccccQQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Sabah%20vs%20Selangor.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Negeri Sembilan vs Terengganu",
-            "timestamp": 1795867261,
-            "eventInfo": {
-                "teamA": "Negeri Sembilan",
-                "teamB": "Terengganu",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "28/11/2026 12:01:01 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/ccccQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Negeri%20Sembilan%20vs%20Terengganu.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Central Coast Mariners vs Auckland FC",
-            "timestamp": 1795867261,
-            "eventInfo": {
-                "teamA": "Central Coast Mariners",
-                "teamB": "Auckland FC",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "28/11/2026 12:01:01 PM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/ccccQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Central%20Coast%20Mariners%20vs%20Auckland%20FC.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
