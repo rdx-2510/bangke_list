@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1, FawaNews - AmaZulu vs Milford FC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/AmaZulu%20vs%20Milford%20FC.html
-http://193.47.62.41/hls/UPPPA.m3u8
 #EXTINF:-1, FawaNews - Manchester United vs Brentford --- CH 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Manchester%20United%20vs%20Brentford%20---%20CH%202.html
@@ -11,6 +7,10 @@ https://www.rtmpcdn.com/live/47c7fc17-4c1f-45ed-baba-1060957c0c84.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/Leeds%20United%20vs%20Coventry%20---%20CH%202.html
 https://www.rtmpcdn.com/live/57e47c7e-e2ba-4901-b8ed-4c1d1203415f.m3u8
+#EXTINF:-1, FawaNews - AmaZulu vs Milford FC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/AmaZulu%20vs%20Milford%20FC.html
+http://193.47.62.41/hls/UPPPA.m3u8
 #EXTINF:-1, FawaNews - St Mirren vs Kilmarnock
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/St%20Mirren%20vs%20Kilmarnock.html
