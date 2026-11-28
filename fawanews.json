@@ -1,14 +1,221 @@
 {
     "name": "Sports Data",
-    "last_update_time": "04:00:49 AM 28-11-2026",
-    "total_matches": 3,
-    "live_match": 3,
+    "last_update_time": "05:00:53 AM 28-11-2026",
+    "total_matches": 11,
+    "live_match": 11,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
+            "event_name": "Pohang vs Gwangju FC",
+            "timestamp": 1795842049,
+            "eventInfo": {
+                "teamA": "Pohang",
+                "teamB": "Gwangju FC",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:49 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/DSSSA.m3u8",
+                    "referer": "http://www.fawanews.sc/Pohang%20vs%20Gwangju%20FC.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Bucheon FC 1995 vs Gimcheon Sangmu",
+            "timestamp": 1795842050,
+            "eventInfo": {
+                "teamA": "Bucheon FC 1995",
+                "teamB": "Gimcheon Sangmu",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:50 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/DSSS.m3u8",
+                    "referer": "http://www.fawanews.sc/Bucheon%20FC%201995%20vs%20Gimcheon%20Sangmu.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Kashiwa Reysol vs Sanfrecce Hiroshima",
+            "timestamp": 1795842050,
+            "eventInfo": {
+                "teamA": "Kashiwa Reysol",
+                "teamB": "Sanfrecce Hiroshima",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:50 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/QQQQAAQAQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Kashiwa%20Reysol%20vs%20Sanfrecce%20Hiroshima.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Vissel Kobe vs Chiba",
+            "timestamp": 1795842051,
+            "eventInfo": {
+                "teamA": "Vissel Kobe",
+                "teamB": "Chiba",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:51 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/QQQQAAQAQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Vissel%20Kobe%20vs%20Chiba.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Kashima Antlers vs Okayama",
+            "timestamp": 1795842051,
+            "eventInfo": {
+                "teamA": "Kashima Antlers",
+                "teamB": "Okayama",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:51 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/QQQQAAQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Kashima%20Antlers%20vs%20Okayama.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Shimizu S-Pulse vs Urawa Reds",
+            "timestamp": 1795842052,
+            "eventInfo": {
+                "teamA": "Shimizu S-Pulse",
+                "teamB": "Urawa Reds",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:52 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/QQQQAAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Shimizu%20S-Pulse%20vs%20Urawa%20Reds.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Kyoto vs Cerezo Osaka",
+            "timestamp": 1795842052,
+            "eventInfo": {
+                "teamA": "Kyoto",
+                "teamB": "Cerezo Osaka",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:52 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/QQQQAA.m3u8",
+                    "referer": "http://www.fawanews.sc/Kyoto%20vs%20Cerezo%20Osaka.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Anyang vs Jeju SK",
+            "timestamp": 1795842052,
+            "eventInfo": {
+                "teamA": "Anyang",
+                "teamB": "Jeju SK",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:52 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/QQQQA.m3u8",
+                    "referer": "http://www.fawanews.sc/Anyang%20vs%20Jeju%20SK.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Seoul vs Daejeon",
+            "timestamp": 1795842053,
+            "eventInfo": {
+                "teamA": "Seoul",
+                "teamB": "Daejeon",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "FawaNews Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 05:00:53 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "FawaNews",
+                    "stream_url": "http://193.47.62.41/hls/QQQQ.m3u8",
+                    "referer": "http://www.fawanews.sc/Seoul%20vs%20Daejeon.html",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
             "event_name": "Real Salt Lake vs Vancouver Whitecaps",
-            "timestamp": 1795838448,
+            "timestamp": 1795842053,
             "eventInfo": {
                 "teamA": "Real Salt Lake",
                 "teamB": "Vancouver Whitecaps",
@@ -16,7 +223,7 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 04:00:48 AM"
+                "startTime": "28/11/2026 05:00:53 AM"
             },
             "streams": [
                 {
@@ -31,7 +238,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Real Salt Lake vs Vancouver Whitecaps --- CH 2",
-            "timestamp": 1795838448,
+            "timestamp": 1795842053,
             "eventInfo": {
                 "teamA": "Real Salt Lake",
                 "teamB": "Vancouver Whitecaps --- CH 2",
@@ -39,36 +246,13 @@
                 "teamBFlag": "",
                 "eventName": "FawaNews Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 04:00:48 AM"
+                "startTime": "28/11/2026 05:00:53 AM"
             },
             "streams": [
                 {
                     "channel_name": "FawaNews",
                     "stream_url": "https://www.rtmpcdn.com/live/639728ad-c627-496e-a5f3-f43b02c18a4.m3u8",
                     "referer": "http://www.fawanews.sc/Real%20Salt%20Lake%20vs%20Vancouver%20Whitecaps%20---%20CH%202.html",
-                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                }
-            ]
-        },
-        {
-            "status": "LIVE",
-            "Category": "Football",
-            "event_name": "Millonarios vs America De Cali",
-            "timestamp": 1795838449,
-            "eventInfo": {
-                "teamA": "Millonarios",
-                "teamB": "America De Cali",
-                "teamAFlag": "",
-                "teamBFlag": "",
-                "eventName": "FawaNews Live",
-                "event_logo": "",
-                "startTime": "28/11/2026 04:00:49 AM"
-            },
-            "streams": [
-                {
-                    "channel_name": "FawaNews",
-                    "stream_url": "http://193.47.62.41/hls/4RRRAAAQQ.m3u8",
-                    "referer": "http://www.fawanews.sc/Millonarios%20vs%20America%20De%20Cali.html",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
             ]
