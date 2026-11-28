@@ -1,14 +1,14 @@
 {
     "name": "Sports Data",
-    "last_update_time": "12:01:00 AM 28-11-2026",
-    "total_matches": 7,
-    "live_match": 7,
+    "last_update_time": "01:01:00 AM 28-11-2026",
+    "total_matches": 9,
+    "live_match": 9,
     "matches": [
         {
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Werder Bremen vs Borussia M'gladbach",
-            "timestamp": 1795824056,
+            "timestamp": 1795827656,
             "eventInfo": {
                 "teamA": "Werder Bremen",
                 "teamB": "Borussia M'gladbach",
@@ -16,7 +16,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:56 AM"
+                "startTime": "28/11/2026 01:00:56 AM"
             },
             "streams": [
                 {
@@ -31,7 +31,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Brest vs Paris",
-            "timestamp": 1795824057,
+            "timestamp": 1795827657,
             "eventInfo": {
                 "teamA": "Brest",
                 "teamB": "Paris",
@@ -39,7 +39,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:57 AM"
+                "startTime": "28/11/2026 01:00:57 AM"
             },
             "streams": [
                 {
@@ -54,7 +54,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Venezia vs Bologna",
-            "timestamp": 1795824057,
+            "timestamp": 1795827657,
             "eventInfo": {
                 "teamA": "Venezia",
                 "teamB": "Bologna",
@@ -62,7 +62,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:57 AM"
+                "startTime": "28/11/2026 01:00:57 AM"
             },
             "streams": [
                 {
@@ -77,7 +77,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Chelsea vs Nottingham",
-            "timestamp": 1795824058,
+            "timestamp": 1795827658,
             "eventInfo": {
                 "teamA": "Chelsea",
                 "teamB": "Nottingham",
@@ -85,7 +85,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:58 AM"
+                "startTime": "28/11/2026 01:00:58 AM"
             },
             "streams": [
                 {
@@ -100,7 +100,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Levante vs Racing Santander",
-            "timestamp": 1795824059,
+            "timestamp": 1795827658,
             "eventInfo": {
                 "teamA": "Levante",
                 "teamB": "Racing Santander",
@@ -108,7 +108,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:59 AM"
+                "startTime": "28/11/2026 01:00:58 AM"
             },
             "streams": [
                 {
@@ -123,7 +123,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Southampton vs Middlesbrough",
-            "timestamp": 1795824059,
+            "timestamp": 1795827659,
             "eventInfo": {
                 "teamA": "Southampton",
                 "teamB": "Middlesbrough",
@@ -131,7 +131,7 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:00:59 AM"
+                "startTime": "28/11/2026 01:00:59 AM"
             },
             "streams": [
                 {
@@ -146,7 +146,7 @@
             "status": "LIVE",
             "Category": "Football",
             "event_name": "Fluminense vs Cruzeiro",
-            "timestamp": 1795824060,
+            "timestamp": 1795827659,
             "eventInfo": {
                 "teamA": "Fluminense",
                 "teamB": "Cruzeiro",
@@ -154,12 +154,58 @@
                 "teamBFlag": "",
                 "eventName": "RoxieStreams Live",
                 "event_logo": "",
-                "startTime": "28/11/2026 12:01:00 AM"
+                "startTime": "28/11/2026 01:00:59 AM"
             },
             "streams": [
                 {
                     "channel_name": "RoxieSoccer",
                     "stream_url": "https://admin.formaturamaxi.com.br/fana.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Columbus Crew vs Inter Miami",
+            "timestamp": 1795827660,
+            "eventInfo": {
+                "teamA": "Columbus Crew",
+                "teamB": "Inter Miami",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:01:00 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/fs1.m3u8",
+                    "referer": "https://roxiestreams.info/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            ]
+        },
+        {
+            "status": "LIVE",
+            "Category": "Football",
+            "event_name": "Real Salt Lake vs Vancouver Whitecaps",
+            "timestamp": 1795827660,
+            "eventInfo": {
+                "teamA": "Real Salt Lake",
+                "teamB": "Vancouver Whitecaps",
+                "teamAFlag": "",
+                "teamBFlag": "",
+                "eventName": "RoxieStreams Live",
+                "event_logo": "",
+                "startTime": "28/11/2026 01:01:00 AM"
+            },
+            "streams": [
+                {
+                    "channel_name": "RoxieSoccer",
+                    "stream_url": "https://admin2.formaturamaxi.com.br/fs1.m3u8",
                     "referer": "https://roxiestreams.info/",
                     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
